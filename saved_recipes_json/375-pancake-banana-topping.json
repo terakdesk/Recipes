@@ -1,10 +1,10 @@
 {
   "title": "Pancake Banana Topping",
-  "preamble": "Ingredients:-\n50-75g\nof Greek yogurt\n1\nbanana roughly chopped\n1\nsquidge of honey\n\n50-75g\nof Greek yogurt\n1\nbanana roughly chopped\n1\nsquidge of honey\n\nMethod:-\nChop banana, mix with yoghurt and honey.\nAdd to pancake.\n\nChop banana, mix with yoghurt and honey.\nAdd to pancake.",
+  "preamble": null,
   "ingredients": [
-    "50-75g of Greek yogurt",
-    "1 banana roughly chopped",
-    "1 squidge of honey"
+    "50-75g   of Greek yogurt",
+    "1   banana roughly chopped",
+    "1   squidge of honey"
   ],
   "method": [
     "Chop banana, mix with yoghurt and honey.",
@@ -12,8 +12,8 @@
   ],
   "notes": null,
   "details": [
-    "Written by Super User",
-    "Category: Desserts",
+    "Written by  Super User",
+    "Category:  Desserts",
     "Published: 12 February 2013",
     "Created: 12 February 2013",
     "Last Updated: 20 October 2017",

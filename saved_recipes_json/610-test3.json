@@ -1,12 +1,12 @@
 {
   "title": "Test3",
-  "preamble": "Ingredients\n1 apple\n2 raisons\nMethod\nHest",
+  "preamble": null,
   "ingredients": null,
   "method": null,
   "notes": null,
   "details": [
-    "Written by Adrian",
-    "Category: Cakes",
+    "Written by  Adrian",
+    "Category:  Cakes",
     "Published: 20 October 2017",
     "Created: 20 October 2017",
     "Last Updated: 20 October 2017",

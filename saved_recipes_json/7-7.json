@@ -1,8 +1,8 @@
 {
   "title": "1. New Formatting Codes 10th Jan 13",
-  "preamble": "There are five heading types:\nStart\nIngredients\nMethod\nNotes\nC . M i c t x x\nUse image tags as normal but image.css and width = 24vw will be added.\nImages can be inserted by using:\ns r c = 'http://.....jpg'\n------------------------------------------------------------------------\n=============================\nStart - a #tag does this\nA Plus sign does this.\nA Minus sign does this\n=============================\nA Hash sign inserts a separator and a heading\nNo prefix does this\nA u and /u tag pair does\nthis\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\nA semicolon does this\n.\nAn equals does this\n.\nIngredients:-\nIngredients\n- a h2 tag does this - ie ie same as #\nA Plus sign does this.\nA Minus sign does this\n=============================\nA Hash sign inserts a separator and a heading\nNo\nprefix does this\nA\nu and /u tag pair does\nthis\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\nA semicolon does this\n.\nAn equals does this\n.\n\nThere are five heading types:\n\nUse image tags as normal but image.css and width = 24vw will be added.\n\nImages can be inserted by using:\n\ns r c = 'http://.....jpg'\n\nNo prefix does this\n\nA u and /u tag pair does\nthis\n\nAn equals does this\n\nIngredients\n- a h2 tag does this - ie ie same as #\nA Plus sign does this.\n\nA Plus sign does this.\n\n=============================\nA Hash sign inserts a separator and a heading\nNo\nprefix does this\nA\nu and /u tag pair does\nthis\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\nA semicolon does this\n.\nAn equals does this\n.\n\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\n\n.\n\nAn equals does this\n\n.\n\nMethod:-\nMethod - a h2 tag does this - ie ie same as #\nA Plus sign does this.\nA Minus sign does this\n=============================\nA Hash sign inserts a separator and a heading\nNo prefix does this\nA u and /u tag pair does\nthis\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\nA semicolon does this\n.\nAn equals does this\n.\nNote:-\nNote - a h2 tag does this - ie ie same as #\nA Plus sign does this.\nA Minus sign does this\n=============================\nA Hash sign inserts a separator and a heading\nNo prefix does this\nA u and /u tag pair does\nthis\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\nA semicolon does this\n.\nAn equals does this\n.\nMy copyright ( C . M i c t 1 6 ) does this:-\nNote:-\nC.Mict16\n\nMethod - a h2 tag does this - ie ie same as #\n\nA Plus sign does this.\n\n=============================\nA Hash sign inserts a separator and a heading\nNo prefix does this\nA u and /u tag pair does\nthis\n\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\n\n.\n\nAn equals does this\n\n.\n\nNote - a h2 tag does this - ie ie same as #\n\nA Plus sign does this.\n\n=============================\nA Hash sign inserts a separator and a heading\nNo prefix does this\nA u and /u tag pair does\nthis\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\nA semicolon does this\n.\nAn equals does this\n.\nMy copyright ( C . M i c t 1 6 ) does this:-\n\nNo prefix does this\n\nA u and /u tag pair does\nthis\n\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\n\n.\n\nAn equals does this\n\n.\n\nMy copyright ( C . M i c t 1 6 ) does this:-\n\nC.Mict16\n\nC.Mict16",
+  "preamble": null,
   "ingredients": [
-    "Ingredients - a h2 tag does this - ie ie same as #"
+    "Ingredients   - a h2 tag does this - ie ie same as #"
   ],
   "method": [
     "Method - a h2 tag does this - ie ie same as #",
@@ -13,8 +13,8 @@
     "A Plus sign does this."
   ],
   "details": [
-    "Written by Super User",
-    "Category: Informative",
+    "Written by  Super User",
+    "Category:  Informative",
     "Published: 19 July 2012",
     "Created: 19 July 2012",
     "Last Updated: 20 October 2017",

@@ -1,12 +1,12 @@
 {
   "title": "Garlic Soup",
-  "preamble": "Ingredients:-\n2\nlitres d'eau\n80\ngrams d'ail épluchés\n350\ngrams de pommes de terre\n125\ngrams de carottes rapés\nsel,\npoivre\n\n2\nlitres d'eau\n80\ngrams d'ail épluchés\n350\ngrams de pommes de terre\n125\ngrams de carottes rapés\nsel,\npoivre\n\nMethod:-\nFaire bouiller d'eau\nBouille jusqu'à ce que les pommes de terre sont prêt\nMixer\nAjoiter beurre ou crème\n\nFaire bouiller d'eau\nBouille jusqu'à ce que les pommes de terre sont prêt\nMixer\nAjoiter beurre ou crème",
+  "preamble": null,
   "ingredients": [
-    "2 litres d'eau",
-    "80 grams d'ail épluchés",
-    "350 grams de pommes de terre",
-    "125 grams de carottes rapés",
-    "sel, poivre"
+    "2   litres d'eau",
+    "80   grams d'ail épluchés",
+    "350   grams de pommes de terre",
+    "125   grams de carottes rapés",
+    "sel,   poivre"
   ],
   "method": [
     "Faire bouiller d'eau",
@@ -16,8 +16,8 @@
   ],
   "notes": null,
   "details": [
-    "Written by Super User",
-    "Category: Soups",
+    "Written by  Super User",
+    "Category:  Soups",
     "Published: 18 September 2012",
     "Created: 18 September 2012",
     "Last Updated: 20 October 2017",

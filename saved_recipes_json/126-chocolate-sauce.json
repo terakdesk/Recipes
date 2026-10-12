@@ -1,12 +1,12 @@
 {
   "title": "Chocolate sauce",
-  "preamble": "Makes enough for 4 sundaes\nIngredients:-\n150g\nplain chocolate, broken into small pieces\n50ml\nwhipping cream\n2\ntbsp golden syrup\nKnob\nof butter\nPinch\nof salt\n\nMakes enough for 4 sundaes\n\n150g\nplain chocolate, broken into small pieces\n50ml\nwhipping cream\n2\ntbsp golden syrup\nKnob\nof butter\nPinch\nof salt\n\nMethod:-\nPut the chocolate and cream into a small, heavy-based pan over a low heat. Heat, stirring occasionally, until the chocolate has melted into the cream to make a smooth paste.\nStir in the syrup, followed by the butter and salt, to give a glossy sauce\nKeep warm until ready to serve, or just eat as is.\n\nPut the chocolate and cream into a small, heavy-based pan over a low heat. Heat, stirring occasionally, until the chocolate has melted into the cream to make a smooth paste.\nStir in the syrup, followed by the butter and salt, to give a glossy sauce\nKeep warm until ready to serve, or just eat as is.",
+  "preamble": null,
   "ingredients": [
-    "150g plain chocolate, broken into small pieces",
-    "50ml whipping cream",
-    "2 tbsp golden syrup",
-    "Knob of butter",
-    "Pinch of salt"
+    "150g   plain chocolate, broken into small pieces",
+    "50ml   whipping cream",
+    "2   tbsp golden syrup",
+    "Knob   of butter",
+    "Pinch   of salt"
   ],
   "method": [
     "Put the chocolate and cream into a small, heavy-based pan over a low heat. Heat, stirring occasionally, until the chocolate has melted into the cream to make a smooth paste.",
@@ -15,8 +15,8 @@
   ],
   "notes": null,
   "details": [
-    "Written by Super User",
-    "Category: Desserts",
+    "Written by  Super User",
+    "Category:  Desserts",
     "Published: 19 July 2012",
     "Created: 19 July 2012",
     "Last Updated: 20 October 2017",

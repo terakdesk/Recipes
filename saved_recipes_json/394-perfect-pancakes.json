@@ -1,12 +1,12 @@
 {
   "title": "Perfect Pancakes",
-  "preamble": "Ingredients:-\n100g\nflour\n2\neggs\n200ml\nmilk\n75ml\nwater\n50g\nmelted butter\n\n100g\nflour\n2\neggs\n200ml\nmilk\n75ml\nwater\n50g\nmelted butter\n\nMethod:-\nWhisk egg and flour.\nAdd milk, water and butter\nNote:-\nSimon Rimmer\n\nWhisk egg and flour.\nAdd milk, water and butter\n\nSimon Rimmer",
+  "preamble": null,
   "ingredients": [
-    "100g flour",
-    "2 eggs",
-    "200ml milk",
-    "75ml water",
-    "50g melted butter"
+    "100g   flour",
+    "2   eggs",
+    "200ml   milk",
+    "75ml   water",
+    "50g   melted butter"
   ],
   "method": [
     "Whisk egg and flour.",
@@ -16,8 +16,8 @@
     "Simon Rimmer"
   ],
   "details": [
-    "Written by Super User",
-    "Category: Desserts",
+    "Written by  Super User",
+    "Category:  Desserts",
     "Published: 12 February 2013",
     "Created: 12 February 2013",
     "Last Updated: 20 October 2017",
