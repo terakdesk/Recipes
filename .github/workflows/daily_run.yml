@@ -6,7 +6,7 @@ on:
     branches: [ main ]  # Runs automatically whenever you push code to the main branch
   workflow_dispatch:   # Allows you to manually click a "Run workflow" button on GitHub
   schedule:
-    - cron: '0 9 * * *' # Optional: Automatically runs every day at 09:00 UTC
+    - cron: '1 35 * * *' # Optional: Automatically runs every day at 09:00 UTC
 
 jobs:
   run-python:
