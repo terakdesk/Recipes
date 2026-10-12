@@ -1,9 +1,9 @@
 {
   "title": "Cheese",
-  "preamble": "Start the buttermilk off the night before &ndash; it could need 24 hours to be ready for use.",
+  "preamble": null,
   "ingredients": [
-    "1 off carton of Cultured Buttermilk &ndash; 285ml",
-    "2 off large bottles of Whole Milk &ndash; 4.5 litres",
+    "1 off carton of Cultured Buttermilk – 285ml",
+    "2 off large bottles of Whole Milk – 4.5 litres",
     "30 shakes of Vegeren rennet"
   ],
   "method": [
@@ -12,14 +12,16 @@
     "Add the whole carton of buttermilk",
     "Stir and bring back to 31 degC then leave for 45 minutes keeping at 29 to 31 degC",
     "Take off a bowl of milk and shake in about 30 shakes (you get large drops) of Vegeren. Quickly stir and drizzle into the milk stirring continuously for 1 minute with a whisk.",
-    "Leave to stand for 45 minutes maintaining temperature at 29 to 31 degC until a clean break is achieved. You can start testing after 20 minutes. A clean break is when a cut doesn&rsquo;t heal but fills with green whey.",
-    "When a clean break is achieved cut down and across to form &frac12; inch columns of curd. Leave to stand for 10 minutes.",
+    "Leave to stand for 45 minutes maintaining temperature at 29 to 31 degC until a clean break is achieved. You can start testing after 20 minutes. A clean break is when a cut doesn’t heal but fills with green whey.",
+    "When a clean break is achieved cut down and across to form ½ inch columns of curd. Leave to stand for 10 minutes.",
     "Stir gently and intermittently for 20 minutes to keep the curds apart.",
     "Then let the curds rest for 5 minutes and they should sink to the bottom.",
     "Remove 1.5 litres of whey with a spoon.",
     "Add back 1.5 litres of water at 55 degC and test that the mixture has a temperature of 38 degC. Gently apply heat if needed.",
     "Stir gently and intermittently for 30 minutes breaking any large lumps of curd.",
-    "Then leave to settle for 5 minutes."
+    "Then leave to settle for 5 minutes.",
+    "Drain off whey until curds are only just covered.",
+    "Apply first gentle press. Use the inner pan of the spaghetti pan and two-thirds-fill one of the milk bottles to use as a weight."
   ],
   "notes": null,
   "details": [

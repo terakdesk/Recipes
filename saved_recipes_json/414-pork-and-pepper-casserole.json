@@ -1,6 +1,6 @@
 {
   "title": "Pork and Pepper Casserole",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork and Pepper Casserole",
+  "preamble": null,
   "ingredients": [
     "1 lb--4 cups of lean pork cut into small cubes",
     "1 tablespoon of flour",
@@ -25,11 +25,11 @@
     "Add all the other ingredients to the casserole dish and stir well.",
     "The stock should come to the surface of the casserole. If it seems a bit dry add a spot more stock.",
     "I covered the casserole with foil and put on the lid. I use a cast iron casserole by le creusot.",
-    "I cooked for 2 &frac12; hours at gas 5, 190C,375F in the middle of the oven.",
+    "I cooked for 2 ½ hours at gas 5, 190C,375F in the middle of the oven.",
     "When cooked check the taste and add salt and ground pepper to taste."
   ],
   "notes": [
-    "Prev"
+    "C.Mict09"
   ],
   "details": [
     "Written by ethel",

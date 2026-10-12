@@ -1,6 +1,6 @@
 {
   "title": "Lamb and Mint Ravioli",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLamb and Mint Ravioli",
+  "preamble": null,
   "ingredients": [
     "For the pasta",
     "350g/12oz type '00' pasta flour",
@@ -10,7 +10,7 @@
     "handful medium semolina flour, for dusting",
     "For the filling",
     "1 tbsp olive oil",
-    "&frac12; onion, finely chopped",
+    "½ onion, finely chopped",
     "1 garlic clove, crushed",
     "375g/13oz minced lamb",
     "salt and freshly ground black pepper",
@@ -21,9 +21,9 @@
     "1 carrot, finely chopped",
     "1 stick celery, finely chopped",
     "4 garlic cloves, chopped",
-    "150g/5oz tomato pur&eacute;e",
-    "450ml/15&frac34;fl oz red wine",
-    "450ml/15&frac34;fl oz chicken stock",
+    "150g/5oz tomato purée",
+    "450ml/15¾fl oz red wine",
+    "450ml/15¾fl oz chicken stock",
     "2 sprigs fresh rosemary",
     "parmesan shavings, to serve"
   ],
@@ -39,7 +39,16 @@
     "For the filling, heat the olive oil in a non-stick frying pan and gently fry the onion and garlic.",
     "Add the minced lamb, season well with salt and freshly ground black pepper and cook for 10-12 minutes, until the lamb is cooked through and nicely browned.",
     "Add the chopped mint and stir well, then set aside to cool. Drain off any excess liquid or oil from the pan.",
-    "For the sauce, heat the olive oil in a clean non-stick frying pan, and gently fry the onion, carrot, celery and garlic for five minutes, until softened but not coloured."
+    "For the sauce, heat the olive oil in a clean non-stick frying pan, and gently fry the onion, carrot, celery and garlic for five minutes, until softened but not coloured.",
+    "Add the tomato purée to the pan and cook for 5-6 minutes until the mixture has become a rich red colour.",
+    "Add the red wine, stock and rosemary sprigs to the pan, bring up to boil, then reduce the heat and simmer for 40 minutes, until thickened.",
+    "To construct the ravioli, use a pastry cutter to cut out 7cm/3in circles out of the rolled out pasta sheet.",
+    "Repeat until all the pasta has been used up.",
+    "Spoon a little of the lamb mixture into the centre of one pasta circle and place another pasta circle on top.",
+    "Wet the edge of the pasta and press down to seal (you can press with a fork to be extra sure).",
+    "Repeat this process with the remaining pasta circles until all of the filling and pasta has been used.",
+    "To cook the ravioli, bring a large pan of salted water to the boil, then carefully place the ravioli into the boiling water and cook for 3-4 minutes.",
+    "To serve, place five ravioli onto each plate. Top with some of the sauce and sprinkle with parmesan shavings."
   ],
   "notes": null,
   "details": [

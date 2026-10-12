@@ -1,6 +1,6 @@
 {
-  "title": "Gammon, glazed, with parsley &amp; cider sauce",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGammon, glazed, with parsley &amp; cider sauce",
+  "title": "Gammon, glazed, with parsley & cider sauce",
+  "preamble": null,
   "ingredients": [
     "4½kg joint middle-cut gammon or lightly smoked bacon",
     "900ml/1½ pints dry cider",
@@ -18,7 +18,9 @@
     "Pour 600ml/1 pint of the cider into the pan and then pour in enough cold water to cover the joint. Add the onions, carrots, bay leaves, parsley stalks, cloves and peppercorns. Bring slowly to the boil, turn down the heat, then cover and simmer very gently for the calculated time. Allow the joint to cool in the stock (overnight is ideal).",
     "Preheat the oven to 180C/gas 4/ fan 160C. Lift the joint out of the stock, then strain the stock and measure 500ml/18fl oz. Strip the rind off the joint and score the fat in a diamond pattern. Put the joint in a heavy roasting tin (if it's wibblywobbly, prop it up with a wad of scrunched-up foil), pour over the remaining cider and braise in the oven for 45 minutes to 1 hour, basting frequently until beginning to brown. If the pan becomes dry, splash in some cider or water to cover the bottom of the tin.",
     "Meanwhile, start the sauce. Put the milk, parsley stalks and bay leaves into a saucepan, bring to the boil and leave to infuse for as long as you have.",
-    "Remove the joint from the oven and raise the temperature to 200C/gas 6/fan 180C. Put the orange halves around the joint. Melt the marmalade, brush it generously all over the gammon and oranges, then return to the oven for 10 minutes to glaze. Lift the gammon and oranges on to a serving dish, cover and keep warm while you finish the sauce."
+    "Remove the joint from the oven and raise the temperature to 200C/gas 6/fan 180C. Put the orange halves around the joint. Melt the marmalade, brush it generously all over the gammon and oranges, then return to the oven for 10 minutes to glaze. Lift the gammon and oranges on to a serving dish, cover and keep warm while you finish the sauce.",
+    "Sprinkle the flour into the roasting tin and scrape and stir around to mix with the juices. Place on the hob and cook for a couple of minutes, stirring, to cook out the flour.Gradually pour in the measured stock and whisk well. Now add the strained infused milk and bring to the boil, then turn down the heat and simmer for 10 minutes. Strain into a clean saucepan, stir in the chopped parsley leaves and cream, then heat through gently and check the seasoning. Pour into a warm jug and serve with the joint.",
+    "Based on Nick Nairn"
   ],
   "notes": null,
   "details": [

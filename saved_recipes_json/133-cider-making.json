@@ -1,6 +1,6 @@
 {
   "title": "Cider Making",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "preamble": null,
   "ingredients": null,
   "method": [
     "First pick your apples. They should be fully ripe, windfalls are excellent. Do not use heavily bruised or damaged apples.",
@@ -10,7 +10,24 @@
     "Having matured the apples, you will need to press them. A domestic fruit juicer will achieve this but I know from bitter experience that this is a laborious time-consuming process, and the return in terms of juice per pound of apples is poor. Much better to buy yourself a wine makers fruit press, the sturdier the construction the better. Alternatively you can build your own press.",
     "Once the juice is separated from the pulp you must check the pH. If the correct balance of apple varieties is used, this step may be omitted. Few of us are fortunate enough to obtain the correct types so some compensation must be made to ensure that there is sufficient sharpness but that it is not overdone. pH should be in the range 3.9 to 4.0.",
     "To lower the pH add malic acid (the principal acid in cider). To raise the pH add precipitated chalk.",
-    "1 tsp of pectolase per gallon of juice may be added at this stage to ensure that the cider clears. Traditional ciders shun this step and some can look like cloudy apple soup. Never fear, they still taste great."
+    "1 tsp of pectolase per gallon of juice may be added at this stage to ensure that the cider clears. Traditional ciders shun this step and some can look like cloudy apple soup. Never fear, they still taste great.",
+    "If a correct balance of cider apples has not been available it may be that you need to compensate for a lack of sweet apples. Only experience with the particular varieties available to you will tell.",
+    "Measure the O.G. (this may be difficult if the juice was not sufficiently well separated from the pulp). The target O.G. should be around 1055. If not, add sugar to bring it to this level. A good guide to how much to add is 2 1/2 ounces of sugar will raise the gravity of 1 gallon of juice by approximately 5 degrees. You can either dissolve the sugar in a small quantity of juice and add to the bulk of the juice, or if very fine (caster) sugar is used, stir it directly into the bulk of the juice.",
+    "DO not heat the juice or you will get a cooked apple flavour which will ruin your cider.",
+    "Place the apple juice in a fermenting vessel. Traditionally this is a wooden barrel. If these are not available, any suitable wine fermenter would be fine.",
+    "Put under an airlock and leave to ferment. Cider is traditionally fermented at whatever is the outside ambient temperature, however, if you are fermenting with a pure yeast culture it may be better to ferment at the temperature specified with the culture.",
+    "There are wild yeasts present on apple skins (so long as they are from an unsprayed orchard) which will ferment the cider naturally.",
+    "If you wish to ferment with a specific yeast, add 1 crushed campden tablet per gallon of juice and leave to stand, covered, for 48 hours. This will see off the wild yeast. Then pitch with a yeast of your choice.",
+    "For a traditional style English cider, use an ale-type yeast. For a Normandy style cider use a wine yeast. Kitzinger, Hock, and Champagne yeasts all give good results. The finished product is paler than English cider and tastes closer to apple wine than does English cider.",
+    "Check the gravity regularly. There is a tendency to go on fermenting after the desired gravity has been obtained. To prevent this, you can add a crushed campden tablet to the cider when the desired gravity is reached.",
+    "Once the desired gravity is obtained, the cider is ready to mature.",
+    "Store the cider in glass carboys or other similar container, under airlock. Cider is usually left in outbuildings to mature. The fluctuations in temperature are not detrimental.",
+    "In the late spring or early summer following the making of the cider, it will undergo a malo-lactic fermentation. This will occur when the temperature reaches approximately 15 C. This has the effect of mellowing the cider, it will lose much of its sharpness.",
+    "You can add malic acid or acid blend at this point if the cider is not sharp enough for your taste.",
+    "Traditional English cider is flat, no attempt is made at a secondary fermentation.",
+    "English cider may also be served slightly carbonated analogous to real ale. The target carbonation in this case is 1 volume of carbon dioxide per volume of cider (partial pressure of carbon dioxide of 1 atmosphere).",
+    "If the cider is to be served slightly carbonated, bottle in beer bottles with 1/2 teaspoon of sugar per pint of cider (dissolve the sugar in water and add to the cider before bottling).",
+    "Normandy cider is refermented in Champagne-style bottle in a manner similar to Champagne making and is highly carbonated. Consult a good wine making guide for details on how to do this."
   ],
   "notes": null,
   "details": [

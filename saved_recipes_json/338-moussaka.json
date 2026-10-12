@@ -1,16 +1,17 @@
 {
   "title": "Moussaka",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMoussaka",
+  "preamble": null,
   "ingredients": null,
   "method": [
-    "Pre-heat oven to 200 &deg;C.",
+    "Pre-heat oven to 200 °C.",
     "Peel the potatoes, and - using a sharp knife - slice lengthways at a thickness of around 1 cm. Cut the ends off the aubergines, and slice from top to bottom.",
     "Place aubergines and potatoes in separate baking or roasting trays - salt the potatoes, and drizzle both liberally with oil.",
     "Place in the oven - cook potatoes for 35 mins or until brown, and aubergines for 15-20 or until fairly limp. Remove from oven and allow to cool, covered.",
     "Whilst doing this, in a large non-stick saucepan heat about 2 tbsps of olive oil and add the lamb mince. Once browned, add the crushed cloves of garlic and chopped onions.",
     "When the onions are soft, add the tomatoes, puree, wine, parsley, and remaining spices and condiments. Cover and cook on a low heat for 2 hours.",
-    "In a separate pan, melt the butter/margarine over a medium heat and mix in the flour until a smooth yellow paste or &quot;roux&quot; is formed. Reduce the heat and slowly stir in the milk, adding a little at a time as the sauce thickens consistently. Do not allow the sauce to become too thick or the roux to become too dark, as this can lead to lumps. When the milk is all used, sprinkle the cheese into the pan and stir well.",
-    "Take a large, square, oven-proof dish. At the very bottom, lay half of the potato slices (covering the bottom evenly) then half the aubergine, covering the potato. Add half the meat sauce and spread over the vegetables. Repeat with the remaining potato, aubergine and sauce, and then cover with the cheese sauce, smoothing over the top layer of meat with a palette knife to ensure that all of the meat is coated."
+    "In a separate pan, melt the butter/margarine over a medium heat and mix in the flour until a smooth yellow paste or \"roux\" is formed. Reduce the heat and slowly stir in the milk, adding a little at a time as the sauce thickens consistently. Do not allow the sauce to become too thick or the roux to become too dark, as this can lead to lumps. When the milk is all used, sprinkle the cheese into the pan and stir well.",
+    "Take a large, square, oven-proof dish. At the very bottom, lay half of the potato slices (covering the bottom evenly) then half the aubergine, covering the potato. Add half the meat sauce and spread over the vegetables. Repeat with the remaining potato, aubergine and sauce, and then cover with the cheese sauce, smoothing over the top layer of meat with a palette knife to ensure that all of the meat is coated.",
+    "Cook at 200 °C for 45 minutes, and serve."
   ],
   "notes": null,
   "details": [

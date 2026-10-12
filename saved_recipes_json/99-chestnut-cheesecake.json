@@ -1,6 +1,6 @@
 {
   "title": "Chestnut Cheesecake",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChestnut Cheesecake",
+  "preamble": null,
   "ingredients": null,
   "method": [
     "preheat oven 180c/160c fan/ gas 4....",
@@ -19,7 +19,8 @@
     "When the cake is ready it should just be set on top-with some wobble left as it will continue to cook whilst cooling",
     "Take the cake tin out of the roasting tin....remove the foil and film and cool the cake on a rack",
     "Place in the fridge over night and then remove the tin and leave out of the fridge to return to room temperature",
-    "The syrup can be made in advance - but not poured over the cake until just before serving..."
+    "The syrup can be made in advance - but not poured over the cake until just before serving...",
+    "For the syrup, melt all the ingredients together and boil for 10 mins, then cool and drizzle over the cake"
   ],
   "notes": null,
   "details": [

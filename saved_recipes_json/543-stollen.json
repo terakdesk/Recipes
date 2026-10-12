@@ -1,6 +1,6 @@
 {
   "title": "Stollen",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tStollen",
+  "preamble": null,
   "ingredients": [
     "200g mixed raisins and sultanas",
     "4 tbsp rum",
@@ -20,10 +20,10 @@
   ],
   "method": [
     "Soak 7oz/200g mixed raisins and sultanas in 4 tbsp rum overnight.",
-    "Mix &frac12;oz/15g dried yeast with 4fl oz/125ml lukewarm milk and 4&frac12;oz/125g caster sugar.",
+    "Mix ½oz/15g dried yeast with 4fl oz/125ml lukewarm milk and 4½oz/125g caster sugar.",
     "Put 1lb 2oz/500g plain organic flour into a warm bowl, make a well in the centre, add the yeast mixture and partially mix. Leave for 30 mins.",
     "Add 6oz/175g softened butter, 2 eggs, a pinch of salt, and 1 tsp ground cinnamon. Beat with a wooden spoon until smooth and bubbly.",
-    "Work in the (drained) fruit, optional 3&frac12;oz/100g candied peel, 3&frac12;oz/100g chopped almonds and zest of 1 lemon, then leave overnight.",
+    "Work in the (drained) fruit, optional 3½oz/100g candied peel, 3½oz/100g chopped almonds and zest of 1 lemon, then leave overnight.",
     "On a floured work surface, roll the dough into an oblong about 1in/2.5cm thick. Fold into a stollen shape; place on a floured baking sheet and brush with melted butter.",
     "Leave to 'prove' for 20 minutes.",
     "Meanwhile, preheat the oven to gas mark 3.",

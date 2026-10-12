@@ -1,6 +1,6 @@
 {
   "title": "Goats Cheese Salad",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGoats Cheese Salad",
+  "preamble": null,
   "ingredients": null,
   "method": [
     "Pre-heat the oven to Gas Mark 8",
@@ -10,7 +10,10 @@
     "Towards the end of the cooking time, check them and remove and set aside any that are in danger of over-blackening. Continue to cook the rest till they are all fairly dark, then remove them from the oven and set aside – they're not meant to be served hot.",
     "When you are ready to serve the salad, pre-heat the grill to its highest setting for at least 10 minutes. Then make the vinaigrette dressing by first crushing the garlic and salt to a creamy paste in a pestle and mortar, then work in the mustard.",
     "Now switch to a whisk and add the vinegars and oil, then season with freshly milled black pepper.",
-    "Next slice each goats' cheese in half so you have 4 rounds, season these with freshly milled black pepper."
+    "Next slice each goats' cheese in half so you have 4 rounds, season these with freshly milled black pepper.",
+    "Now place them on the oiled baking tray and grill them 3 inches (7.5 cm) from the heat for 5-7 minutes, until they are brown on top and soft (if you use the smaller crottins these take only 3-4 minutes).",
+    "While they're grilling, arrange some lettuce leaves on each serving plate and divide and scatter the rocket between them. Then, when the cheese is ready, place one in the middle of each plate, scatter the onion all round and, finally, drizzle the vinaigrette dressing over each salad.",
+    "Needless to say, lots of crusty bread should be available."
   ],
   "notes": null,
   "details": [

@@ -1,6 +1,6 @@
 {
   "title": "Vegetable Curry",
-  "preamble": "Curry Sauce",
+  "preamble": null,
   "ingredients": [
     "100g red lentils",
     "2 medium onions, peeled and roughly chopped",
@@ -13,7 +13,7 @@
     "1 whole red chilli, deseeded and roughly chopped",
     "1 tablespoon ground coriander",
     "1 tablespoon ground cumin",
-    "&frac12; teaspoon ground black pepper",
+    "½ teaspoon ground black pepper",
     "1 teaspoon ground cinnamon",
     "1 tablespoon paprika",
     "1 tablespoon turmeric",
@@ -32,10 +32,23 @@
     "Add the tomatoes, water and lentils and simmer for another 30 minutes before adding the coconut milk.",
     "Bring to the boil then remove from the heat and blend until smooth using a hand blender.",
     "Season to taste. Set aside to cool then use as required.",
-    "The Curry itself:"
+    "The Curry itself:",
+    "vegetable oil",
+    "1 medium red onion, peeled and chopped",
+    "1 courgette, diced",
+    "½ butternut squash, peeled and diced",
+    "100g mushrooms, quartered",
+    "1 red pepper, diced",
+    "150g cauliflower, broken into florets",
+    "600ml curry base sauce (see curry base sauce recipe)",
+    "400ml water",
+    "In a little vegetable oil, fry the onion gently for 10 minutes in a large pan",
+    "Add the remaining vegetables and stir together.",
+    "Add the curry base sauce and simmer gently for around 25 to 30 minutes, taking care not to overcook the vegetables.",
+    "If the sauce becomes too thick, add a little water to give you the desired consistency."
   ],
   "notes": [
-    "Prev"
+    "C.Mict08"
   ],
   "details": [
     "Written by ethel",

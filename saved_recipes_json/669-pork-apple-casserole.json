@@ -1,6 +1,6 @@
 {
   "title": "Pork apple casserole",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork apple casserole",
+  "preamble": null,
   "ingredients": [
     "2 tbsp rapeseed oil or olive oil",
     "600g pork shoulder or pork cheeks, fat and sinew trimmed, cut into chunky pieces",
@@ -22,7 +22,8 @@
     "Heat half the oil in a large pan and brown the meat in batches. Don’t overcrowd the pan, and only turn the meat when it has a deep brown crust on the underside, as this will add lots of flavour to the stew. When one batch is cooked, tip it into the slow cooker and continue with the next batch, adding more oil as you need it.",
     "STEP 2",
     "When all the meat has been transferred to the slow cooker, add the onion, carrots and celery to the pan and cook for 5-10 mins to just soften, scraping any meaty bits up from the bottom of the pan. Tip the veg into the slow cooker. Add the lardons to the pan and fry until crispy. Pour in the cider, bubble for 1 min, again scraping the bottom of the pan, then tip the cider and lardons into the slow cooker too. Add the apples, stock cube and herbs to the slow cooker, pour in 400ml water, season well and turn the heat to Low. Cover with the lid and cook for 6-8 hrs until the meat is very tender. (If you don’t have a slow cooker, tip all the ingredients back into the pan, cover with a lid and cook for 3 hrs over a low heat, stirring every now and then to prevent it from catching on the bottom. You may have to add a splash of water during cooking if the sauce looks dry.)",
-    "STEP 3"
+    "STEP 3",
+    "Turn your slow cooker up to High. Add the crème fraîche and mustard to the stew and check the seasoning. If the sauce is thin, you can thicken it with the cornflour – ladle 2 spoonfuls of the sauce into a pan and bring to a simmer, mix the cornflour with 1-2 tsp cold water to make a paste, then stir it into the sauce. Once thickened, return the sauce to the slow cooker and cook for 10 mins more on High, stirring occasionally (or for 5 mins on the hob). Serve with mashed potato, greens and extra mustard and thyme, if you like."
   ],
   "notes": null,
   "details": [

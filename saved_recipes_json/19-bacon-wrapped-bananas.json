@@ -1,6 +1,6 @@
 {
   "title": "Bacon wrapped bananas",
-  "preamble": "Cooking Time: 30 minutes;\n\nServings: 1-100;\n\nPreparation Time: 2 minutes",
+  "preamble": null,
   "ingredients": [
     "1 Banana",
     "Some bacon strips"
@@ -9,7 +9,7 @@
     "Pre-heat oven to Gas Mark 5",
     "Cut a Banana in 6ths",
     "Cut Bacon in 6ths",
-    "Wrap Bacon around Banana &amp; close with a toothpick",
+    "Wrap Bacon around Banana & close with a toothpick",
     "Lay Bananas, Bacon side down",
     "Bake for 30 minutes (check periodically)"
   ],

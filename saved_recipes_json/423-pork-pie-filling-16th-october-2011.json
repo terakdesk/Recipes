@@ -1,6 +1,6 @@
 {
   "title": "Pork Pie filling – 16th October 2011",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork Pie filling – 16th October 2011",
+  "preamble": null,
   "ingredients": [
     "1kg pork shoulder, rind removed but rest of fat left in",
     "200g un-smoked streaky bacon rashers, rind removed",
@@ -8,9 +8,9 @@
     "2 teaspoons fresh thyme",
     "2 tablespoons anchovy essence or 4 teaspoons finely chopped anchovies",
     "1 heaped teaspoon dried mustard",
-    "&frac12; teaspoon ground allspice",
-    "&frac12; teaspoon ground mace",
-    "No salt &ndash; taste after cooking and adjust jelly salt",
+    "½ teaspoon ground allspice",
+    "½ teaspoon ground mace",
+    "No salt – taste after cooking and adjust jelly salt",
     "1 heaped teaspoon freshly ground black pepper"
   ],
   "method": [

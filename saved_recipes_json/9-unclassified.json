@@ -1,6 +1,6 @@
 {
   "title": "Informative",
-  "preamble": ".hide { display: none; }\n.table-noheader { border-collapse: collapse; }\n.table-noheader thead { display: none; }\n\n\th1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-me",
+  "preamble": null,
   "ingredients": null,
   "method": null,
   "notes": null,

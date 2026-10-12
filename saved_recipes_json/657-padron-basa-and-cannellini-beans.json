@@ -1,6 +1,6 @@
 {
   "title": "Padron Basa and Cannellini Beans",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPadron Basa and Cannellini Beans",
+  "preamble": null,
   "ingredients": [
     "250g cherry tomatoes",
     "olive oil",
@@ -29,7 +29,10 @@
     "Remove the tomatoes from the oven and stir them into the beans. Leave them to sit and get to know each other while you cook the peppers and fish.",
     "Step 6",
     "Turn your oven up to its highest setting. Place the Padron peppers in a roasting tray. Drizzle with oil and sprinkle with salt (flaked sea salt preferably). Throw them in the oven to roast for 6-8 minutes, until soft and lightly blistered.",
-    "Step 7"
+    "Step 7",
+    "Meanwhile, heat 2 tablespoons of oil in the frying pan. Season the fish well on all sides with salt and pepper. When the oil is nice and hot, add the fish, skin-side down. Let it cook undisturbed for 3 minutes (see cook's notes). If the fillets are particularly thick, you may need to add an extra 1 minute to the cooking time. Lift the fish. The skin should be a golden brown. Gently flip them over to the flesh side. Cook for 2 more minutes. Finish with a squeeze of lemon.",
+    "Step 8",
+    "Check the seasoning of the beans and adjust with more salt and pepper, if you think they need it. Divide them between 2 shallow bowls and sit the fish on top, skin-side up. Divide the peppers between the bowls and serve with wedges of the remaining lemon."
   ],
   "notes": null,
   "details": [

@@ -1,6 +1,6 @@
 {
   "title": "Gravlax",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGravlax",
+  "preamble": null,
   "ingredients": [
     "1 kilogram salmon fillets (with skin in place)",
     "4 desertspoons maldon salt",
@@ -25,7 +25,10 @@
     "Place in the fridge for 2-3 days.",
     "Unwrap the dish and lift the salmon fillet out of the liquid it will now be lying in.",
     "Rub off and discard the dill to expose the pink salmon, and lay on a carving board flesh side up.",
-    "Working from the right hand end of the fish (unless you're left-handing), carve very thin diagonal slithers with a long, sharp knife."
+    "Working from the right hand end of the fish (unless you're left-handing), carve very thin diagonal slithers with a long, sharp knife.",
+    "Don't worry about the uniformity of the slices; instead try to get them as thin as possible. The fish skin helps you to carve, as it will give you something to run your knife along as you go.",
+    "Remove the skin as you slice.",
+    "Re-wrap in cling film and keep the gravlax steeping in the fridge if it is not all sliced in one go."
   ],
   "notes": null,
   "details": [

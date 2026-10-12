@@ -1,6 +1,6 @@
 {
   "title": "Beef and Spinach Curry 2",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBeef and Spinach Curry 2",
+  "preamble": null,
   "ingredients": [
     "30 ml ghee (clarified butter)",
     "2 cloves garlic, crushed",
@@ -9,7 +9,7 @@
     "2 whole cloves, bruised",
     "1 small teaspoon garam masala",
     "1 small teaspoon ground coriander",
-    "&frac12; teaspoon chili powder or cayenne pepper",
+    "½ teaspoon chili powder or cayenne pepper",
     "1 small teaspoon turmeric",
     "1 teaspoon ground cumin",
     "680 g beef tenderloin, cubed",
@@ -30,8 +30,7 @@
     "Uncover, then stir in the lemon juice, and cook for 10 more minutes, stirring frequently, until the sauce has thickened."
   ],
   "notes": [
-    "Prev",
-    "You are here: &#160;"
+    "C.Mict08"
   ],
   "details": [
     "Written by ethel",

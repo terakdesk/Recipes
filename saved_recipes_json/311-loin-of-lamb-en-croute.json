@@ -1,13 +1,13 @@
 {
   "title": "Loin of Lamb en Croute",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLoin of Lamb en Croute",
+  "preamble": null,
   "ingredients": [
     "Roasted Shallot Balsamic Vinegar Sauce:",
     "2 cup beef stock",
     "1 1/4 cup balsamic vinegar",
     "1/2 lb butter cut into small pieces",
     "8 single shallots; roasted and finely chopped",
-    "1 single salt &amp; pepper (to taste)",
+    "1 single salt & pepper (to taste)",
     "Loin Of Lamb En Croute:",
     "4 single lamb loins (6 oz each) cleaned",
     "1 tablespoon olive oil",
@@ -29,7 +29,7 @@
     "Rub the lamb loins with the 1 tablespoon of olive oil and garlic clove. Sprinkle them with the salt and the pepper. In a heavy skillet place the 2 tablespoons of olive oil and heat it on medium until it is hot. Sear the lamb on both sides. Cut the puff pastry sheet so that it is the length of the lamb loin and 2-1/2 times as wide.",
     "Place the lamb in the center of the sheet. Top the lamb with the roasted peppers, feta cheese, and cooked spinach. Fold one end of the dough over the lamb. Brush the other side of the pastry with the egg wash and then fold it over on top of the other pastry end by 2-inch. Cut off the extra dough and reserve it.",
     "Crimp the open ends together with your fingers. Turn the wrapped lamb over. Make a braid the length of the lamb with the left-over pastry dough. Brush the top of the dough with the egg wash and place the braid on top.",
-    "Preheat the oven to 425&oslash;F.",
+    "Preheat the oven to 425øF.",
     "Bake the wrapped lamb for 12 to 15 minutes, or until the dough is golden brown.",
     "Serve the baked lamb with the Roasted Shallot Balsamic Vinegar Sauce.",
     "Yield: 4 servings"

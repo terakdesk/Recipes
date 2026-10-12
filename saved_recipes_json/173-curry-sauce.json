@@ -1,6 +1,6 @@
 {
   "title": "Curry Sauce",
-  "preamble": "by Jamie Oliver from the Naked Chef\n\nServes: 4",
+  "preamble": null,
   "ingredients": [
     "75ml/5tbsp vegetable oil",
     "10g/2tsp mustard seeds",
@@ -15,7 +15,7 @@
     "6 tomatoes, chopped",
     "1x400ml/14floz tin coconut milk",
     "salt",
-    "4 chicken breasts, sliced into 1cm/ &frac12; in strips",
+    "4 chicken breasts, sliced into 1cm/ ½ in strips",
     "15g/1tbsp coriander seeds, crushed"
   ],
   "method": [

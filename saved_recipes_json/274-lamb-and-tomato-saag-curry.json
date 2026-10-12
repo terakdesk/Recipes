@@ -1,6 +1,6 @@
 {
   "title": "Lamb and tomato saag curry",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLamb and tomato saag curry",
+  "preamble": null,
   "ingredients": [
     "1.5kg/3lb 5oz lamb shoulder, boned weight, cut into cubes",
     "4 tbsp medium Indian curry paste",
@@ -23,7 +23,8 @@
     "Add the chickpeas and bring the mixture up to the boil, then turn the heat down to a simmer, and cook gently for 1 – 1½ hours, until the lamb is very tender and the sauce is rich and thick.",
     "Spoon away the excess fat that will have gathered on the top of the curry, then season with salt and freshly ground black pepper to taste.",
     "Add the spinach, stirring the spinach leaves into the curry until they wilt.",
-    "Serve the curry with your favourite rice, breads and chutneys."
+    "Serve the curry with your favourite rice, breads and chutneys.",
+    "============================= Curry paste ingredients 3 tbsp coriander seeds 2 tbsp cumin seeds 1 tbsp mustard seeds 1 tsp fennel seeds 1 tsp black peppercorns 1 tsp ground turmeric 1 tsp ground cinnamon 1 tsp paprika 1 or 2 dried chillies, depending on personal preference 1 tsp salt thumb-size piece fresh root ginger, peeled and finely grated 4 garlic cloves, finely grated 1 tbsp tomato purée 4 tbsp white wine vinegar or cider vinegar vegetable or sunflower oil, to cover the paste for storing Method:- Put the seeds and peppercorns into a dry frying pan over a medium heat. Cook for about three minutes, stirring often, until the mustard seeds start to pop and the seeds turn golden and aromatic. Tip into a bowl and allow to cool for a few minutes. Add the turmeric, cinnamon, paprika and dried chillies to a pestle and mortar. Add the cooled toasted spices and grind everything together into a fine powder. Add the salt. Add grated ginger, garlic, tomato purée and white wine vinegar and mix well to make a paste. Use immediately, or spoon the paste into a jar, cover with a layer of oil, seal with a lid and store in the fridge for up to a week."
   ],
   "notes": null,
   "details": [

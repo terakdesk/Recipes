@@ -1,6 +1,6 @@
 {
   "title": "Salmon en croute with spinach, cream cheese and orange",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSalmon en croute with spinach, cream cheese and orange",
+  "preamble": null,
   "ingredients": [
     "1 medium salmon, skinned and filleted",
     "1 orange, juice and zest",
@@ -16,7 +16,7 @@
   "method": [
     "If you have time the night before, put the salmon in a bowl and squeeze over the orange juice. Cover and leave in the fridge until you're ready to cook the dish. Set the orange zest aside.",
     "Preheat the oven to 200C/400F/Gas 6.",
-    "Slice the puff pastry into two rectangles vertically through the middle of the block. Roll out one block of puff pastry into a rectangle approx 26cm/10in long by 14cm/5&frac12;in wide (this allows for shrinkage when cooked), setting the other piece aside. Prick all over with a fork.",
+    "Slice the puff pastry into two rectangles vertically through the middle of the block. Roll out one block of puff pastry into a rectangle approx 26cm/10in long by 14cm/5½in wide (this allows for shrinkage when cooked), setting the other piece aside. Prick all over with a fork.",
     "Place on a baking tray and bake in the oven for about 15 minutes until well risen and golden brown.",
     "In a frying pan over a low heat, soften the spring onions in a little butter.",
     "If using fresh spinach, rinse and put in a large saucepan and cook until wilted. If using frozen spinach, defrost thoroughly.",
@@ -24,7 +24,10 @@
     "Combine the spring onions, spinach, orange zest, black pepper and cream cheese in a bowl and mix thoroughly.",
     "Slice the salmon, at an angle, into six portions. Arrange half the salmon on the cooked pastry base.",
     "Spoon the spinach mixture onto the salmon and flatten. Arrange the rest of the salmon on top.",
-    "Roll out the remaining pastry into a rectangle slightly bigger than the base. Using a beaten egg, brush around the edge of the base and then lay the top pastry over to cover the salmon."
+    "Roll out the remaining pastry into a rectangle slightly bigger than the base. Using a beaten egg, brush around the edge of the base and then lay the top pastry over to cover the salmon.",
+    "Tuck the pastry top under the base or press down firmly to seal. Brush with beaten egg and make small cuts in the top to allow steam to escape while cooking.",
+    "Bake in the centre of the oven for about 40 minutes, reducing the temperature to 150C/300F/Gas 2 after 20 minutes.",
+    "Serve in slices with new potatoes and a fresh green salad."
   ],
   "notes": null,
   "details": [

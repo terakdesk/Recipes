@@ -1,6 +1,6 @@
 {
   "title": "Lamb Curry",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLamb Curry",
+  "preamble": null,
   "ingredients": [
     "1 kg boneless lamb shoulder or stewing lamb, cut into 1 and a 1/2' chunks",
     "4 tbsps butter mixed with a liitle vegetable/ canola/ sunflower cooking oil",
@@ -30,7 +30,8 @@
     "Now add the lamb pieces to the masala, season with salt to taste and stir to fully coat the lamb pieces with the masala.",
     "Sauté till the lamb is browned well.",
     "Add 1/2 a cup of hot water to the pan, stir to mix well, simmer the heat and cover the pan. Cook till the lamb is tender. You will need to keep checking on the lamb as it cooks and adding more water if all the water dries up. Stir often to prevent burning.",
-    "The dish should have a fairly thick gravy when done."
+    "The dish should have a fairly thick gravy when done.",
+    "When the lamb is cooked, garnish with chopped coriander and serve with hot Chapatis (Indian flatbread), Naans (tandoor-baked Indian flatbread) or plain boiled rice."
   ],
   "notes": null,
   "details": [

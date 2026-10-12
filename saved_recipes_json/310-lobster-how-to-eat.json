@@ -1,14 +1,15 @@
 {
   "title": "Lobster - how to eat",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "preamble": null,
   "ingredients": null,
   "method": [
-    "The white meat of the lobster is located in the tail, claws, and knuckles. Meat can also be found in parts of the body and legs. The red material in the tail section is the coral &quot;roe&quot; or the female eggs and is considered a delicacy. And the greenish material at the junction of the body and tail is &quot;tomalley&quot;, which is actually the liver, and has a very unique &quot;peppery&quot; taste used in many recipes.",
+    "How to Eat Lobsters",
+    "The white meat of the lobster is located in the tail, claws, and knuckles. Meat can also be found in parts of the body and legs. The red material in the tail section is the coral \"roe\" or the female eggs and is considered a delicacy. And the greenish material at the junction of the body and tail is \"tomalley\", which is actually the liver, and has a very unique \"peppery\" taste used in many recipes.",
     "Put on the bib.",
     "Twist off the claws.",
     "Crack each claw and knuckle with a nutcracker, pliers, knife, or hammer. Remove the meat.",
     "Separate the tail from the body by arching the back until it crack.",
-    "Bend back and break off the tail flippers. There&rsquo;s meat in each flipper, too!",
+    "Bend back and break off the tail flippers. There’s meat in each flipper, too!",
     "Insert a fork and push the tail meat out in one piece.",
     "Remove and discard the black vein that runs the entire length of the tail meat.",
     "Separate the shell of the body from the underside by pulling them apart",

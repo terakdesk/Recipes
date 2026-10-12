@@ -1,10 +1,10 @@
 {
   "title": "Open-topped Pork Pie",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tOpen-topped Pork Pie",
+  "preamble": null,
   "ingredients": [
     "For the filling",
     "400g/14oz leftover roast pork, cut into cubes",
-    "150g/5&frac12;oz smoked bacon",
+    "150g/5½oz smoked bacon",
     "1 tbsp chopped fresh sage",
     "1 tbsp chopped fresh rosemary",
     "pinch grated nutmeg",
@@ -13,15 +13,15 @@
     "salt and white pepper",
     "For the pastry",
     "400g/14oz plain flour, plus extra for dusting",
-    "40ml/1&frac14;fl oz full-fat milk",
-    "150g/5&frac12;oz lard, cubed",
-    "50ml/1&frac34;fl oz water",
+    "40ml/1¼fl oz full-fat milk",
+    "150g/5½oz lard, cubed",
+    "50ml/1¾fl oz water",
     "1 free-range egg yolk, beaten",
     "For the balsamic onions",
     "2 tbsp vegetable oil",
     "2 red onions, finely sliced",
-    "75g/2&frac34;oz demerara sugar",
-    "75ml/2&frac34;fl oz balsamic vinegar",
+    "75g/2¾oz demerara sugar",
+    "75ml/2¾fl oz balsamic vinegar",
     "200g/7oz mature cheddar"
   ],
   "method": [

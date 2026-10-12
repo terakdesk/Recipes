@@ -1,18 +1,18 @@
 {
   "title": "Pork Pie",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork Pie",
+  "preamble": null,
   "ingredients": [
     "750g shoulder pork",
     "250g belly pork",
     "250g bacon bits",
     "250g minced onion",
-    "&frac12; bulb garlic, minced with the onion",
+    "½ bulb garlic, minced with the onion",
     "1 heaped teaspoon sage",
     "1 flat teaspoon thyme",
-    "&frac14; teaspoon all spice",
-    "&frac14; teaspoon mace",
-    "&frac14; teaspoon nutmeg",
-    "&frac12; teaspoon cumin",
+    "¼ teaspoon all spice",
+    "¼ teaspoon mace",
+    "¼ teaspoon nutmeg",
+    "½ teaspoon cumin",
     "1 rounded teaspoon salt",
     "1 rounded teaspoon pepper",
     "Stock:",
@@ -24,7 +24,7 @@
   ],
   "method": [
     "Simmer the stock for 3 hours. Sieve and leave to cool.",
-    "Grind meat on largest grind &ndash; chill.",
+    "Grind meat on largest grind – chill.",
     "Mix meat and onion together.",
     "Make hot water crust pastry as per book. This recipe just makes 12 muffin tin sized pies.",
     "There is far too much meat here for 12 pies so freeze and use later."

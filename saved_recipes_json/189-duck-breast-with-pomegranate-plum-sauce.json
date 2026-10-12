@@ -1,6 +1,6 @@
 {
   "title": "Duck Breast with Pomegranate Plum Sauce",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tDuck Breast with Pomegranate Plum Sauce",
+  "preamble": null,
   "ingredients": [
     "2 duck breasts",
     "2 Italian prune plums, diced",
@@ -26,7 +26,8 @@
     "After the allotted time, remove casserole from the oven and remove duck breasts from the casserole onto a carving board.",
     "Cover to keep warm while you reduce the sauce.",
     "To reduce the sauce, place the heatproof casserole over a high flame and add the diced plums.",
-    "Boil for about 10 minutes or until the liquid starts to thicken and become almost syrupy. Don&rsquo;t let it get too thick or it won&rsquo;t pour properly."
+    "Boil for about 10 minutes or until the liquid starts to thicken and become almost syrupy. Don’t let it get too thick or it won’t pour properly.",
+    "Add the butter, stir until melted and blended with the sauce, and serve alongside the meat."
   ],
   "notes": null,
   "details": [

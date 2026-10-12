@@ -1,6 +1,6 @@
 {
   "title": "Gammon with leek and carrot in cider sauce, mustard mash",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGammon with leek and carrot in cider sauce, mustard mash",
+  "preamble": null,
   "ingredients": [
     "1 tbsp olive oil",
     "1 large onion, roughly chopped",
@@ -9,8 +9,8 @@
     "Small handful fresh thyme, leaves picked, or chopped fresh parsley",
     "4 tbsp plain flour",
     "500ml dry cider",
-    "8 tbsp cr&egrave;me fra&icirc;che",
-    "1kg floury potatoes, such as maris piper or desir&eacute;e, chopped",
+    "8 tbsp crème fraîche",
+    "1kg floury potatoes, such as maris piper or desirée, chopped",
     "1 tbsp wholegrain mustard",
     "75g butter 100ml milk"
   ],
@@ -20,11 +20,18 @@
     "Meanwhile, pour the stock through a sieve into a jug and reserve, discarding the contents of the sieve.",
     "Pre-heat the oven to Gas Mark 4.",
     "Place the gammon in a baking dish and cover with foil. Bake for the remaining cooking time less 25 minutes.",
-    "Increase the oven temperature to 220&deg;C/gas 7.",
+    "Increase the oven temperature to 220°C/gas 7.",
     "Open up the foil and lift the gammon out onto a large chopping board. Drain off all the juices. Make a couple of long cuts through the outer layer of skin (but not the fat underneath). Peel the fat off in strips, taking care, as it will be extremely hot.",
     "Mix the mustard and honey together, and then smear thickly all over the layer of fat. Next score the fat with parallel lines first in one direction and then at an angle to it, to cover the joint in a pattern of diamonds. Push a clove into the centre of each diamond.",
     "Return the joint to the oven for a final 25 minutes or until richly browned and glazed.",
-    "If you are serving the joint hot, let it rest in a warm place for 20-30 minutes before carving."
+    "If you are serving the joint hot, let it rest in a warm place for 20-30 minutes before carving.",
+    "While the joint is resting, heat the olive oil in a large, heavy-based casserole. Add the onion, leeks and thyme leaves and season well. Fry over a medium heat until softened slightly and just golden brown.",
+    "Steam the carrots for about 7 minutes until they are al denté and add to the leeks.",
+    "Add the plain flour and stir in well.",
+    "Increase the heat, pour in the cider and 300ml of the reserved gammon stock and bring to the boil. Reduce to a simmer and add half the crème fraîche.",
+    "Season with salt (to taste) and black pepper and simmer for 10 minutes until the sauce has thickened nicely.",
+    "Meanwhile, cook the potatoes in a pan of boiling salted water for 10 minutes until tender, then drain.",
+    "Add the rest of the crème fraîche, mustard, 50g of butter and the milk. Season well and mash until smooth."
   ],
   "notes": null,
   "details": [

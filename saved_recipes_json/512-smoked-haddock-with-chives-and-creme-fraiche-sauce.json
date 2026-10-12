@@ -1,11 +1,11 @@
 {
   "title": "Smoked Haddock with chives and crème fraiche sauce",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSmoked Haddock with chives and crème fraiche sauce",
+  "preamble": null,
   "ingredients": [
     "12-14 oz (350-400 g) smoked haddock or smoked cod, skinned, or same weight golden haddock cutlets, skinned",
-    "2 rounded tablespoons cr&egrave;me fra&icirc;che",
+    "2 rounded tablespoons crème fraîche",
     "1 heaped tablespoon snipped fresh chives",
-    "&frac12; oz (10 g) butter, diced",
+    "½ oz (10 g) butter, diced",
     "5 fl oz (150 ml) whole milk",
     "freshly milled black pepper"
   ],
@@ -13,7 +13,7 @@
     "First place the fish in the frying pan and add a little freshly milled black pepper but no salt.",
     "Then pour in the milk (it won't cover the fish, but that doesn't matter), bring it up to simmering point and simmer gently, uncovered, for 8-12 minutes if you're using pieces of smoked haddock or cod, or 8 minutes for golden haddock cutlets. You will be able to see quite clearly when they are cooked, as the whole thing will become pale and opaque.",
     "Now carefully remove the fish to a plate using a fish slice.",
-    "Increase the heat and add the cr&egrave;me fra&icirc;che to the pan.",
+    "Increase the heat and add the crème fraîche to the pan.",
     "Continue to simmer, uncovered, for 2-3 minutes, until the sauce reduces and thickens slightly.",
     "Whisk in the butter and return the fish to the sauce briefly. Scatter in the chives, let it bubble for about 30 seconds and it's ready to serve."
   ],

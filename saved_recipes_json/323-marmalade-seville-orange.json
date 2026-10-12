@@ -1,6 +1,6 @@
 {
   "title": "Marmalade – Seville Orange",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMarmalade – Seville Orange",
+  "preamble": null,
   "ingredients": [
     "1.5kg Seville oranges",
     "2 medium lemons",
@@ -12,8 +12,8 @@
   "method": [
     "Day one",
     "Scrub and rinse all the fruit.",
-    "Take 1.5kg Seville oranges and one large or two medium lemons and put them in a pressure cooker with 1.5 pints (900ml) of water and cook at 10lbs of pressure for 15 minutes. If you don&rsquo;t have a pressure cooker then boil in a saucepan for over an hour, until the fruit is cooked through. Pierce the fruit to help them sink.",
-    "Fish the fruit out of the saucepan with a slotted spoon. When it&rsquo;s cool enough to handle, cut them in half.",
+    "Take 1.5kg Seville oranges and one large or two medium lemons and put them in a pressure cooker with 1.5 pints (900ml) of water and cook at 10lbs of pressure for 15 minutes. If you don’t have a pressure cooker then boil in a saucepan for over an hour, until the fruit is cooked through. Pierce the fruit to help them sink.",
+    "Fish the fruit out of the saucepan with a slotted spoon. When it’s cool enough to handle, cut them in half.",
     "Scrape out the flesh, pith and pips and put it all in a saucepan with the original boiling water.",
     "Set the peel to one side.",
     "Boil the pan-full of fruit matter for five minutes and then pour into a muslin bag suspended over a jam kettle or other large pan.",
@@ -22,7 +22,9 @@
     "Day two",
     "Add the remainder of the sugar and thr last 0.75 pint (450ml) of water to the jam kettle.",
     "Put over a low heat and stir until dissolved.",
-    "Bring to the boil until setting point is reached. If you are using a jam thermometer, you need to boil for about half an hour after the correct temperature is reached, about 105celcius/221°F."
+    "Bring to the boil until setting point is reached. If you are using a jam thermometer, you need to boil for about half an hour after the correct temperature is reached, about 105celcius/221°F.",
+    "Either way, the marmalade is ready when it passes the wrinkle test: drop a small amount of marmalade in a saucer and pop it in the fridge for five minutes. If the surface wrinkles when you push it with your finger, it’s ready.",
+    "Pour into hot dry jars and cover at once with discs of greaseproof paper soaked in wine vinegar and screw the top on the jar immediately."
   ],
   "notes": null,
   "details": [

@@ -1,29 +1,28 @@
 {
   "title": "Chestnut Stuffing",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChestnut Stuffing",
+  "preamble": null,
   "ingredients": [
     "Onion - chopped",
-    "Celery &ndash; chopped",
-    "Lean bacon &ndash; chopped",
+    "Celery – chopped",
+    "Lean bacon – chopped",
     "115g Fresh Breadcrumbs",
-    "2 teaspoons fresh Parsley &ndash; chopped",
+    "2 teaspoons fresh Parsley – chopped",
     "Rind of one Lemon",
     "435g can Chestnut Puree",
-    "200g whole Chestnuts &ndash; roughly chopped",
+    "200g whole Chestnuts – roughly chopped",
     "1 teaspoon dried thyme",
     "Salt and Pepper",
-    "1 Egg &ndash; beaten"
+    "1 Egg – beaten"
   ],
   "method": [
     "Fry 115 g each of chopped onion, celery and lean bacon in 25g butter until lightly golden.",
     "Allow to cool.",
     "Mix in 115g fresh white breadcrumbs, 2 tbsp chopped parsley, grated rind 1 lemon, 435g can chestnut puree, 200g whole chestnuts (roughly chopped) and season with 1 tsp dried thyme, salt and pepper.",
     "Bind the mixture with 1 beaten egg.",
-    "Bake with the bird.",
-    ""
+    "Bake with the bird."
   ],
   "notes": [
-    "Prev"
+    "C.Mict06"
   ],
   "details": [
     "Written by ethel",

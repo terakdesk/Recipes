@@ -1,6 +1,6 @@
 {
   "title": "Tandoori spiced halibut fillets with cucumber",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tTandoori spiced halibut fillets with cucumber",
+  "preamble": null,
   "ingredients": [
     "4 Servings",
     "4 halibut fillets, about 150g each, skinned",
@@ -11,19 +11,20 @@
     "150g tub natural yogurt",
     "Handful of mint leaves, chopped",
     "Squeeze of lime juice",
-    "1&ndash;2 tbsp vegetable oil",
+    "1–2 tbsp vegetable oil",
     "100g baby leaf spinach"
   ],
   "method": [
     "For the tandoori paste, toast the cumin and coriander seeds in a frying pan until fragrant. Tip into a pestle and mortar and grind into a powder.",
     "Mix in all the other ingredients and stir until you have a smooth paste.",
-    "Heat the oven to 200&deg;C/Gas 6. Place the halibut fillets on a plate. Mix the curry paste with the olive oil and sugar. Add all but 3&ndash;4 tbsp of the yogurt and stir well. Coat the halibut fillets with the spiced yogurt mixture and set aside.",
-    "Cut the cucumbers lengthways, using a swivel vegetable peeler, into long wide strips, avoiding the seeds in the middle. Mix with the 3&ndash;4 tbsp yogurt and chopped mint and lime juice to taste.",
+    "Heat the oven to 200°C/Gas 6. Place the halibut fillets on a plate. Mix the curry paste with the olive oil and sugar. Add all but 3–4 tbsp of the yogurt and stir well. Coat the halibut fillets with the spiced yogurt mixture and set aside.",
+    "Cut the cucumbers lengthways, using a swivel vegetable peeler, into long wide strips, avoiding the seeds in the middle. Mix with the 3–4 tbsp yogurt and chopped mint and lime juice to taste.",
     "Heat an ovenproof pan over a medium-high heat and add the vegetable oil.",
-    "When hot, place the halibut fillets in the pan, scraping off and reserving the excess marinade. Sear for 1&ndash;1 1/2 minutes each side until golden brown.",
+    "When hot, place the halibut fillets in the pan, scraping off and reserving the excess marinade. Sear for 1–1 1/2 minutes each side until golden brown.",
     "Spoon the reserved marinade over the fish and place the pan in the oven for a few minutes to finish cooking the fish. Transfer to warm plates and drizzle over the pan juices. Scatter the spinach leaves around the fish and serve with the cucumber salad.",
     "Cut the potatoes into 1 cm thick slices. Boil in salted water for 6 minutes until just tender. Drain well then pat dry between sheets of kitchen paper.",
-    "Heat the oil in a large saut&eacute; pan over high heat. Add the potato slices and sprinkle over the turmeric. Toss to coat in the turmeric then season with salt and pepper. Fry for about 3 minutes on each side until lightly golden."
+    "Heat the oil in a large sauté pan over high heat. Add the potato slices and sprinkle over the turmeric. Toss to coat in the turmeric then season with salt and pepper. Fry for about 3 minutes on each side until lightly golden.",
+    "Sprinkle over the mustard seeds then add the butter. Sauté for another 1-2 minutes, tossing and turning the potatoes, until golden and crisp at the edges. Serve immediately."
   ],
   "notes": null,
   "details": [

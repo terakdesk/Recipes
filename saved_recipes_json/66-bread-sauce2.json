@@ -1,15 +1,15 @@
 {
   "title": "Bread sauce 2",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBread sauce 2",
+  "preamble": null,
   "ingredients": null,
   "method": [
-    "To make enough for eight people, halve a large onion and stick cloves into each half (how many you use is a matter of personal taste &ndash; I suggest 15-18.",
+    "To make enough for eight people, halve a large onion and stick cloves into each half (how many you use is a matter of personal taste – I suggest 15-18.",
     "If you don't like them at all, use some freshly grated nutmeg instead). Place the onion halves in a saucepan with a bay leaf, 8 black peppercorns, 1 pint (570 ml) of creamy milk and some salt.",
     "Bring everything up to simmering point, remove from the heat, put the lid on and leave everything to infuse for at least 2 hours.",
     "When you are ready to make the bread sauce, remove the onion, bay leaf and, if you can, the peppercorns, with a draining spoon.",
     "Keep the onion to one side, as you may want to put it back into the finished sauce for extra flavour.",
     "Stir 4 oz (110 g) freshly made white breadcrumbs into the milk and add 1 oz (25 g) butter.",
-    "Stir over a low heat to melt the butter and thicken the sauce slightly &ndash; this will take about 15 minutes.",
+    "Stir over a low heat to melt the butter and thicken the sauce slightly – this will take about 15 minutes.",
     "After that, you can add the onion back in, to give the sauce extra flavour.",
     "Leave the sauce in the pan in a warm place until you are ready to serve it.",
     "Just before serving, remove the onion and spices.",

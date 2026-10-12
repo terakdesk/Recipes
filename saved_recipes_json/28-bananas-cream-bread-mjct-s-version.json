@@ -1,25 +1,25 @@
 {
-  "title": "Bananas &amp; Cream Bread – MJCT’s Version",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBananas &amp; Cream Bread – MJCT’s Version",
+  "title": "Bananas & Cream Bread – MJCT’s Version",
+  "preamble": null,
   "ingredients": [
-    "&frac14; cup water and 1 tablespoon water",
+    "¼ cup water and 1 tablespoon water",
     "3 tablespoons powdered milk",
-    "1&frac12; tablespoons sugar",
-    "1&frac12; teaspoons salt",
-    "1&frac12; tablespoons olive oil",
+    "1½ tablespoons sugar",
+    "1½ teaspoons salt",
+    "1½ tablespoons olive oil",
     "2 medium sized bananas",
-    "&frac34; cup Greek Yogurt",
+    "¾ cup Greek Yogurt",
     "3 cups bread flour",
     "1 packet active dry yeast",
-    "&frac34; cup sultanas"
+    "¾ cup sultanas"
   ],
   "method": [
     "Add all ingredients except the sultanas and bake on normal bread cycle.",
     "At the beeper add the sultanas (29 minutes after start!)."
   ],
   "notes": [
-    "Prev",
-    "Next"
+    "C.Mict02",
+    "26th June 2002"
   ],
   "details": [
     "Written by ethel",

@@ -1,6 +1,6 @@
 {
   "title": "Brown rice and goat's cheese patties",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBrown rice and goat's cheese patties",
+  "preamble": null,
   "ingredients": [
     "3/4 cup medium-grain brown rice",
     "1 1/2 cups water",
@@ -26,7 +26,8 @@
     "Scrape into a large bowl. With wet hands, form the mixture into six 3-inch patties (about 1/2 cup each).",
     "Heat the remaining 2 teaspoons oil in a large nonstick skillet over medium heat.",
     "Add the patties and cook until well browned, 3 to 4 minutes per side.",
-    "Transfer to a baking sheet and bake until an instant-read thermometer inserted into the middle registers at least 160&deg;F, 10 to 15 minutes."
+    "Transfer to a baking sheet and bake until an instant-read thermometer inserted into the middle registers at least 160°F, 10 to 15 minutes.",
+    "Test Kitchen Note: Perfectly cooked rice is not simple. In fact, it's something that we struggle with occasionally in the Test Kitchen. To have the most success cooking whole-grain rice, we recommend using a pan with a tight-fitting lid, cooking on your coolest (or simmer) burner and making sure the rice is simmering at the “lowest bubble.” While testing the recipes that use less than 1 cup of dry rice, we found that the cooking time varied greatly depending on what stove we used. Although whole-grain rice usually requires 50 minutes of cooking, we found smaller volumes of rice were sometimes done in as little as 30 minutes (and burned at 50 minutes). So, when cooking a small batch of rice, start checking it after 30 minutes to make sure it doesn't burn."
   ],
   "notes": null,
   "details": [

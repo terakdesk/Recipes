@@ -1,6 +1,6 @@
 {
   "title": "Pork Pie - Gala",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork Pie - Gala",
+  "preamble": null,
   "ingredients": [
     "For the filling:",
     "1kg boned pork shoulder, skin on",
@@ -27,7 +27,16 @@
     "Season your meat with sage, mace, nutmeg, allspice, pepper and a good 10g of salt. Remember that the pie is a preserved product so this is as much about curing as flavouring.",
     "Mix the meat and seasonings thoroughly by hand and then blitz half the mix in a food processor before recombining. I like chunks of pork in my pies but you can vary proportions here to suit your own taste",
     "Mix 475g of strong flour in a bowl with 7.5g of salt. Melt 100g of lard or dripping in 175g of boiling water ...",
-    "... then pour in the hot liquid and begin combining it with a palette knife."
+    "... then pour in the hot liquid and begin combining it with a palette knife.",
+    "As soon as the dough is cool enough to handle, work it together with your fingers, separate out about a quarter of it and then work both masses into flat round puck shapes. Leave to cool and rest for a few more minutes.",
+    "Meanwhile, place 4 eggs in a pan of cold water, bring to the boil, simmer exactly 4 mins then plunge them into iced water.",
+    "Roll out the dough, fold, turn and reroll until it begins to feel smooth and elastic. Used the large piece to line your pie dish. You can grease it if you think there's not enough fat in this recipe already but it's not remotely necessary. My dish is 16 cm across, 7cm deep with a loose bottom. You shouldn't need a springform as the pie shrinks away from the sides as it cooks and pops out clean.",
+    "Put a thin layer of meat into the bottom of the pie case ...",
+    "... followed by your peeled eggs. Now here's the cunning bit - make a pen mark on the side of the dish on the centre line of one of your eggs.",
+    "Carefully pack more filling around and over your eggs, trying to avoid any air gaps.",
+    "Glue on the lid with egg wash and trim and crimp the edges. Cut a hole in the centre of the pie and, using the back of your knife, mark cutting guides along the centre line of each egg. Finally, egg wash and then bake in a 180C oven for 90 mins.",
+    "Once the pie is thoroughly cool, warm some of the jelly in a pan and pour it slowly trough a funnel to fill the air gap between filling and case. Take your time and keep tapping the pie gently on the bench to expel any air bubbles. Put back in the fridge so the jelly can set.",
+    "Slice neatly through the guide lines in the crust and serve."
   ],
   "notes": null,
   "details": [

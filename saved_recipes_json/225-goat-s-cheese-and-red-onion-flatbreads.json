@@ -1,6 +1,6 @@
 {
   "title": "Goat's cheese and red onion flatbreads",
-  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGoat's cheese and red onion flatbreads",
+  "preamble": null,
   "ingredients": [
     "500g strong white flour, plus extra for dusting",
     "10g salt",
@@ -18,7 +18,11 @@
     "Tip the dough out on to the worktop and knead for 10 minutes or until it is smooth and elastic. If you have a freestanding electric mixer, you can do this with the dough hook, which will take about 6 minutes. Ball the dough up, place it in a floured mixing bowl and cover with a damp tea towel. Leave to rise for 1 hour or until doubled in size.",
     "While the dough is rising, peel the red onions and finely slice them into thin half-moons. Put them in a saucepan with 1 tablespoon of the sunflower oil and place over a medium heat. Allow the onion slices to soften but not colour – about 10 minutes – then add the vinegar and sugar and mix together. Cook slowly for a further 10 minutes, stirring occasionally, until the onions are soft and caramelised.",
     "Remove from the heat and allow to cool completely. Once cooled, crumble the goat’s cheese into small nuggets of about 1cm and stir into the caramelized onions, adding a pinch of salt and pepper to season, and the finely chopped thyme.",
-    "Once the dough has doubled in size, tip it out on to the worktop and knock it back – in other words, knead it briefly to knock out the excess air and return the dough to the smooth elasticity you had before. Divide into 6 balls."
+    "Once the dough has doubled in size, tip it out on to the worktop and knock it back – in other words, knead it briefly to knock out the excess air and return the dough to the smooth elasticity you had before. Divide into 6 balls.",
+    "Take one ball and roll it out on a well-floured surface using a floured rolling pin until it is about 10cm in diameter. Take a sixth of the onion and cheese mixture and place it in the centre of the flatbread. Fold the edges of the flatbread over to cover the filling, then roll this out again, this time into a flatbread of about 18cm in diameter. Repeat with the 5 remaining portions of dough and filling. If you wish to pile the flatbreads up ready for frying, remember to flour each one very well first so they don’t stick together.",
+    "Heat 1 tablespoon of sunflower oil in a heavy frying pan over a high heat. When hot, fry one of the flatbreads for about 1 minute, or until the underside is nicely dark brown. Flip over and fry for another minute.",
+    "Place on a dinner plate, with another plate inverted on top to keep it warm. Quickly but carefully wipe out the pan with a clean, damp dishcloth, return to the heat, add another tablespoon of oil and fry the next flatbread. Do this after frying each one to avoid having a smoky kitchen.",
+    "As the flatbreads are done, stack them up between the plates to keep them warm and soft. Serve as soon as they are all done."
   ],
   "notes": null,
   "details": [

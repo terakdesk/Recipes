@@ -1,6 +1,6 @@
 {
   "title": "Spaghetti Bolognese 1-5",
-  "preamble": "You will notice that this is probably unusual compared to what you might have made previously. For example it uses a combination of minced (ground) and beef and is deceptively easy to produce. The preparation is quick and easy but does require a long cooking time.",
+  "preamble": null,
   "ingredients": [
     "100g butter",
     "200g lean steak mince",
@@ -23,6 +23,7 @@
     "10.While cooking, heat some sauce in a pan",
     "11.Add in noodles (without refreshing) this will retain the starch and help the sauce cling to the noodles, toss around to combine",
     "Serve topped with fresh grated parmesan and some fresh crusty bread",
+    "Chef's Tip",
     "No herbs should be added but some garlic may be added to taste at stage #2"
   ],
   "notes": [
