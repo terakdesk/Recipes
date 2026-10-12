@@ -1,0 +1,33 @@
+name: Run Python Script
+
+# 1. Define what triggers the script
+on:
+  push:
+    branches: [ main ]  # Runs automatically whenever you push code to the main branch
+  workflow_dispatch:   # Allows you to manually click a "Run workflow" button on GitHub
+  schedule:
+    - cron: '0 9 * * *' # Optional: Automatically runs every day at 09:00 UTC
+
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Download your repository code onto the runner machine
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      # Step 2: Install Python environment on the machine
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Change to your preferred Python version
+
+      # Step 3: Install dependencies (optional - uncomment if you have a requirements.txt)
+      # - name: Install dependencies
+      #   run: |
+      #     pip install -r requirements.txt
+
+      # Step 4: Execute your script
+      - name: Execute Python script
+        run: python auto_scraper.py  # Replace "your_script.py" with your actual file name
