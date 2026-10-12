@@ -1,0 +1,32 @@
+{
+  "title": "Brown Bread Ice Cream #2",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBrown Bread Ice Cream #2",
+  "ingredients": [
+    "75 g brown breadcrumbs, (ideally from a wholemeal bloomer)",
+    "60 g brown sugar",
+    "3 large eggs, separated",
+    "1 tbsp whiskey",
+    "270 ml double cream",
+    "75 g icing sugar"
+  ],
+  "method": [
+    "Mix the breadcrumbs and brown sugar together, then spread the breadcrumb mixture evenly out on a baking tray.",
+    "Preheat the grill and grill the breadcrumb mixture for 8 minutes or until dark and caramelised. Set aside to cool.",
+    "Once cool, break the caramelised breadcrumbs into small bite-sized pieces.",
+    "Whisk the egg whites until stiff peaks form.",
+    "In a separate bowl, mix the egg yolks with the whisky. Fold the egg yolk mixture into the whisked egg whites.",
+    "In a separate bowl, whisk the cream and icing sugar together until fluffy.",
+    "Using a metal spoon, fold the whisked cream and the caramelised breadcrumbs into the egg mixture.",
+    "Transfer into a freezer-proof container and freeze for at least 4 hours before serving."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Desserts",
+    "Published: 23 July 2014",
+    "Created: 23 July 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2288"
+  ],
+  "source_file": "73-brown-bread-ice-cream-2.html"
+}

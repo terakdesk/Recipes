@@ -1,0 +1,26 @@
+{
+  "title": "Red onion and chilli relish",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRed onion and chilli relish",
+  "ingredients": [
+    "1 Red onion",
+    "1 Garlic clove",
+    "Small red chilli",
+    "1 Table spoon brown sugar",
+    "2 Table spoon wine vinegar"
+  ],
+  "method": [
+    "Slowly fry onions for 20 mins in olive oil",
+    "Fry chopped garlic and chilli for 5 mins",
+    "Add sugar and vinegar and cook until liquid reduced"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 21 March 2013",
+    "Created: 21 March 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2152"
+  ],
+  "source_file": "455-red-onion-and-chilli-relish.html"
+}

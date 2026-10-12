@@ -1,0 +1,35 @@
+{
+  "title": "Tomato Relish",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tTomato Relish",
+  "ingredients": [
+    "1 onion, sliced",
+    "1 garlic clove, crushed",
+    "1 red chilli, finely chopped",
+    "800g/1lb 12oz chopped tomatoes",
+    "200ml/7fl oz red wine vinegar",
+    "200g/7oz sugar",
+    "salt and freshly ground black pepper",
+    "30g/1&frac12;oz capers in vinegar, rinsed",
+    "30g/1&frac12;oz baby gherkins, chopped",
+    "handful fresh coriander"
+  ],
+  "method": [
+    "Heat the oil in a frying pan and fry the onion, garlic and chilli until soft.",
+    "Add the tomatoes and mix well.",
+    "Add the vinegar and sugar and bring to the boil.",
+    "Simmer for 30 minutes and season with the salt and freshly ground black pepper.",
+    "The relish should be the consistency of jam.",
+    "Stir in the capers and gherkins and the chopped coriander.",
+    "Add more seasoning if required."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 28 October 2012",
+    "Created: 28 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2029"
+  ],
+  "source_file": "575-tomato-relish.html"
+}

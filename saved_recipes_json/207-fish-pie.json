@@ -1,0 +1,24 @@
+{
+  "title": "Fish pie",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tFish pie",
+  "ingredients": null,
+  "method": [
+    "Boil the stock, tomato purée and brandy for 5 minutes, until it has reduced by one third.",
+    "Add the cream, bring back to the boil and cook for one minute, then reduce the heat.",
+    "Stir in the fish, mussels, onion, peas and tarragon, then take off the heat.",
+    "Spoon the mixture into an ovenproof dish and top with the mashed potato.",
+    "Rub the breadcrumbs, cheese and butter together until they form a crumb. Season the mix and then sprinkle onto the pie.",
+    "Cook the pie at 180°C for 10 minutes until crisp and golden.",
+    "Serve the pie with fresh greens and vegetables."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Fish Based",
+    "Published: 19 January 2014",
+    "Created: 19 January 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2395"
+  ],
+  "source_file": "207-fish-pie.html"
+}

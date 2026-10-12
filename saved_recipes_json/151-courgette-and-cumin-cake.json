@@ -1,0 +1,25 @@
+{
+  "title": "Courgette and Cumin Cake",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "ingredients": null,
+  "method": [
+    "Beat the sugar, nectar and butter until the usual creamed stage for any sponge cake is achieved.",
+    "Slowly add the egg a little at a time, then add the courgettes and cumin powder. Finally add the flour and mix until just combined nicely.",
+    "Place in a greased 20cm baking tin and bake for around 35 mins at 160°C, use the usual cake testing methods.",
+    "Leave to cool on a wire rack.",
+    "To make the candied courgettes, mix all ingredients together in a bowl and wait for 15 minutes, drain off the majority of the liquid then place on a non stick backing sheet and leave in a low oven to dry out.",
+    "To serve, cut halfway though the cake and whip some double cream.",
+    "Pipe the cream into the cake and save a little for decoration. Pipe little dots of cream onto the cake top and garnish these with the candied courgette.",
+    "Finally, dust the whole thing with a little icing sugar mixed with a small amount of ground cumin."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Cakes",
+    "Published: 16 July 2017",
+    "Created: 16 July 2017",
+    "Last Updated: 20 October 2017",
+    "Hits: 2367"
+  ],
+  "source_file": "151-courgette-and-cumin-cake.html"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Vinaigrette - curry-ish based",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tVinaigrette - curry-ish based",
+  "ingredients": [
+    "3 tablespoons fresh lime juice",
+    "1 tablespoon fresh orange juice",
+    "1 tablespoon Dijon mustard",
+    "1 teaspoon curry powder, toasted",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "1/2 cup olive oil"
+  ],
+  "method": [
+    "Whisk together any meat juices (if cooking meat for the salad!! ), mustard, curry powder, salt, and pepper, then add oil in a stream, whisking until emulsified."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 22 September 2012",
+    "Created: 22 September 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2288"
+  ],
+  "source_file": "591-curry-vinegrette.html"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Duck Legs Braised in a Tomato Sauce with Lemons &amp; Sumac",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tDuck Legs Braised in a Tomato Sauce with Lemons &amp; Sumac",
+  "ingredients": [
+    "3-4 tbsp olive oil",
+    "2 duck legs",
+    "1 medium onion finely chopped",
+    "2 garlic cloves, peeled and crushed",
+    "a pinch of crushed chilli flakes",
+    "1 tsp sweet paprika powder",
+    "2 tsp sumac",
+    "1 x 400g tinned tomatoes",
+    "1 medium lemon cut into round slices, pips removed",
+    "salt & pepper to taste",
+    "about 700ml chicken stock"
+  ],
+  "method": [
+    "Heat a heavy bottomed pan or casserole with the oil in it.",
+    "Once hot, add the duck legs and brown well on both sides.",
+    "Remove the legs and set aside.",
+    "Add the onions and garlic.",
+    "Saute until the onion is soft.",
+    "Add the spices and mix through.",
+    "Add the tinned tomatoes and lemon slices.",
+    "Season with salt and pepper.",
+    "Add the duck legs back to the pan.",
+    "Pour in enough stock to cover the meat.",
+    "Bring the sauce to a boil, lower the heat to a simmer, cover and cook on low heat for an hour or until the meat is quite tender and almost falling off the bone.",
+    "Check seasoning and add more salt/pepper as required.",
+    "Serve hot with rice, polenta or warm crusty bread."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Duck and other Fowl Based",
+    "Published: 17 April 2014",
+    "Created: 17 April 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2590"
+  ],
+  "source_file": "191-duck-legs-braised-in-a-tomato-sauce-with-lemons-sumac.html"
+}

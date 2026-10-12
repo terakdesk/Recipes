@@ -1,0 +1,27 @@
+{
+  "title": "Raspberry sauce for Duck legs or breast",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRaspberry sauce for Duck legs or breast",
+  "ingredients": [
+    "1/2 cup raspberries",
+    "1/2 teaspoon cinnamon",
+    "1 tablespoon sugar",
+    "1 teaspoon red wine vinegar (nah, balsamic)",
+    "1/2 cup water (nah, red wine)"
+  ],
+  "method": [
+    "In a small pan, combine the raspberries, cinnamon, sugar, vinegar, and water.",
+    "Cook over medium low heat until the berries are soft and the sugar has dissolved.",
+    "Place in a blender and puree until smooth.",
+    "Drizzle the raspberry sauce over duck legs or breasts."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Duck and other Fowl Based",
+    "Published: 02 February 2013",
+    "Created: 02 February 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2854"
+  ],
+  "source_file": "450-raspberry-sauce-for-duck-legs-or-breast.html"
+}

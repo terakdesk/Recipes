@@ -1,0 +1,44 @@
+{
+  "title": "Mince Curry",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMince Curry",
+  "ingredients": [
+    "5 tablespoons vegetable oil",
+    "1 small onion, finely chopped",
+    "1 small clove garlic, minced",
+    "175ml (6 fl oz) water, divided",
+    "1 small tomato, chopped",
+    "1 teaspoon salt, or to taste",
+    "1/2 teaspoon chilli powder",
+    "1/2 teaspoon ground cumin",
+    "1/8 teaspoon ground turmeric",
+    "250g (9 oz) beef mince",
+    "1 (400g) tin black-eyed beans, drained",
+    "1/8 teaspoon garam masala",
+    "1 dessertspoon lemon juice",
+    "handful chopped fresh coriander",
+    "1/2 teaspoon finely chopped green chilli"
+  ],
+  "method": [
+    "Heat oil in a large deep frying pan over medium high heat.",
+    "Add onion, and sauté until light golden, then throw in the garlic, and cook for 1 minute.",
+    "Put in 1/3 of the water and tomato, then season with salt, chilli powder, cumin and turmeric.",
+    "Simmer for 1 minute.",
+    "Add beef and cook for at least 10 minutes, adding another 1/3 of the water when it gets dry.",
+    "When the beef mixture is dry, pour in the black-eyed beans.",
+    "Cook for 3 minutes.",
+    "Stir in the remaining water, and reduce the heat to low.",
+    "Cover and simmer until all of the water has cooked down, and you can see the oil.",
+    "Remove from the heat and mix in the garam masala.",
+    "Transfer to a serving dish and sprinkle the lemon juice, coriander and green chillies over the top."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Beef Based Curry",
+    "Published: 04 March 2014",
+    "Created: 04 March 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2559"
+  ],
+  "source_file": "332-mince-curry.html"
+}

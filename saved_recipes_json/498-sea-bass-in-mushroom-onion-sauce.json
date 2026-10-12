@@ -1,0 +1,33 @@
+{
+  "title": "Sea bass in mushroom, onion sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSea bass in mushroom, onion sauce",
+  "ingredients": [
+    "1 whole sea bass, about 300g",
+    "olive oil",
+    "2 shallots, sliced",
+    "40g button mushrooms, sliced",
+    "½ tbsp white wine vinegar",
+    "200ml veal stock",
+    "½ tbsp butter"
+  ],
+  "method": [
+    "To make the sauce, heat a little olive oil in a pan and cook the shallots for about 5 mins until golden and soft.",
+    "Add the mushrooms and continue to cook for 10 mins, stirring occasionally.",
+    "Add the vinegar and let it come to the boil for 3 mins, then add the stock, season lightly and simmer for 30 mins, skimming at regular intervals.",
+    "Puree the mixture into a thick puree.",
+    "Make a sauce by passing some of the puree through a fine sieve into a clean pan, bring back to the boil and whisk in the butter to thicken and gloss the sauce.",
+    "Heat a non-stick frying pan until smoking hot, add a few drops of oil, then add the fish, skin side down.",
+    "Season with salt and pepper and press the fish down with a palette knife if it begins to curl up.",
+    "Once the skin is well browned, turn the fillets over and cook the other side; the whole process should take no more than 5-6 mins, depending on the thickness of the fish."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Fish Based",
+    "Published: 22 November 2013",
+    "Created: 22 November 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2377"
+  ],
+  "source_file": "498-sea-bass-in-mushroom-onion-sauce.html"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Quarante Quatre 2",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tQuarante Quatre 2",
+  "ingredients": [
+    "1 litre vodka",
+    "1 orange",
+    "44 cloves",
+    "44 white sugar cubes - 175g of granulated sugar",
+    "44 dark roast coffee beans",
+    "1 cinnamon stick"
+  ],
+  "method": [
+    "Pierce the orange 44 times with a sharp fruit knife.",
+    "Stuff 44 cloves into the slashes.",
+    "Add to a large sealable, sterilised jar.",
+    "Add the other ingredients.",
+    "Shake well.",
+    "Move to cool, dark place.",
+    "Shake well daily for 44 days."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Alcoholic",
+    "Published: 15 September 2014",
+    "Created: 15 September 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2307"
+  ],
+  "source_file": "442-quarante-quatre-2.html"
+}

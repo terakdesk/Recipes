@@ -1,0 +1,40 @@
+{
+  "title": "Pasta Sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPasta Sauce",
+  "ingredients": [
+    "Courgette",
+    "1 lemon",
+    "1 triangle of parmesan",
+    "1 big tub of double cream",
+    "Some garlic (couple of cloves would do, or if you're lazy like me, a squirt from a tube of the already squished stuff)",
+    "Some coriander (chop a bunch of the fresh stuff if you like, otherwise, tube it like the rest of us lazy folk)",
+    "Some white wine"
+  ],
+  "method": [
+    "Chop the courgette into bits. Slices work, but so do chunks.",
+    "Put a knob of butter an da little olive oil into the pan, then add the courgette.",
+    "Fry the courgettes for about 5 minutes, flipping them back and forth until the soften slightly in the middle but are gently golden on the outsides.",
+    "Put some cream in a pan and start to warm it up.",
+    "Add the squirt of garlic stuff, a squirt of coriander and a good slosh of white wine. Squeeze a bit of lemon in, then add another slosh of white wine.",
+    "Add some salt and pepper if you want.",
+    "Stir.",
+    "Season to taste.",
+    "Boil the kettle then grab another pan, put some salt and a drizzle of oil into it, then pour the boiling water in and add the pasta.",
+    "When the pasta is ready, drain it and put it back in it's pan.",
+    "Squeeze some lemon juice over it, then shake it around a bit to try and get the lemon juice over most of the pasta.",
+    "Grate some parmesan over the top of the pasta and shake again. The object of this is to wind up with pasta that's got some lemon and some parmesan on each strand. Not necessarily covered, just lightly dressed (I think that's what proper chef types call it).",
+    "Pour the creamy sauce over courgettes."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2241"
+  ],
+  "source_file": "385-pasta-sauce.html"
+}

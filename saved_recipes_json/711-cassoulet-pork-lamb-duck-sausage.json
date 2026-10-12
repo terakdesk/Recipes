@@ -1,0 +1,46 @@
+{
+  "title": "Cassoulet, pork lamb duck sausage",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tCassoulet, pork lamb duck sausage",
+  "ingredients": [
+    "5 tins of haricot beans (much easier than soaking and cooking your own, but if you do, recipes say 500g dried beans)",
+    "25 g butter",
+    "4 tbsps olive oil",
+    "3 large onions, sliced",
+    "6-8 large cloves of garlic",
+    "2 large bulbs of fennel",
+    "500 g belly pork, rind removed",
+    "500 g butterflied leg of lamb",
+    "1 whole duck, quartered (2 legs and 2 breasts) – use the carcass for duck stock; or 4 confit legs of duck",
+    "12 Toulouse-style sausages",
+    "2 tins of tomatoes",
+    "2 tbsps tomato puree",
+    "600 ml white wine or cider or a combination",
+    "1 tbsp chopped fresh rosemary",
+    "1 tbsp fresh thyme leaves",
+    "2 bay leaves",
+    "1 tbsp dried herbes de Provence (I like some dried herbs as well as fresh but these are optional if you don’t)",
+    "1 chicken stock concentrate (optional but it deepens the taste)",
+    "3 tsps green peppercorns (optional)",
+    "10 slices day-old bread, whizzed up into crumbs, with 1 tbsp thyme",
+    "Olive oil to drizzle"
+  ],
+  "method": [
+    "Preheat the oven to 230 C, gas mark 8.",
+    "Brown each of the meats separately, in a large cast iron casserole or large ovenproof saucepan with a lid, using the same olive oil so it builds up some flavour. Start with the duck as it’s so naturally fatty. Place in a bowl as you go.",
+    "Then saute the onions in the same oil until soft and brown. Add the garlic, crushed, and the fennel, sliced. Cook for a further five minutes making sure nothing burns.",
+    "Add the tomatoes, roughly chopped, the tomato puree, the beans, herbs, peppercorns, salt and pepper, and the wine and cider. Bubble up, and add the meats. Top up with stock, or more wine or cider, to just cover the ingredients. Bring to the boil.",
+    "Place in the oven and bake for 30 minutes before turning down the temperature to 140, gas mark 1, and cook for a further three hours.",
+    "Then get out of the oven, taste for seasoning and add a little more wine or a stock concentrate or more herbs if you think you want to get a deeper flavour (I do this sort of tinkering quite a lot – as in Indian cooking when more spices are stirred in at the end). There will be lots of fat floating on the top, but never fear – pour breadcrumbs mixed with thyme over the surface, liberally, and bake for a further 15 minutes or until brown.",
+    "Serve with salad and bread, and lots of red wine."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 19 November 2024",
+    "Created: 19 November 2024",
+    "Last Updated: 19 November 2024",
+    "Hits: 655"
+  ],
+  "source_file": "711-cassoulet-pork-lamb-duck-sausage.html"
+}

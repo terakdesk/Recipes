@@ -1,0 +1,34 @@
+{
+  "title": "Mick Burger",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMick Burger",
+  "ingredients": [
+    "450g ground beef",
+    "1 medium onion",
+    "3 cloves garlic",
+    "1 tablespoon capers",
+    "1 tablespoon fresh parsley, minced",
+    "1 tablespoon prepared mustard",
+    "1 medium pickled gherkin, minced",
+    "salt and pepper to taste"
+  ],
+  "method": [
+    "Finely slice the onion and fry in oil and butter on a very high heat. If the meat is very lean use a good slab of butter. Let the onions brown at the edges but not in the middle.",
+    "Just before the onion is fully cooked at the garlic, finely chopped, and fry until onions complete.",
+    "Remove from heat and frying pan and let them cool.",
+    "Combine ground beef, onions, garlic, capers, mustard, parsley and pickle.",
+    "Gently work together and form into four hamburger patties.",
+    "Season with salt and pepper.",
+    "Place patties on preheated grill and grill until done over a high heat (about 5 minutes).",
+    "Serve on buns with lettuce and tomato slices."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Beef Based",
+    "Published: 07 November 2013",
+    "Created: 07 November 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2297"
+  ],
+  "source_file": "330-mick-burger.html"
+}

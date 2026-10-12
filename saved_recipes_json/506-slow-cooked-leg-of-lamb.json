@@ -1,0 +1,37 @@
+{
+  "title": "Slow cooked leg of lamb",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSlow cooked leg of lamb",
+  "ingredients": [
+    "½ leg of lamb (the thick fillet end) with bone in (about 1Kg/2lb 4oz)",
+    "salt and pepper",
+    "2 red onions",
+    "8 garlic cloves",
+    "4 rosemary sprigs",
+    "4 sage leaves",
+    "2 bay leaves",
+    "400ml/14fl oz white wine",
+    "couple squidges of honey",
+    "1kg/2lb 4oz potatoes, peeled and cut for roasties",
+    "olive oil, for drizzling",
+    "300g/11oz frozen peas"
+  ],
+  "method": [
+    "Remove the lamb from the fridge 30 minutes before cooking (to bring it to room temperature). Preheat the oven to 150C/300F/Gas 2 and make sure the shelves are set to fit a casserole pot and roasting tray in.",
+    "Place the lamb in a big casserole pot and season it really well with salt and pepper. Cut the onions into quarters, keeping the root intact, peel off the skin and throw them in with the (unpeeled) garlic cloves, rosemary sprigs, sage and bay leaves. Pour in the white wine and drizzle the honey over.",
+    "Put the lid on and place the whole thing in the oven, leaving it for about four hours. Set a timer for 2 hours 30 minutes as that’s when you need to add the potatoes.",
+    "When the timer goes, toss the potatoes in a roasting tin with a good drizzle of oil and leave them to sit. (They won’t go brown with the oil on.)",
+    "Season the potatoes with salt and pepper, drizzle a bit more oil on them if they have sucked it all up and place them in the oven for the remaining hour and a half. Give them a toss about every so often.",
+    "Finally, 10 minutes before the meat is ready, throw the peas into the lamb cooking juices.",
+    "Once everything is cooked remove them from the oven. The meat should be falling off the bone and the potatoes crisp and golden brown. There is no need to rest the meat after this long cooking time, so simply dish up and serve."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based",
+    "Published: 04 August 2013",
+    "Created: 04 August 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 1793"
+  ],
+  "source_file": "506-slow-cooked-leg-of-lamb.html"
+}

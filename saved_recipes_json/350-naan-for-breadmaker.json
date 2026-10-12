@@ -1,0 +1,33 @@
+{
+  "title": "Naan for breadmaker",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tNaan for breadmaker",
+  "ingredients": [
+    "&frac12; teaspoon Yeast",
+    "3 cups Flour",
+    "&frac12; teaspoon Sugar",
+    "&frac12; teaspoon Salt",
+    "2 tablespoon Butter",
+    "&frac34; cup Yogurt",
+    "&frac12; cup Water",
+    "4 tablespoons Butter",
+    "4 tablespoons Onions,chopped"
+  ],
+  "method": [
+    "Make sure your oven is well preheated to maximum it will go to.",
+    "Use dough cycle on machine.",
+    "Remove dough from machine and divide into 12 parts.",
+    "Roll each part into a small circle (about 8&quot; diameter) and place on greased pizza or other baking pan.",
+    "Brush top of each one with melted butter and press finely chopped onion into dough.",
+    "Bake 10-15 minutes until puffy and brown."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Breads",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 03 November 2018",
+    "Hits: 3084"
+  ],
+  "source_file": "350-naan-for-breadmaker.html"
+}

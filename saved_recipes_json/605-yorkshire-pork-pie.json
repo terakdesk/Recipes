@@ -1,0 +1,32 @@
+{
+  "title": "Yorkshire Pork Pie",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tYorkshire Pork Pie",
+  "ingredients": [
+    "1lb hot water crust pastry"
+  ],
+  "method": [
+    "Pre-heat oven to gas mark 7",
+    "Make the pastry",
+    "Cut off a quarter of the pastry",
+    "Use the bigger piece to line a spring-form cake tin",
+    "Mix the filling and put ink, packed tightly",
+    "Put the reserved pastry on top, decorate",
+    "Make a hole",
+    "Glaze with egg",
+    "Bake for 15 minutes at gas mark 7",
+    "45 minutes at gas mark 4",
+    "Remove tin and re-glaze",
+    "Bake for 30 minutes at gas mark 4",
+    "Let it cool"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Pies and Puddings",
+    "Published: 14 March 2014",
+    "Created: 14 March 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2565"
+  ],
+  "source_file": "605-yorkshire-pork-pie.html"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Oat and Raisin Biscuits",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tOat and Raisin Biscuits",
+  "ingredients": [
+    "175g/6oz raisins",
+    "1 cup green tea, or Earl Grey",
+    "140g/5oz plain flour",
+    "2 tsp ground cinnamon",
+    "1 tsp salt",
+    "140g/5oz soft brown sugar",
+    "65g/2 ½oz Demerara sugar",
+    "155g/5 ¾oz butter",
+    "1 large egg, beaten",
+    "155g/5 ¾oz rolled oats",
+    "1 tsp vanilla extract"
+  ],
+  "method": [
+    "Put the raisins and tea in a bowl for about 30 minutes to soften. Drain and set aside. Put the flour, cinnamon, salt, butter and sugar in a stand mixer, and beat for 3-5 minutes until fluffy and pale. Scrape down the sides from time to time. Beat in the egg, then the vanilla, oats and raisins by hand. Scoop the mixture out of the bowl and form into a long sausage, about 7cm/2 ½in across. Wrap in cling film and refrigerate until firm.",
+    "Preheat the oven to 170C/325F/Gas 3. Cut the dough sausage into 12 and place each disc on the baking sheet (you may need to work in batches). Place about 4cm apart on the baking sheet — they will expand during cooking.",
+    "Bake for 15 minutes and no more. They should be pale brown, slightly darker at the edges and feel soft when pressed with a finger. Remove from the oven. Cool on a tray for a few minutes then transfer to a rack. You need not make all the biscuits at once, but cut pieces from the dough over a space of 4-5 days — it will keep fresh in the fridge.",
+    "Store the cooked biscuits in a tin or airtight container."
+  ],
+  "notes": [
+    "Prev",
+    "Next"
+  ],
+  "details": [
+    "Written by Super User",
+    "Category: Biscuits",
+    "Published: 20 February 2013",
+    "Created: 20 February 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2102"
+  ],
+  "source_file": "356-oat-and-raisin-biscuits.html"
+}

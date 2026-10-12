@@ -1,0 +1,52 @@
+{
+  "title": "Peking Duck",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPeking Duck",
+  "ingredients": [
+    "1 Peking duck 4 1/2 to 5 lbs head intact",
+    "6 cups Water",
+    "1 teaspoon Honey",
+    "4 tablespoons Rice wine",
+    "2 tablespoons White vinegar",
+    "5 tablespoons Cornstarch slurry mixed with water",
+    "Vegetable oil",
+    "Scallion brushes and Hoisin sauce as accompaniments"
+  ],
+  "method": [
+    "Remove wing tips and feet from duck. Neck skin should be intact with only a tiny hole made about 2 inches above the base of the neck.",
+    "Remove cavity fat and discard.",
+    "Rinse the duck and massage the entire body by rubbing the skin back and forth, loosening it from the meat.",
+    "Make sure skin is not punctured.",
+    "Insert a bicycle pump hose into the neck hole.",
+    "Keep cavity closed as you pump air into the duck -- inflating it until the skin is taut, rubbing and rolling the skin as it is being inflated to distribute air evenly. Hang to dry, in a cool place, for 1 hour.",
+    "In a wok combine the boiling water, honey, rice wine, white vinegar, and cornstarch slurry, and stir until lightly thickened.",
+    "Hold the duck by the hook and dip it in and out of the boiling water, turning it from side to side, while ladling water over the skin.",
+    "Do this until the skin is well coated, about 1 minute.",
+    "Then hang duck up to dry for at least 12 hours or overnight in a draft near a window or other breezy place, spreading paper on floor to catch drippings.",
+    "If no cool area is available, hang duck from back of a chair and blow a fan on it for several hours. (Alternatively, set duck, unwrapped, on a rack with a pan underneath to catch drippings. Refrigerate, turning occasionally.)",
+    "If your oven is large and tall, remove all racks except the top one.",
+    "Preheat the oven to gas mark 7.",
+    "Cover a large pan with aluminium foil to reflect heat and to catch drippings and place the pan in the bottom of the oven.",
+    "Hook the duck vertically over the top rack in the center of the oven over the drip pan.",
+    "Roast for 15 minutes. Reduce heat to gas mark 4 and roast for 1&frac14; hours.",
+    "To finish the duck: Put the duck in a wok with 4 to 6-inches of oil, heated to 180&ordm;C.",
+    "Ladle the oil over duck.",
+    "Cook the duck in this fashion for 2 1/2 minutes per side to crisp the skin.",
+    "Put the duck on a cutting board.",
+    "Disjoint the wings and drumsticks and place them apart at either end of serving platter, outlining the form of a whole duck.",
+    "With a razor-sharp knife carve the skin on the duck with a very thin layer of meat, trying to make slices as large as possible.",
+    "Transfer them to the platter.",
+    "Remove all the meat from the carcass and cut it into strips about 1 to 2 inches long."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Duck and other Fowl Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2249"
+  ],
+  "source_file": "388-peking-duck.html"
+}

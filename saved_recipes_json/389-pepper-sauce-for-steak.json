@@ -1,0 +1,30 @@
+{
+  "title": "Pepper sauce for steak",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPepper sauce for steak",
+  "ingredients": [
+    "1 tbsp butter",
+    "100ml red wine",
+    "1-4 anchovies (mashed)",
+    "2 teaspoons peppercorns",
+    "100ml cream",
+    "1 tablespoon Dijon mustard",
+    "2 tbsp flat-leaf parsley leaves (chopped)"
+  ],
+  "method": [
+    "Heat 1 tablespoon butter in a large heavy-based pan until nut-brown in colour. Fry steaks over medium heat for 2-3 minutes each side or until cooked as desired (2 minutes per side for rare, 3 minutes for medium, 4 minutes for well done). Remove from pan and rest in a warm place.",
+    "Add 100ml red wine to pan with 1-4 mashed anchovies to taste and the peppercorns.",
+    "Stir over a medium heat, scraping the residue from the base. Check seasoning.",
+    "When pan juices are slightly reduced by half add mustard and cream and bring to a high simmer.",
+    "Pour sauce over the steaks and scatter 2 tablespoons chopped flat-leaf parsley leaves on top."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Beef Based",
+    "Published: 13 January 2013",
+    "Created: 13 January 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2073"
+  ],
+  "source_file": "389-pepper-sauce-for-steak.html"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Leftover Pork Stew",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLeftover Pork Stew",
+  "ingredients": [
+    "1 tbsp olive oil",
+    "1 red onion, cut into wedges",
+    "2 leeks, trimmed and thickly sliced",
+    "500g butternut squash, peeled, deseeded and chopped",
+    "175g pearl barley",
+    "1 litre hot chicken stock, made with 1 chicken stock cube",
+    "390g carton Italian chopped tomatoes",
+    "300g leftover roast pork, shredded",
+    "200g leftover broccoli (or any leftover green vegetables)",
+    "3 tbsp fresh sage, washed and chopped, plus a few extra leaves to garnish",
+    "3 tbsp wholegrain mustard"
+  ],
+  "method": [
+    "Heat the oil in a large pan and cook the onion and leeks for 10 minutes. Add the squash and cook for a further 5 minutes. Stir in the pearl barley, chicken stock and tomatoes and bring to the boil. Turn down to a simmer, cover and cook for 30 minutes. Stir in the pork, broccoli and chopped sage and cook for a further 5 minutes.",
+    "Stir in the mustard and season with freshly ground black pepper. Serve garnished with sage."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 06 October 2014",
+    "Created: 06 October 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2260"
+  ],
+  "source_file": "299-leftover-pork-stew.html"
+}

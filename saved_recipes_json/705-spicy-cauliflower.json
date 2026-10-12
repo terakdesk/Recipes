@@ -1,0 +1,33 @@
+{
+  "title": "Spicy cauliflower",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpicy cauliflower",
+  "ingredients": [
+    "1 medium head cauliflower",
+    "3 tablespoons unsalted butter",
+    "1 teaspoon sugar",
+    "1/2 teaspoon fine sea salt, more to taste",
+    "1/2 teaspoon freshly ground black pepper",
+    "1/2 teaspoon hot paprika",
+    "1/2 teaspoon sweet paprika",
+    "1/4 teaspoon cayenne, optional",
+    "1/4 teaspoon turmeric",
+    "1/8 teaspoon ground cinnamon"
+  ],
+  "method": [
+    "Position a rack in the center of the oven and heat to 450 F. Trim and core 1 medium head cauliflower, separating the florets into bite-sized pieces and chopping the core into small cubes or batons.",
+    "In a large pot over medium heat, melt 3 tablespoons butter.",
+    "Remove the pot from the heat and mix in 1 teaspoon sugar, 1/2 teaspoon fine sea salt, 1/2 teaspoon freshly ground black pepper, 1/2 teaspoon hot paprika, 1/2 teaspoon sweet paprika, 1/4 teaspoon cayenne (if using), 1/4 teaspoon turmeric, and 1/8 teaspoon ground cinnamon. Stir until the sugar dissolves completely.",
+    "Add the cut-up cauliflower into the pot. Toss to coat with the spicy butter as evenly as possible.",
+    "Lay the cauliflower pieces in a single layer on a roasting pan or baking sheet. Cook in the oven until browned, sizzling, and tender with crispy bits forming on the edges, approximately 25 minutes. Stir at the halfway point to cook evenly. Serve with your favorite main dishes and enjoy."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 14 August 2024",
+    "Created: 14 August 2024",
+    "Last Updated: 14 August 2024",
+    "Hits: 710"
+  ],
+  "source_file": "705-spicy-cauliflower.html"
+}

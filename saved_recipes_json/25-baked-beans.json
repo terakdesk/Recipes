@@ -1,0 +1,32 @@
+{
+  "title": "Baked Beans",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "ingredients": null,
+  "method": [
+    "If using dried beans then place the beans in a bowl.",
+    "Cover with cold water.",
+    "Soak overnight.",
+    "Drain.",
+    "Place beans in large saucepan and cover with water.",
+    "Bring to the boil, reduce heat and simmer for 60 minutes or until soft.",
+    "Drain beans, reserving &frac12; cup of the cooking liquid.",
+    "Otherwise drain and wash tin of beans.",
+    "In a saucepan, heat oil and cook onion and garlic for 10 minutes until soft.",
+    "Add tomatoes, reserved liquid or &frac12; cup water, Worcestershire sauce, maple syrup and mustard.",
+    "Simmer for a further 30 minutes until thick.",
+    "Liquidise.",
+    "Add beans and cook for 5 mins or so.",
+    "Season with salt and freshly ground pepper.",
+    "Serve the baked beans with crusty toast and wilted spinach."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Bean Based",
+    "Published: 28 June 2012",
+    "Created: 28 June 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2482"
+  ],
+  "source_file": "25-baked-beans.html"
+}

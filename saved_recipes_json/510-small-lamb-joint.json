@@ -1,0 +1,30 @@
+{
+  "title": "Small Lamb Joint",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSmall Lamb Joint",
+  "ingredients": [
+    "1 x 350-400g (12-14oz) lean mini lamb leg or shoulder roasting joint",
+    "450g/1lb new potatoes, quartered",
+    "2 medium onions, peeled and cut into wedges",
+    "6 small garlic cloves",
+    "20ml/4tsp oil",
+    "3 fresh bay leaves, torn"
+  ],
+  "method": [
+    "Preheat the oven to Gas mark 4-5, 180-190°C, 350-375°F.",
+    "Place the potatoes and onions in the base of a non-stick roasting tin. Drizzle with half the oil and sprinkle over the bay leaves.",
+    "To prepare the warm spice mix, in a small bowl mix all the ingredients together with the remaining oil.",
+    "Place the joint on a chopping board and make several slits over the surface then brush with the spice mix all over.",
+    "Place on top of the potatoes and roast uncovered for 35-40 minutes (for medium). Cover the meat with foil if browning too quickly.",
+    "Serve with the potatoes and seasonal vegetables"
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Lamb Based",
+    "Published: 22 September 2013",
+    "Created: 22 September 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2122"
+  ],
+  "source_file": "510-small-lamb-joint.html"
+}

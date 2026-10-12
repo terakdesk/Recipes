@@ -1,0 +1,27 @@
+{
+  "title": "Christmas beetroot starter",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChristmas beetroot starter",
+  "ingredients": [
+    "1tbsp horseradish sauce",
+    "1tbsp low-fat crème fraîche",
+    "6tbsp cooked green, puy or brown lentils",
+    "6 Tesco Finest Sweetfire baby beetroots",
+    "1 x 200g bag beetroot salad leaves or mixed salad leaves",
+    "1 x pack crushed peppercorn smoked mackerel fillets, skin removed and flaked into pieces"
+  ],
+  "method": [
+    "A great match of vibrant, earthy beetroot and strong, oily mackerel - this tasty salad uses a horseradish-spiced crème fraîche dressing and crispy, fresh salad leaves for the perfect quick and easy gluten-free dinner.",
+    "Put the horseradish sauce, crème fraîche, lentils and beetroot in a bowl and gently toss together.",
+    "Arrange the salad leaves on two plates and spoon some of the beetroot mixture over each. Scatter over some flaked mackerel and serve."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 23 November 2024",
+    "Created: 23 November 2024",
+    "Last Updated: 24 December 2024",
+    "Hits: 650"
+  ],
+  "source_file": "712-christmas-beetroot-starter.html"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Dahl – Tarka Dahl",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tDahl – Tarka Dahl",
+  "ingredients": [
+    "300g (90z) Red Lentils washed and drained",
+    "850ml (30fl oz) Vegetable Stock",
+    "4 garlic cloves roughly chopped",
+    "1 medium onion roughly chopped",
+    "2 tomatoes finely chopped",
+    "1 tsp salt",
+    "30g (1oz) butter",
+    "1/4 tsp Cumin Seeds",
+    "1/2 tbsp Garam Masala",
+    "1 tsp Ground Turmeric",
+    "1/4 tsp Asafoetida",
+    "1/4 tsp Chilli Powder",
+    "1/4 tsp Ground Coriander",
+    "1/2 tbsp fresh coriander for garnish"
+  ],
+  "method": [
+    "o Rinse the lentils in a sieve under running water until the water runs clear to remove any dust or powdered lentil. Bring the stock to the boil and add the washed lentils/dal.",
+    "o Add the turmeric and ground coriander, stir and simmer for 20 minutes or until lentils are soft (tip: cook the lentils for as long as you can to ensure softness - you can&rsquo;t over do them). Cook until the stock is absorbed, if they go dry and are not soft, simply add more water.",
+    "o Add the butter to a large frying pan and cook gently with the cumin seeds and asafoetida for a few seconds, add the chopped onions and garlic and fry until the onions just start to brown. When done, add the chopped tomatoes, curry leaves and chilli powder and continue cooking for another few minutes. (This is your Tarka).",
+    "o Add the dal to the tarka and stir well.",
+    "o Continue cooking and add the garam masala and salt (to taste) and stir in well.",
+    "o The finished Tarka Dal should be soft and runny, if required add more water.",
+    "o Serve with a few knobs of butter on top of the dal and sprinkle the fresh coriander leaves on top to garnish.",
+    "o Serve with basmati rice of plain naan/chapatti breads.",
+    "This dish can be made in advance and served the next day and also freezes very well."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by Super User",
+    "Category: Vegey or Lentil Based Curry and Dahls",
+    "Published: 03 July 2012",
+    "Created: 03 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2393"
+  ],
+  "source_file": "180-dahl-tarka-dahl.html"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Moules mariniere with cream, garlic and parsley",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMoules mariniere with cream, garlic and parsley",
+  "ingredients": [
+    "1.75kg/4lb mussels",
+    "1 garlic clove, finely chopped",
+    "2 shallots, finely chopped",
+    "15g/&frac12;oz butter",
+    "a bouquet garni of parsley, thyme and bay leaves",
+    "100ml/3&frac12;fl oz dry white wine or cider",
+    "120ml/4fl oz double cream",
+    "handful of parsley leaves, coarsley chopped",
+    "crusty bread, to serve"
+  ],
+  "method": [
+    "Wash the mussels under plenty of cold, running water. Discard any open ones that won't close when lightly squeezed.",
+    "Pull out the tough, fibrous beards protruding from between the tightly closed shells and then knock off any barnacles with a large knife. Give the mussels another quick rinse to remove any little pieces of shell.",
+    "Soften the garlic and shallots in the butter with the bouquet garni, in a large pan big enough to take all the mussels - it should only be half full.",
+    "Add the mussels and wine or cider, turn up the heat, then cover and steam them open in their own juices for 3-4 minutes. Give the pan a good shake every now and then.",
+    "Remove the bouquet garni, add the cream and chopped parsley and remove from the heat.",
+    "Spoon into four large warmed bowls and serve with lots of crusty bread."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Fish Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2358"
+  ],
+  "source_file": "337-moules-mariniere-with-cream-garlic-and-parsley.html"
+}

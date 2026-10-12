@@ -1,0 +1,41 @@
+{
+  "title": "Polenta - fried",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPolenta - fried",
+  "ingredients": [
+    "For the polenta",
+    "4 tbsp olive oil",
+    "1 garlic clove, chopped",
+    "1 red chilli, deseeded and finely chopped, OR a good pinch of dried chilli flakes",
+    "1 tbsp finely chopped rosemary",
+    "150g quick-cook polenta",
+    "100g strong Cheddar or well-flavoured, hard goat&rsquo;s cheese, grated",
+    "Sea salt and freshly ground black pepper",
+    "For the sauce",
+    "2 tbsp olive oil",
+    "3 spring onions, chopped",
+    "1 garlic clove, crushed",
+    "140g/5oz cherry tomatoes, halved",
+    "3 fresh basil leaves, chopped",
+    "1 slice prosciutto, chopped",
+    "40g/1&frac12;oz mozzarella chopped",
+    "2 large handfuls spinach"
+  ],
+  "method": [
+    "To make the polenta, heat 2 tablespoons of the olive oil in a frying pan over a medium-low heat. Add the garlic and chilli and sweat gently for a couple of minutes &ndash; don&rsquo;t let the garlic colour. Add the rosemary and remove from the heat.",
+    "Pour 800ml water into a saucepan and bring to the boil. Now pour in the polenta in a thin stream, stirring all the time. When smooth, allow it to return to a simmer. Cook for 4&ndash;5 minutes, stirring often, and then remove from the heat.",
+    "Stir in the garlic, chilli and rosemary mixture, and then add the grated cheese and a generous amount of salt and pepper. Mix well.",
+    "Tip the polenta on to a cold surface, such as a plate or a marble slab, and spread it smoothly into an even disc, about 2cm thick. Leave to cool completely.",
+    "When the polenta is cool and firm, cut into slices or wedges. Heat the remaining 2 tablespoons olive oil in a non-stick pan over a medium-high heat and fry the polenta pieces for 2&ndash;3 minutes each side, until they have a light, golden brown crust.",
+    "Serve topped with the hot tomato sauce."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Vegey extras, dips and hummus",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2353"
+  ],
+  "source_file": "410-polenta-fried.html"
+}

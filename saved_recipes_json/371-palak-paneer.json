@@ -1,0 +1,45 @@
+{
+  "title": "Palak Paneer",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPalak Paneer",
+  "ingredients": [
+    "1 kg spinach",
+    "250 gms of cottage cheese (cut cubes and lightly fried till brown in a tsp of clarified butter)",
+    "1 tsp cumin seed",
+    "3 to 4 bay leaf",
+    "4 tomatoes (blanched in hot water, peeled and pureed)",
+    "2 onions",
+    "1 inch piece of ginger",
+    "7-8 garlic flakes",
+    "2 green chili",
+    "Pinch of sugar granules",
+    "1/2 tsp salt",
+    "1/2 tsp turmeric powder",
+    "3/4 tsp red chili powder",
+    "1/2 tsp coriander powder",
+    "3/4 tsp garam masala",
+    "3/4 tsp dry mango powder",
+    "3 tsp oil",
+    "1 tsp butter",
+    "1 tsp fresh cream"
+  ],
+  "method": [
+    "Remove spinach leaves from stem and wash leaves well.",
+    "Take 2 glasses of water when it starts to boil, then add spinach, onions, green chili, garlic and ginger with a pinch of sugar granules to it. Let it boil for 10-15 minutes.",
+    "Switch of the heat and let the spinach cool down.",
+    "Blend the spinach mixer in a blender and make a thick spinach paste.",
+    "Heat a heavy bottomed wok; add oil and butter to it, when the oil is hot add cumin seed and bay leaves. When a cumin seed starts to crackle add the tomato paste and let it cook for 5-6 minute on medium heat. Then add spinach paste along with spices like turmeric powder, red chili powder, coriander powder, garam masala and dry mango powder; let it cook further for another 5 minute.",
+    "Add the fried pieces of cottage cheese and mix it well. Cook and cover on low heat for 4-5 minute.",
+    "Take it out in a serving bowl and garnish with fresh cream.",
+    "Serve hot with rotis or steamed rice."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Vegey or Lentil Based Curry and Dahls",
+    "Published: 09 January 2013",
+    "Created: 09 January 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2211"
+  ],
+  "source_file": "371-palak-paneer.html"
+}

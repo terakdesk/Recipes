@@ -1,0 +1,20 @@
+{
+  "title": "Potato - parmesan roasted spuds",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPotato - parmesan roasted spuds",
+  "ingredients": [
+    "Serves: 6675g unpeeled potatoes, cut into 2.5cm chunks2 tablespoons olive oil1 teaspoon sea salt1/4 teaspoon black pepper40g grated Parmesan cheese1/4 teaspoon dried thyme leaves"
+  ],
+  "method": [
+    "Prep: 10 mins Cook: 1 hourPreheat an oven to 200 C / Gas 6. Place the potatoes into a mixing bowl and drizzle with olive oil. Sprinkle with sea salt, black pepper, Parmesan cheese and thyme leaves. Toss to evenly coat and transfer to a 23x33cm or similar sized baking dish. Bake in the preheated oven until the potatoes are golden brown on the edges and tender when pierced with a fork, about 1 hour. Serve hot or at room temperature."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Michel",
+    "Category: Second course",
+    "Published: 14 November 2012",
+    "Created: 14 November 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2579"
+  ],
+  "source_file": "431-potato-parmesan-roasted-spuds.html"
+}

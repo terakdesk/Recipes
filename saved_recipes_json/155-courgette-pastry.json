@@ -1,0 +1,36 @@
+{
+  "title": "Courgette pastry",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tCourgette pastry",
+  "ingredients": [
+    "500g puff pastry",
+    "1 medium egg, beaten",
+    "200g full-fat soft cheese",
+    "1 lemon, juiced",
+    "4 tbsp parmesan, freshly grated",
+    "60g frozen petits pois",
+    "2 courgettes, trimmed and peeled into ribbons",
+    "6 spring onions, roughly sliced at an angle",
+    "Mozzarella cheese, grated or finely chopped",
+    "1 tbsp extra virgin olive oil"
+  ],
+  "method": [
+    "Preheat the oven to Gas Mark 6.",
+    "Roll out the pastry into a large rectangle ½cm thick. Cut to a 30cm x 21cm rectangle and use a knife to mark out a border about 2½cm from the edge.",
+    "Using a sharp knife, mark a lattice pattern on the borders, then brush with the egg. Place on a baking tray in the fridge.",
+    "Meanwhile, lightly mix together the soft cheese, lemon juice and 2 tbsp parmesan in a bowl.",
+    "Season with plenty of freshly ground black pepper, then spread over the pastry.",
+    "Press the peas into the tart and pile on the courgette ribbons.",
+    "Scatter the spring onions and the grated mozzarella over the top.",
+    "Brush with the oil, then bake for 20-25 minutes until golden and risen. Serve warm or cold."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Vegey Meals",
+    "Published: 18 July 2017",
+    "Created: 18 July 2017",
+    "Last Updated: 20 October 2017",
+    "Hits: 2311"
+  ],
+  "source_file": "155-courgette-pastry.html"
+}

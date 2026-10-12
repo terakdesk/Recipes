@@ -1,0 +1,25 @@
+{
+  "title": "Goats Cheese Salad",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGoats Cheese Salad",
+  "ingredients": null,
+  "method": [
+    "Pre-heat the oven to Gas Mark 8",
+    "Begin this by roasting the onions: first you need to mix the sugar and vinegar together in a large bowl and give it a good whisk, then leave it to one side for 10 minutes or so for the sugar to dissolve.",
+    "Meanwhile, peel the onions, then, leaving the root intact, cut each one into 8 sections through the root, so in half first and then each half into 4. Then add the onions and oil to the vinegar and sugar mixture and toss them around so they get a good coating.",
+    "After that, spread them out on the baking tray, pouring the rest of the dressing over and season well. Now place them on a high shelf in the oven and cook for 15 minutes; after that turn them over and give them another 15 minutes.",
+    "Towards the end of the cooking time, check them and remove and set aside any that are in danger of over-blackening. Continue to cook the rest till they are all fairly dark, then remove them from the oven and set aside – they're not meant to be served hot.",
+    "When you are ready to serve the salad, pre-heat the grill to its highest setting for at least 10 minutes. Then make the vinaigrette dressing by first crushing the garlic and salt to a creamy paste in a pestle and mortar, then work in the mustard.",
+    "Now switch to a whisk and add the vinegars and oil, then season with freshly milled black pepper.",
+    "Next slice each goats' cheese in half so you have 4 rounds, season these with freshly milled black pepper."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Vegey extras, dips and hummus",
+    "Published: 04 August 2014",
+    "Created: 04 August 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2182"
+  ],
+  "source_file": "228-goats-cheese-salad.html"
+}

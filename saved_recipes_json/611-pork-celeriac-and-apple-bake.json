@@ -1,0 +1,29 @@
+{
+  "title": "Pork, celeriac and apple bake",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork, celeriac and apple bake",
+  "ingredients": [
+    "1/2 celeriac head",
+    "3 tbsp olive oil",
+    "4 garlic cloves, thinly sliced",
+    "1 lemon, zested",
+    "salt and pepper",
+    "2 Granny Smith apples, cored and thinly sliced (no need to peel)",
+    "3 rosemary sprigs",
+    "2 pork chops"
+  ],
+  "method": [
+    "Preheat the oven to gas 4, 180°C, fan 160°C. Cut the celeriacin half and place it cut-side down on a chopping board. Use a knife to cut off the peel, then cut in half again and slice the celeriac as thinly as you can – the thinner it is, the quicker it will cook.",
+    "Pour 1 tbsp olive oil on to a baking tray and layer the celeriac all over its base. Scatter the sliced garlicand lemon zest, sprinkle over salt and pepper and then layer the apple slices on top.",
+    "Scrunch up the rosemary sprigs in your hands to release the oils and scatter them around the apples. Place the pork chops on top of the apples and season again with salt and pepper. Pour over the rest of the oil. Cook for 25-30 minutes or until the celeriac is soft and the pork is cooked through."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Pork Based",
+    "Published: 28 October 2017",
+    "Created: 28 October 2017",
+    "Last Updated: 28 October 2017",
+    "Hits: 2352"
+  ],
+  "source_file": "611-pork-celeriac-and-apple-bake.html"
+}

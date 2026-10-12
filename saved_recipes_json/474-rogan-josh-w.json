@@ -1,0 +1,31 @@
+{
+  "title": "Rogan josh 2",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRogan josh 2",
+  "ingredients": null,
+  "method": [
+    "makes a nice hot curry. Feel free to cut the chilli by half if you're scared – or double it if you want a vindaloo experience! Just remember to cook it nice and slow.",
+    "Mix your ginger and garlic together. Put them in a bowl that's big enough to fit all the cubed lamb in. Add the turmeric, yoghurt and black pepper to the bowl and mix together. Tip the lamb into the bowl and stir it around until it's well coated with the yoghurt and spices.",
+    "Cover and leave overnight in the fridge to marinate.",
+    "Preheat your oven to 170ºC/325ºF/gas 3.",
+    "Chop your onions and peppers roughly and whiz them in a food processor with the fresh red chillies.",
+    "Put the pan you are going to cook the curry in on the medium heat and add the cardamom, cloves, cinnamon and coriander. Toast until they go a shade darker in colour, then pour into a pestle and mortar and grind up with the dried red chillies.",
+    "Keep the pan on the heat and add a splash of vegetable oil.",
+    "Add the whizzed onion, peppers and chilli paste from the food processor.",
+    "After a few minutes,as the onions are softening, add the ground up spices and paprika.",
+    "Cook over a gentle heat for about 10 minutes.",
+    "Add the tomatoes, the marinated lamb and half a pint of water, and stir well.",
+    "When the curry comes to the boil add the salt, cover tightly with a lid and place in your preheated oven.",
+    "You can basically forget about it now, as all the hard work is done. Just wait 2 hours and carefully take the pot out of the oven.",
+    "Taste it, and if it needs salt, add a little; if it's too hot, add a little yoghurt to cool it down."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based Curry",
+    "Published: 17 October 2013",
+    "Created: 17 October 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2603"
+  ],
+  "source_file": "474-rogan-josh-w.html"
+}

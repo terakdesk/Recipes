@@ -1,0 +1,23 @@
+{
+  "title": "1. New Formatting Codes 10th Jan 13",
+  "preamble": "There are five heading types:\n\nStart\n\nIngredients\n\nMethod\n\nNotes\n\nC . M i c t x x\n\nUse image tags as normal but image.css and width = 24vw will be added.\n\nImages can be inserted by using:\n\ns r c = 'http://.....jpg'\n\n------------------------------------------------------------------------\n\nA Plus sign does this.\n\nNo prefix does this\n\nA u and /u tag pair does this\n\nDo not use a h1 tag pair to create a bold heading. BING WILL ONLY ACCEPT ONE h1 per page SO USE h5 instead.\n\nA semicolon does this\n\n.\n\nAn equals does this\n\n.",
+  "ingredients": [
+    "Ingredients - a h2 tag does this - ie ie same as #"
+  ],
+  "method": [
+    "Method - a h2 tag does this - ie ie same as #"
+  ],
+  "notes": [
+    "Note - a h2 tag does this - ie ie same as #",
+    "A Plus sign does this."
+  ],
+  "details": [
+    "Written by Super User",
+    "Category: Informative",
+    "Published: 19 July 2012",
+    "Created: 19 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2680"
+  ],
+  "source_file": "7-7.html"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Devilled Kidney",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tDevilled Kidney",
+  "ingredients": [
+    "The devil sauce will actually improve if made in advance.",
+    "8 lambs kidneys",
+    "2 teaspoons Worcestershire sauce",
+    "1 tablespoon tomato puree",
+    "1 tablespoon lemon juice",
+    "1 tablespoon French mustard",
+    "pinch cayenne pepper",
+    "25g butter",
+    "sea salt and freshly ground black pepper",
+    "1 tablespoon freshly chopped parsley to garnish"
+  ],
+  "method": [
+    "Remove the skin from the kidneys, cut them in half and cut away the cores.",
+    "Mix together the Worcestershire sauce, tomato puree, lemon juice, mustard, cayenne pepper, salt and pepper and reserve.",
+    "Heat the butter in a frying pan over a moderate heat and cook the kidneys for about three minutes on each side.",
+    "Pour the devil sauce over the kidneys, then quickly stir so that they are evenly coated.",
+    "Serve immediately with roasted tomatoes, sprinkled with chopped parsley and garnished with toasted triangles."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Breakfast",
+    "Published: 08 July 2012",
+    "Created: 08 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2474"
+  ],
+  "source_file": "184-devilled-kidney.html"
+}

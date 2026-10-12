@@ -1,0 +1,37 @@
+{
+  "title": "Cheese - my version Jan 2013",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tCheese - my version Jan 2013",
+  "ingredients": [
+    "400ml greek yoghurt",
+    "2l Whole Milk",
+    "6 tablespoons of lemon juice",
+    "1 heaped teaspoon citric acid"
+  ],
+  "method": [
+    "Put milk in a very large pan and heat slowly to 31 degC.",
+    "Add all of the yoghurt.",
+    "Stir and bring back to 31 degC then leave for 45 minutes keeping at 29 to 31 degC.",
+    "Stir the milk and add lemon juice stirring all the time. Mix the citric acid in a little water and add to the milk. Stir continuously for 1 minute with a whisk.",
+    "Leave to stand for 45 minutes maintaining temperature at 29 to 31 degC until a clean break is achieved.",
+    "You can start testing after 20 minutes. If necessary, add more lemon juice.",
+    "A clean break is when a cut doesn’t heal but fills with green whey.",
+    "When a clean break is achieved cut down and across to form ½ inch columns of curd. Leave to stand for 10 minutes.",
+    "Stir gently and intermittently for 20 minutes to keep the curds apart.",
+    "Then let the curds rest for 5 minutes and they should sink to the bottom.",
+    "Remove 1.5 litres of whey with a spoon.",
+    "Add back 1.5 litres of water at 55 degC and test that the mixture has a temperature of 38 degC. Gently apply heat if needed.",
+    "Stir gently and intermittently for 30 minutes breaking any large lumps of curd.",
+    "Then leave to settle for 5 minutes.",
+    "Drain off whey until curds are only just covered."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Cheese Manufacture",
+    "Published: 29 January 2013",
+    "Created: 29 January 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2204"
+  ],
+  "source_file": "95-cheese-my-version-jan-2013.html"
+}

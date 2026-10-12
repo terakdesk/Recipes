@@ -1,0 +1,38 @@
+{
+  "title": "Baked Monkfish with Mushrooms and Potatoes",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBaked Monkfish with Mushrooms and Potatoes",
+  "ingredients": [
+    "1 lb Monkfish",
+    "4 small red potatoes, cut into cubes",
+    "1 cup dried mushrooms",
+    "&frac12; cup dry white wine",
+    "&frac12; tsp ground ginger",
+    "1 Tbsp soy sauce",
+    "3 Tbsp butter, melted",
+    "1 cup mushrooms, sliced",
+    "1 small onion, diced",
+    "1-2 cloves garlic, minced"
+  ],
+  "method": [
+    "Heat oven to gas mark 9.",
+    "Blanch potatoes in boiling water for 5 minutes. Drain.",
+    "In a small bowl, soak mushrooms in wine for 20-25 minutes. Remove mushrooms discarding tough stems. Mix in ginger and soy sauce to wine. Set aside.",
+    "Filleting the monkfish tail: cut away the thin membrane covering the outside of the fish; cut along one side of the central bone to remove the fillet; repeat on the other side to release the second fillet.",
+    "In a large roasting pan, add butter. Mix in potatoes, mushrooms, onion, and garlic. Roast in oven for about 15 minutes.",
+    "Season Monkfish with salt and pepper. Add fillets to roasting pan placing fillets over potato mixture.",
+    "Pour wine mixture over fillets.",
+    "Cover roasting pan and cook 12-15 minutes or until fish flakes easily with a fork."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Fish Based",
+    "Published: 28 June 2012",
+    "Created: 28 June 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 3526"
+  ],
+  "source_file": "26-baked-monkfish-with-mushrooms-and-potatoes.html"
+}

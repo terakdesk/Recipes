@@ -1,0 +1,36 @@
+{
+  "title": "Sausage and fennel",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSausage and fennel",
+  "ingredients": [
+    "8 pork sausages",
+    "1 onion - thickly sliced",
+    "3 cloves garlic - minced",
+    "6 tomatoes - chopped",
+    "1/2 fennel bulb",
+    "1 desertspoonful tomato puree",
+    "3 medium carrots - diced",
+    "1 tin flageolet beans",
+    "1 red sweet pepper",
+    "1/2 pint chicken stock",
+    "1 glass of red or white wine"
+  ],
+  "method": [
+    "Pre-heat the oven to Gas Mark 5.",
+    "Fry sausages and put aside.",
+    "Fry onions until soft, add garlic, carrot, tomato puree and fennel and fry for a couple of minutes.",
+    "Add a glass of white or red wine and let it simmer for a couple of minutes.",
+    "Add tomatoes and heat through.",
+    "Add stock, beans and sweet pepper. Add back the sausages.",
+    "Bring to simmer then put in oven for 45 minutes."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Pork Based",
+    "Published: 04 December 2012",
+    "Created: 04 December 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2190"
+  ],
+  "source_file": "489-sausage-and-fennel.html"
+}

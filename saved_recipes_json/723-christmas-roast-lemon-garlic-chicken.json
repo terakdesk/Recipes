@@ -1,0 +1,41 @@
+{
+  "title": "Christmas Roast Lemon Garlic Chicken",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChristmas Roast Lemon Garlic Chicken",
+  "ingredients": [
+    "50g butter",
+    "softened",
+    "bunch fresh thyme",
+    "or lemon thyme, leaves picked, stalks reserved, plus extra to serve",
+    "4 garlic cloves",
+    "1 mashed, the other 3 left whole but squashed",
+    "2 lemons",
+    "halved",
+    "1 chicken",
+    "about 1.5kg",
+    "2 carrots",
+    "roughly chopped",
+    "1 onion",
+    "roughly chopped",
+    "2 bay leaves",
+    "1 tbsp plain flour",
+    "250ml chicken stock",
+    "splash soy sauce",
+    "(optional)"
+  ],
+  "method": [
+    "Heat oven to 200C/180C fan/gas 6. In a small bowl, mash the butter with one-third of the thyme leaves, the mashed garlic and the juice of half a lemon. Mix everything together with some seasoning and set aside.",
+    "Use your hand to loosen the chicken skin away from the breast, then push most of the butter mix into the gap. Rub the rest of the butter all over the outside of the chicken, then stuff the cavity with the lemon halves, remaining thyme leaves and stalks, and the garlic.",
+    "Scatter the chopped carrot, onion and bay leaves over the base of a small roasting tin. Sit the chicken on top, breast-side up, and roast on the middle shelf for 1 hr 30 mins, basting with the buttery juices after about 40 mins. When the chicken is dark golden, crispy-skinned and the juices run clear, remove from the oven and leave in the tin for 5 mins. Use a pair of tongs to pull the lemons, garlic and thyme out of the cavity and into the tin. Lift the chicken up, letting any juices dribble into the tin, and transfer the chicken to a serving platter to rest for at least another 15 mins.",
+    "To make the gravy, squeeze the juice out of the cooked lemon halves and discard the skins. Place the tin on a low heat, stir in flour and sizzle until light brown. Gradually pour in the stock and cook for a few mins. If you like a darker gravy, add a splash of soy sauce to the tin. Strain the gravy into a jug and serve with the chicken."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 08 November 2025",
+    "Created: 08 November 2025",
+    "Last Updated: 08 November 2025",
+    "Hits: 245"
+  ],
+  "source_file": "723-christmas-roast-lemon-garlic-chicken.html"
+}

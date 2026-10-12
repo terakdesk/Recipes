@@ -1,0 +1,33 @@
+{
+  "title": "Olive oil chocolate mousse",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tOlive oil chocolate mousse",
+  "ingredients": [
+    "2 tbsp flaked almonds",
+    "125g dark chocolate (70% cocoa solids)",
+    "1 tbsp caster sugar, plus more if needed",
+    "3 tbsp mild-tasting extra-virgin olive oil",
+    "120ml double cream",
+    "Pinch of fine salt",
+    "¼ tsp vanilla extract",
+    "Finely grated zest of ½ orange, plus more to serve (optional)"
+  ],
+  "method": [
+    "Gently stir the flaked almonds in a dry pan over a medium heat until lightly toasted. Set aside.",
+    "In a bain-marie or a heatproof bowl set over a pan of just simmering water, melt the chocolate and sugar together, stirring. Don’t allow the bowl to touch the water or the chocolate will overheat. Once the chocolate has just melted, mix in the oil and remove from the heat.",
+    "Whip the cream until it forms soft peaks when you lift the beaters from the bowl. Allow the chocolate to cool slightly, but don’t allow it to set.",
+    "Stir in the salt, vanilla extract, orange zest (if using) or any other flavourings of your choice.",
+    "Gently fold the chocolate mixture into the whipped cream with a metal spoon, being careful not to knock the air out of the cream. Taste to check it is sweet enough and add a little more sugar if necessary.",
+    "Scoop spoonfuls of the mousse into 4 ramekins or individual serving dishes and place in the fridge to chill for 30 minutes.",
+    "Scatter with the almonds just before serving, adding orange zest if you included it in the mousse."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Desserts",
+    "Published: 24 August 2014",
+    "Created: 24 August 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2205"
+  ],
+  "source_file": "358-olive-oil-chocolate-mousse.html"
+}

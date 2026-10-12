@@ -1,0 +1,23 @@
+{
+  "title": "Chicken and Ham Pie with Sweetcorn and Peas",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "ingredients": null,
+  "method": [
+    "Lay the chicken breasts in a large frying or saute pan and pour over the stock. Heat gently until just bubbling, cover with a lid (or use a baking sheet) and poach until completely cooked, about 20 minutes. Remove the chicken to a plate and pour the stock into a jug.",
+    "Melt the butter in the frying pan and fry the onion and celery until soft but not coloured, about 10 minutes.",
+    "Add the flour and stir for two minutes so it coats the vegetables. Pour in the reserved stock and any juices from the cooling chicken, a little at a time and stir until you have a thick sauce.",
+    "Slowly pour in the milk and bring the mixture to the boil, stirring continuously. Reduce the heat and simmer for 1-2 minutes.",
+    "Remove from the heat and stir in the lemon juice, parsley and pepper. (Note: If you&rsquo;ve used the Swiss Boullion powder or a stock cube, taste before adding salt. Ham can also be salty so there may be enough without adding more.)",
+    "Chop or shred the chicken into bite-size pieces and place in a baking dish or casserole along with the ham, corn and peas. Pour over the sauce and fold together until well combined. Set aside to cool."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Chicken Based",
+    "Published: 02 July 2012",
+    "Created: 02 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2591"
+  ],
+  "source_file": "102-chicken-and-ham-pie-with-sweetcorn-and-peas.html"
+}

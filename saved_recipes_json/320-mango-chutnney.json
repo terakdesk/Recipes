@@ -1,0 +1,34 @@
+{
+  "title": "Mango chutnney",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMango chutnney",
+  "ingredients": [
+    "8 mangoes, slightly under-ripe (total weight about 6 lb/2.7 kg)",
+    "1½ lb (700 g) soft light brown sugar",
+    "1 level teaspoon cumin seeds",
+    "2 heaped teaspoons coriander seeds",
+    "12 cardamom pods",
+    "1 level teaspoon cayenne pepper",
+    "1 level teaspoon ground turmeric",
+    "4 oz (110 g) fresh root ginger, peeled and grated",
+    "1 level teaspoon ground cloves",
+    "32 fl oz (800 ml) malt vinegar",
+    "8 cloves garlic, peeled and crushed with 2 heaped teaspoons salt in a pestle and mortar",
+    "2 Spanish onions, peeled and finely chopped"
+  ],
+  "method": [
+    "Begin this recipe a day ahead by preparing the mangoes. The easiest way to do this is to peel them using a potato peeler, then with a small sharp paring knife, cut wedges out of them, each about ½ inch (1 cm) thick. This is very easy – cut through to the large stone as if you were segmenting oranges, do it over a large bowl and let the pieces drop into it. If any of the flesh remains clinging to the stone, scrape it off to join the rest of the mangoes. Then sprinkle the sugar over the fruit in the bowl, turning it lightly to distribute the sugar evenly, then cover with clingfilm and leave it in a cool place overnight.",
+    "Next day begin by pre-heating a small frying pan then dry-roast the cumin, coriander and cardamom pods for a couple of minutes to draw out their full flavour. Then crush them with a pestle and mortar – the cardamom pods will separate from the seeds, but put the whole lot (pods as well) into the preserving pan together with all the other ingredients, including the mangoes and their syrup.",
+    "Now bring everything up to a gentle simmer and let it simmer for about 3 hours, stirring from time to time, until the mango becomes translucent and the liquid has almost evaporated, leaving behind a thick syrup. You will need to do a bit more stirring from time to time at the end to prevent it catching.",
+    "After that remove the chutney from the heat, let it cool for 15 minutes then ladle it into warm sterilized jars, using a funnel. Seal whilst the chutney is still hot and label when cold. Now you're going to have to forget all about it for 8 weeks so that it can mellow and mature."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 30 December 2012",
+    "Created: 30 December 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 1866"
+  ],
+  "source_file": "320-mango-chutnney.html"
+}

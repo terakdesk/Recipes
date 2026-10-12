@@ -1,0 +1,29 @@
+{
+  "title": "Yorkshire Pudding Jamie",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tYorkshire Pudding Jamie",
+  "ingredients": [
+    "3 eggs",
+    "115g, 4 oz plain flour",
+    "1 pinch sea salt",
+    "285ml, half a pint of milk",
+    "12 tablespoons vegetable oil"
+  ],
+  "method": [
+    "Whisk the eggs, flour, salt, and milk together really well in a bowl to make your batter.",
+    "Pour the batter into a jug, and let it sit for 30 minutes before you use it.",
+    "Turn your oven up to the highest setting, and place a 12 tart tray in the oven to heat up for 5 minutes.",
+    "Place 1 tb of oil (lard is better) in each muffin hole, and put the tray back into the oven and heat until oil is very hot.",
+    "Open oven door, slide the tray half out, and carefully pour the batter into the tray's holes.",
+    "Close the door and cook for 15 minutes without opening the oven door."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 22 September 2024",
+    "Created: 22 September 2024",
+    "Last Updated: 22 September 2024",
+    "Hits: 731"
+  ],
+  "source_file": "708-yorkshire-pudding-jamie.html"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Hot Chocolate Sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tHot Chocolate Sauce",
+  "ingredients": [
+    "8 ounces semisweet chocolate, chopped",
+    "3/4 cup milk",
+    "1 cup heavy cream",
+    "2 tablespoons butter",
+    "1 teaspoon vanilla, or other flavoring extract of choice"
+  ],
+  "method": [
+    "Place the chocolate in a medium mixing bowl and set aside.",
+    "In a medium saucepan combine the milk, heavy cream, and butter and cook over medium high heat until the mixture just comes to a boil.",
+    "Remove from the heat and pour over the chocolate. Allow mixture to sit, undisturbed, for 1 to 2 minutes.",
+    "Whisk mixture until all chocolate melts and the sauce is very smooth. Whisk in vanilla and serve immediately, or place in a heat-proof bowl and cover the surface with plastic wrap to prevent a skin from forming.",
+    "When the mixture is cool, refrigerate for up to 3 weeks. Mixture may be reheated gently as needed, or microwaved for 30-second intervals until the sauce melts."
+  ],
+  "notes": [
+    "Prev",
+    "Next"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Desserts",
+    "Published: 16 October 2012",
+    "Created: 16 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2116"
+  ],
+  "source_file": "255-hot-chocolate-sauce.html"
+}

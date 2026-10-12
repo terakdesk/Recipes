@@ -1,0 +1,29 @@
+{
+  "title": "Noodles in a sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tNoodles in a sauce",
+  "ingredients": [
+    "200 gm fresh egg noodles",
+    "120 gm bean sprouts, trimmed heads and tails",
+    "40 gm chives, chopped in 3-inch length",
+    "½ onion, shredded",
+    "shredded ginger, to taste",
+    "1 shallot, sliced",
+    "sesame seeds, toasted, for garnish"
+  ],
+  "method": [
+    "Combine all the ingredients of sauce well. Make sure the sugar is dissolved completely. Set aside.",
+    "Blanch the noodles in boiling water according to the package instructions. I only cooked the noodles for about 1 to 2 minutes. Don’t over cook it as you don’t want your noodles turn mushy. Use a pair of chopsticks to help loosen the noodles. Drain well. Set aside.",
+    "Heat oil in a wok over high heat. Quickly stir fry the bean sprouts and chives until slightly softened. Dish up and set aside.",
+    "Add oil in the same wok. Saute the onion until translucent. Make sure not to burn it. Push the onion to the sides of wok. Add more oil in the middle. Saute the ginger and shallot. Toss in the noodles. Use chopsticks to help loosen them. When the noodles are heated enough, sprinkle the sauce in a steady stream and combine the noodles well. When you’re satisfied with the colour and taste. Toss back the bean sprouts and chives. Quickly combine well. Dish up. Top with some sesame seeds for garnish. Serve immediately."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey Meals",
+    "Published: 27 April 2014",
+    "Created: 27 April 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2591"
+  ],
+  "source_file": "355-noodles-in-a-sauce.html"
+}

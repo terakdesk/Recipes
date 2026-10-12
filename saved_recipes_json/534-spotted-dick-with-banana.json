@@ -1,0 +1,33 @@
+{
+  "title": "Spotted dick with banana",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpotted dick with banana",
+  "ingredients": [
+    "300g/10&frac12;oz plain flour",
+    "2 tsp baking powder",
+    "150g/5&frac14;oz shredded suet (vegetarians can use vegetable suet)",
+    "75g/2&frac12;oz sugar",
+    "100g/3&frac12;oz currants",
+    "1 orange, zest only",
+    "2 bananas, peeled and chopped",
+    "150ml/5&frac14;fl oz whole milk",
+    "butter, for greasing",
+    "custard, to serve"
+  ],
+  "method": [
+    "In a large bowl, mix together the flour, baking powder, suet, sugar, currants and orange zest.",
+    "Stir in the banana pieces and gradually pour in the milk to make a dough.",
+    "Roll the dough into a cylinder about 15cm x 5cm/6in x 2in. Wrap loosely in buttered greaseproof paper, leaving room for it to rise, and seal at each end.",
+    "Place the pudding into a steamer, cover and steam for an hour.",
+    "To serve, remove the pudding from the steamer and cut into slices. Place into serving bowls and pour some custard over"
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Desserts",
+    "Published: 28 October 2012",
+    "Created: 28 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2401"
+  ],
+  "source_file": "534-spotted-dick-with-banana.html"
+}

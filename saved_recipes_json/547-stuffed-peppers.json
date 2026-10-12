@@ -1,0 +1,34 @@
+{
+  "title": "Stuffed peppers",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tStuffed peppers",
+  "ingredients": [
+    "8 red or yellow baby peppers",
+    "2 large potatoes, boiled and mashed",
+    "85g/3oz provolone cheese, cut into very small cubes",
+    "4 tbsp freshly grated parmesan cheese",
+    "1 egg",
+    "3 tbsp finely chopped chives",
+    "olive oil, for drizzling",
+    "salt and freshly ground black pepper"
+  ],
+  "method": [
+    "Preheat the oven to Gas Mark 6.",
+    "Remove the stalks from the peppers and set aside.",
+    "With a small, sharp knife, remove the white membrane and seeds from inside the peppers, taking care not to tear the flesh.",
+    "Mix together the mashed potatoes, provolone, parmesan, egg, chives and some salt and pepper.",
+    "Using a teaspoon, fill the peppers three-quarters full with the mixture and then put the stalks back in place, like a stopper.",
+    "Pack the peppers tightly into an ovenproof dish, drizzle with olive oil and bake for about 30 minutes until tender.",
+    "Serve immediately with a good green salad.",
+    "They can be eaten cold."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Salads &amp; Light Mains",
+    "Published: 17 July 2012",
+    "Created: 17 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2401"
+  ],
+  "source_file": "547-stuffed-peppers.html"
+}

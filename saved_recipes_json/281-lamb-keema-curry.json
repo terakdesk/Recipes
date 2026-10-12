@@ -1,0 +1,42 @@
+{
+  "title": "Lamb Keema Curry",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLamb Keema Curry",
+  "ingredients": [
+    "2 onions, chopped",
+    "50g butter",
+    "3 tbsp vegetable oil",
+    "6 whole cloves",
+    "6 whole black peppercorns",
+    "3 small pieces of cassia bark or about an inch piece of cinnamon",
+    "1 tbsp coriander seeds",
+    "2 tbsp cumin seeds",
+    "1 tbsp garam masala",
+    "1 tsp turmeric",
+    "1 tin good quality (not sour) plum / san marzano tomatoes",
+    "2 -5 finger chillis (depending on your heat preference), chopped",
+    "5 cloves garlic",
+    "2 inch piece of ginger root",
+    "3 tsp salt",
+    "500g very lean lamb mince",
+    "1 small cup frozen peas"
+  ],
+  "method": [
+    "Roast the cumin and coriander seeds in a dry frying pan until fragrant and then grind in a pestle and mortar or a spice grinder. This is known as 'dhana-jeeru' and features frequently in Indian cooking.",
+    "Melt the butter with the oil in a large pan and add the onion, cloves, cassia (or cinnamon), and peppercorns. Cook, stirring occasionally, over a medium high heat until the onion is well browned.",
+    "Discard the cassia (or cinnamon). Add 1 tablespoon of the dhana-jeeru mix, the garam masala, and the turmeric and fry for about 30 seconds stirring.",
+    "Add the tin of tomatoes and break them up with a spatula. Peel and mince the garlic and ginger and add to the pan with the chillis.",
+    "Cook the mixture over a medium heat for about 10 minutes, until the oil separates from the mixture at the edges.",
+    "Add the minced lamb and break up and mix into the mixture. Cover and cook over a low simmer for 35-45 minutes, adding the peas 10 minutes before the end. Check the seasoning and add more salt and garam masala if reqired.",
+    "Like most curries, this dish is best when cooled then reheated to allow the flavours to infuse, but this is optional. Reheat in the pan and serve with rice and / or chapattis."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based Curry",
+    "Published: 12 October 2013",
+    "Created: 12 October 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2779"
+  ],
+  "source_file": "281-lamb-keema-curry.html"
+}

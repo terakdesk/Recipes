@@ -1,0 +1,28 @@
+{
+  "title": "Breaded Tenderloin",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "ingredients": null,
+  "method": [
+    "Cut pork tenderloin into 1/2 inch slices.",
+    "Pound to about 1/4 inches.",
+    "thickness.",
+    "Should be about 12 slices.",
+    "In a pie plate,or medium bowl,beat egg with 4 tsps.",
+    "of water,salt,rosemary,and pepper.",
+    "Place bread crumbs on wax paper.",
+    "With tongs (or fingers,like me) dip meat into egg mixture to coat both sides,then dip in crumbs.",
+    "Repeat until each piece is coated twice.",
+    "Heat oil in frying pan or electric skillet: fry tenderloin on each side till golden- about 5 minutes a side.",
+    "Keep warm until all pieces are done"
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Salads &amp; Light Mains",
+    "Published: 26 June 2017",
+    "Created: 26 June 2017",
+    "Last Updated: 20 October 2017",
+    "Hits: 1378"
+  ],
+  "source_file": "68-breaded-tenderloin.html"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Focaccia - breadmaker version",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tFocaccia - breadmaker version",
+  "ingredients": [
+    "250g strong white flour",
+    "1 tsp salt",
+    "1 sachet dried easy blend yeast",
+    "1 tbsp olive oil",
+    "200ml cold water",
+    "olive oil, for drizzling",
+    "fine sea salt crystals",
+    "2 tablespoons rosemary - some chopped, some still as whole leaves",
+    "Brown cooking paper"
+  ],
+  "method": [
+    "Bung the strong white flour, salt, dried yeast, olive oil and cold water in the breadmaker.",
+    "Set it going on dough setting.",
+    "Remove to tin and prove for an hour.",
+    "Knock back and put in a lined rectangular tin.",
+    "Dimple the top with your fingers and let prove for a second hour.",
+    "Pre-heat the oven to Gas Mark 7",
+    "Dimple the top again and drizzle with olive oil, sprinkle with loads of rock salt crystals and chopped rosemary.",
+    "Bake for around 25 minutes until golden brown.",
+    "My focaccia breadmaker version from Great Bitish Bake-off."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Breads",
+    "Published: 24 July 2012",
+    "Created: 24 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2311"
+  ],
+  "source_file": "211-focaccia-breadmaker-version.html"
+}

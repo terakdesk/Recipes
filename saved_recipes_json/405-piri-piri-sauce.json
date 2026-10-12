@@ -1,0 +1,31 @@
+{
+  "title": "Piri-piri Sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPiri-piri Sauce",
+  "ingredients": [
+    "4 cayenne chillies, cleaned and finely chopped",
+    "juice of one Lemon",
+    "3 cloves of garlic, minced",
+    "one tablespoon of chopped fresh parsley",
+    "one tablespoon Paprika",
+    "4 tablespoons of Olive Oil",
+    "1 teaspoon Salt"
+  ],
+  "method": [
+    "Remove stems and seeds from chillies.",
+    "Grind and mix all ingredients to a fine paste by hand or use a blender or food processor.",
+    "If you want to go hotter add ground cayenne pepper or seeds from chillies.",
+    "Cook in a hot frying-pan for a few minutes.",
+    "Store in a sterilized jar in the refrigerator.",
+    "The flavour will develope over the following week."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2397"
+  ],
+  "source_file": "405-piri-piri-sauce.html"
+}

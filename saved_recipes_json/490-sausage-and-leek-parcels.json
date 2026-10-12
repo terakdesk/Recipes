@@ -1,0 +1,36 @@
+{
+  "title": "Sausage and Leek Parcels",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSausage and Leek Parcels\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t\t\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\n\n\n\t\t&emsp;",
+  "ingredients": [
+    "2 tbsp olive oil",
+    "Knob of butter",
+    "1 large red onion, finely sliced",
+    "2 large leeks, finely sliced",
+    "8 good-quality sausages, skins split",
+    "2 tbsp chopped fresh flatleaf parsley",
+    "1 tbsp chopped fresh sage",
+    "Flour, for dusting",
+    "500g pack puff pastry",
+    "Milk, for glazing"
+  ],
+  "method": [
+    "Heat the oil and butter in a pan over a low heat. Add the onion and leeks and gently fry for 10-15 minutes until tender. Set aside to cool.",
+    "Remove the meat from the sausages and put in a bowl with the herbs. Mix well and shape into 4 balls.",
+    "Preheat the oven to 200°C/fan180°C/ gas 6.",
+    "On a floured surface, roll out the pastry to a 32cm square, then cut into 4 equal pieces.",
+    "Divide the onion mixture among the squares and top each with a sausagemeat ball.",
+    "Flatten slightly, then fold the pastry corners up to enclose the filling.",
+    "Brush with milk, then chill for 10 minutes.",
+    "Place on a baking sheet and cook for 25-30 minutes, until golden and the filling is cooked – the pastry will puff up so you can now see the filling."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 02 January 2016",
+    "Created: 02 January 2016",
+    "Last Updated: 20 October 2017",
+    "Hits: 1950"
+  ],
+  "source_file": "490-sausage-and-leek-parcels.html"
+}

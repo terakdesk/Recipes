@@ -1,0 +1,23 @@
+{
+  "title": "Blackberry Jalepeno Pork Tenderloin",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBlackberry Jalepeno Pork Tenderloin",
+  "ingredients": null,
+  "method": [
+    "In a gallon-sized resealable plastic bag, dissolve 1/4 cup of salt in the warm water. Add the vinegar, red pepper flakes, brown sugar, ice cubes and the pork. Brine for exactly 20 minutes. The pork becomes mealy if its brined longer.",
+    "Meanwhile, prepare the Blackberry Jalapeno Glaze as below.",
+    "Remove the pork from the brine and pat dry. Rub the pork with the olive oil and season with 1 teaspoon salt and freshly cracked black pepper.",
+    "Preheat a grill or grill pan to medium heat.",
+    "Add the pork tenderloin and cook for 6 minutes on each side, browning evenly and the internal temperature registers 135 degrees F on an instant-read thermometer. At this point, evenly spread 1/4 cup of the glaze over the pork. Cook for an additional 4 to 5 minutes. Remove the pork from heat to a cutting board and keep it warm tented with aluminum foil.",
+    "Slice the pork, arrange the slices on a serving platter and serve with remaining warm glaze."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 18 September 2014",
+    "Created: 18 September 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2041"
+  ],
+  "source_file": "51-blackberry-jalepeno-pork-tenderloin.html"
+}

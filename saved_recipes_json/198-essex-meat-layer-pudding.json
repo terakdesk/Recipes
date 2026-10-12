@@ -1,0 +1,40 @@
+{
+  "title": "Essex Meat Layer Pudding",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tEssex Meat Layer Pudding",
+  "ingredients": [
+    "Suet Pastry made with 6 oz flour",
+    "1 tablespoon butter",
+    "1 teaspoon dried sage",
+    "salt and pepper",
+    "2 medium onions, sliced",
+    "1/4 teaspoon dried oregano",
+    "1 tablespoon flour 8 oz minced pork",
+    "1 tablespoon chopped chives",
+    "2 egg yolks",
+    "8oz minced chicken",
+    "1/4 teaspoon celery salt",
+    "2 tablespoons double cream"
+  ],
+  "method": [
+    "Make the suet pastry, wrap and store in fridge for 10 mins",
+    "Fry onions in butter",
+    "Add meat, herbs, seasoning and flour",
+    "cook for 5 mins",
+    "beat eggs and cream and fold into meat",
+    "cook for 5 mins",
+    "butter 2 and 1/2 pint pudding dish",
+    "roll out dough 1/2 inch thick and put circle in dish",
+    "spoon in meat 1/2 inch thick then add alternate layers but do not fill the basin",
+    "cover and steam for 4 hours"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Pork Based",
+    "Published: 15 September 2012",
+    "Created: 15 September 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2996"
+  ],
+  "source_file": "198-essex-meat-layer-pudding.html"
+}

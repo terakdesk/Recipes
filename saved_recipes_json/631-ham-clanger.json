@@ -1,0 +1,37 @@
+{
+  "title": "Ham Clanger",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tHam Clanger",
+  "ingredients": [
+    "1 small gammon joint (around 750g)",
+    "2-3 bottles of cider (around 600ml)",
+    "1 bay leaf",
+    "2 sage leaves",
+    "2 apples",
+    "1 white onion, finely sliced",
+    "25g butter (for onions)",
+    "2g salt (for onions)",
+    "1 ½ tsp brown sugar (for onions)",
+    "3 apples, peeled and quartered",
+    "3 tbsp brown sugar",
+    "10g melted butter",
+    "¼ Lemon, juice",
+    "1 tsp cinnamon",
+    "10g Dijon mustard"
+  ],
+  "method": [
+    "Place the gammon in a deep pan with the cider, bay leaf and sage, so that the liquid is covering the joint. Put on a medium heat. Bring to a slow simmer and cook for 3 hours. Once cooked cut into bite sized pieces.",
+    "Place the butter in a frying pan and wait until the it becomes frothy. Add the onions with a little bit of salt and cook until translucent. Once cooked through add the brown sugar and continue to cook on a low to medium heat until they are golden brown and caramelised. Turn off the heat and allow the onions to cool at room temperature.",
+    "Place the apples in a frying pan with the melted butter and the lemon juice and cook until soft on the outside but still hard in the centre. Add the sugar and the cinnamon and leave to cool.",
+    "Place the peeled and chopped potatoes into salted water and par boil. Then leave to cool."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Uncategorised",
+    "Published: 11 November 2018",
+    "Created: 11 November 2018",
+    "Last Updated: 15 November 2018",
+    "Hits: 1450"
+  ],
+  "source_file": "631-ham-clanger.html"
+}

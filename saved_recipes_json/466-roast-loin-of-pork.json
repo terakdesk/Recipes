@@ -1,0 +1,34 @@
+{
+  "title": "Roast Loin of Pork",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRoast Loin of Pork",
+  "ingredients": [
+    "1.35 kg/3 lb loin of Pork, preferably free-range",
+    "4 tbsp extra virgin rapeseed or olive oil",
+    "Sea salt flakes",
+    "1 medium onion, halved with skin on",
+    "2 tsp plain flour",
+    "1 glass dry cider or white wine",
+    "1 pt/500ml chicken or vegetable stock",
+    "1 tsp ice cold butter"
+  ],
+  "method": [
+    "Preheat the oven to 220°C/425°F/gas 7",
+    "The pork should be at room temperature before you start this recipe. Using a paper towel dry the pork all over including the skin.",
+    "Using a very sharp knife (A Stanley or Craft knife works well) make slashes approx a finger width apart across the skin, don't cut through to the meat, about half way down the fat is good.",
+    "Rub the skin with the oil ensuring it goes down into the slashes. Sprinkle with salt, again make sure it is down into the slits.",
+    "Place the pork into a large roasting tin. Tuck the two onion halves under the meat, this will help keep the meat upright as well as adding flavour to the meat. Cook for 1 hour and 40 minutes. If you are using a larger or smaller joint then cook for 25 minutes per 450g/1lb, plus add on a further 25 minutes.",
+    "Switch off the oven (unless you need to cook the crackling further, see note below). Remove the meat from the roasting tin and place onto a serving plate, cover loosely with foil and place in the oven with the door slightly ajar. If you need to keep the oven hot (ie for cooking potatoes or maybe Yorkshire Puddings then wrap the meat completely in foil and keep in a warm place.",
+    "Remove the onion from the pan, then place the pan on the stove top over a high heat until the meat juices begin to bubble but not burning. Add the flour, and stir to blend into the meat juices. Pour in the cider or wine and scrape all the juices from the bottom of the pan, reduce to a sticky glaze. Do not leave the pan unattended as the reduction happens very quickly.",
+    "Add the stock and stir well,"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Pork Based",
+    "Published: 03 April 2014",
+    "Created: 03 April 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2098"
+  ],
+  "source_file": "466-roast-loin-of-pork.html"
+}

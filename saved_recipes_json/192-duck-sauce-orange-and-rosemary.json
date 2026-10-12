@@ -1,0 +1,37 @@
+{
+  "title": "Duck Sauce - Orange and Rosemary",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tDuck Sauce - Orange and Rosemary",
+  "ingredients": [
+    "Duck stock 500ml",
+    "Muscovado Sugar 90g",
+    "Orange Juice Concentrate 40ml (or Fresh Orange Juice 120ml)",
+    "Red Wine Vinegar 24ml",
+    "Tomato Puree 35g",
+    "Cornflour (starch) 28g",
+    "Orange Curacao (or other orange liqueur) 14ml",
+    "Salt 13g",
+    "Ground White Pepper 0.5g",
+    "Zest of 1 orange 18g approx",
+    "Fresh Chopped Rosemary 3g (1 tablespoon)"
+  ],
+  "method": [
+    "Place all of the ingredients except the fresh rosemary and the cornflour in a thick-bottomed pan.",
+    "Bring to the boil and simmer for 2 to 3 minutes.",
+    "Mix the cornflour in a little cold water.",
+    "Remove pan from the heat, add the cornflour whilst stirring, then add the chopped rosemary.",
+    "Return to the heat and simmer for a further 2 minutes.",
+    "Add salt and pepper to taste."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Duck and other Fowl Based",
+    "Published: 08 July 2012",
+    "Created: 08 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2187"
+  ],
+  "source_file": "192-duck-sauce-orange-and-rosemary.html"
+}

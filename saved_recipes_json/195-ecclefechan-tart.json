@@ -1,0 +1,33 @@
+{
+  "title": "Ecclefechan tart",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tEcclefechan tart",
+  "ingredients": [
+    "1 off Shortcrust Pastry",
+    "125g / 4oz melted butter",
+    "200g / 6oz dark brown soft sugar",
+    "2 large eggs",
+    "1 tbsp white wine vinegar",
+    "250g / 9oz mixed dried fruit",
+    "60g / 2oz chopped nuts"
+  ],
+  "method": [
+    "In the past for Mince Pies I have used patty tins, but these make very shallow pies and I wanted something deeper so I used cupcake tins and a 9cm round cutter.",
+    "Preheat your oven to 190°c / 375°f / gas mark 5.",
+    "Mix the melted butter and sugar together until combined. Beat in both eggs and the vinegar and finally all your fruit & nuts and mix together thoroughly.",
+    "Roll out your pastry to about 2mm thick and cut out circles to line your cupcake tins, once lined spoon about a tablespoon of mixture into each one. Stir the mixture while you are doing this as the fruit & nuts tend to sink to the bottom quite quickly.",
+    "I managed to make 24 tarts and had a little bit of pastry left over so made pastry stars to go on the top of just over half of them as lids.",
+    "Brush the exposed pastry with a little bit of milk and bake them in the oven for 20-25 minutes.",
+    "Leave them to cool in their tins for about 5 minutes but no longer as the sugar will weld them to the tins. They are a little bit tricky to remove; you'll need a plastic flexible spatula.",
+    "They can be eaten warm or once cooled, with cream or without. I'm not sure how long they will last because my personal taste tester has practically scoffed them all in a day!"
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Desserts",
+    "Published: 11 April 2013",
+    "Created: 11 April 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2308"
+  ],
+  "source_file": "195-ecclefechan-tart.html"
+}

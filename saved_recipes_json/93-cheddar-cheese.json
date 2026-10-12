@@ -1,0 +1,27 @@
+{
+  "title": "Cheddar Cheese",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tCheddar Cheese",
+  "ingredients": [
+    "2 gallons milk",
+    "1/2 cup cultured buttermilk or substitute (see list below)",
+    "1 tsp. liquid rennet or 1/2 rennet tablet",
+    "1/2 cup cool water",
+    "4 teaspoons salt"
+  ],
+  "method": [
+    "In a large stainless or enamel pot, warm the milk to 31 degC and stir in buttermilk or other culture (see below). Allow the milk to set to ripen for one hour. Keep the milk warm at 31 degC during this time. This can easily be done by placing the milk in a sink full of warm or hot water. Cool or hot water can be added as needed.",
+    "After one hour, mix the rennet in cool water and stir into the milk for 30 seconds. Maintain the temperature at 31 degC for 45 minutes to coagulate the milk. The curd is ready to cut when you dip your finger into the curds and they break cleanly over your finger as whey fills the depression.",
+    "Cut the curds into 1/2-inch cubes and let them rest for 20 minutes, then gently stir them while increasing temperature to 37 degC. Increase heat very slowly over a 30-minute period. This process is called cooking the curds. Stir often to prevent the curds from matting together. Keep at 37 degC until the curds have firmed up enough where they feel spongy when gently squeezed between your fingers and no longer have a custard-like interior. This will usually take 30 to 45 minutes.",
+    "Let the curds settle to the bottom of the pot and carefully pour off some of the whey. Pour remaining curds and whey into a colander and allow to drain for 10 minutes. Place the curds back into the pot and stir in four teaspoons of salt. Mix well, breaking up any curds that have matted together. Keep the curds warm in the pot in a sink full of hot water for one hour. Stir often to keep the curds from matting."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Cheese Manufacture",
+    "Published: 14 March 2013",
+    "Created: 14 March 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2134"
+  ],
+  "source_file": "93-cheddar-cheese.html"
+}

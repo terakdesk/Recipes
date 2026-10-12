@@ -1,0 +1,43 @@
+{
+  "title": "Pork and Pepper Casserole",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork and Pepper Casserole",
+  "ingredients": [
+    "1 lb--4 cups of lean pork cut into small cubes",
+    "1 tablespoon of flour",
+    "2 tablespoons of olive oil for frying",
+    "1 onion diced into large chunks",
+    "3 cloves of garlic chopped fine",
+    "1 inch of fresh root ginger chopped fine",
+    "2 tablespoons of tomato puree",
+    "10 fl ozs--300 ml of chicken stock--cube or homemade",
+    "8 oz--1 cup of tinned pineapple chopped into chunks. If you have fresh pineapple use that.",
+    "1 1/2 tablespoons of soy sauce",
+    "1 red pepper seeds removed and sliced",
+    "1 green pepper seeds removed and sliced",
+    "1 1/2 tablespoon of balsamic vinegar",
+    "5 spring onions washed and sliced to garnish"
+  ],
+  "method": [
+    "Toss the pork in the flour inside a plastic bag",
+    "Put half the oil in a frying pan, heat and fry the onion garlic and ginger on a medium heat, watch that the garlic does not burn for about 5 minutes.",
+    "Put these into the oven proof casserole dish.",
+    "Add more oil to the frying pan and fry the pork till it is brown on all sides add to the casserole dish.",
+    "Add all the other ingredients to the casserole dish and stir well.",
+    "The stock should come to the surface of the casserole. If it seems a bit dry add a spot more stock.",
+    "I covered the casserole with foil and put on the lid. I use a cast iron casserole by le creusot.",
+    "I cooked for 2 &frac12; hours at gas 5, 190C,375F in the middle of the oven.",
+    "When cooked check the taste and add salt and ground pepper to taste."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2357"
+  ],
+  "source_file": "414-pork-and-pepper-casserole.html"
+}

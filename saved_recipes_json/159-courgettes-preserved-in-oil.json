@@ -1,0 +1,35 @@
+{
+  "title": "Courgettes preserved in oil",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tCourgettes preserved in oil\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t\t\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\n\n\n\t\t&emsp;",
+  "ingredients": [
+    "450g/1lb courgettes",
+    "3 tbsp olive oil",
+    "Salt and pepper",
+    "2 cloves garlic",
+    "200ml/7 floz olive oil",
+    "Juice of 2 lemons",
+    "1 tbsp fresh thyme leaves"
+  ],
+  "method": [
+    "Use a mandolin to finely slice the courgettes lengthwise into long ribbons and place them in a bowl with the 3 tbsp of olive oil.",
+    "Swish them around in the oil to coat them and season with salt and pepper.",
+    "Heat a griddle pan and toast the courgette ribbons for approximately 2 minutes each side.",
+    "Have the lemon juice ready in a bowl and toss the cooked courgette ribbons in the juice.",
+    "Set them aside to cool.",
+    "Finely slice the garlic and layer this in a sterilised jar along with the courgettes ribbons and the thyme leaves.",
+    "Top up the jar with olive oil.",
+    "Using a skewer prod around the jar to release any air bubbles and tap it on the table top too.",
+    "Make sure the courgettes are completely covered in the oil and pop on a lid.",
+    "Use within one month and store in the fridge."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 01 September 2016",
+    "Created: 01 September 2016",
+    "Last Updated: 20 October 2017",
+    "Hits: 2460"
+  ],
+  "source_file": "159-courgettes-preserved-in-oil.html"
+}

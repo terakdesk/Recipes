@@ -1,0 +1,46 @@
+{
+  "title": "Pork Stir Fry",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork Stir Fry",
+  "ingredients": [
+    "a handful of Szechuan peppercorns, crushed",
+    "2 x 350g pork fillets, thinly sliced",
+    "2 teaspoons sesame oil",
+    "2 tablespoons sunflower oil",
+    "2 tablespoons freshly grated ginger",
+    "1-3 fresh red chillies (to taste), deseeded and chopped",
+    "125g oyster mushrooms, wiped and torn",
+    "125g shiitake mushrooms, wiped and halved",
+    "1 red pepper, deseeded and chopped",
+    "a bunch of spring onions, trimmed and sliced",
+    "200 pak choi, chopped",
+    "2 cloves of garlic, peeled and finely chopped",
+    "300g bean sprouts",
+    "300g medium egg noodles, cooked",
+    "2 teaspoons fish sauce",
+    "6 tablespoons oyster sauce",
+    "a small bunch of fresh coriander, leaves chopped",
+    "75ml chicken stock",
+    "dark soy sauce"
+  ],
+  "method": [
+    "Rub the crushed peppercorns into the pork slices.",
+    "Heat your wok and a frying pan to make them as hot as you can.",
+    "Pour the sesame and sunflower oils into the hot wok and fry the ginger, chilli and mushrooms for a minute until slightly coloured.",
+    "Throw in the pepper, spring onions, pak choi, garlic and bean sprouts and stir-fry until wilted.",
+    "Add the noodles, fish and oyster sauces, the coriander leaves and the stock.",
+    "Stir-fry for 2 to 3 minutes until the noodles are steaming hot.",
+    "Taste and season with soy sauce.",
+    "Meanwhile, drizzle a little sunflower oil into the hot frying pan and fry the pork for 2 minutes on each side or until cooked through and golden.",
+    "Serve with the stir-fried noodles."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2188"
+  ],
+  "source_file": "426-pork-stir-fry.html"
+}

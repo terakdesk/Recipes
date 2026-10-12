@@ -1,0 +1,44 @@
+{
+  "title": "Ribs - beef",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRibs - beef",
+  "ingredients": [
+    "spareribs ( 1 rack)",
+    "3 garlic cloves, minced",
+    "3 tablespoons ketchup",
+    "3 tablespoons chili sauce",
+    "3 tablespoons soy sauce",
+    "3 tablespoons hoisin sauce",
+    "3 tablespoons dry sherry",
+    "2 tablespoons honey",
+    "2 tablespoons grated fresh gingerFor the spiced water",
+    "Garlic salt",
+    "Black pepper",
+    "Thyme",
+    "Rosemary",
+    "Oregano"
+  ],
+  "method": [
+    "First before you do anything get you a really big pot and fill it up with water. I use my big soup stockpot but whatever big pot you have that'll fit the ribs is fine. Heat on burner on medium heat.",
+    "Next put a bunch of spices and herbs in there, I use garlic salt, ground pepper, thyme, rosemary, and oregano, but whatever u like is fine, this is your beef stock.",
+    "Put ribs in spiced up water and let simmer for about 30-45 minutes, until meat is grey and starting to pull away from the edges of the bones.",
+    "Take ribs out of pot, save liquid for recipes that call for beef stock. Put ribs in roasting dish, don't forget to grease it!",
+    "Mix all ingredients listed above in a bowl. Taste and if not to your liking add a little bit of whatever you think will help it out. I usually end up putting in more honey and hoisin.",
+    "Now brush some of sauce on both sides of ribs and let sit on and absorb for about 20-30 minute.",
+    "Heat oven to Gas Mark 4.",
+    "Brush more sauce on both sides of ribs.",
+    "Bake for 15 minutes and brush more sauce on.",
+    "Bake 15 more minute.",
+    "Sauce on ribs should be brown and crispy looking.",
+    "Serve with sauce if desired and if enough leftover."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Beef Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2291"
+  ],
+  "source_file": "457-ribs-beef.html"
+}

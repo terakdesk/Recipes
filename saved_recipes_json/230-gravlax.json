@@ -1,0 +1,40 @@
+{
+  "title": "Gravlax",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGravlax",
+  "ingredients": [
+    "1 kilogram salmon fillets (with skin in place)",
+    "4 desertspoons maldon salt",
+    "4 desertspoons caster sugar",
+    "3 desertspoons english mustard",
+    "1 đesertspoons white wine vinegar",
+    "1 bunch fresh dill"
+  ],
+  "method": [
+    "Descale the skin.",
+    "Cut into two fillets that will sit on top of each other.",
+    "Rub salt in the skin of both fillets.",
+    "Lay one salmon fillet in a wide shallow dish that fits the salmon snugly, skin side down.",
+    "In a bowl mix together the salt, sugar, English mustard and vinegar to make a yellow slush.",
+    "Spread this mixture over both of the salmon's pink flesh, covering well.",
+    "Roughly chop the dill, and then pat the herb down onto the paste-covered salmon in the bowl.",
+    "Press well so that no pink from the salmon is visible.",
+    "Turn the other fillet over and press down on top of the first.",
+    "Cover the salmon with a piece of cling film, press it into the sides but leave the base clear for juices to escape.",
+    "Cover the dish with one layer of cling film and then do another layer of cling over that.",
+    "Place another dish over the salmon and weigh the it down with jars, tins or any other weights you can find.",
+    "Place in the fridge for 2-3 days.",
+    "Unwrap the dish and lift the salmon fillet out of the liquid it will now be lying in.",
+    "Rub off and discard the dill to expose the pink salmon, and lay on a carving board flesh side up.",
+    "Working from the right hand end of the fish (unless you're left-handing), carve very thin diagonal slithers with a long, sharp knife."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Starter",
+    "Published: 18 December 2013",
+    "Created: 18 December 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2384"
+  ],
+  "source_file": "230-gravlax.html"
+}

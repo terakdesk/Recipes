@@ -1,0 +1,40 @@
+{
+  "title": "Spaetzle with Mushrooms",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpaetzle with Mushrooms",
+  "ingredients": [
+    "4 portions of Spaetzle, cooked as per packet",
+    "4 tablespoons unsalted butter",
+    "2 tablespoon extra-virgin olive oil, plus more",
+    "2 sprigs thyme",
+    "1 small onion, very thinly sliced",
+    "1 1/2 pounds button mushrooms, quartered",
+    "2 cloves garlic, minced",
+    "1 salt and freshly ground black pepper",
+    "1 cup heavy whipping cream",
+    "2 tablespoons whole grain mustard",
+    "2 tablespoons minced chives",
+    "4 pork chops or schnitzels"
+  ],
+  "method": [
+    "Add 2 tablespoons of butter and the oil to a large skillet over medium heat.",
+    "Fry the onions in a skillet until well softened. Set aside.",
+    "Add more butter and oil if needed and fry the cooked spaetzle until slightly browned, about 2 to 3 minutes.",
+    "Remove from the pan to a serving platter and set aside while you cook the mushrooms.",
+    "Set the skillet back over high heat and add a little more olive oil and remaining 2 tablespoons of butter. Add the thyme, mushrooms and garlic and saute until golden brown, about 4 to 5 minutes.",
+    "Season with salt and pepper, to taste.",
+    "Add the cream and mustard and stir well.",
+    "Reduce the mixture until the sauce is nice and thick, about 3 minutes.",
+    "Fold in the spaetzle.",
+    "Transfer to a serving bowl, garnish with chives and serve with pork schnitzel or chops."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 07 January 2013",
+    "Created: 07 January 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2056"
+  ],
+  "source_file": "519-spaetzle-with-mushrooms.html"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Guinea Fowl - Roast",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGuinea Fowl - Roast",
+  "ingredients": [
+    "1 guinea fowl (about 1kg)",
+    "3 fresh rosemary sprigs",
+    "1 lemons, halved",
+    "3 garlic cloves"
+  ],
+  "method": [
+    "How to make roast guinea fowl",
+    "Preheat the oven to 190°C/fan170°C/gas 5. Wash the guinea fowl and dry thoroughly with kitchen paper. Season inside and out. Put 3 rosemary sprigs inside each bird and place in a large roasting tin. Squeeze a lemon half over each bird, then stuff the squeezed half, along with an unsqueezed half and 2 garlic cloves, inside each cavity. Loosely cover the tin with foil.",
+    "Roast in the oven for 30 minutes, then remove the foil and roast for a further 20-30 minutes or until golden and cooked through. (To check if they are ready, insert a skewer into the thickest part of the thighs - the juices should run clear.) Transfer to a platter, cover loosely with foil and leave to rest.",
+    "Meanwhile, make the gravy. Heat half the butter and the olive oil in a medium saucepan over a low heat. Add the shallots. Cover and cook, stirring occasionally, for 30 minutes or until lightly golden. Remove the lid and cook for a further 15 minutes or until tender and caramelised. Stir in the rosemary and cook briefly, then add the vinegar - stand back, as it may splutter. Simmer vigorously until reduced and syrupy, then add the stock and simmer for a further 10 minutes or until reduced slightly. Mash together the remaining butter and the flour to make a beurre manié. Gradually whisk this into the sauce and simmer until thickened slightly. Season and keep warm.",
+    "Transfer the birds to a chopping board and remove the legs. Cut through the joint to separate into thighs and drumsticks, then remove the breasts in 1 piece and cut each into 3 pieces on the diagonal. Divide the meat between 6 plates, pour the gravy over the top and serve immediately."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Duck and other Fowl Based",
+    "Published: 18 May 2013",
+    "Created: 18 May 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2015"
+  ],
+  "source_file": "237-guinea-fowl-roast.html"
+}

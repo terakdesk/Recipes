@@ -1,0 +1,28 @@
+{
+  "title": "Blackberry Jam",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBlackberry Jam",
+  "ingredients": [
+    "1.25kg blackberries",
+    "Finely grated zest and juice of 4 large limes or 3 lemons",
+    "1.25kg jam sugar (with added pectin)"
+  ],
+  "method": [
+    "Put the berries, lime/lemon zest and juice into a large stainless steel pan and cook over a low heat, stirring now and then, until the berries are soft and plenty of juice has been released.",
+    "Press gently with a potato masher to release even more juice and break up some of the fruit, but don’t reduce all the berries to pulp.",
+    "Add the sugar, then stir for about 10 minutes until the sugar dissolves. (This is important to prevent the jam from crystallising during storage.)",
+    "Increase the heat, then boil steadily for 7 minutes until setting point is reached, 105°C.",
+    "Remove the pan from the heat, skim any scum off the surface, then leave for 5 minutes for the fruit to settle down into the syrup.",
+    "Stir well, pour the hot jam into warm sterilised jars then immediately cover with waxed discs and lids.",
+    "Label, then store in a cool, dark place."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 26 July 2014",
+    "Created: 26 July 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2373"
+  ],
+  "source_file": "52-blackberry-jam.html"
+}

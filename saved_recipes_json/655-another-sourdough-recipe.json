@@ -1,0 +1,45 @@
+{
+  "title": "Another sourdough recipe",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tAnother sourdough recipe",
+  "ingredients": [
+    "8-10 tbsp tepid water",
+    "Leaven",
+    "100g starter (from above)",
+    "200g Doves Farm Organic Stoneground English Wholemeal Einkorn Flour*",
+    "300ml tepid water",
+    "Dough",
+    "600g ferment (from above)",
+    "800g Doves Farm Organic Strong White Bread Flour",
+    "300ml tepid water",
+    "2 tsp salt",
+    "flour"
+  ],
+  "method": [
+    "Leaven",
+    "Once your starter is bubbly, stir the starter and then measure 50g of the starter into a large mixing bowl.",
+    "Add 100g flour and 150ml water, stir to make a paste, cover with an upturned mixing bowl and leave in a warm place for 4-12 hours until bubbles appear. When bubbly, your ferment is ready to use (you can either dispose of any unused starter after bread making or keep and feed it regularly until your next baking session).",
+    "First day",
+    "Add the white bread flour and water to the bowl of ferment and stir to mix.",
+    "When roughly mixed, add the salt and stir until incorporated.",
+    "Using your hands gather everything, gently pressing into a sticky ball of dough.",
+    "Knead the dough in the bowl for 100 presses without adding flour.",
+    "Turn another large mixing bowl upside down, place it over dough bowl and leave in a warm place until double in size which may take 4 – 12 hours.",
+    "Second day",
+    "Dust the inside of the banneton liberally with flour and sprinkle flour over a large oven tray.",
+    "Knead the dough in the bowl for 100 presses without adding flour.",
+    "Shape the dough into a ball and put it into the prepared banneton.",
+    "Cover with an upturned mixing bowl and leave to double in size, 2 – 4 hours.",
+    "Pre-heat the oven.",
+    "Remove the upturned bowl and very gently tip the dough onto the prepared oven tray."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 03 December 2020",
+    "Created: 03 December 2020",
+    "Last Updated: 03 December 2020",
+    "Hits: 1181"
+  ],
+  "source_file": "655-another-sourdough-recipe.html"
+}

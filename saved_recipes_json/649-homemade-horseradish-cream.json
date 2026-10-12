@@ -1,0 +1,30 @@
+{
+  "title": "Homemade Horseradish Cream",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tHomemade Horseradish Cream\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t\t\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\n\n\n\t\tTo Prepare the Root",
+  "ingredients": [
+    "8-10-inch long piece of horseradish root",
+    "2 tablespoons water",
+    "1 tablespoon cider vinegar",
+    "Pinch salt"
+  ],
+  "method": [
+    "If you have access to a garden horseradish plant, use a sturdy shovel to dig up an 8-10-inch long tuber of horseradish.",
+    "Remove the leaves from the root and rinse the dirt off of the root.",
+    "Use a vegetable peeler to peel the surface skin off of the tuber. Chop into pieces.",
+    "Put into a food processor. Add a couple tablespoons of water. Process until well ground.",
+    "At this point be careful! A ground up fresh horseradish is many times as potent as freshly chopped onions and can really hurt your eyes if you get too close. Keep at arms length away, and work in a well ventilated room.",
+    "Strain out some of the water if the mixture is too liquidy. Add a tablespoon of white vinegar and a pinch of salt to the mixture. Pulse to combine.",
+    "Note that the vinegar will stabilize the level of hotness of the ground horseradish, so do not wait too long to add it to the mixture.",
+    "Carefully transfer the grated horseradish to a jar. It will keep for 3 to 4 weeks in the refrigerator"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 29 February 2020",
+    "Created: 29 February 2020",
+    "Last Updated: 15 August 2020",
+    "Hits: 2032"
+  ],
+  "source_file": "649-homemade-horseradish-cream.html"
+}

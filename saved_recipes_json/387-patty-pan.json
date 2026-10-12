@@ -1,0 +1,29 @@
+{
+  "title": "Patty Pan",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPatty Pan",
+  "ingredients": [
+    "6 pattypan squash, stem and blossom removed",
+    "6 slices bacon",
+    "1/2 cup diced onion",
+    "1 1/2 cups soft bread crumbs",
+    "1/4 cup freshly grated Parmesan cheese",
+    "salt and pepper to taste"
+  ],
+  "method": [
+    "Preheat oven to Gas Mark 4 (175 degrees C).",
+    "Bring one inch of water to a boil in a saucepan over medium-high heat. Add squash, cover, and cook for 10 minutes, or until a fork can pierce the stem with little resistance. Drain, and slice off the top stem of the squash. Use a melon baller to carefully scoop out the centers of the squash. Reserve all of the bits of squash.",
+    "Place bacon in a large, deep skillet. Cook over medium high heat until evenly brown. Remove bacon to paper towels, and set aside. Saute onion in bacon drippings. Chop the reserved squash pieces, and saute them with the onion for one minute.",
+    "Remove the skillet from heat, and stir in the breadcrumbs. Crumble the bacon, and stir into the stuffing along with the Parmesan cheese. Season to taste with salt and pepper. Stuff each squash to overflowing with the mixture, and place them in a baking dish. Cover the dish loosely with aluminum foil.",
+    "Bake for 15 minutes in the preheated oven, or until squash are heated through."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Salads &amp; Light Mains",
+    "Published: 26 August 2013",
+    "Created: 26 August 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 1825"
+  ],
+  "source_file": "387-patty-pan.html"
+}

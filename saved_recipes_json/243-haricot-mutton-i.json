@@ -1,0 +1,34 @@
+{
+  "title": "Haricot Mutton I",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tHaricot Mutton I",
+  "ingredients": [
+    "4 lbs. of the middle or best end of the neck of mutton",
+    "3 carrots",
+    "3 turnips",
+    "3 onions",
+    "pepper and salt to taste",
+    "1 tablespoonful of ketchup or Harvey's sauce."
+  ],
+  "method": [
+    "Trim off some of the fat, cut the mutton into rather thin chops, and put them into a frying-pan with the fat trimmings.",
+    "Fry to a pale brown, but do not cook them enough for eating.",
+    "Cut the carrots and turnips into dice, and the onions into slices, and slightly fry them in the same fat that the mutton was browned in, but do not allow them to take any colour.",
+    "Now lay the mutton at the bottom of a stewpan, then the vegetables, and pour over them just sufficient boiling water to cover the whole.",
+    "Give one boil, skim well, and then set the pan on the side of the fire to simmer gently until the meat is tender.",
+    "Skim off every particle of fat, add a seasoning of pepper and salt, and a little ketchup, and serve."
+  ],
+  "notes": [
+    "This dish is very much better if made the day before it is wanted for table, as the fat can be so much more easily removed when the gravy is cold.",
+    "This should be particularly attended to, as it is apt to be rather rich and greasy if eaten the same day it is made.",
+    "It should be served in rather a deep dish."
+  ],
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based",
+    "Published: 05 December 2013",
+    "Created: 05 December 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2195"
+  ],
+  "source_file": "243-haricot-mutton-i.html"
+}

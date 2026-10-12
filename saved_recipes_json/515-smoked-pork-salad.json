@@ -1,0 +1,29 @@
+{
+  "title": "Smoked pork salad",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSmoked pork salad",
+  "ingredients": [
+    "1 smoked pork filet mignon",
+    "3 navel oranges",
+    "5 ounces baby spinach, trimmed (6 cups leaves)",
+    "4 cups thinly sliced Napa cabbage (from 1 medium head)",
+    "1 red bell pepper, cut lengthwise into thin strips",
+    "1/2 cup golden raisins",
+    "2 firm-ripe California avocados",
+    "Curry vinaigrette - see recipe under condiments"
+  ],
+  "method": [
+    "Cut pork at a 45-degree angle into 1/2-inch-thick slices.",
+    "Line a large platter with dressed salad and arrange sliced pork, oranges, and avocados in rows on top.",
+    "Drizzle some vinaigrette over avocados and oranges."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Salads &amp; Light Mains",
+    "Published: 22 September 2012",
+    "Created: 22 September 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2215"
+  ],
+  "source_file": "515-smoked-pork-salad.html"
+}

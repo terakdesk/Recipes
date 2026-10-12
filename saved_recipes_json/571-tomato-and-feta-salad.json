@@ -1,0 +1,37 @@
+{
+  "title": "Tomato and feta salad",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tTomato and feta salad",
+  "ingredients": [
+    "12 cherry tomatoes",
+    "salt and black pepper to taste 00",
+    "1/4 cup olive oil",
+    "1 bay leaf, crumbled",
+    "1/4 cup pine nuts",
+    "2/3 pound thin green beans, trimmed 1 (5 ounce) package arugula leaves",
+    "6 fresh basil leaves, torn into pieces",
+    "1 tablespoon red wine vinegar",
+    "2 tablespoons whole-grain mustard",
+    "2 cloves garlic, minced",
+    "1/2 teaspoon honey",
+    "1/4 cup olive oil",
+    "6 ounces crumbled feta cheese"
+  ],
+  "method": [
+    "Preheat an oven to 225 degrees F (110 degrees C).",
+    "Slice the cherry tomatoes in half, and arrange them, cut sides up, on a baking sheet. Sprinkle them with salt, pepper, and the bay leaf; drizzle with 1/4 cup olive oil.",
+    "Bake the tomatoes until they are shriveled and dry on the outside, but a little moist inside, about 2 hours.",
+    "Toast the pine nuts in a small pan over medium-low heat, gently shaking the pan as they toast, until beginning brown and fragrant, 2 to 3 minutes; set aside.",
+    "Bring a saucepan of water to a boil; cook the green beans in the boiling water until bright green but still crisp, about 3 minutes. Drain and rinse immediately with cold water.",
+    "Combine the roasted tomatoes, toasted pine nuts, green beans, arugula, and basil in a salad bowl. Whisk together the red wine vinegar, mustard, garlic, honey, and 1/4 cup olive oil in a bowl, and pour the dressing over the salad. Stir in the crumbled feta cheese just before serving."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Salads &amp; Light Mains",
+    "Published: 11 July 2012",
+    "Created: 11 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 1799"
+  ],
+  "source_file": "571-tomato-and-feta-salad.html"
+}

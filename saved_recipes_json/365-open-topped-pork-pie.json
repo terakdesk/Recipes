@@ -1,0 +1,52 @@
+{
+  "title": "Open-topped Pork Pie",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tOpen-topped Pork Pie",
+  "ingredients": [
+    "For the filling",
+    "400g/14oz leftover roast pork, cut into cubes",
+    "150g/5&frac12;oz smoked bacon",
+    "1 tbsp chopped fresh sage",
+    "1 tbsp chopped fresh rosemary",
+    "pinch grated nutmeg",
+    "pinch allspice",
+    "splash Worcestershire sauce",
+    "salt and white pepper",
+    "For the pastry",
+    "400g/14oz plain flour, plus extra for dusting",
+    "40ml/1&frac14;fl oz full-fat milk",
+    "150g/5&frac12;oz lard, cubed",
+    "50ml/1&frac34;fl oz water",
+    "1 free-range egg yolk, beaten",
+    "For the balsamic onions",
+    "2 tbsp vegetable oil",
+    "2 red onions, finely sliced",
+    "75g/2&frac34;oz demerara sugar",
+    "75ml/2&frac34;fl oz balsamic vinegar",
+    "200g/7oz mature cheddar"
+  ],
+  "method": [
+    "Preheat the oven to 180C/350F/Gas 4.",
+    "For the filling, pulse 200g/7oz of the pork and all of the bacon in a food processor until it resembles mince.",
+    "Tip the mixture into a bowl and add the remaining filling ingredients, including the remaining roast pork. Stir until well combined.",
+    "For the pastry, sift the flour into a bowl.",
+    "Heat the milk, lard and water in a saucepan until the lard has melted. Stir until well combined.",
+    "Stir the hot milk mixture into the flour until the mixture comes together as a dough.",
+    "Roll the pastry out thinly onto a lightly floured work surface and use it to line 4-6 small pie moulds. (Alternatively, you could use the wells of a muffin tin.)",
+    "Divide the pork filling mixture among the pie moulds and bake in the oven for 45-50 minutes, or until the filling is cooked through.",
+    "Meanwhile, for the balsamic onions, heat the oil in a frying pan over a medium heat and fry the onions for 2-3 minutes, or until softened.",
+    "Add the sugar and vinegar, bring the mixture to the boil and cook for 8-10 minutes, or until the onions are sticky.",
+    "Remove the pies from the oven and allow to cool slightly. Carefully remove the pies from the moulds, brush the sides with the beaten egg yolk and place onto a baking tray.",
+    "Spoon the balsamic onions on top of the pies and sprinkle over the cheese.",
+    "Bake the pies in the oven for a further 5-6 minutes, or until the cheese is bubbling and golden-brown."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2550"
+  ],
+  "source_file": "365-open-topped-pork-pie.html"
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Christmas Confit Duck",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChristmas Confit Duck",
+  "ingredients": [
+    "1 shallot, minced",
+    "¼ cup evaporated cane sugar",
+    "¼ cup kosher salt",
+    "3 tablespoons coarsely ground black pepper",
+    "4 cloves garlic, minced",
+    "6 sprigs thyme, chopped",
+    "4 duck legs with thighs",
+    "4 duck wings, trimmed",
+    "4 cups duck fat"
+  ],
+  "method": [
+    "Combine shallot, sugar, salt, pepper, garlic, and thyme in a small bowl. Rub all over duck legs, thighs, and wings.",
+    "Arrange duck parts skin side-up in a dish and cover with plastic wrap. Refrigerate until the seasoning is well absorbed, 24 to 48 hours.",
+    "Rinse off the seasoning and pat the duck dry. Arrange duck in a single layer in a 9x13-inch baking pan. Let duck stand until it reaches room temperature, about 30 minutes.",
+    "Preheat oven to 225 degrees F (110 degrees C).",
+    "Melt duck fat in a saucepan over medium heat until bubbles begin to form, 6 to 8 minutes. Pour duck fat over the room-temperature duck.",
+    "Bake duck in the preheated oven until tender and the juices run clear, 2 to 3 hours. An instant-read thermometer inserted near the bone should read 135 degrees F (57 degrees C). Pour off the duck fat.",
+    "Brush a grill pan with some of the used duck fat and heat over medium-high heat until smoking. Add baked duck; cook in batches until skin is crispy, about 90 seconds per side."
+  ],
+  "notes": [
+    "Regular white sugar can be substituted for the cane sugar.",
+    "If not serving right away, let duck cool completely after baking and store in its cooking fat. Fish it out of the fat and gently warm the duck in a pan prior to crisping the skin.",
+    "Never serve wobbly-skinned confit; the crispy duck skin makes the dish absolute heaven! You can substitute the grill pan with a stainless or cast iron pan, but not a nonstick pan."
+  ],
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 24 November 2024",
+    "Created: 24 November 2024",
+    "Last Updated: 24 November 2024",
+    "Hits: 659"
+  ],
+  "source_file": "714-christmas-confit-duck.html"
+}

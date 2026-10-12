@@ -1,0 +1,24 @@
+{
+  "title": "Chinese Roast Duck Legs",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChinese Roast Duck Legs",
+  "ingredients": [
+    "2 Duck Legs"
+  ],
+  "method": [
+    "Marinate the duck legs in a small bowl of soy sauce, olive oil, star anise, cinnamon, dried chilli flakes, cloves and garlic puree. It is always best to marinate for as long as you possibly can, but I was impatient and let it sit for all of 10 minutes before shoving it in the oven.",
+    "Line the bottom of a small baking tin with thinly sliced plum and sprinkle a little Demerara sugar on top.",
+    "Pre-heat the oven to Gas Mark 5.",
+    "Place the duck legs on top of plums. Pour over the remainder of the marinade. Slowly roast for 1 and a quarter hours, or until the meat pulls away easily from the bone.",
+    "Serve straightaway with rice noodles and bok choi (remember to remove the cinnamon, cloves and star anise first). Or leave to cool and pop it in a salad for lunch tomorrow."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Duck and other Fowl Based",
+    "Published: 27 March 2014",
+    "Created: 27 March 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2445"
+  ],
+  "source_file": "120-chinese-roast-duck-legs.html"
+}

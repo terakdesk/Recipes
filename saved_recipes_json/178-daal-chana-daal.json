@@ -1,0 +1,41 @@
+{
+  "title": "Daal - Chana Daal",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tDaal - Chana Daal",
+  "ingredients": [
+    "2 cups chickpeas",
+    "1/2 teaspoon cumin seeds",
+    "1 small onion, minced",
+    "1 tablespoon. minced fresh ginger",
+    "1 tablespoon minced garlic",
+    "1/2 teaspoon ground turmeric",
+    "1 tablespoon ground coriander",
+    "1/2-1 teaspoon red pepper powder (cayenne)",
+    "3 cups crushed tomatoes",
+    "1/2 teaspoon salt, or to taste",
+    "2 tablespoon fresh lime juice"
+  ],
+  "method": [
+    "Cook chickpeas in 4 cups of water until tender.",
+    "Roughly mash around a quarter of the chickpeas and set aside.",
+    "Heat a nonstick pan over moderate heat. Add the cumin seeds and stir until they crackle (about 10 seconds).",
+    "Add onion, ginger, and garlic. Stir until onion is translucent.",
+    "Add turmeric, coriander, and red pepper.",
+    "Cook, stirring, for about 20 second, being careful not to burn.",
+    "Add crushed tomatoes. Bring to a boil, reduce heat and let simmer 1 minute.",
+    "Add the whole and the mashed chickpeas.",
+    "Cook, stirring, 2-3 minutes to allow flavors to blend.",
+    "Add salt to taste. Remove from heat. Add limejuice and stir."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Vegey or Lentil Based Curry and Dahls",
+    "Published: 08 July 2012",
+    "Created: 08 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2491"
+  ],
+  "source_file": "178-daal-chana-daal.html"
+}

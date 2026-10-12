@@ -1,0 +1,32 @@
+{
+  "title": "Slow Cooker Pulled Pork with Rhubarb BBQ Sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSlow Cooker Pulled Pork with Rhubarb BBQ Sauce",
+  "ingredients": [
+    "2 lb pork roast",
+    "1 cup chopped red rhubarb",
+    "1 medium onion, chopped",
+    "2 cloves garlic, minced",
+    "2 chipotle peppers in adobo sauce",
+    "1 cup ketchup",
+    "2/3 cup brown sugar",
+    "½ cup molasses",
+    "2 tablespoons cider vinegar",
+    "2 tablespoons Worcestershire sauce",
+    "1 tablespoon stone ground mustard",
+    "½ teaspoon salt"
+  ],
+  "method": [
+    "Mix together everything except the pork in the bottom of a slow cooker. Place the pork on top.",
+    "Cook on low for 8 hours on low. Remove the pork, shred, and return to slow cooker. Stir to mix the shredded pork into the sauce and cook for another 30 minutes before serving."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Uncategorised",
+    "Published: 08 February 2020",
+    "Created: 08 February 2020",
+    "Last Updated: 08 February 2020",
+    "Hits: 1195"
+  ],
+  "source_file": "647-slow-cooker-pulled-pork-with-rhubarb-bbq-sauce.html"
+}

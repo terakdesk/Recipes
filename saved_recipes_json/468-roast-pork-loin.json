@@ -1,0 +1,39 @@
+{
+  "title": "Roast Pork Loin",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRoast Pork Loin",
+  "ingredients": [
+    "oil",
+    "1.3kg pork loin, boned and rolled (ask your butcher to do this)",
+    "sea salt",
+    "3 eating apples , cut into wedges",
+    "1 tbsp plain flour",
+    "400ml vegetable or chicken stock , fresh, cube or concentrate"
+  ],
+  "method": [
+    "Heat the oven to 240C/fan 220C/gas 9.",
+    "Lightly oil a roasting tin and put it in the oven to get hot.",
+    "Season the skin of the pork with sea salt, then put the joint in the hot tin and roast for 20 minutes.",
+    "Reduce the heat to 190C/fan 170C/gas 5 and roast for a further 30 minutes per 500g.",
+    "Increase the heat to 240C/fan 220C/gas 9 and cook for a final 10 minutes to get a really crisp and golden crackling.",
+    "Take the pork from the tin and rest in a warm place before carving into slices.",
+    "Meanwhile, drain the excess fat from the roasting tin onto a baking tray.",
+    "Add the apples to the hot fat, turn to coat all over and roast for 10 minutes.",
+    "Take out and keep warm.",
+    "Put the roasting tin directly over a low heat, sprinkle in the flour and mix well.",
+    "Then slowly add the stock, stirring well and letting it all bubble together until you have a gravy.",
+    "Season and sieve into a jug.",
+    "Serve the pork with the roasted apples and gravy.",
+    "To get good, crunchy crackling you need to score the skin well with a very sharp knife or, better still, ask the butcher to do it for you.",
+    "Posted from my android device using Joomla Admin Mobile!"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Pork Based",
+    "Published: 24 April 2012",
+    "Created: 24 April 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2660"
+  ],
+  "source_file": "468-roast-pork-loin.html"
+}

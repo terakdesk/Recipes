@@ -1,0 +1,27 @@
+{
+  "title": "Wellington - port sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tWellington - port sauce",
+  "ingredients": [
+    "1 shallot",
+    "a little butter",
+    "300ml port",
+    "600ml chicken stock",
+    "1 thyme sprigs"
+  ],
+  "method": [
+    "Sweat 1 finely chopped shallot in a little butter with a thyme sprig.",
+    "Pour in 300ml port and reduce by two-thirds, then add 600ml fresh chicken stock and reduce again by two-thirds until syrupy.",
+    "Strain into another saucepan ready to be reheated.",
+    "The sauce can be made 2 days in advance and reheated in the saucepan, adding a splash more stock if too thick."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Christmas",
+    "Published: 19 November 2012",
+    "Created: 19 November 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2086"
+  ],
+  "source_file": "597-wellington-port-sauce.html"
+}

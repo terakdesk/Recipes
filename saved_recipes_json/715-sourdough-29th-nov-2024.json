@@ -1,0 +1,29 @@
+{
+  "title": "Sourdough 29th Nov 2024",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSourdough 29th Nov 2024",
+  "ingredients": [
+    "500g bread flour",
+    "350g warm water",
+    "100g active leaven",
+    "10g salt"
+  ],
+  "method": [
+    "Make up the leaven by mixing 25g active starter with 50g flour and50g warm water. Leave at 26°C for 4 to 8 hours until doubled in size. Try and guess when this will be and mix the flour below one hour before the leaven is fully risen.",
+    "Mix flour and water and leave at 26°C for over an hour.",
+    "Add the leaven and the salt to the flour mix and use speed 1 on the mixer with the dough hook for 14 minutes so the dough naturally pulls away from the sides and bottom of the mixer bowl.",
+    "Leave at 26°C for 6 to 8 hours in a plastic container.",
+    "Fold the dough at 4 or 5 hours and then again at the end.",
+    "Put the folded and shaped loaf into a well floured banneton and leave for 1 to 2 hours at 26°C.",
+    "Bake in a hot, covered dutch oven at 250°C for 45 minutes then remove the lid and b@ke for a further 10 to 15 minutes."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 29 November 2024",
+    "Created: 29 November 2024",
+    "Last Updated: 29 November 2024",
+    "Hits: 649"
+  ],
+  "source_file": "715-sourdough-29th-nov-2024.html"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Pork Pie - Gala",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork Pie - Gala",
+  "ingredients": [
+    "For the filling:",
+    "1kg boned pork shoulder, skin on",
+    "200g commercial unsmoked bacon",
+    "2.5g each of sage, mace, nutmeg, allspice, black pepper",
+    "10g salt",
+    "4 eggs",
+    "For the jelly:",
+    "1 split pig trotter",
+    "1 carrot",
+    "1 stick celery",
+    "2 bay leaves",
+    "2.5g sage",
+    "For the pastry:",
+    "475g strong flour",
+    "5g salt",
+    "175g commercial lard or carefully hoarded beef fat",
+    "125g water"
+  ],
+  "method": [
+    "Chop a kilo of boned pork shoulder into rough 1cm dice. Trim out the skin and tough connective tissue and save it. These will be vital elements of the jelly later on.",
+    "Cut about 200g of bacon into similar size pieces. In commercially produced pies nitrates are added to keep the filling an appetising colour. There are enough residual preservatives in shop-bought bacon to keep the pie filling pink throughout. If this though worries you, you can leave out the bacon for an authentically rustic, grey pie interior.",
+    "To make the jelly, chuck your porky trimmings into a pot with a split pig's trotter, celery, carrot, some bay leaves and fresh sage. Cover with cold water and allow to barely simmer for 2-3 hrs until the trotter gives up the ghost and collapses. Strain the liquid through muslin and keep it in the fridge. Check that it sets to a good consistency - if it doesn't you can reduce it a little further. This will produce much more jelly than you need but it freezes well and I like to serve it chopped as a side dish with the pie",
+    "Season your meat with sage, mace, nutmeg, allspice, pepper and a good 10g of salt. Remember that the pie is a preserved product so this is as much about curing as flavouring.",
+    "Mix the meat and seasonings thoroughly by hand and then blitz half the mix in a food processor before recombining. I like chunks of pork in my pies but you can vary proportions here to suit your own taste",
+    "Mix 475g of strong flour in a bowl with 7.5g of salt. Melt 100g of lard or dripping in 175g of boiling water ...",
+    "... then pour in the hot liquid and begin combining it with a palette knife."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2348"
+  ],
+  "source_file": "421-pork-pie-gala.html"
+}

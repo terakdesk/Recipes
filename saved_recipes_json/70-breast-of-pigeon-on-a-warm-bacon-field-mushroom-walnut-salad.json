@@ -1,0 +1,36 @@
+{
+  "title": "Breast of pigeon on a warm bacon, field mushroom &amp; walnut salad",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBreast of pigeon on a warm bacon, field mushroom &amp; walnut salad",
+  "ingredients": [
+    "4 x pigeon breasts",
+    "½ x small onion (finely diced)",
+    "2 x cloves garlic (crushed)",
+    "6 x rashers of streaky bacon (cut into thin strips)",
+    "Olive oil for frying",
+    "4 x Flat field mushrooms (sliced)",
+    "Flat leaf parsley (roughly chopped)",
+    "Splash of red wine vinegar",
+    "8 x whole walnuts in their shells",
+    "Sea salt and cracked black pepper",
+    "Mixed salad leaves"
+  ],
+  "method": [
+    "Roast the walnuts in a warm oven for 10 minutes, then crack open and remove one half of the nut (discarding the empty shell) so that you have a mix of shelled nuts and some still contained inside their shells.",
+    "Cook the bacon lardons in a slug of olive oil until crunchy, remove with a slotted spoon and drain on a piece of kitchen paper leaving the oil in the pan.",
+    "Sweat off the onion and garlic in the bacon fat together with a slug of olive oil and add the mushrooms and fry until any water has evaporated from them.",
+    "Add the red wine vinegar, salt and pepper, parsley, roasted walnuts and bacon and stir through until all ingredients are warm and combined.",
+    "Heat some more olive oil in a frying pan and pan fry the pigeon breasts for about a minute on each side so they stay pink in the middle. Remove from the heat and rest while you plate up the salad.",
+    "Pile the mixed leaves into the middle of a plate and top with the warm bacon and walnut salad spooning over any dressing left in the pan.",
+    "Slice the pigeon breast and lay on top of the salad and serve at once."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Duck and other Fowl Based",
+    "Published: 09 December 2014",
+    "Created: 09 December 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2320"
+  ],
+  "source_file": "70-breast-of-pigeon-on-a-warm-bacon-field-mushroom-walnut-salad.html"
+}

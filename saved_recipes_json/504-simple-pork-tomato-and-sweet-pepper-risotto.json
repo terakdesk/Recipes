@@ -1,0 +1,43 @@
+{
+  "title": "Simple pork, tomato and sweet pepper risotto",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSimple pork, tomato and sweet pepper risotto",
+  "ingredients": [
+    "300gms Arborio (or risotto) rice",
+    "1 large onion (chopped half centimetre cubes)",
+    "500ml-900ml of hot stock (I used 3 tsp of Marigold stock powder to 900ml of water)",
+    "2-3 tbls of olive oil",
+    "1 fat clove of garlic (crushed and chopped fine)",
+    "2 sun dried tomato pieces 3-4 cm long, chopped fine",
+    "Herbs to taste (we used two large pinches of our strong, dried Italian herbs)",
+    "1 green Marmara pepper (sliced fine)",
+    "Half a red bell pepper (sliced very fine)",
+    "8-10 sweet cherry tomatoes (quartered)",
+    "Cubed meat from 3 cold chops from a rack (these are smaller than an ordinary pork chop). Our half rack produced two handfuls of meat.",
+    "Large slosh of dry white wine",
+    "Chopped fresh herbs to garnish",
+    "1 tablespoon of parmesan to garnish"
+  ],
+  "method": [
+    "Over a low heat add the chopped onions to the olive oil and cook until soft and translucent.",
+    "Add the rice and another tablespoonful of oil if the mixture seems a bit dry. Toss the rice in the onion and oil mix until all the grains are coated.",
+    "Add the garlic. Add 250ml of stock and stir to absorb. Add the sun dried tomatoes and herbs.",
+    "Keep on adding the stock and stirring, letting the rice absorb the moisture.",
+    "After ten minutes add the peppers and tomatoes. Stir well and every now and then check the moisture and top up with stock as necessary.",
+    "When the rice has softened but still has a bite (20 mins approx) remove from the heat.",
+    "Add the wine (optional) and the pork and stir the meat well into the risotto.",
+    "Put the lid on and leave for five minutes.",
+    "Scatter with a dessertspoon of fresh herbs (parsley ideally) and parmesan."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 28 October 2012",
+    "Created: 28 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2095"
+  ],
+  "source_file": "504-simple-pork-tomato-and-sweet-pepper-risotto.html"
+}

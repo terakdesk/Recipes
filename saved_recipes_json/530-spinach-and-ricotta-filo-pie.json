@@ -1,0 +1,35 @@
+{
+  "title": "Spinach and Ricotta Filo Pie",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpinach and Ricotta Filo Pie",
+  "ingredients": [
+    "1 medium onion , finely chopped",
+    "2 garlic cloves , peeled and crushed",
+    "250g young spinach",
+    "1 egg",
+    "250g ricotta , drained (or vegetarian alternative)",
+    "½ tsp freshly grated nutmeg",
+    "100g feta cheese (or vegetarian alternative)",
+    "4 sheets filo pastry (each roughly 38cm x 30cm)"
+  ],
+  "method": [
+    "Heat a spray of oil in a large pan and fry the onion and garlic for 10 minutes until soft but not coloured.",
+    "Add the spinach and cook for 5 minutes, stirring. Tip into a sieve and press to remove as much excess liquid as possible. Cool.",
+    "Beat the egg with the ricotta and nutmeg and season.",
+    "Stir in the feta with the spinach and onion.",
+    "Heat the oven to 200C/fan 180C/gas 6.",
+    "Spray a 20cm loose-based cake tin with a little oil. Line with the filo sheets, leaving excess pastry overhanging and brushing each sheet with melted butter.",
+    "Spoon the cheese and spinach mixture into the tin. Bring the pastry up and over the top of the pie. Brush generously with melted butter.",
+    "Bake for 25-30 minutes until golden brown and crisp.",
+    "Serve warm or cold."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey Meals",
+    "Published: 05 March 2013",
+    "Created: 05 March 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2172"
+  ],
+  "source_file": "530-spinach-and-ricotta-filo-pie.html"
+}

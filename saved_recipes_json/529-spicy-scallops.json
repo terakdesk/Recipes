@@ -1,0 +1,42 @@
+{
+  "title": "Spicy Scallops",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpicy Scallops",
+  "ingredients": [
+    "350 g (12 oz) queen scallops, fresh or frozen, thawed",
+    "2 level tsp (10 ml) Chinese sweet chilli sauce",
+    "4 oz (100 g) carrots, scrubbed",
+    "3 celery sticks",
+    "1 tbsp (15 ml) dry sherry",
+    "1 tbsp (15 ml) soy sauce",
+    "1 tsp (5 ml) tomato puree (paste)",
+    "2 tbsp (30 ml) corn oil",
+    "1 tsp (5 ml) grated fresh root ginger",
+    "1 tbsp (15 ml) chopped spring onion"
+  ],
+  "method": [
+    "Mix the scallops with the chilli sauce and set aside.",
+    "Cut the carrots and celery into thin matchsticks.",
+    "Mix the sherry, soy sauce and tomato puree with 30 ml (2 tbsp) water.",
+    "Heat half the oil in a large frying pan or wok.",
+    "Add the carrot and celery and stir-fry over a high heat for 1 minute.",
+    "Remove vegetables from pan with a slotted spoon and set aside.",
+    "Heat the remaining oil in the pan, then add the ginger and spring onion and stir-fry briefly over high heat.",
+    "Add the scallops and turn them in the oil to seal them on all sides.",
+    "Lower the heat to medium, add the soy sauce mixture to the pan and stir well.",
+    "Return the vegetables to the pan and stir well.",
+    "Stir-fry for 3-4 minutes, until the scallops feel firm.",
+    "Serve the dish hot."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Fish Based",
+    "Published: 28 October 2012",
+    "Created: 28 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2300"
+  ],
+  "source_file": "529-spicy-scallops.html"
+}

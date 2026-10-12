@@ -1,0 +1,30 @@
+{
+  "title": "Christmas Fried Cabbage",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChristmas Fried Cabbage",
+  "ingredients": [
+    "3 tablespoons Lemon garlic butter left over from the chicken recip",
+    "1 white onion, diced",
+    "1 white cabbage, (use half if very large cabbage – whole head if small) sliced into thin strips",
+    "1 tsp salt, celtic sea salt preferred"
+  ],
+  "method": [
+    "Heat butter in large pan on medium-high heat until melted and foamy.",
+    "Add diced onions to pan, cook until soft and transparent, about 4 minutes. Stir to prevent sticking or burning.",
+    "Add garlic to pan, cook until fragrant and soft, about 3 minutes.",
+    "Add cabbage to pan and toss well to coat in butter.",
+    "Generously season with salt.",
+    "Let cabbage reduce by half, about 10 minutes, stirring occasionally as it cooks down to prevent burning and allow it to cook evenly.",
+    "When cabbage has lost much of it's volume and started to turn shiny, slightly translucent, and has lovely browned bits, it is ready to serve.",
+    "Remove from heat and plate with your favorite meat, casserole, fish, or other main dish!"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 08 November 2025",
+    "Created: 08 November 2025",
+    "Last Updated: 08 November 2025",
+    "Hits: 267"
+  ],
+  "source_file": "725-christmas-fried-cabbage.html"
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Pheasant Breast in crème frâiche",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPheasant Breast in crème frâiche",
+  "ingredients": [
+    "4 pheasant breasts (young hen breasts if possible as they won't be so tough)",
+    "4 large rashers, lightly smoked bacon",
+    "500ml/17fl oz dry cider",
+    "5 shallots",
+    "knob of butter",
+    "1 tsp caster sugar",
+    "30g/1oz plain flour",
+    "100ml/7tbsp full fat crème fraîche"
+  ],
+  "method": [
+    "Preheat the oven to 200C/400F/Gas 6.",
+    "Butter the pheasant breasts and then wrap in the bacon. Place in an ovenproof dish (so that they aren't too cramped together) and then pop in the oven for 25 minutes.",
+    "After 25 minutes reduce the oven temperature to 170C/325F/Gas 3, pour 250ml/8 fl oz of the cider over the pheasant breasts, cover with a lid or tin foil, and return to the oven for another 60 minutes.",
+    "Towards the ending of the cooking time for the pheasants, pour the remaining cider into a saucepan and cook until the volume of liquid has reduced by about half.",
+    "Thinly slice the shallots and cook very slowly in a little butter until soft. Then add the caster sugar and continue to cook until lightly caramelised. Remove from the heat until ready to finish the sauce.",
+    "Check the pheasant breasts during the cooking time to ensure that they do not dry out and add more cider if necessary.",
+    "To finish the sauce, add the flour to the shallots, place the pan back on a gentle heat and mix together. You may need to add a little more butter at this stage if the shallots are very dry, but they shouldn't be. Now add the cider reduction and the crème fraîche and cook together over a low heat until the sauce starts to thicken.",
+    "Once ready to serve, slice each breast into about five slices and place on the plate still in the shape of the whole breast. Pour the sauce over the meat and serve."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Duck and other Fowl Based",
+    "Published: 22 March 2014",
+    "Created: 22 March 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2535"
+  ],
+  "source_file": "396-pheasant-breast-in-creme-fraiche.html"
+}

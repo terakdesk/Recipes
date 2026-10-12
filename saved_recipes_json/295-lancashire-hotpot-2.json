@@ -1,0 +1,39 @@
+{
+  "title": "Lancashire Hotpot 2",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLancashire Hotpot 2",
+  "ingredients": [
+    "100ml/3½fl oz vegetable oil",
+    "350g/12oz lamb, cut into bite-sized chunks",
+    "1 tbsp tomato purée",
+    "1 tsp beef stock granules, dissolved in 100ml/3½fl oz water",
+    "50g/1¾oz chopped onion",
+    "50g/1¾oz chopped carrots",
+    "50g/1¾oz chopped celery",
+    "salt and pepper",
+    "1 tbsp chopped fresh mint",
+    "2 tsp cornflour, mixed with 3 tsp water (optional)",
+    "300g/10½oz potatoes, sliced",
+    "1 tbsp melted butter",
+    "2 tsp dried parsley, to garnish (optional)",
+    "100ml/3½fl oz gravy, to serve"
+  ],
+  "method": [
+    "Heat the oil in a heavy-bottomed pan. Add the lamb and cook until golden-brown and then stir in the tomato purée.",
+    "Add the stock and simmer for 2-3 hours, or until the lamb is tender.",
+    "Add the onion, carrots and celery and cook until the vegetables are soft.",
+    "Season to taste with salt and pepper. Add the mint and cook for 2-3 minutes. If necessary, thicken the sauce by adding the cornflour paste.",
+    "Preheat the oven to 180C/350F/Gas 4.",
+    "Transfer the stew to an ovenproof dish. Place the sliced potatoes on top and brush with melted butter. Bake for 30 minutes, or until the potato topping is golden-brown.",
+    "Sprinkle with dried parsley and serve with gravy."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Lamb Based",
+    "Published: 10 November 2014",
+    "Created: 10 November 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2130"
+  ],
+  "source_file": "295-lancashire-hotpot-2.html"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Cashew sauce (Sauce Alfredo)",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tCashew sauce (Sauce Alfredo)",
+  "ingredients": [
+    "150 grams cashews",
+    "3 very heaped dessertspoons nutritional yeast",
+    "4 large cloves garlic, crushed",
+    "1/2 teaspoon sea salt",
+    "1-2 cups milk as needed"
+  ],
+  "method": [
+    "Soak cashews in warm water for an hour, then drain and add to a high-speed blender.",
+    "Blend - it takes a while to get rid of big lumps so keep scraping the sides AND the bottom of the mush to get it all processed.",
+    "Now add the nutritional yeast, garlic and sea salt.",
+    "Blend.",
+    "Add milk as necessary until creamy and very smooth.",
+    "Taste and adjust flavor as needed, adding more garlic for kick/zing, nutritional yeast for cheesy flavour, salt for saltiness, or milk if too thick.",
+    "Pour into a saucepan and cook over medium-low to medium heat for 5 minutes, whisking frequently. The sauce should thicken and bubble.",
+    "It can be used as is or thinned with more milk if adding to dishes such.as lasagne. Stir into cooked pasta and serve or use a thick version as cheese on pizza bases. Also can pour over bolgnaise to serve with a creamy, cheesy sauce. Flavour with cooked leeks or onions and so forth."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 03 November 2022",
+    "Created: 03 November 2022",
+    "Last Updated: 03 November 2022",
+    "Hits: 880"
+  ],
+  "source_file": "677-cashew-sauce.html"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Roasted Squash Seeds",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRoasted Squash Seeds",
+  "ingredients": [
+    "1 c. raw winter squash seeds",
+    "1 olive oil",
+    "1/2 teaspoon chili powder",
+    "1/2 teaspoon coriander powder",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon cumin powder",
+    "1/8 teaspoon cinnamon powder"
+  ],
+  "method": [
+    "Heat oven to Gas Mark 2 or use bottom of a hotter oven.",
+    "Oil a baking tray.",
+    "Toss with oil and seasonings, then spread evenly in a baking tray, no more than one seed deep",
+    "Bake uncovered, stirring every 15 minutes for 40-50 minutes until seeds are dry but not yet browned. Store in airtight container for up to a month."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 06 October 2022",
+    "Created: 06 October 2022",
+    "Last Updated: 06 October 2022",
+    "Hits: 865"
+  ],
+  "source_file": "673-roasted-squash-seeds.html"
+}

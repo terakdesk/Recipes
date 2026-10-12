@@ -1,0 +1,30 @@
+{
+  "title": "Rhubarb Jam",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRhubarb Jam",
+  "ingredients": [
+    "1 pound rhubarb, thinly sliced, about 4 stalks",
+    "6 tablespoons fresh lemon juice",
+    "3 tablespoons grated lemon peel",
+    "3 cups granulated sugar",
+    "1/4 cup crystallized ginger, finely chopped",
+    "1/3 cup coarsely chopped almonds, toasted*"
+  ],
+  "method": [
+    "In a heavy 5 to 6-quart kettle, combine the sliced rhubarb, lemon juice, grated lemon peel, sugar, and ginger; let stand for 4 hours.",
+    "Bring mixture to a boil over medium-high heat; cook, stirring often, for 10 to 15 minutes, or until a jelly thermometer registers 220&deg; or use the cold saucer test.",
+    "Stir in the nuts and simmer for 1 minute, stirring.",
+    "Ladle the conserve into hot sterilized jars; seal. Jars can be refrigerated for up to 2 months, or freeze for up to 1 year.",
+    "For longer storage, this conserve must be processed in a hot-water bath for 10 minutes. Store in a cool, dark place.",
+    "Makes about 3 1/2 cups."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2303"
+  ],
+  "source_file": "456-rhubarb-jam.html"
+}

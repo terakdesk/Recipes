@@ -1,0 +1,40 @@
+{
+  "title": "INDIAN STYLE LAMB CURRY",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tINDIAN STYLE LAMB CURRY",
+  "ingredients": [
+    "4-5 lbs lamb cut into 1&quot; square cubes",
+    "6 tbsp oil",
+    "1 med onion chopped coarsely",
+    "1 whole bulb garlic (approx 15 cloves) minced",
+    "3 tsp salt (more if desired, but start with this)",
+    "3 tsp tumeric powder (yellow curry powder)",
+    "6 tsp Masala powder (allspice)",
+    "1 bunch cilantro",
+    "fresh chilies (start with little bit, add to desired heat)",
+    "3 med potatoes, peeled and quartered",
+    "the leaves from 1 stem of curry leaves (optional)",
+    "4 cups water",
+    "You may have to find an East Indian store and show them this recipe for them to know what you need."
+  ],
+  "method": [
+    "In a large cooking pot on medium/high heat, add the oil, and heat until oil is hot, add onions, and fry until light brown.",
+    "Stir in tumeric powder, and 30 secs later add the garlic and chilies. Mix for about 1 min, add the curry leaves (make sure no stems), and stir in the lamb.",
+    "Add the Masala powder and salt and mix. Cook covered for about 5 mins.",
+    "Add the water, then cover and cook for 20 minutes. Add the potatoes, and cook another 20 minutes covered.",
+    "Check to see if meat is cooked, potatoes are softened, and taste for salt, and chilies, and sauce has thickened.",
+    "If needed, cook longer until the desired result.",
+    "Garnish with cilantro, serve over rice (basmati is best) and that's it.",
+    "This is the basic recipe, and measurements are also approximate, if the sauce thickens too fast during cooking then add water till the desired result.",
+    "The sauce, when it's finished should be the same thickness as pancake batter."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Lamb Based Curry",
+    "Published: 28 October 2012",
+    "Created: 28 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2272"
+  ],
+  "source_file": "263-indian-style-lamb-curry.html"
+}

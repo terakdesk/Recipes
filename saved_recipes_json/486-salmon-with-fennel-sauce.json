@@ -1,0 +1,35 @@
+{
+  "title": "Salmon With Fennel Sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSalmon With Fennel Sauce",
+  "ingredients": [
+    "4 salmon steaks, each weighing about 175 g (6 oz)",
+    "2 shallots, skinned and chopped",
+    "1 small fennel bulb, finely chopped",
+    "1 bay leaf",
+    "2 stalks fresh parsley, crushed",
+    "150 ml (1/4 pint) dry white wine",
+    "2 egg yolks",
+    "100 g (4 oz) butter, softened",
+    "salt and pepper",
+    "lemon juice, to taste",
+    "fresh fennel sprigs, to garnish"
+  ],
+  "method": [
+    "Place the salmon steaks in a shallow ovenproof dish. Scatter the shallots, fennel, bay leaf and parsley over the top. Pour in the wine, cover tightly and bake at 180&deg;C (350&deg;F) mark 4 for 15 minutes, until fish is tender.",
+    "Strain off 100 ml (4 fl oz) of the cooking liquor. Turn off oven, re-cover the salmon and keep warm.",
+    "Boil the strained liquor until reduced to 15 ml (1 tbsp). Beat the egg yolks together in a medium heatproof bowl, then stir in the reduced liquor and work in half of the butter.",
+    "Place the bowl over a saucepan of hot water and whisk with a balloon whisk until the butter has melted. Gradually whisk in the remaining butter, whisking well after each addition, to make a thick, fluffy sauce. Remove the pan from the heat.",
+    "Add 10 ml (2 tsp) of the cooked fennel to the sauce and season to taste, adding a little lemon juice, if necessary.",
+    "Transfer the salmon to a warmed plate. Spoon the sauce over and garnish with fennel sprigs."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Fish Based",
+    "Published: 28 October 2012",
+    "Created: 28 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2512"
+  ],
+  "source_file": "486-salmon-with-fennel-sauce.html"
+}

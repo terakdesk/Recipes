@@ -1,0 +1,40 @@
+{
+  "title": "Meatballs for Spaghetti",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMeatballs for Spaghetti",
+  "ingredients": [
+    "650g trimmed chuck steak",
+    "320g back back &ndash; trim rind",
+    "100g breadcrumbs",
+    "85g (1 small) onion chopped finely",
+    "1 teaspoon black pepper",
+    "2 teaspoons Italian seasoning (or basil, oregano, thyme, sage)",
+    "1 teaspoon salt",
+    "&frac12; teaspoon mace",
+    "&frac14; teaspoon ground nutmeg",
+    "2 tablespoons grated parmesan",
+    "2 eggs &ndash; beaten"
+  ],
+  "method": [
+    "Chill meat",
+    "Grind steak and bacon on large cutter",
+    "Chill meat",
+    "Grind meat again on fine cutter",
+    "Mix all ingredients with just enough egg to make a mixture that will stick together",
+    "Form into small meat balls",
+    "Chill meat in fridge for at least an hour",
+    "Fry meatballs jus enough to brown all over",
+    "Add meatballs to tomato sauce and simmer for at least 45 minutes"
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Beef Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2217"
+  ],
+  "source_file": "327-meatballs-for-spaghetti.html"
+}

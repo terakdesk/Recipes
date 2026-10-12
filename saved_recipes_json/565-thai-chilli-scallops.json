@@ -1,0 +1,27 @@
+{
+  "title": "Thai Chilli Scallops",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tThai Chilli Scallops",
+  "ingredients": [
+    "8-10 medium OR 4-5 large sea scallops (SERVES 2 for an Appetizer or Tapas plate)",
+    "2 Tbsp. oil for frying",
+    "salt and pepper"
+  ],
+  "method": [
+    "Rinse scallops and pat dry. Place on a clean, dry surface.",
+    "Warm a wok or large frying pan over medium-high heat (allow pan to warm up at least 1 minute). While the pan is warming up, use a paper towel or clean tea towel to gently dab any remaining moisture from the scallops. Tip: The scallops must be very dry before frying in order to achieve a good sear.",
+    "Add 2 Tbsp. oil to the wok (or frying pan) and swirl around.",
+    "Gently place the scallops in the pan, leaving enough space between so you'll have room to turn. Allow the scallops to cook undisturbed for at least 2 minutes (trying to turn them too early will cause skin to tear). Larger scallops may take as long as 3-4 minutes per side. While scallops are cooking, season with a pinch of salt and black pepper.",
+    "Use an egg-turner to gently turn the scallops. Season once more with salt and pepper. Scallops are done when both sides have a nice crispy-looking crust and are firm to the touch. Also, you will see them 'open' slightly, as though they are going to flake.",
+    "Remove scallops from the wok/pan and place on paper towel or clean tea towel to drain."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Fish Based Curry",
+    "Published: 05 April 2014",
+    "Created: 05 April 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2499"
+  ],
+  "source_file": "565-thai-chilli-scallops.html"
+}

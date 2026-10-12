@@ -1,0 +1,40 @@
+{
+  "title": "Authentic Bolognese with Tagliatelle",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tAuthentic Bolognese with Tagliatelle",
+  "ingredients": [
+    "500g lean minced beef",
+    "1 tbsp olive oil",
+    "3 rashers of streaky 'pancetta' bacon, chopped",
+    "1 large onions, chopped",
+    "2 garlic cloves, crushed",
+    "1 carrot, chopped",
+    "Stick of celery",
+    "1 large glass of red wine",
+    "400g can chopped tomatoes",
+    "1 fresh or dried bay leaves",
+    "salt and freshly ground black pepper",
+    "dried tagliatelle",
+    "freshly grated parmesan cheese, to serve"
+  ],
+  "method": [
+    "Heat the oil in a large, heavy-based saucepan and fry the bacon until golden over a medium heat.",
+    "Add the onions and garlic, frying until softened.",
+    "Increase the heat and add the minced beef. Fry it until it has browned.",
+    "Pour in the wine and boil until it has reduced in volume by about a third.",
+    "Reduce the temperature and stir in the tomatoes and celery.",
+    "Cover with a lid and simmer over a gentle heat for 1-1½ hours until it's rich and thickened, stirring occasionally.",
+    "Cook the tagliatelle in plenty of boiling salted water. Drain and divide between plates.",
+    "Sprinkle a little parmesan over the pasta before adding a good ladleful of the sauce.",
+    "Finish with a further scattering of cheese and a twist of black pepper."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Beef Based",
+    "Published: 10 December 2012",
+    "Created: 10 December 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2315"
+  ],
+  "source_file": "15-bolognese-tagliatelle.html"
+}

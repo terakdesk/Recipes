@@ -1,0 +1,34 @@
+{
+  "title": "Entrecôte steak in red wine",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tEntrecôte steak in red wine",
+  "ingredients": [
+    "2 entrecôte or sirloin steaks weighing about 8 oz (225 g) each, removed from the fridge about 1 hour before you need them",
+    "1 tablespoon light olive oil",
+    "1 small onion, peeled and finely chopped",
+    "6 fl oz (175 ml) red wine",
+    "freshly milled black pepper"
+  ],
+  "method": [
+    "First of all, heat half the oil in the frying pan over a high heat, then fry the chopped onion until it's softened and tinged dark brown at the edges – about 6 minutes – and remove to a plate.",
+    "Now add the remaining oil to the pan and, keeping the heat high – the pan should be as hot as you dare – season the steaks with coarsely milled black pepper, but no salt, as this encourages the juices to come out.",
+    "Now add the steaks to the hot pan and press them gently with a spoon so that the underneath is seared and becomes crusty.",
+    "Cook the steaks for about 3 minutes each side for medium, 2 for rare and 4 for well done. Remove from pan and keep warm.",
+    "Return the onion to the pan, pour in the wine and, keeping the heat high, boil until reduced and syrupy.",
+    "Serve the steaks on hot plates with the sauce spooned over."
+  ],
+  "notes": [
+    "A traditional French entrecôte comes from the rib area of the carcass, corresponding to the steaks known in different parts of the English-speaking world as rib, rib-eye, club, Scotch fillet, or Delmonico.",
+    "The term may also be used in France to denote the sirloin, more properly known as a contre-filet.",
+    "In English, a steak cut from the contre-filet may be called a Porterhouse steak (as the term is understood in Australia, New Zealand, and the United Kingdom), a sirloin steak, a strip steak.",
+    "If the contre-filet is left on the bone with the filet, the entire steak is called a Porterhouse steak in the United States or a T-bone steak in England."
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Beef Based",
+    "Published: 13 January 2013",
+    "Created: 13 January 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2601"
+  ],
+  "source_file": "197-entrecote-steak-in-red-wine.html"
+}

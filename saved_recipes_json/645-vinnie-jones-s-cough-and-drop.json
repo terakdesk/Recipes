@@ -1,0 +1,37 @@
+{
+  "title": "Vinnie Jones's Cough and Drop",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tVinnie Jones's Cough and Drop\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t\t\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\n\n\n\t\t&emsp;",
+  "ingredients": [
+    "400g pork liver",
+    "1 cup of milk",
+    "400g belly pork slices",
+    "200g cooking bacon",
+    "1 large onion",
+    "2-5 cloves of garlic to taste",
+    "125g dried breadcrumbs",
+    "2 teaspoons dried sage",
+    "1 teaspoon dried thyme",
+    "1 teaspoon cumin powder",
+    "1/2 teaspoon ground black pepper",
+    "1 teaspoon dry English mustard powder or 2 teaspoons readymade dijon mustard",
+    "Salt - see below"
+  ],
+  "method": [
+    "Chop the liver into small pieces. If the smell is strong it can be reduced by soaking the liver in the milk - drain the milk before adding the other ingredients.",
+    "Remove any skin and bone from the belly pork but save the fat. Chop into small pieces and either put through a meat grinder or use a food processor with a coarse chopping blade.",
+    "Chop the onion and garlic into fine dice.",
+    "Mix all ingredients together to form a stiff coarse paste."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by Adrian",
+    "Category: Uncategorised",
+    "Published: 15 December 2019",
+    "Created: 15 December 2019",
+    "Last Updated: 17 December 2019",
+    "Hits: 1332"
+  ],
+  "source_file": "645-vinnie-jones-s-cough-and-drop.html"
+}

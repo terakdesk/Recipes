@@ -1,0 +1,45 @@
+{
+  "title": "Vegetarian Wellington",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tVegetarian Wellington \t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t\t\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\n\n\n\t\tTakes two hours to complete.",
+  "ingredients": [
+    "1 small butternut squash , halved lengthways and seeds scraped out",
+    "olive oil",
+    "1 small dried red chilli , crumbled",
+    "½ teaspoon ground cinnamon",
+    "1 tablespoon coriander seeds",
+    "1 sprig fresh rosemary , leaves picked and chopped",
+    "2 red onions , peeled and sliced",
+    "sea salt",
+    "freshly ground black pepper",
+    "1 small bunch fresh sage , leaves picked",
+    "100 g vac-packed chestnuts , crumbled",
+    "2 slices sourdough bread",
+    "3 cloves garlic , peeled",
+    "1 lemon",
+    "20 g butter",
+    "250 g chestnut mushrooms , finely sliced",
+    "200 g Swiss chard or spinach , washed",
+    "50 g pine nuts",
+    "25 g sultanas",
+    "500 g all butter puff pastry",
+    "1 free-range egg",
+    "1 splash milk"
+  ],
+  "method": [
+    "Preheat the oven to 200ºC/400ºF/gas 6. Slice the squash lengthways into wedges and add to a large roasting tray with a good splash of olive oil, the chilli and cinnamon. Bash the coriander seeds in a pestle and mortar until fine, then add the rosemary leaves and bash again for 1 to 2 minutes to release its flavour. Scatter over the squash and toss together so that each piece of squash is well coated with the seasoning. Make sure all the squash is skin-side down, then cover with tin foil and bake in the hot oven for around 45 minutes or until soft. Allow to cool, then tear into bite-sized chunks.",
+    "Meanwhile, heat a saucepan over a medium heat, then add a splash of olive oil and the onions. Season well with salt and pepper and cook gently, stirring occasionally, until softened and lightly browned. Add the sage and crumbled chestnuts to the pan for the last few minutes of cooking.",
+    "While that’s happening, toast the bread on a hot griddle pan or in a toaster and rub well with one of the cloves of garlic. Tear into small chunks, and once the onions are done, add the toast to the pan. Turn the heat off, stir everything together, taste, then season and grate in the zest of the lemon.",
+    "Add the butter to a frying pan on a medium heat and when melted, add the mushrooms and a chopped clove of garlic. Fry until soft and quite dry. Squeeze in a little lemon juice, tip into a food processor and whiz until smooth.",
+    "Bring a large pan of salted water to the boil, add the spinach and cook until soft. Drain in a colander, pressing lightly to get rid of excess moisture, then place to one side."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Vegey Meals",
+    "Published: 09 December 2017",
+    "Created: 09 December 2017",
+    "Last Updated: 09 December 2017",
+    "Hits: 2390"
+  ],
+  "source_file": "619-vegetarian-wellington.html"
+}

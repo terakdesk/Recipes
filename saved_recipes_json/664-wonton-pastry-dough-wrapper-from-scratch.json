@@ -1,0 +1,27 @@
+{
+  "title": "Wonton pastry dough wrapper from scratch",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tWonton pastry dough wrapper from scratch",
+  "ingredients": [
+    "1 egg",
+    "⅓ cup water",
+    "2 cups all-purpose flour",
+    "½ teaspoon salt"
+  ],
+  "method": [
+    "In a medium bowl, beat the egg. Mix in the water.",
+    "In a large bowl, combine the flour and salt. Create a well in the center of the mixture and slowly pour in the egg and water. Mix well. If the mixture is too dry, increase the amount of water one teaspoon at a time until a pliable dough has formed.",
+    "On a lightly floured surface, knead the dough until elastic. Cut dough into two separate balls. Cover the balls with a damp cloth for a minimum of 10 minutes.",
+    "S",
+    "Cut each ball into four equal pieces. Roll the pieces into 10 1/2 by 10 1/2 inch squares. Cut each into nine 3 1/2 by 3 1/2 inch squares. Use in any recipe that calls for wonton wrappers."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 07 December 2021",
+    "Created: 07 December 2021",
+    "Last Updated: 07 December 2021",
+    "Hits: 838"
+  ],
+  "source_file": "664-wonton-pastry-dough-wrapper-from-scratch.html"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Pork apple onion sage sausage roll",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork apple onion sage sausage roll",
+  "ingredients": [
+    "Butter for frying",
+    "1 small onion, finely diced",
+    "5 clove garlic, minced",
+    "2 apples, cored and finely diced",
+    "16 sage leaves, finely chopped",
+    "1 heaped tsp wholegrain mustard",
+    "400g pork sausage meat",
+    "1 x 320g sheet ready-rolled puff pastry",
+    "1 egg, beaten"
+  ],
+  "method": [
+    "Preheat the oven to 180°C, fan 160°C, gas 4.",
+    "Heat the oil in a small nonstick frying pan and cook the onion over a low heat for 8-10 minutes until tender.",
+    "Tip the fried onion into a mixing bowl and add the apple, sage, garlic and mustard.",
+    "Put the sausage meat in the bowl and mix with your hands then shape into 16 equal fat sausage shapes.",
+    "Unroll the pastry and cut into 16 equal rectangles.",
+    "Place one sausage down the left hand side of each piece of pastry, about 2cm from the edge – brush the other edge with beaten egg, then wrap the pastry over to enclose the sausage meat.",
+    "Press down and trim. Place on a baking tray, seam-side down, brush with beaten egg to glaze and slash the top of each roll a couple of times with a knife.",
+    "Bake for 35 minutes until golden brown and crisp. Delicious hot or cold."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 31 May 2022",
+    "Created: 31 May 2022",
+    "Last Updated: 03 June 2022",
+    "Hits: 1024"
+  ],
+  "source_file": "668-pork-apple-onion-sage-sausage-roll.html"
+}

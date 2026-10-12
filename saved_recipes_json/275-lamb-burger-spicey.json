@@ -1,0 +1,23 @@
+{
+  "title": "Lamb Burger Spicey",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLamb Burger Spicey",
+  "ingredients": null,
+  "method": [
+    "Place the minced lamb in a large mixing bowl and add the garlic, onion, mango chutney, ginger, chopped chilli, turmeric, crushed coriander and cumin. Season well with salt and pepper and mix by hand until combined. The burgers can be briefly mixed in a food processor until just starting to hold together, but be careful not to over-work the mixture.",
+    "Divide and shape the mixture into 8-10 burgers. If you want to check the flavour, fry a small burger in a drop of oil before shaping the rest and, if necessary, add extra flavourings or seasoning.",
+    "Place the burgers on a cling film-covered tray and keep them in the fridge to relax for at least 30 minutes. They're ideal made the day before cooking.",
+    "To prevent the burgers from sticking, brush with a little oil before barbecuing over medium-hot coals for about 5-6 minutes each side.",
+    "Mix together the tomatoes, yoghurt, coriander, onion and lemon or lime juice and season to taste with salt and pepper. Serve with the burgers, either inside the bun or as a dipping sauce.",
+    "For a change, use diced, seeded cucumber instead of tomatoes, and try mint instead of coriander."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based",
+    "Published: 09 June 2014",
+    "Created: 09 June 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2008"
+  ],
+  "source_file": "275-lamb-burger-spicey.html"
+}

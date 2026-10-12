@@ -1,0 +1,30 @@
+{
+  "title": "Chicken Kiev",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChicken Kiev",
+  "ingredients": [
+    "8 skinless, boneless chicken fillets",
+    "225g dried breadcrumbs",
+    "75g parmesan, grated",
+    "5 eggs, beaten",
+    "100g plain flour",
+    "pinch paprika",
+    "4 tbsp sunflower or vegetable oil, for frying"
+  ],
+  "method": [
+    "Place all the garlic butter ingredients in a bowl and season well. Mash with a fork until well combined, shape into two sausages using cling film to help you shape it, then tightly wrap and chill or freeze until really firm. Can be made up to 3 days in advance. When firm, slice each into 8 even pieces.",
+    "Lay a chicken breast on a chopping board and use a sharp knife to butterfly the breast then lay the meat between cling film and batter it flat and thin.",
+    "Place butter on the chicken and roll up. Set aside.",
+    "Mix the breadcrumbs and Parmesan on one plate, and tip the eggs onto another. On a third plate, mix the flour with paprika and some salt. Dip each breast in the flour, then the egg and finally the breadcrumbs, repeating so each Kiev has a double coating (this will make them extra crisp and help to keep the butter inside). Chill for at least 1 hr before cooking, or freeze now – see tips, below.",
+    "To cook, heat oven to 180C/160C fan/ gas 4. Heat the oil in a large frying pan over a medium-high heat. Fry the Kievs for 2-3 mins each side until golden – you may need to do this in batches. Transfer to a baking tray and cook for 20-25 mins until cooked through."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Chicken Based",
+    "Published: 17 April 2014",
+    "Created: 17 April 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2410"
+  ],
+  "source_file": "108-chicken-kiev.html"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Red Lentil Risotto",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRed Lentil Risotto",
+  "ingredients": [
+    "2 shallots",
+    "2 cloves gaarlic",
+    "200g red lentils",
+    "1 glass of white wine",
+    "400ml vegetable stock",
+    "1 chunk of Parmesan, grated",
+    "1 glug of skimmed milk",
+    "1 handful of fresh rocket"
+  ],
+  "method": [
+    "peel and finely dice the shallot and garlic.",
+    "strip the thyme leaves off of the stalks and add to a pan with the bay leaves, chopped shallots, garlic and a shot of olive oil.",
+    "fry these slowly for 3-4 minutes to soften.",
+    "pour in the lentils and stir to coat all the grains in sweet shallots.",
+    "splash in the white wine, then add the stock, a little at a time, bringing the lentils back to a simmer before adding more each time.",
+    "stir continuously until all the stock has been added and the lentils have swollen and cooked, this should take about 10-15 minutes.",
+    "chuck in the grated parmesan, the milk and season well with a salt and pepper.",
+    "serve a ladle of the risotto with a mound of fresh rocket on top to serve.",
+    "serves 2"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey Meals",
+    "Published: 11 January 2014",
+    "Created: 11 January 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2379"
+  ],
+  "source_file": "454-red-lentil-risotto.html"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Pork pie - Wiltshire",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork pie - Wiltshire",
+  "ingredients": [
+    "12 oz Shortcrust pastry",
+    "2-3 oz cheddar cheese, diced",
+    "1/2 oz butter",
+    "2 tablespoons chopped fresh parsley",
+    "1 tablespoon chopped fresh sage",
+    "Salt and pepper",
+    "1 onion, chopped",
+    "2 rashers streaky bacon",
+    "1 lb belly pork, chopped",
+    "1 small cooking apple, peeled and chopped",
+    "Pinch of dry mustard",
+    "1 egg, beaten"
+  ],
+  "method": [
+    "Line a greased 9 inch pie plate",
+    "Fry onion and bacon in butter",
+    "Add pork and cook for 15-20 mins",
+    "Leave to cool, then stir in apple, cheese, herbs and seasoning",
+    "Add sufficient egg to bind mixture",
+    "Set oven to Gas Mark 7",
+    "Fill pie with mixture and add pie lid with steam hole",
+    "Brush with egg",
+    "Bake for 15 mins then reduce to Gas Mark 4 and bake for further 25-30 mins"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Pork Based",
+    "Published: 15 September 2012",
+    "Created: 15 September 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2414"
+  ],
+  "source_file": "422-pork-pie-wiltshire.html"
+}

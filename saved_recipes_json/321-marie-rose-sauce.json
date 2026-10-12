@@ -1,0 +1,30 @@
+{
+  "title": "Marie Rose Sauce with Prawns",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMarie Rose Sauce with Prawns",
+  "ingredients": [
+    "2 tablespoons of good-quality mayonnaise",
+    "1 tablespoon ketchup",
+    "a pinch of cayenne pepper",
+    "sea salt and freshly ground black pepper",
+    "1 lemon",
+    "4 handfuls of cooked, peeled prawns",
+    "cress or fresh flat-parsley leaves, to serve",
+    "Shredded luttuce."
+  ],
+  "method": [
+    "Squeeze half a lemon into the rest of the ingredients and mix.",
+    "Add the prawns.",
+    "Serve with slices of the lemon and parsley on a bed of shredded lettuce.",
+    "Posted from my android device using Joomla Admin Mobile!"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Fish Based",
+    "Published: 10 June 2012",
+    "Created: 10 June 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 3274"
+  ],
+  "source_file": "321-marie-rose-sauce.html"
+}

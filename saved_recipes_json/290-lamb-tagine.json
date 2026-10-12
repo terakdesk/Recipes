@@ -1,0 +1,46 @@
+{
+  "title": "Lamb Tagine",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLamb Tagine",
+  "ingredients": [
+    "1 tsp cayenne pepper",
+    "2 tsp ground black pepper",
+    "1½ tbsp paprika",
+    "1½ tbsp ground ginger",
+    "1 tbsp turmeric",
+    "2 tsp ground cinnamon",
+    "1 x shoulder of lamb, trimmed and cut into 5cm/2in chunks (about 1.1kg/2½lb meat in total)",
+    "2 large onions, grated",
+    "2 tbsp olive oil",
+    "2 tbsp argan oil",
+    "3 cloves garlic, crushed",
+    "570ml/1 pint tomato juice",
+    "2 x 400g tinned chopped tomatoes",
+    "115g/4oz dried apricots, cut in half",
+    "55g/2oz dates, cut in half",
+    "55g/2oz sultanas or raisins",
+    "85g/3oz flaked almonds",
+    "1 tsp saffron stamens, soaked in cold water",
+    "600ml/1 pint lamb stock",
+    "1 tbsp clear honey",
+    "2 tbsp coriander, roughly chopped",
+    "2 tbsp flat leaf parsley, roughly chopped"
+  ],
+  "method": [
+    "Place the cayenne, black pepper, paprika, ginger, turmeric and cinnamon into a small bowl and mix to combine. Place the lamb in a large bowl and toss together with half of the spice mix. Cover and leave overnight in the fridge.",
+    "Preheat the oven to 150C/300F/Gas2.",
+    "Heat 1 tbsp olive oil and 1 tbsp of argan oil in a large casserole dish. Add the grated onion and the remaining spice mix and cook over a gentle heat for 10 minutes so that the onions are soft but not coloured. Add the crushed garlic for the final 3 minutes.",
+    "In a separate frying pan, heat the remaining oil and brown the cubes of lamb on all sides then add the browned meat to the casserole dish. De-glaze the frying pan with ¼ pint of tomato juice and add these juices to the pan.",
+    "Add the remaining tomato juice, chopped tomatoes, apricots, dates, raisins or sultanas, flaked almonds, saffron, lamb stock and honey to the casserole dish. Bring to the boil, cover with a fitted lid, place in the oven and cook for 2-2½ hours or until the meat is meltingly tender.",
+    "Place the lamb in a tagine or large serving dish and sprinkle over the chopped herbs. Serve."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based",
+    "Published: 16 September 2013",
+    "Created: 16 September 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2069"
+  ],
+  "source_file": "290-lamb-tagine.html"
+}

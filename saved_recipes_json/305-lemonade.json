@@ -1,0 +1,28 @@
+{
+  "title": "Lemonade",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "ingredients": null,
+  "method": [
+    "Cut two of the lemons into chunks, removing pips. Put into a food processor or blender, along with any juices from the chopping board",
+    "then add the rind and juice of the remaining three lemons.",
+    "Add the sugar, the salt if using and a little of the first 600ml of water.",
+    "Whizz to a puree, then add the rest of the first water.",
+    "Pass the puree through a sieve to remove large pieces left",
+    "Bottle and refrigerate until required.",
+    "When required, add enough water, soda or spirits to double the concentrate",
+    "Taste and add a little more sugar if necessary.",
+    "Pour into a jug add the slices of cucumber and a couple of sprigs of mint, then chill until ready to serve.",
+    "Serve over ice with a fresh slice of cucumber and a fresh sprig of mint for each glass.",
+    "Amended 20th September 2012 with more sugar and double quantities."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Non-Alcoholic",
+    "Published: 09 August 2012",
+    "Created: 09 August 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2540"
+  ],
+  "source_file": "305-lemonade.html"
+}

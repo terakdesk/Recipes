@@ -1,0 +1,37 @@
+{
+  "title": "Hummus - Red Pepper",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tHummus - Red Pepper",
+  "ingredients": [
+    "3 large red peppers, seeds removed and halved",
+    "1 red chilli, seeds removed and halved",
+    "1 tsp olive oil",
+    "1 small onion, finely chopped",
+    "1/2 tsp ground coriander",
+    "1 tsp ground cumin",
+    "1 x 400g/14oz can chickpeas, drained and rinsed",
+    "½ garlic clove, crushed",
+    "½ unwaxed lemon, juice and zest finely grated",
+    "1 tbsp pomegranate molasses (optional)",
+    "½ tsp sea salt",
+    "freshly ground black pepper, to taste"
+  ],
+  "method": [
+    "Preheat the grill to its hottest setting and line a grill pan or baking tray with foil.",
+    "Cut the peppers and chilli in half lengthways and place them, cut side down, on the lined tray.",
+    "Grill the peppers for 10-15 minutes or until the skins are black all over. With a pair of tongs, transfer the hot peppers to a bowl and cover tightly with cling film. The steam will help finish cooking the peppers and loosen their skins. Leave to cool for 10 minutes or so.",
+    "Meanwhile heat the olive oil in a small frying pan. Add the chopped onion and fry over a medium heat for five minutes, or until softened, stirring occasionally. Stir in the ground coriander and ground cumin, then leave to cool for five minutes.",
+    "When the peppers are cool enough to handle, peel off their skins. There may be some little flecks of burnt pepper skin left on, but resist the temptation to rinse the peppers. This all adds to the flavour.",
+    "Scoop the spiced onion mixture into the bowl of a food processor with the pepper flesh and any juices from the bottom of the bowl. Then add the chickpeas, garlic, lemon juice and zest and pomegranate molasses, if using. Blend until the mixture is smooth, stopping to push down any escaping chickpeas with a spatula. You may need to add a couple of spoonfuls of water to thin the hummus to a lighter consistency. Add the salt and freshly ground black pepper, to taste.",
+    "Spoon the dip into a serving dish and serve as a dip for carrot sticks, cucumber or hot flatbreads. Store it in the fridge and eat within three days."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey extras, dips and hummus",
+    "Published: 05 June 2013",
+    "Created: 05 June 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 1930"
+  ],
+  "source_file": "261-hummus-red-pepper.html"
+}

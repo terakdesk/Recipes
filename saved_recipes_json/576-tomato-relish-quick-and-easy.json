@@ -1,0 +1,30 @@
+{
+  "title": "Tomato Relish - quick and easy",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tTomato Relish - quick and easy",
+  "ingredients": [
+    "2 small onions, finely chopped",
+    "10 small tomatoes, finely chopped",
+    "3 cloves garlic",
+    "Half green chilli",
+    "75 g brown sugar",
+    "75 ml wine vinegar",
+    "1 cinnamon stick",
+    "tabasco, to taste"
+  ],
+  "method": [
+    "Heat a little oil in a frying pan and cook the onions until softened.",
+    "Add the tomatoes, chilli and garlic and mix well, then add the sugar, vinegar and cinnamon and bring to the boil.",
+    "Simmer for 20 minutes.",
+    "Season to taste with Tabasco sauce, salt and pepper and set aside to cool."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 05 September 2012",
+    "Created: 05 September 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2393"
+  ],
+  "source_file": "576-tomato-relish-quick-and-easy.html"
+}

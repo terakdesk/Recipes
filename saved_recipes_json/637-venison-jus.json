@@ -1,0 +1,23 @@
+{
+  "title": "Venison Jus",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tVenison Jus",
+  "ingredients": null,
+  "method": [
+    "For the port and redcurrant jus, melt a knob of butter in a large saucepan on a medium-to-high heat.",
+    "Add 4 shallots, peeled and sliced, 2 fresh thyme sprigs and 2 garlic cloves, peeled and chopped and fry for a few minutes to just brown the edges.",
+    "Add the fennel seeds and toast for 1 minute then stir in 50g dark brown sugar until it melts through and begins to bubble up the side of the pan.",
+    "Reduce the heat, stir in 150ml red wine to deglaze the pan for a minute or so and then add 250ml of beef stock, 3 tablespoons of good-quality port, 30g tomato paste and 50g redcurrant jelly.",
+    "Bring to the boil and simmer for 15 minutes - this will evaporate off most of the alcohol, leaving a rich, sweet and syrup-like sauce.",
+    "Remove and discard the thyme sprigs."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Uncategorised",
+    "Published: 18 December 2018",
+    "Created: 18 December 2018",
+    "Last Updated: 18 December 2018",
+    "Hits: 1304"
+  ],
+  "source_file": "637-venison-jus.html"
+}

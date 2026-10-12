@@ -1,0 +1,40 @@
+{
+  "title": "Duck and pistachio pâté",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tDuck and pistachio pâté",
+  "ingredients": [
+    "2 duck breasts , about 300g/10oz each, skin removed and reserved",
+    "200g thinly sliced streaky bacon rashers",
+    "1kg pork shoulder, cubed",
+    "2 slices bread , crusts removed",
+    "100ml milk",
+    "3 shallots , roughly chopped",
+    "1 large garlic clove , roughly chopped",
+    "200g ducks or chicken livers, roughly chopped",
+    "6 black peppercorns",
+    "12 coriander seeds",
+    "2 cloves",
+    "good pinch ground cinnamon",
+    "2 tbsp Cognac or brandy",
+    "2 eggs , beaten",
+    "25g shelled pistachios",
+    "50g dried cranberries"
+  ],
+  "method": [
+    "Heat oven to 160C/fan 140C/gas 3. Put the duck breasts and skin in a shallow dish, then place in the hot oven for 20 mins. Discard the shrivelled bit of skin that remains, then pour the duck fat into a bowl to cool. Reserve 6 bacon rashers, then roughly chop the remainder. Roughly chop the cooked duck meat.",
+    "In a food processor, blend the chopped bacon, pork and duck in batches to a coarse texture, then tip into a large bowl. Tear up the bread and soak in the milk for 5 mins. Squeeze out the bread and put in the food processor with the shallots, garlic and livers. Process to a coarse texture, then add to the bowl, mixing well.",
+    "Grind the peppercorns, coriander seeds and cloves to a coarse powder using a pestle and mortar. Stir in the cinnamon. Add the spices to the meat along with 4 tbsp reserved duck fat, the Cognac, eggs and 2 tsp salt. Mix together very thoroughly - the best way is to use your hands.",
+    "Press half the mixture into a 1.5-litre baking dish or similar. Scatter over the pistachios and cranberries, then cover with the remaining meat mixture. Arrange the reserved bacon rashers over the top, tucking in the ends. Cover the dish tightly with foil, then put in a roasting tin. Pour boiling water into the tin to come halfway up the sides of the dish.",
+    "Bake for 2 hrs, remove foil, then bake for 15 mins more to brown the top. Cool completely, then wrap in fresh foil and chill. For the best flavour, let the terrine chill and mature for at least 2 days before eating.",
+    "TO FREEZE Make the terrine as stated, cool and then freeze. Defrost in the fridge before serving."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Paté",
+    "Published: 04 January 2013",
+    "Created: 08 December 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2653"
+  ],
+  "source_file": "187-duck-and-pistachio-pate.html"
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Poached Fish",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPoached Fish",
+  "ingredients": [
+    "3-4 firm white fish fillets - e.g. gurnard, tarakihi, snapper",
+    "1 cup milk",
+    "1 tablespoon butter",
+    "1 tablespoon Edmonds plain baking flour",
+    "tablespoon chopped parsley",
+    "1/2 teaspoon salt",
+    "white pepper"
+  ],
+  "method": [
+    "Wipe fish.",
+    "Place in a large frying pan with lid.",
+    "Add milk.",
+    "Cover and bring to the boil.",
+    "Reduce heat and simmer gently for 15 minutes or until fish flakes easily.",
+    "Carefully lift fish from pan and keep warm.",
+    "Pour poaching milk from pan into jug.",
+    "Add butter to pan and melt.",
+    "Stir in flour and cook until frothy.",
+    "Gradually add poaching milk, stirring constantly until mixture boils and thickens.",
+    "Add parsley.",
+    "Season with salt and pepper to taste.",
+    "Pour sauce over fish."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Fish Based",
+    "Published: 07 February 2014",
+    "Created: 07 February 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2504"
+  ],
+  "source_file": "409-poached-fish.html"
+}

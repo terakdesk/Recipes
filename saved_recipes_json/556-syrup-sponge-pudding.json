@@ -1,0 +1,29 @@
+{
+  "title": "Syrup sponge pudding",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSyrup sponge pudding\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\t\t\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\n\n\n\t\tHugh Fearnly-Wittingstall - Guardian",
+  "ingredients": [
+    "3 good tbsp golden syrup",
+    "100g unsalted butter, softened",
+    "100g caster sugar",
+    "2 medium eggs",
+    "100g self-raising flour, sifted",
+    "A splash of milk",
+    "Chilled double cream, to serve"
+  ],
+  "method": [
+    "Generously butter a pudding basin with a capacity of around one litre. Spoon the syrup into the base. Cream together the butter and caster sugar until really light and fluffy. Beat in one egg at a time, adding a spoonful of flour with each, then fold in the remaining flour. You should have a batter with a good dropping consistency. If not, stir in a little milk to loosen it.",
+    "Spoon the batter into the basin on top of the syrup (don't worry if it comes up the sides a little – that's the idea).",
+    "Tie a double layer of buttered foil or baking parchment, buttered side down, over the basin. Put a trivet, rack or upturned small heatproof plate in a large saucepan and stand the pudding on it. Pour in boiling water to come about halfway up the side of the basin, then cover the pan and bring to a very gentle simmer. Steam for an hour and a half, topping up the boiling water with more from the kettle a couple of times along the way.",
+    "Remove the foil and loosen the edges of the pudding with a knife. Place a plate on top then invert the plate and basin, and unmould the pudding. Slice and serve piping hot with chilled double cream."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Desserts",
+    "Published: 16 February 2013",
+    "Created: 16 February 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2332"
+  ],
+  "source_file": "556-syrup-sponge-pudding.html"
+}

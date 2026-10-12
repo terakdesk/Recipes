@@ -1,0 +1,29 @@
+{
+  "title": "Spirolised Courgette Fritters",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpirolised Courgette Fritters",
+  "ingredients": [
+    "3 courgettes (about 500g), ends trimmed and spiralized into thin noodles",
+    "3 spring onions , thinly sliced",
+    "1 tsp ground cumin",
+    "100g self-raising flour",
+    "1 large egg , beaten",
+    "2 tbsp olive oil , for frying"
+  ],
+  "method": [
+    "In a large bowl, mix together the spiralized courgette, spring onions, coriander stalks, lime zest, cumin and flour (you may need to cut some of the longer courgetti in half).",
+    "Stir in the beaten egg and season with salt and black pepper.",
+    "Working in 2 batches, heat half the oil in a non-stick frying pan over a medium heat.",
+    "Shape the fritters with your hands then then fry for 2–3 mins on each side until golden.",
+    "Serve warm."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 24 September 2020",
+    "Created: 24 September 2020",
+    "Last Updated: 24 September 2020",
+    "Hits: 1183"
+  ],
+  "source_file": "653-spirolised-courgette-fritters.html"
+}

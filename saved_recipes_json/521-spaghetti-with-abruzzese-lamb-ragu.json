@@ -1,0 +1,32 @@
+{
+  "title": "Spaghetti with Abruzzese Lamb Ragu",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpaghetti with Abruzzese Lamb Ragu",
+  "ingredients": [
+    "2 Tbs. vegetable oil",
+    "2 lb. boneless lamb shoulder or leg of lamb, cut into 6 or 8 pieces",
+    "Kosher or sea salt and freshly ground black pepper",
+    "1 medium carrot, finely chopped",
+    "1 medium celery stalk, finely chopped",
+    "1 small red onion, finely chopped",
+    "1 large clove garlic, lightly crushed",
+    "1 Tbs. minced fresh herbs, such as rosemary and sage",
+    "1/2 cup dry red or white wine, such as Montepulciano d’Abruzzo or Orvieto",
+    "6 cups canned diced tomatoes, with their juice",
+    "1 1/2 lb. thick spaghetti or maccheroni alla chitarra",
+    "Parmigiano-Reggiano or Pecorino Romano shavings for serving (optional)",
+    "Minced fresh hot chile or crushed red pepper flakes, for serving"
+  ],
+  "method": null,
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Lamb Based",
+    "Published: 28 September 2013",
+    "Created: 28 September 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2500"
+  ],
+  "source_file": "521-spaghetti-with-abruzzese-lamb-ragu.html"
+}

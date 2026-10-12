@@ -1,0 +1,34 @@
+{
+  "title": "British Braised Beef",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBritish Braised Beef",
+  "ingredients": [
+    "3 lb (1.5 kg) rolled topside",
+    "2 tbsp plain flour (All purpose)",
+    "1 pinch of ground bay leaves (optional)",
+    "1 pinch of paprika (optional)",
+    "2 tablespoons vegetable oil",
+    "8 oz (225 g) carrots, coarsely chopped",
+    "8 oz (225 g) onions, coarsely chopped",
+    "1 1/4 cup (1/2 pint) 300 ml water",
+    "1 teaspoon made English mustard",
+    "salt and freshly ground black pepper"
+  ],
+  "method": [
+    "Pre-heat the oven to gas mark 3.",
+    "Heat a flameproof casserole (just large enough to hold the beef) until very hot. Rub the beef with the flour, which can have a pinch each of ground bay leaves and paprika in it. Pour the oil into the hot casserole and brown the beef quickly on all sides over a medium heat, then take the beef out and set aside.",
+    "Brown the carrots and onions for 1 minute in the oil. Place the beef on top, stir the water and mustard together and pour over. Season well, cover, and cook for 1 1/2 hours, until tender.",
+    "Serve sliced with the juices and vegetables pureed together (for a sophisticated version) or as they come for a little rustic vigour."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Beef Based",
+    "Published: 29 June 2012",
+    "Created: 29 June 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2395"
+  ],
+  "source_file": "72-british-braised-beef.html"
+}

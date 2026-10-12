@@ -1,0 +1,30 @@
+{
+  "title": "Mustard biscuits",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMustard biscuits",
+  "ingredients": [
+    "200 g de farine",
+    "1 oeuf",
+    "100 g de beurre fondu",
+    "1 c. &agrave; soupe de moutarde &agrave; l&rsquo;ancienne",
+    "1 c. &agrave; soupe d&rsquo;eau froide",
+    "&frac12; c. &agrave; caf&eacute; de sel"
+  ],
+  "method": [
+    "Pr&eacute;chauffez le four Gas Mark 4 (180&deg;C)",
+    "Dans un saladier, m&eacute;langez la farine, le sel, l&rsquo;&oelig;uf, l'eau et la moutarde.",
+    "Ajoutez le beurre fondu et p&eacute;trissez de mani&egrave;re &agrave; former une boule.",
+    "Placez au frais pendant environ 30 min.",
+    "&Eacute;talez la p&acirc;te et &eacute;crasez-la avec le dos d'une cuill&egrave;re et terminez par un coup de fourchette.",
+    "Enfournez pendant environ 15 min."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Canapé",
+    "Published: 25 November 2012",
+    "Created: 25 November 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2299"
+  ],
+  "source_file": "345-mustard-biscuits.html"
+}

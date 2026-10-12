@@ -1,0 +1,32 @@
+{
+  "title": "Veggy Curry",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tVeggy Curry",
+  "ingredients": [
+    "vegetable oil",
+    "1 medium red onion, peeled and chopped",
+    "1 courgette, diced",
+    "&frac12; butternut squash, peeled and diced",
+    "100g mushrooms, quartered",
+    "1 red pepper, diced",
+    "150g cauliflower, broken into florets",
+    "600ml curry base sauce (see curry base sauce recipe)",
+    "400ml water"
+  ],
+  "method": [
+    "In a little vegetable oil, fry the onion gently for 10 minutes in a large pan",
+    "then add the remaining vegetables and stir together.",
+    "Add the curry base sauce and simmer gently for around 25 to 30 minutes, taking care not to overcook the vegetables.",
+    "If the sauce becomes too thick, add a little water to give you the desired consistency.",
+    "Tip This recipe is a guideline, always check your fridge for any surplus fresh or cooked vegetables you may have, and substitute them for the equivalent quantity in the recipe."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Vegey or Lentil Based Curry and Dahls",
+    "Published: 28 October 2012",
+    "Created: 28 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2155"
+  ],
+  "source_file": "589-veggy-curry.html"
+}

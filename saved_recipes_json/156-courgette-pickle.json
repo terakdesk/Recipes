@@ -1,0 +1,38 @@
+{
+  "title": "Courgette pickle",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tCourgette pickle",
+  "ingredients": [
+    "700g diced courgette",
+    "300g sliced onion",
+    "1 large green very mild chilli",
+    "2 diced red sweet peppers",
+    "1/2 cup pickling salt",
+    "1 1/4 cups sugar",
+    "1 1/2 cups white vinegar",
+    "1/4 cup water",
+    "1 tsp celery seeds",
+    "1 tsp tumeric",
+    "1/2 tsp mustard seeds"
+  ],
+  "method": [
+    "In a large bowl or pot combine courgette, onions and peppers. Sprinkle with the salt and toss to coat.",
+    "Add enough water to cover the vegetables and allow to stand at room temperature for 3 hours.",
+    "Transfer the vegetable mixture to a colander in the sink and rinse with cold water and then drain.",
+    "In an 8-10 quart pot, combine the sugar, vinegar, 1/4 cup of water and spices. Bring to a boil and stir until the sugar dissolves.",
+    "Then reduce the heat and simmer uncovered for 3 minutes.",
+    "Add the vegetable mixture and return to boiling. Simmer, uncovered for 10 minutes, stirring occasionally.",
+    "Heat and sterilise jars in a hot oven",
+    "Ladle the hot relish into sterilised jars, leaving a 1/2-inch at the top.",
+    "Seal cap and leave to cool."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 03 September 2016",
+    "Created: 03 September 2016",
+    "Last Updated: 20 October 2017",
+    "Hits: 1852"
+  ],
+  "source_file": "156-courgette-pickle.html"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Prawn Xmas Starter",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPrawn Xmas Starter",
+  "ingredients": [
+    "1 1⁄2 lbs king prawns, cooked"
+  ],
+  "method": [
+    "Put the following into your food-processor: onion, chilli, garlic, cumin, coriander, cashew nuts, fish sauce, ginger and process until you have a paste.",
+    "Heat the oil and butter and fry the paste for approx 5 minutes, then add the lime leaves and the bay leaves.",
+    "Add the coconut milk and leeks; bring to the boil, then simmer for 15-20 minutes until the leeks are cooked and the sauce has thickened just a little",
+    "Add the prawns and warm for 2 minutes MAXIMUM; do not overcook them.",
+    "Remove the prawns and leeks with a slotted spoon and set aside."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 10 December 2020",
+    "Created: 10 December 2020",
+    "Last Updated: 19 December 2020",
+    "Hits: 1214"
+  ],
+  "source_file": "656-prawn-xmas-starter.html"
+}

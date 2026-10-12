@@ -1,0 +1,39 @@
+{
+  "title": "Lamb Shanks - October recipe better",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLamb Shanks - October recipe better",
+  "ingredients": [
+    "6 lamb shanks",
+    "2 tbsp olive oil",
+    "16fl oz /500ml/ good red wine",
+    "1 onion, peeled and roughly chopped",
+    "1 garlic bulb, cut in half cross-wise",
+    "2 sprigs fresh rosemary",
+    "3 pints /1.5 litre beef stock",
+    "2oz /55g ice cold butter",
+    "Salt and ground black pepper"
+  ],
+  "method": [
+    "Preheat the oven to 160&deg;C/320 &deg;F/Gas 2.",
+    "Sprinkle a chopping board with salt and freshly ground pepper , then roll each lamb shank over the board to cover lightly with seasoning.",
+    "In a large ovenproof casserole heat the oil and brown the lamb shanks.",
+    "Remove the lamb shanks and keep to one side.",
+    "Pour in the red wine, bring to a gentle boil, leave to simmer until reduced by half.",
+    "Add the onion, garlic, rosemary and finally the lamb shanks.",
+    "Pour in enough beef stock to cover the meat, don't worry if the bones are sticking out, this is fine, and it is also fine if you have stock left over, you may need this to top the shanks up from time to time.",
+    "Bring back to a simmer then cover the dish and place in the oven.",
+    "Cook for 3 hours, checking from time to time that the meat is still covered in stock and top up as necessary and also occasionally turn the shanks.",
+    "Once cooked, remove the shanks and them keep warm.",
+    "Place the casserole on the hob and bring to a boil, boil for 5 minutes. Whisk in the cold butter to create a really glossy sauce.",
+    "Check the seasoning then strain the sauce."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Lamb Based",
+    "Published: 04 August 2012",
+    "Created: 04 August 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2301"
+  ],
+  "source_file": "286-lamb-shanks.html"
+}

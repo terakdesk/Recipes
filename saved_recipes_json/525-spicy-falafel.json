@@ -1,0 +1,30 @@
+{
+  "title": "Spicy Falafel",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpicy Falafel",
+  "ingredients": [
+    "2 tbsp sunflower or vegetable oil",
+    "1 small onion, finely chopped",
+    "1 garlic clove, crushed",
+    "400g can chickpeas, washed and drained",
+    "1 tsp ground cumin",
+    "1 tsp ground coriander (or use more cumin)",
+    "handful parsley, chopped, or 1 tsp dried mixed herbs",
+    "1 egg, beaten"
+  ],
+  "method": [
+    "Heat 1 tbsp oil in a large pan, then fry the onion and garlic over a low heat for 5 mins until softened.",
+    "Tip into a large mixing bowl with the chickpeas and spices, then mash together with a fork or potato masher until the chickpeas are totally broken down.",
+    "Stir in the parsley or dried herbs, with seasoning to taste.",
+    "Add the egg, then squish the mixture together with your hands."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey Meals",
+    "Published: 03 September 2015",
+    "Created: 03 September 2015",
+    "Last Updated: 20 October 2017",
+    "Hits: 2060"
+  ],
+  "source_file": "525-spicy-falafel.html"
+}

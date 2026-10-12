@@ -1,0 +1,39 @@
+{
+  "title": "Trinidadian Callaloo",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tTrinidadian Callaloo",
+  "ingredients": [
+    "1 bunch amaranth (callaloo) leaves (root vegetable of the Caribbean or tarrow root)",
+    "15 okra (soft tips, cut into 1 inch pieces )",
+    "2 stems chives (chopped coarsely)",
+    "1 onion (medium, sliced)",
+    "1 sprig thyme (stem and leaves)",
+    "1 bunch celery (chopped roughly)",
+    "1 garlic clove (crushed)",
+    "1 whole hot pepper",
+    "1 pimentos (chopped)",
+    "2 1/2 cups coconut milk (freshly squeezed, coconut milk powder or frozen can be used)",
+    "1/4 lb salted pork tail (adding pig tail is optional. Boil out salt 30 mins in water until tender and cut in to 1inch pieces)",
+    "1 teaspoon sugar",
+    "2 teaspoons salt"
+  ],
+  "method": [
+    "Separate leaves from stems. Thoroughly wash leaves and strip the stems. Tear leaves apart with hands into smaller pieces. Chop stems into about 2 inches length.",
+    "Add all the ingredients into a medium pot over medium heat. Bring to a boil and then allow to simmer for 20 mins or until the okra seeds turn pink.",
+    "Taste and season with salt & pepper if necessary.",
+    "When the callaloo is done the leaves and okras should be tender and there should be enough liquid to blend the ingredients. If not add a little warm water to bring to a soup consistency.",
+    "Remove from heat and allow to cool for 15 minutes. Remove the pork tails before blending.",
+    "Using a hand blender, blend the callaloo until all the ingredients are pureed.",
+    "Store in a clean pot with pork tails and reheat before serving.",
+    "Serve with rice, stewed Caribbean chicken, potato salad, boiled provisions, cole slaw, pigeon peas and macaroni pie."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey or Lentil Based Curry and Dahls",
+    "Published: 21 August 2014",
+    "Created: 21 August 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2129"
+  ],
+  "source_file": "581-trinidadian-callaloo.html"
+}

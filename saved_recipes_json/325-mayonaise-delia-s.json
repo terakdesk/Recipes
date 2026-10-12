@@ -1,0 +1,33 @@
+{
+  "title": "Mayonaise - Delia's",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMayonaise - Delia's",
+  "ingredients": [
+    "2 large egg yolks",
+    "1 clove garlic",
+    "275ml groundnut oil (not olive oil)",
+    "1 heaped teaspoon of English mustard powder",
+    "1 teaspoon of white wine vinegar",
+    "Salt and pepper"
+  ],
+  "method": [
+    "Begin by putting 2 large egg yolks into a 1&frac12; pint (850 ml) basin with a narrow base &ndash; so that the beaters of an electric mixer reach all the ingredients all the time.",
+    "Then add 1 crushed garlic clove (optional) and a heaped teaspoon of dry English mustard powder, which helps to achieve the emulsion that gives mayonnaise its smooth, silky texture, as well as providing flavour.",
+    "Season with a level teaspoon of salt and a few twists of freshly milled pepper, and mix well together.",
+    "Using an electric whisk in one hand (which is the easiest option, but if you have oodles of energy, you can make mayonnaise with a balloon whisk) and 10 fl oz (275 ml) groundnut oil in a jug in the other, add just one drop of oil to the egg mixture, and whisk that in.",
+    "Strong flavoured oils are not advisable as they will make the mayonnaise too harsh. It is best to use groundnut oil, but if you want a slightly stronger taste you can add a little olive oil towards the end.",
+    "While you are dripping oil in with one hand and whisking with the other, you can steady the jug or bowl by placing it on a damp tea cloth.",
+    "Whisking each drop of oil in thoroughly before adding the next seems crazy, but it is absolutely essential and, just to reassure you, after a few minutes and several drops of oil later, the mixture will begin to thicken.",
+    "At that stage, and only then, you can begin to add the oil in larger drops &ndash; when the mixture has started thickening, the critical point is past.",
+    "There is a risk home-made mayonnaise will curdle if you add the oil too fast too soon. If that happens, don't despair."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 16 October 2012",
+    "Created: 16 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2474"
+  ],
+  "source_file": "325-mayonaise-delia-s.html"
+}

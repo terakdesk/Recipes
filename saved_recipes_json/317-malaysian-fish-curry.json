@@ -1,0 +1,40 @@
+{
+  "title": "Malaysian Fish Curry",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMalaysian Fish Curry",
+  "ingredients": [
+    "serves 4 - 6",
+    "675 g (1 1/2 lb) monkfish, hokey or red snapper fillet",
+    "salt, to taste",
+    "45 ml (3 tbsp) grated or desiccated coconut",
+    "30 ml (2 tbsp) vegetable oil",
+    "2.5 cm (1 in) galangal or fresh root ginger, peeled and thinly sliced",
+    "2 small red chillies, seeded and finely chopped",
+    "2 cloves garlic, crushed",
+    "5 cm (2 in) lemon grass stalk, shredded",
+    "1 piece shrimp paste, 1 cm (1/2 in) square or 15 ml (1 tbsp) fish sauce",
+    "400 g (14 oz) canned coconut milk",
+    "600 ml (1 pint) 2 1/2 cups chicken stock",
+    "2.5 ml (1/2 tsp) turmeric",
+    "15 ml (1 tbsp) sugar",
+    "juice of 1 lime, or 1/2 lemon",
+    "boiled rice, to serve (optional)"
+  ],
+  "method": [
+    "Cut the fish into large chunks, season with salt and set aside.",
+    "Dry fry the coconut in a large wok until evenly brown. Add the vegetable oil, galangal or ginger, chillies, garlic and lemon grass and fry briefly. Stir in the shrimp paste or fish sauce. Strain the coconut milk through a sieve, then add to the wok.",
+    "Add the chicken stock, turmeric, sugar, a little salt and the lime or lemon juice. Simmer for 10 minutes. Add the fish and simmer for 6 - 8 minutes. Stir in the thick part of the coconut milk and simmer to thicken. Garnish with coriander and lime slices and serve with rice, if liked."
+  ],
+  "notes": [
+    "Sambal, a fiery hot relish, is traditionally served with this curry.",
+    "Mix together 2 skinned and chopped tomatoes, 1 finely chopped onion, 1 finely chopped green chilli and 30 ml (2 tbsp) lime juice. Season to taste with salt and pepper and sprinkle over 30 ml (2 tbsp) grated or desiccated coconut."
+  ],
+  "details": [
+    "Written by Super User",
+    "Category: Fish Based Curry",
+    "Published: 23 March 2014",
+    "Created: 23 March 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2311"
+  ],
+  "source_file": "317-malaysian-fish-curry.html"
+}

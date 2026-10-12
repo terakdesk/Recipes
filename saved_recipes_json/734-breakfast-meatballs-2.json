@@ -1,0 +1,32 @@
+{
+  "title": "Breakfast Meatballs",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBreakfast Meatballs",
+  "ingredients": [
+    "½ pound bacon cooked",
+    "2 hard boiled eggs",
+    "1 pound bulk breakfast sausage",
+    "1 raw egg",
+    "¼ cup old fashioned oats",
+    "½ cup shredded cheese"
+  ],
+  "method": [
+    "Preheat oven to 165C",
+    "Chop 2 hard boiled eggs and ½ pound bacon into small pieces.",
+    "Put chopped eggs and bacon in a large bowl with 1 pound bulk breakfast sausage, 1 raw egg, ¼ cup old fashioned oats, and ½ cup shredded cheese. Mix until combined.",
+    "Roll about 1 Tablespoon of mixture into a small ball and place on rimmed baking sheet.",
+    "Bake for 12-15 minutes or until the outside is golden."
+  ],
+  "notes": [
+    "For larger, ping-pong sized meatballs, bake for 20 minutes.",
+    "Prev"
+  ],
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 15 December 2025",
+    "Created: 15 December 2025",
+    "Last Updated: 15 December 2025",
+    "Hits: 255"
+  ],
+  "source_file": "734-breakfast-meatballs-2.html"
+}

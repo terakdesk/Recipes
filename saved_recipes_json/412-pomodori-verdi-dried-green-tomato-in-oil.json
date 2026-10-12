@@ -1,0 +1,30 @@
+{
+  "title": "Pomodori Verdi - dried green tomato in oil",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPomodori Verdi - dried green tomato in oil",
+  "ingredients": [
+    "1 off large marrow - preferably an over-ripe one missed on the allotment",
+    "1.5kg brown sugar",
+    "Gin or vodka or rum",
+    "1 handful of raisins",
+    "1 orange - juiced"
+  ],
+  "method": [
+    "Cut the top off the marrow and scoop out the seeds.",
+    "Pack the cavity with a mixture of dark brown sugar and raisins: a 3lb/1.5kg marrow will hold as much as 2lb/1kg sugar.",
+    "Add the juice of the orange.",
+    "Make a small hole in the bottom of the marrow with a knitting needle, put the marrow in a nylon stocking and hang it over a bowl. (Mine is suspended from the rungs of an upturned stool, with the bowl sitting on the underside of the seat, and covered loosely with a black bin bag.)",
+    "Allow the fermenting liquid to drip into the bowl: depending on the size of the marrow, the process will take around two months.",
+    "Decant the syrupy brown liqueur into bottles. You can drink it straight away or keep it to mature.",
+    "Using it as a flavouring for vodka will produce an excellent dark Christmas drink."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Recipes",
+    "Published: 28 September 2017",
+    "Created: 28 September 2017",
+    "Last Updated: 20 October 2017",
+    "Hits: 1560"
+  ],
+  "source_file": "412-pomodori-verdi-dried-green-tomato-in-oil.html"
+}

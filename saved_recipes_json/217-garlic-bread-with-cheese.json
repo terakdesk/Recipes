@@ -1,0 +1,29 @@
+{
+  "title": "Garlic Bread with cheese",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGarlic Bread with cheese",
+  "ingredients": [
+    "1 ciabatta loaf",
+    "100g salted butter, at room temperature",
+    "4 cloves of garlic, crushed",
+    "Small bunch of whichever parsley you prefer, finely chopped",
+    "40g parmesan, grated, plus a little extra for topping",
+    "Squeeze of lemon juice"
+  ],
+  "method": [
+    "Preheat the oven to 220C. Very carefully cut the ciabatta into slices, making sure not to go right through, and put it in the middle of a piece of foil large enough to wrap around.",
+    "Beat together the other ingredients, apart from the extra parmesan until well combined, then gently force the butter between the slices (this will be messy, but it's well worth it).",
+    "Sprinkle the top of the loaf with the remaining cheese, and seal the foil around the loaf.",
+    "Bake for about 20 minutes, then open the foil and bake for another five minutes, and devour as soon as it's cool enough to handle.",
+    "Posted from my android device using Joomla Admin Mobile!"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Breads",
+    "Published: 03 May 2012",
+    "Created: 03 May 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2447"
+  ],
+  "source_file": "217-garlic-bread-with-cheese.html"
+}

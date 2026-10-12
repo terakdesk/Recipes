@@ -1,0 +1,37 @@
+{
+  "title": "Prawn Thai Stirfry",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPrawn Thai Stirfry",
+  "ingredients": [
+    "200g raw, peeled tiger prawns from a sustainable source",
+    "1 green Thai chilli, chopped",
+    "3 garlic cloves, 1 crushed and 2 finely sliced",
+    "1 bunch coriander, leaves and stalks separated",
+    "1 tbsp caster sugar",
+    "juice 1 lime",
+    "3 tbsp fish sauce",
+    "2 tbsp groundnut oil",
+    "3cm piece ginger, finely sliced, then shredded",
+    "8 spring onions, finely sliced",
+    "1 red pepper, thinly sliced",
+    "85g water chestnuts, sliced",
+    "100g beansprouts",
+    "1 tbsp soy sauce",
+    "egg or rice noodles, to serve",
+    "lime wedges, to serve"
+  ],
+  "method": [
+    "Put the prawns in a bowl. Put the chilli, crushed garlic, coriander stalks (snip these up using scissors first) and caster sugar in a spice grinder or small food processor and whizz together. Add half of the lime juice and the fish sauce, then pour this over the prawns.",
+    "Heat 1 tbsp oil in a wok, add the ginger and spring onions and fry for 1 min. Add the red pepper and fry for 1 min, until the pepper starts to soften. Add the water chestnuts and bean sprouts, and toss together until the bean sprouts start to wilt. Add the soy sauce and a really good grind of black pepper, then tip the lot into a serving dish.",
+    "Heat the remaining oil in the wok and add the prawns, lifting them out of their juices. Toss for 1-2 mins until they turn pink, add the marinade and swirl the wok quickly, then tip the lot onto the veg. Snip over the coriander leaves and sprinkle on the remaining lime. Serves over noodles with extra lime for squeezing over."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Fish Based",
+    "Published: 27 June 2014",
+    "Created: 27 June 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2191"
+  ],
+  "source_file": "436-prawn-thai-strifry.html"
+}

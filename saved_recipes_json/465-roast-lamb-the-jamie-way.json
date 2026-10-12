@@ -1,0 +1,32 @@
+{
+  "title": "Roast Lamb the Jamie way",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRoast Lamb the Jamie way",
+  "ingredients": [
+    "1 bulb garlic, 3 cloves peeled and crushed, the others left whole",
+    "1 small bunch fresh rosemary, half the leaves removed and coarsely chopped, half in sprigs",
+    "zest of 1 lemon",
+    "olive oil",
+    "2 kg quality leg of lamb",
+    "sea salt",
+    "freshly ground black pepper",
+    "1.5 kg potatoes, peeled and cut in half"
+  ],
+  "method": [
+    "Pre-heat the oven to 200ºC/400ºC/gas 6 and place a roasting dish for the potatoes on the bottom.",
+    "Mix the crushed garlic, chopped rosemary, lemon zest and olive oil together. Season the lamb with salt and pepper and rub the marinade into it. Place on the hot bars of the oven above the tray.",
+    "Boil the potatoes, simmer for 10 minutes and scuff the edges. Add the rosemary sprigs and whole garlic cloves, season with salt and pepper and drizzle over a good lug of olive oil. Tip the potatoes into the tray and place under the lamb to catch all the lovely juices.",
+    "To make the mint sauce, mix the chopped mint, sugar, salt, hot water and wine vinegar.",
+    "Cook the lamb for about an hour and 15 minutes if you want it pink, or an hour and a half if you want it more well done. Take it out of the oven and cover with tinfoil and leave for 15 minutes before serving. Carve and serve with the potatoes and mint sauce.",
+    "Tip: Try putting a few parsnips or carrots in with the roast potatoes."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based",
+    "Published: 03 November 2013",
+    "Created: 03 November 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 1823"
+  ],
+  "source_file": "465-roast-lamb-the-jamie-way.html"
+}

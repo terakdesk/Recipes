@@ -1,0 +1,35 @@
+{
+  "title": "Thai Curry Paste #2",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tThai Curry Paste #2",
+  "ingredients": [
+    "1 and a half onions",
+    "1 padron chilli - de-seeded",
+    "1 teaspoon dry tamarind - soaked in hot water",
+    "2 teaspoons amchoor powder",
+    "2 teaspoons (heaped) ginger paste",
+    "5 garlic cloves - peeled",
+    "2 tablespoons fish sauce",
+    "2 tablespoons light soy sauce",
+    "1 tablespoon lime juice",
+    "8 lime leaves or curry leaves",
+    "3 teaspoons turmeric",
+    "2 tablespoons light brown sugar (muscavado)",
+    "4 tablespoons olive oil"
+  ],
+  "method": [
+    "Chop onions in a food processor",
+    "Add the garlic and chop",
+    "Heat the spices in a small pan until they start to pop, allow to cool and grind together",
+    "Add the spices and the remaining ingredients into the food processor"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Uncategorised",
+    "Published: 25 August 2018",
+    "Created: 25 August 2018",
+    "Last Updated: 25 August 2018",
+    "Hits: 1427"
+  ],
+  "source_file": "629-thai-curry-paste-2.html"
+}

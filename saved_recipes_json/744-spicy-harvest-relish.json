@@ -1,0 +1,34 @@
+{
+  "title": "Spicy Harvest Relish",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSpicy Harvest Relish",
+  "ingredients": [
+    "1medium Onion diced",
+    "1Courgette diced",
+    "2 Plums",
+    "1stick Celery, diced",
+    "1teaspoon Ginger",
+    "1teaspoon Garlic",
+    "1teaspoon Sugar",
+    "Water, splash or two",
+    "1tablespoon Vinegar",
+    "1 Apple, diced",
+    "1 small Chilli, chopped"
+  ],
+  "method": [
+    "Soften your diced onion and celery in a pan with a little oil for 8 minutes.",
+    "Add chopped chilli and garlic and ginger in the oil for 30 seconds.",
+    "Stir in the diced courgettes, apples, and plums.",
+    "Add a splash of water, a splash of vinegar, a pinch of salt, and a teaspoon of sugar.",
+    "Simmer... cook gently for 30 to 60 minutes until thick, glossy, and beautifully spicy."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 19 July 2026",
+    "Created: 19 July 2026",
+    "Last Updated: 19 July 2026",
+    "Hits: 86"
+  ],
+  "source_file": "744-spicy-harvest-relish.html"
+}

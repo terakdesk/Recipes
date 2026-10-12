@@ -1,0 +1,32 @@
+{
+  "title": "Roasted Butternut squash soup with parmesan",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRoasted Butternut squash soup with parmesan",
+  "ingredients": [
+    "2 medium sized butternut squash",
+    "2 medium size onions",
+    "2 cloves of garlic",
+    "a couple of sprigs of thyme",
+    "1 litre of chicken stock (your own or stock cubes)",
+    "salt and black pepper to taste",
+    "Parmesan cheese",
+    "Chilli sauce to taste"
+  ],
+  "method": [
+    "Firstly roughly chop the squash (disposing of the seeds) and onion into large chunks, and crush the garlic.",
+    "Put a small amount of oil into a roasting tin and throw in the squash, onions, garlic and thyme.",
+    "Roast in a pre-heated oven for 30-40 minutes at 180 C / Gas 4, or until all the ingredients have a nice caramelised colour on them, but not burnt.",
+    "Warm up the stock, and then put all of the roasted vegetables into a blender, with a couple of spoonfuls of the stock and blend.",
+    "Depending on how thin or thick you like your soup, you can now add more stock, if you find that you have put too much stock in, it isn't a problem, just place the soup into a saucepan and slowly boil until the soup has reduced to the consistency that you want.",
+    "Now all you need to do is season with salt and pepper, serve and grate parmesan into the soup. Enjoy with a nice wedge of crusty bread. Add chilli sauce to taste."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Soups",
+    "Published: 11 November 2012",
+    "Created: 11 November 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2369"
+  ],
+  "source_file": "471-roasted-butternut-squash-soup.html"
+}

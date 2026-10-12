@@ -1,0 +1,45 @@
+{
+  "title": "Lamb Curry",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLamb Curry",
+  "ingredients": [
+    "1 kg boneless lamb shoulder or stewing lamb, cut into 1 and a 1/2' chunks",
+    "4 tbsps butter mixed with a liitle vegetable/ canola/ sunflower cooking oil",
+    "2 large onions sliced thin",
+    "2 large tomatoes diced",
+    "1 tablespoon tomato purée",
+    "1 tablespoon garlic, finely chopped",
+    "1 tablespoon ginger, chopped",
+    "2 teaspoons ground coriander",
+    "1 teaspoon cumin powder",
+    "1/2 teaspoon turmeric powder",
+    "1/2 teaspoon red chilli powder",
+    "2 teaspoons garam masala powder",
+    "Salt to taste",
+    "Chopped coriander to garnish"
+  ],
+  "method": [
+    "Heat the cooking oil in a heavy bottomed pan, on medium heat.",
+    "When hot, add the onions and garlic. Sauté till they begin to turn a pale golden brown in color.",
+    "Now remove from the oil with a slotted spoon and drain on paper towels. Turn off heat.",
+    "Grind the onions into a smooth paste (adding very little to no water) in a food processor. Once done, remove into a separate container.",
+    "Now grind the tomatoes and ginger together, in the food processor, into a smooth paste. Remove into a separate container and keep aside for later use.",
+    "Heat the oil left over from frying the onions, again and add the onion paste. Sauté for 2-3 minutes.",
+    "Now add the tomato purée and all the powered spices. Mix well.",
+    "Sauté until the oil is about to separate from the purée. Then add the tomato and ginger mix.",
+    "Sauté the resulting masala (onion-tomato-spice mixture) unitl the oil begins to separate from it. This can take up to 10 minutes to happen.",
+    "Now add the lamb pieces to the masala, season with salt to taste and stir to fully coat the lamb pieces with the masala.",
+    "Sauté till the lamb is browned well.",
+    "Add 1/2 a cup of hot water to the pan, stir to mix well, simmer the heat and cover the pan. Cook till the lamb is tender. You will need to keep checking on the lamb as it cooks and adding more water if all the water dries up. Stir often to prevent burning.",
+    "The dish should have a fairly thick gravy when done."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based Curry",
+    "Published: 08 February 2014",
+    "Created: 08 February 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2640"
+  ],
+  "source_file": "278-lamb-curry.html"
+}

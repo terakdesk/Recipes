@@ -1,0 +1,35 @@
+{
+  "title": "Huffed pheasant with gooseberries",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tHuffed pheasant with gooseberries",
+  "ingredients": [
+    "1 small leek, thinly sliced",
+    "125g (4½ oz) gooseberries",
+    "25g (1oz) breadcrumbs",
+    "1 tablespoon chopped thyme",
+    "Salt and black pepper",
+    "4 pheasant breasts, about 125g (4½ oz) each",
+    "4 slices of lean back bacon",
+    "250g (9oz) self-raising flour",
+    "125g (4½ oz) light vegetable suet",
+    "1 egg, beaten, plus extra for brushing",
+    "2 tablespoons lemon juice"
+  ],
+  "method": [
+    "Heat the oven to 200°C (400°F, gas mark 6). Put the leek, gooseberries, breadcrumbs, thyme and a pinch of salt and pepper in a bowl and mix.",
+    "Remove the skin from each pheasant breast and cut a deep pocket in the side. Spoon the stuffing mixture in, packing it firmly. Wrap a slice of bacon around each.",
+    "Sift the flour into a bowl and stir in the suet and some salt and pepper. Make a well in the centre and add the egg, lemon juice and enough cold water to mix to a soft, but not sticky, dough.",
+    "Divide into four and roll out each to about a 15cm (6 in) round, depending on the size of the pheasant breasts. Place a pheasant breast on each, brush the edges with egg and fold over to enclose. Pinch the edges to seal, place on a baking sheet and brush with egg to glaze.",
+    "Bake for 20 minutes, until the pastry is firm and golden brown, then reduce to 180°C (350°F, gas mark 4) and cook for a further 10-15 minutes.",
+    "Serve warm or cold, with a crisp salad and pickles."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Michel",
+    "Category: Paté",
+    "Published: 14 November 2012",
+    "Created: 14 November 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 3041"
+  ],
+  "source_file": "259-huffed-pheasant-with-gooseberries.html"
+}

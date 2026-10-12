@@ -1,0 +1,33 @@
+{
+  "title": "Naan bread",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tNaan bread",
+  "ingredients": [
+    "1.5 tsp fast-action yeast",
+    "1 tsp sugar",
+    "150ml warm water",
+    "300g strong white bread flour, plus extra to dust",
+    "1 tsp salt",
+    "5 tbsp natural yoghurt",
+    "2 tbsp melted ghee or butter, plus extra to brush",
+    "A little vegetable oil, to grease",
+    "1 tsp nigella (black onion), sesame or poppy seeds (optional)"
+  ],
+  "method": [
+    "Put the yeast, sugar and two tablespoons of warm water in a bowl and stir well. Leave until it begins to froth.",
+    "Put the flour and salt into a large mixing bowl and whisk to combine.",
+    "Stir the yoghurt into the yeast mixture, then make a well in the middle of the flour and pour it in, plus the melted ghee.",
+    "Mix, then gradually stir in the water to make a soft, sticky mixture that is just firm enough to call a dough, but not at all dry.",
+    "Tip out on a lightly floured surface and knead for about five minutes until smooth and a little less sticky, then put in a large, lightly oiled bowl and turn to coat.",
+    "Cover and leave in a draught-free place (the airing cupboard, or an unlit oven) until doubled in size: roughly 90–120 minutes."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Breads",
+    "Published: 02 October 2014",
+    "Created: 02 October 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2388"
+  ],
+  "source_file": "347-naan-bread.html"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Vodka Onion Rings",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tVodka Onion Rings",
+  "ingredients": [
+    "2 large onions, cut into 1/2-inch round",
+    "2 quarts peanut oil",
+    "1 cup all-purpose flour",
+    "1/2 cup cornstarch",
+    "1 teaspoon baking powder",
+    "1/4 teaspoon baking soda",
+    "1/2 teaspoon paprika",
+    "3/4 cup light-flavored beer (such as PBR or Budweiser), ice-cold",
+    "1/4 cup 80-proof vodka",
+    "Kosher salt"
+  ],
+  "method": [
+    "Separate onion rounds into individual rings. Place in a gallon-sized zipper-lock freezer bag and put them in the freezer until completely frozen, at least 1 hour (they can stay in the freezer for up to 1 month).",
+    "When ready to fry, remove onion rings from freezer bag, transfer to a bowl, and thaw under tepid running water. Transfer to a rimmed baking sheet lined with a clean kitchen towel or several layers of paper towels and dry the rings thoroughly. Carefully peel off the inner papery membrane from each ring and discard (the rings will be very floppy). Set aside.",
+    "Preheat oil to 375°F (190°C) in a large wok or Dutch oven over medium-high heat. Combine flour, cornstarch, baking powder, baking soda, and paprika in a medium bowl and whisk together. Combine beer and vodka in a small bowl.",
+    "Slowly add beer mixture to flour mixture, whisking constantly until batter has texture of thick paint (you may not need all of the beer). Batter should leave a trail if you drip it back into the bowl off the whisk. Do not overmix; a few small lumps are OK. Dip one onion ring in batter, making sure that all surfaces are coated, lift it out, letting excess batter drip off, and add it to the hot oil by slowly lowering it in with your fingers until just one side is sticking out, then dropping it in. Repeat until half of the rings are in the oil. Fry, flipping rings halfway through cooking, until they are deep golden brown, about 4 minutes. Transfer rings to a large mixing bowl lined with paper towels and toss while sprinkling salt over them. The fried rings can be placed on a rack on a rimmed baking sheet and kept hot in a 200°F (93°C) oven while you fry the remaining rings. Serve the rings immediately."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 17 November 2022",
+    "Created: 17 November 2022",
+    "Last Updated: 17 November 2022",
+    "Hits: 877"
+  ],
+  "source_file": "683-vodka-onion-rings.html"
+}

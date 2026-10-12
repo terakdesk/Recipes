@@ -1,0 +1,36 @@
+{
+  "title": "Hubbard Squash Soup",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tHubbard Squash Soup",
+  "ingredients": [
+    "1 Hubbard Squash, quartered and seeds scooped out",
+    "2 tablespoons groundnut oil",
+    "2 pints chicken stock",
+    "1 head of garlic",
+    "2 medium onions",
+    "3 stalks of celery, chopped and sweated (cooked but not browned)",
+    "5 springs of thyme (optional)",
+    "A few few teaspoons of pumpkin oil",
+    "1 extremely small black truffle - optional",
+    "sea salt - be careful with the saltiness of French Sea Salt !!!!",
+    "lots of fresh black pepper",
+    "chives, minced",
+    "crème fraîche to garnish"
+  ],
+  "method": [
+    "Heat oven to Gas Mark 3.",
+    "In a large roasting pan place Hubbard pieces skin side down.",
+    "Take garlic head and cut off in half across the bulb. Place it alongside the Hubbard in the roasting pan, putting any loose cloves on top of the squash. Add thyme if desired.",
+    "Drizzle groundnut oil over the flesh.",
+    "Cook slowly for around 2 hours or until the Hubbard flesh is soft."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Soups",
+    "Published: 19 September 2015",
+    "Created: 19 September 2015",
+    "Last Updated: 20 October 2017",
+    "Hits: 1906"
+  ],
+  "source_file": "258-hubbard-squash-soup.html"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Passata Chilli Con Carne",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPassata Chilli Con Carne",
+  "ingredients": [
+    "1 1/2 tablespoons olive oil",
+    "2 onions, peeled, finely chopped",
+    "2 garlic cloves, crushed",
+    "1 teaspoon chilli powder",
+    "1 small red birdseye chilli, seeded, finely chopped",
+    "1 teaspoon ground cumin",
+    "1 teaspoon ground cinnamon",
+    "500g lean beef mince",
+    "2 tablespoons tomato puree",
+    "600ml tomato passata",
+    "500ml (2 cups) red wine",
+    "400g can red kidney beans, drained, rinsed",
+    "Cooked SunRice Brown Medium Grain Rice and tortillas, to serve"
+  ],
+  "method": [
+    "Heat oil in a casserole dish over medium heat. Add the onion and cook for 2-3 minutes until it softens. Add garlic, chilli powder, chilli, cumin and cinnamon. Cook for 1 minute, stirring. Add mince and cook, breaking up the lumps, for 8-10 minutes until browned.",
+    "Step 2",
+    "Add tomato puree, passata and wine. Season and bring to the boil. Reduce heat to low, cover and cook for 40 minutes. Add beans and cook uncovered for 10-15 minutes.",
+    "Step 3",
+    "Serve with rice and warm tortillas."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Beef Based",
+    "Published: 01 November 2014",
+    "Created: 01 November 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2331"
+  ],
+  "source_file": "381-passata-chilli-con-carne.html"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Fizzy onion rings",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tFizzy onion rings",
+  "ingredients": [
+    "Serves: 12",
+    "1 litre vegetable oil for frying",
+    "125g plain flour",
+    "225ml beer",
+    "1 pinch salt",
+    "1 pinch ground black pepper",
+    "4 onions, peeled and sliced into rings"
+  ],
+  "method": [
+    "In a large, deep saucepan or deep fat fryer, heat oil to 180 degrees C.",
+    "In a medium bowl, combine flour, beer, salt and pepper. Mix until smooth. Dredge onion slices in the batter, until evenly coated.",
+    "Deep fry in the hot oil until golden brown. Drain on kithen roll. Serve hot."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey extras, dips and hummus",
+    "Published: 15 February 2014",
+    "Created: 15 February 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2427"
+  ],
+  "source_file": "209-fizzy-onion-rings.html"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Oxtail Stew",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tOxtail Stew",
+  "ingredients": [
+    "0.5 kg oxtail , chopped into 4cm chunks",
+    "1 medium leek",
+    "2 medium onions",
+    "4 cloves of garlic",
+    "1 sticks of celery",
+    "2 medium carrots",
+    "a few sprigs of fresh thyme",
+    "a few sprigs of fresh rosemary",
+    "2 fresh bay leaves",
+    "2 cloves",
+    "1 heaped tablespoons plain flour",
+    "1 x 400 g tins of plum tomatoes",
+    "150ml ml stout or red wine",
+    "Beef stock to cover the stew",
+    "Worcestershire sauce"
+  ],
+  "method": [
+    "Preheat the oven to Gas Mark 7.",
+    "Place a large roasting tray in the oven to preheat.",
+    "Remove the hot tray from the oven, then add the oxtail. Season and drizzle over a lug of olive oil, then toss to coat and place in the hot oven for around 20 minutes, or until golden and caramelized.",
+    "Meanwhile, trim and halve the leeks, onions, garlic and celery lengthways, then chop into rough 2cm chunks.",
+    "Peel and chop the carrots into 2cm pieces, then place into a large ovenproof casserole pan over a medium-high heat with 1 tablespoon of olive oil and fry for around 20 minutes, or until soft and starting to caramelise, stirring often.",
+    "Roughly chop and add the thyme and rosemary leaves, then add the bay leaves.",
+    "Meanwhile, remove the oxtail from the oven and set aside.",
+    "Add the cloves and flour to the veg, stirring well to combine, then pour in the tomatoes and beer or wine.",
+    "Add the oxtail and any roasting juices, cover with the beef stock and stir well.",
+    "Bring to boil on stove top, then pop the lid on and reduce heat to a good simmer for around 2.5 hours, or until the meat falls away from the bone, stirring every hour or so and adding a splash of water to loosen, if needed.",
+    "Strip the meat from the bones and return to the pan, discarding the bones.",
+    "Add a good splash of Worcestershire sauce, season to taste and enjoy with creamy mash (celeriac mash goes well)."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Beef Based",
+    "Published: 05 April 2017",
+    "Created: 05 April 2017",
+    "Last Updated: 20 October 2017",
+    "Hits: 1904"
+  ],
+  "source_file": "370-oxtail-stew.html"
+}

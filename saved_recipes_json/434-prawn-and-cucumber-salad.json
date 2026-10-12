@@ -1,0 +1,34 @@
+{
+  "title": "Prawn And Cucumber Salad",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPrawn And Cucumber Salad",
+  "ingredients": [
+    "1 cucumber, thinly sliced",
+    "salt and pepper",
+    "45 ml (3 tbsp) white wine vinegar",
+    "15 g (1/2 oz) sugar",
+    "225 g (8 oz) peeled cooked prawns, thawed if frozen",
+    "30 ml (2 tbsp) chopped fresh dill or 5 ml (1 tsp) dried",
+    "15 ml (1 tbsp) snipped fresh chives (optional)",
+    "150 ml (5 fl oz) fresh soured cream",
+    "chopped fresh dill or chives, to garnish",
+    "Thin slices of dark rye bread"
+  ],
+  "method": [
+    "Put the cucumber slices in a colander, sprinkling each layer with salt. Cover with a plate and weigh down. Leave to drain for 30 minutes.",
+    "Meanwhile, put the vinegar, 45 ml (3 tbsp) water and sugar in a small saucepan and heat gently until the sugar dissolves. Boil for 1 minute and then remove from the heat and leave to cool.",
+    "Rinse the cucumber under cold running water and pat dry. Place in a bowl with the prawns and half of the dill. Pour the cold vinegar mixture over. Cover and chill for at least 30 minutes or overnight.",
+    "Just before serving, mix the remaining dill and the chives with the soured cream and season with salt and pepper. Spoon the prawns and cucumber on to four plates and top each with a spoonful of the flavoured soured cream. Garnish with dill or chives and serve with rye bread."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Salads &amp; Light Mains",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2103"
+  ],
+  "source_file": "434-prawn-and-cucumber-salad.html"
+}

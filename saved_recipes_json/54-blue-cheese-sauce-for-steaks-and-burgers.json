@@ -1,0 +1,24 @@
+{
+  "title": "Blue Cheese Sauce for steaks and burgers",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBlue Cheese Sauce for steaks and burgers",
+  "ingredients": [
+    "100 ml white wine",
+    "100 g gorgonzola cheese (or another blue cheese), cut into small cubes",
+    "Salt, to taste"
+  ],
+  "method": [
+    "Pour the wine in the same frying pan that you cooked the steaks in and leave to sizzle on a high heat for one minute. Stir with a wooden spoon.",
+    "Lower the heat to medium and add the gorgonzola cheese to the frying pan. Stir constantly with a wooden spoon for three minutes allowing the cheese to melt and create a smooth sauce.",
+    "Once ready, place one steak in the middle of each serving plate and drizzle the gorgonzola sauce over."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 31 October 2012",
+    "Created: 31 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2354"
+  ],
+  "source_file": "54-blue-cheese-sauce-for-steaks-and-burgers.html"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Bread and Butter Pudding",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBread and Butter Pudding",
+  "ingredients": [
+    "6 slices well buttered bread",
+    "50g/2oz Sultanas",
+    "4 Eggs",
+    "50g/2oz Sugar",
+    "1 pint Milk",
+    "A little extra Sugar for topping"
+  ],
+  "method": [
+    "Preheat the oven to 170C, 325F, Gas mark 3. Grease a 7.5cm/3 inch deep ovenproof dish.",
+    "Remove the crusts from the buttered bread and cut into quarters (triangles or squares). Reserve 4 quarters for the top and arrange the rest in layers in the dish, sprinkling the sultanas between each layer. Top with the reserved quarters.",
+    "In a saucepan, heat the milk to hot but not boiling. In a large bowl, mix together the eggs and sugar then add the hot milk, stirring well.",
+    "Slowly strain over the bread and fruit, being careful not to dislodge the top layer of bread. Leave to stand for 10 minutes.",
+    "Sprinkle with a little sugar and bake in the oven for 30-40 minutes until the top is browned and crispy."
+  ],
+  "notes": [
+    "Prev",
+    "Next"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Desserts",
+    "Published: 29 June 2012",
+    "Created: 29 June 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2339"
+  ],
+  "source_file": "64-bread-and-butter-pudding.html"
+}

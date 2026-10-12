@@ -1,0 +1,39 @@
+{
+  "title": "Tomato soup",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tTomato soup",
+  "ingredients": [
+    "1-1.25kg/2lb 4oz-2lb 12oz ripe tomatoes",
+    "1 medium onion",
+    "1 small carrot",
+    "1 celery stick",
+    "2 tbsp olive oil",
+    "2 squirts of tomato pur&eacute;e (about 2 tsp)",
+    "a good pinch of sugar",
+    "2 bay leaves",
+    "1.2 litres/ 2 pints hot vegetable stock (made with boiling water and 4 rounded tsp bouillon powder or 2 stock cubes)"
+  ],
+  "method": [
+    "Cut each tomato into quarters and slice off any hard cores (they don't soften during cooking and you'd get hard bits in the soup at the end).",
+    "Peel 1 medium onion and 1 small carrot and chop them into small pieces.",
+    "Chop 1 celery stick roughly the same size.",
+    "Fry the onion, carrot and celery until they're soft and faintly coloured. This should take about 10 minutes and you should stir them two or three times so they cook evenly and don't stick to the bottom of the pan.",
+    "Holding the tube over the pan, squirt in about 2 tsp of tomato pur&eacute;e, then stir it around so it turns the vegetables red.",
+    "Add the tomatoes and sprinkle in a good pinch of sugar and grind in a little black pepper.",
+    "Tear 2 bay leaves into a few pieces and throw them into the pan.",
+    "Stir to mix everything together, put the lid on the pan and let the tomatoes stew over a low heat for 10 minutes until they shrink down in the pan and their juices flow nicely.",
+    "From time to time, give the pan a good shake - this will keep everything well mixed.",
+    "Slowly pour in the 1.2 litres/ 2 pints of hot stock (made with boiling water and 4 rounded tsp bouillon powder or 2 stock cubes), stirring at the same time to mix it with the vegetables.",
+    "Turn up the heat as high as it will go and wait until everything is bubbling, then turn the heat down to low again and put the lid back on the pan.",
+    "Cook gently for 25 minutes, stirring a couple of times."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Soups",
+    "Published: 08 July 2012",
+    "Created: 08 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2330"
+  ],
+  "source_file": "578-tomato-soup.html"
+}

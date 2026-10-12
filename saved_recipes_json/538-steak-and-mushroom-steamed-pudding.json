@@ -1,0 +1,23 @@
+{
+  "title": "Steak and Mushroom Steamed Pudding",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSteak and Mushroom Steamed Pudding",
+  "ingredients": null,
+  "method": [
+    "For the pastry, first sift the flour and the salt into a large mixing bowl.",
+    "Add some freshly ground black pepper, then add the suet and mix it into the flour using the blade of a knife.",
+    "When it's evenly blended, add a few drops of cold water and start to mix with the knife, using curving movements and turning the mixture around.",
+    "The aim is to bring it together as a dough, so keep adding drops of water until it begins to get really claggy and sticky.",
+    "Now abandon the knife, go in with your hands and bring it all together until you have a nice smooth elastic dough, which leaves the bowl clean.",
+    "It's worth noting that suet pastry always needs more water than other types, so if it is still a bit dry just go on adding a few drops at a time."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Beef Based",
+    "Published: 11 September 2014",
+    "Created: 11 September 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2574"
+  ],
+  "source_file": "538-steak-and-mushroom-steamed-pudding.html"
+}

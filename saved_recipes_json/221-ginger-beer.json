@@ -1,0 +1,31 @@
+{
+  "title": "Ginger Beer",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGinger Beer",
+  "ingredients": [
+    "140 g fresh ginger",
+    "4 tablespoons muscovado sugar",
+    "2-3 lemons",
+    "1 litre soda water or sparkling mineral water",
+    "a few sprigs of fresh mint"
+  ],
+  "method": [
+    "First of all you need to grate your ginger on a coarse cheese grater – you can leave the skin on if you like.",
+    "Put the ginger with its pulpy juice into a bowl and sprinkle in your muscovado sugar.",
+    "Remove the rind from 2 of your lemons with a vegetable peeler, add to the bowl, and slightly bash and squash with something heavy like a pestle or a rolling-pin.",
+    "Just do this for 10 seconds, to mix up all the flavours. Squeeze the juice from all 3 lemons and add most of it to the bowl.",
+    "Pour in your fizzy water or soda water.",
+    "Allow to sit for 10 minutes and then taste. You may feel that the lemons are slightly too sour, therefore add a little more sugar; if it's slightly too sweet, add a little more lemon juice.",
+    "To be honest, these amounts are always a little variable so just follow your own taste.",
+    "Pass the ginger beer through a coarse sieve into a large jug and add lots of ice and some sprigs of mint."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Non-Alcoholic",
+    "Published: 18 November 2015",
+    "Created: 18 November 2015",
+    "Last Updated: 20 October 2017",
+    "Hits: 1943"
+  ],
+  "source_file": "221-ginger-beer.html"
+}

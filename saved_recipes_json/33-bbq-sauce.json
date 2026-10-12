@@ -1,0 +1,32 @@
+{
+  "title": "BBQ sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBBQ sauce",
+  "ingredients": [
+    "1/2 cup weakly prepared yellow mustard - 2 heaped teaspoons mustard",
+    "1/2 cup apple cider vinegar vinegar",
+    "1/2 cup brown sugar",
+    "1 tablespoon honey",
+    "1 heaped teaspoon chopped oregano",
+    "1 heaped teaspoon chopped thyme",
+    "2 tablespoons tomato paste",
+    "1 teaspoon salt",
+    "1 teaspoon cayenne",
+    "1 teaspoon black pepper",
+    "1 teaspoon white pepper"
+  ],
+  "method": [
+    "Combine all ingredients in a saucepan and simmer for 30 minutes.",
+    "Allow to cool, place in an airtight container, and refrigerate for at least 4 hours to blend the flavors.",
+    "Beware - this could be hot!!!"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 07 May 2012",
+    "Created: 07 May 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2660"
+  ],
+  "source_file": "33-bbq-sauce.html"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Manchego Stuffed Mushrooms",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tManchego Stuffed Mushrooms",
+  "ingredients": [
+    "3 large flat cap Portobello mushrooms, cleaned and stems reserved",
+    "½ large onion, finely chopped",
+    "3 tbsp olive oil, plus an extra tsp",
+    "1 tsp chopped fresh thyme",
+    "1 lemon, zest and juice",
+    "salt and freshly ground black pepper",
+    "1 garlic clove, crushed",
+    "2 tbsp chopped flat leaf parsley",
+    "6 tbsp rough breadcrumbs",
+    "100g/3½oz manchego cheese, grated",
+    "75g/2½oz smoked bacon (approximately 5 rashers), cooked"
+  ],
+  "method": [
+    "Preheat the oven to 180C/350F/Gas 4.",
+    "Finely chop one of the mushrooms and the stems of the other two, reserving the two remaining mushroom caps. In a frying pan, fry the onion in half a tablespoon of olive oil. Add the chopped mushrooms and thyme and continue to fry for five minutes. Add the lemon juice, remove from pan and set aside.",
+    "Wipe clean the pan and add the remaining olive oil.",
+    "Season the mushroom caps with salt and freshly ground black pepper and fry gently for five minutes. Turn over and cook for a further five minutes. Remove from the pan and set aside to drain on kitchen paper.",
+    "In a bowl, mix the garlic, parsley and breadcrumbs together with a teaspoon of olive oil, the lemon zest and freshly ground black pepper. Set aside.",
+    "On a baking sheet lined with parchment paper, place the two remaining large mushrooms caps topside down. Fill with the Manchego cheese, cooked bacon, onion and mushroom mix. Top with the breadcrumb mixture and bake in the oven for eight minutes.",
+    "Serve immediately."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey Meals",
+    "Published: 07 April 2014",
+    "Created: 07 April 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2483"
+  ],
+  "source_file": "319-manchego-stuffed-mushrooms.html"
+}

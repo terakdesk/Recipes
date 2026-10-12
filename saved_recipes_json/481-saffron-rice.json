@@ -1,0 +1,30 @@
+{
+  "title": "Saffron Rice",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSaffron Rice",
+  "ingredients": [
+    "2 tablespoons vegetable oil",
+    "2 spring onions (finely sliced)",
+    "250 grams long grain rice",
+    "450 ml vegetable stock",
+    "50 ml dry sherry",
+    "¼ teaspoon saffron strands",
+    "100 grams peas",
+    "100 grams sweetcorn"
+  ],
+  "method": [
+    "Heat the oil in a large frying pan and add the spring onions, fry until softened.",
+    "Add the rice and saffron, toss well in the oil before adding the sherry, allow to cook until the sherry has been absorbed.",
+    "Add the stock and vegetables, bring to the boil and cover with lid. Reduce the heat to a low simmer and cook for 12 minutes.",
+    "Remove from the heat and allow to stand for 5 minutes."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Vegey extras, dips and hummus",
+    "Published: 19 April 2014",
+    "Created: 19 April 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2218"
+  ],
+  "source_file": "481-saffron-rice.html"
+}

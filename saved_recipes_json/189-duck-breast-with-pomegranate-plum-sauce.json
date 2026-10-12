@@ -1,0 +1,41 @@
+{
+  "title": "Duck Breast with Pomegranate Plum Sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tDuck Breast with Pomegranate Plum Sauce",
+  "ingredients": [
+    "2 duck breasts",
+    "2 Italian prune plums, diced",
+    "1 cup POM pomegranate juice",
+    "1/2 cup orange juice",
+    "1/4 cup dark balsamic vinegar",
+    "1 tablespoon butter"
+  ],
+  "method": [
+    "Pre-heat the oven to Gas Mark 6.",
+    "Score the fat side of the duck with a knife.",
+    "Place in a heavy skillet fat side down and cook over low heat, letting a lot of the fat render out.",
+    "From time to time, pour the fat into a jar.",
+    "Store the fat in the refrigerator to use in other recipes, if desired. Keep doing this for about 20 minutes.",
+    "By then a lot of the fat will be rendered out, and the remaining fat on the duck should be browned.",
+    "Remove the duck breasts to an oven-proof casserole.",
+    "In a separate pot, heat the pomegranate juice, orange juice and balsamic vinegar.",
+    "Bring to a boil.",
+    "Cook at high heat about 10 minutes.",
+    "Pour the sauce (it will still be thin) over the duck breasts that are in the casserole.",
+    "Place the casserole in a Gas Mark 6 preheated oven.",
+    "Cook 8 minutes for rare meat or 10 minutes for medium rare.",
+    "After the allotted time, remove casserole from the oven and remove duck breasts from the casserole onto a carving board.",
+    "Cover to keep warm while you reduce the sauce.",
+    "To reduce the sauce, place the heatproof casserole over a high flame and add the diced plums.",
+    "Boil for about 10 minutes or until the liquid starts to thicken and become almost syrupy. Don&rsquo;t let it get too thick or it won&rsquo;t pour properly."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Duck and other Fowl Based",
+    "Published: 07 July 2012",
+    "Created: 07 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2652"
+  ],
+  "source_file": "189-duck-breast-with-pomegranate-plum-sauce.html"
+}

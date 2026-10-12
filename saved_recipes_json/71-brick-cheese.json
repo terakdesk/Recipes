@@ -1,0 +1,38 @@
+{
+  "title": "Brick Cheese",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBrick Cheese",
+  "ingredients": [
+    "4 gallons of milk (not ultra-pasturized)",
+    "1/2 tsp. of our MM100 or 1 packet of our buttermilk culture (use about 30-40% less if using raw milk)",
+    "1/16 tsp B.linens",
+    "Liquid rennet (.75 tsp or 3.75ml)",
+    "Salt and calcium chloride for making brine if you have none made up",
+    "A good thermometer",
+    "A knife to cut the curds, and a spoon or ladle to stir the curds",
+    "For molding use our large mold-M2",
+    "A good draining mat to place under the mold to drain the curds",
+    "A weights to apply sufficient weight for consolidation of the curds",
+    "Two ply washed rind paper for wrapping the finished cheese",
+    "1/8-1/4 tsp annatto for color (but this is totally optional)",
+    "Calcium chloride for pasteurized cold stored milk",
+    "Note: If you would like to make a smaller 2 lb. cheese (1/2 Brick) use 1/2 of the culture and rennet above plus a small basket mold for forming the smaller cheese. Everything needs to be clean and sanitized."
+  ],
+  "method": [
+    "ACIDIFYING AND HEATING THE MILK:",
+    "Begin by heating 4 gallons of milk to 88F (31C). You do this by placing the milk in a pot or sink of very warm water. If you do this in a pot on the stove, make sure you heat the milk slowly and stir it well as it heats. Once the milk is at 88F the culture and b.linens can be added. To prevent the powder from caking and sinking in clumps, sprinkle the powder over the surface of the milk and then allow about 2 minutes for the powder to re-hydrate before stirring it in. Then allow the milk to ripen for 10 min. (this is a very short time because we need a very slow acid development to produce a sweet cheese).",
+    "COAGULATION WITH RENNET:",
+    "Then add about 3/4 tsp (3.7 ml) of single strength liquid rennet. The milk now needs to sit still for 30 minutes while the culture works and the rennet coagulates the curd. You will notice the milk beginning to thicken in about 15 minutes but wait 30 minutes until you see a good curd. The thermal mass of this milk should keep it warm during this period. It is OK if the temperature drops a few degrees during this time.",
+    "CUTTING CURDS AND RELEASING THE WHEY:",
+    "Begin by cutting the curd into 3/4-1 inch squares, then allow this to rest 2-3 minutes for the cuts to heal. The curd will be very soft and this will prepare for a more even cut size."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Cheese Manufacture",
+    "Published: 26 March 2013",
+    "Created: 26 March 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2434"
+  ],
+  "source_file": "71-brick-cheese.html"
+}

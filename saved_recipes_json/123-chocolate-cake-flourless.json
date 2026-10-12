@@ -1,0 +1,32 @@
+{
+  "title": "Chocolate Cake - Flourless",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tChocolate Cake - Flourless",
+  "ingredients": [
+    "260g dark chocolate, broken into pieces",
+    "260g butter",
+    "1 tbsp strong coffee",
+    "8 eggs, separated",
+    "100g soft light brown sugar",
+    "160g golden caster sugar",
+    "85g cocoa powder",
+    "½ tsp salt",
+    "2 tbsp cocoa nibs (optional)"
+  ],
+  "method": [
+    "Grease a 23cm cake tin and line with greaseproof paper. Melt the chocolate and butter together in a heatproof bowl set over, but not touching, a pan of simmering water. Stir until smooth, then stir in the coffee and set aside to cool slightly. Heat the oven to 160C/320F/gas mark three.",
+    "Put the egg yolks and sugars in a food processor and whisk until doubled in volume. Turn the machine off and sift the cocoa powder on top of the egg mixture (don’t just dump it in or you’ll get lumps). Add the salt, then mix on a low speed until the cocoa is well combined.",
+    "Put the egg whites in another large bowl and whisk to the soft-peak stage.",
+    "Gently fold the melted chocolate mixture into the egg yolk mixture. Fold a third of the egg white into the mixture to loosen it before very carefully folding the rest in, until the mixture is no longer streaky but an even, rich brown. Sprinkle the cocoa nibs on top, if using.",
+    "Spoon into the tin and bake for 40-50 minutes until just set on top, then allow to cool in the tin on a wire rack. Serve with something tart, such as creme fraiche."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Cakes",
+    "Published: 19 October 2014",
+    "Created: 19 October 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2348"
+  ],
+  "source_file": "123-chocolate-cake-flourless.html"
+}

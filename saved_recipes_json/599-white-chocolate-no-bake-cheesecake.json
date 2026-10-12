@@ -1,0 +1,32 @@
+{
+  "title": "White chocolate no-bake cheesecake",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tWhite chocolate no-bake cheesecake",
+  "ingredients": [
+    "200g white chocolate",
+    "400g tubs soft cheese (we used Philadelphia)",
+    "200ml pot double cream",
+    "35g caster sugar",
+    "120g punnet raspberries",
+    "4 tbsp raspberry jam",
+    "60g amaretti biscuits",
+    "140g small strawberries",
+    "a few blueberries (optional)"
+  ],
+  "method": [
+    "Break the chocolate into a glass bowl, then put it over a pan of just simmering water to melt, making sure the bottom of the bowl doesn’t touch the water. Line a lightly oiled 900g loaf tin with cling film.",
+    "Whisk the cheese, cream and sugar together, preferably with electric beaters, then stir into the almost-cool melted white chocolate until well combined.",
+    "Stir 50g raspberries with 2 tbsp of the jam. Spoon half the cheese mixture into the loaf tin, then spoon the jammy raspberries down the centre. Top with the rest of the cheese mixture, level the top, then press in the biscuits. Cover and chill for 6 hrs or overnight.",
+    "Set aside about 6 strawberries. Halve the rest, then warm in a pan with the remaining jam until soft. Whizz in a food processor or with a hand blender, then rub through a sieve to remove the seeds and make a sauce. Add a drop of water if the sauce is too thick.",
+    "To serve, carefully turn the tin onto a plate, lift it away and strip off the cling film. Halve the remaining strawberries, then arrange on top of the cake with the remaining raspberries and blueberries (if using). Pour over a little sauce and serve the rest separately for drizzling over."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Desserts",
+    "Published: 22 April 2014",
+    "Created: 22 April 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 1953"
+  ],
+  "source_file": "599-white-chocolate-no-bake-cheesecake.html"
+}

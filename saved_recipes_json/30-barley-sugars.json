@@ -1,0 +1,23 @@
+{
+  "title": "Barley Sugars",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "ingredients": null,
+  "method": [
+    "Add the barley, lemon peel and water to a saucepan, bring to a boil, reduce to a simmer, cover and cook for 2 hours.",
+    "Remove from the heat and allow to stand for 30 minutes.",
+    "Carefully ladle-off 600ml of the liquid into a clean saucepan and add the sugar.",
+    "Set the pan over low heat and stir until the sugar has dissolved. Bring to a boil (do not stir), add the lemon juice and boil the syrup until it reaches the soft crack stage (when you drop a bit of this syrup into cold water, it will solidify into threads that, when removed from the water, are flexible, not brittle. They will bend slightly before breaking).",
+    "Pour the syrup into a well-buttered marble slab.",
+    "When cool enough to handle use oiled scissors to cut the confection into short strips. Holding these by the ends twist to form spirals (you need to do this quickly before the barley sugars set."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Sweets as in Candy not Desserts",
+    "Published: 28 June 2012",
+    "Created: 28 June 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2683"
+  ],
+  "source_file": "30-barley-sugars.html"
+}

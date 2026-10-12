@@ -1,0 +1,34 @@
+{
+  "title": "Raspberry Jam",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRaspberry Jam",
+  "ingredients": [
+    "1kg raspberries",
+    "juice of 1 lemon",
+    "1kg bag jam sugar (the one with pectin added)"
+  ],
+  "method": [
+    "Before you start, sterilise your jars (see tip below) and put a plate in the freezer to chill.",
+    "Tip half the raspberries into a preserving pan and add the lemon juice.",
+    "Mash the berries to a pulp over the heat with a potato masher, then leave to cook for 5 mins.",
+    "Tip the cooked berries into a sieve over a bowl, then once all of the juice has drained off, firmly work the pulp through the sieve with a wooden spoon until you are left with just the seeds.",
+    "Tip the juice and pulp back into the preserving pan and stir in the sugar.",
+    "Heat gently, then add the remaining whole raspberries.",
+    "Bring to the boil, then boil rapidly for 5 mins.",
+    "Remove from the heat and drop a little jam onto the chilled plate.",
+    "Now push your finger through it – it should wrinkle and look like jam. If it doesn’t, boil for 2 mins, then test again.",
+    "The top of the jam may look like it has sediment on it, but I find that if you stir it well as it cools, a little of this disappears.",
+    "Pour into the jars and seal.",
+    "It will keep unopened for a year, although the lovely bright colour will darken a little.",
+    "Once open, keep in the fridge."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 28 June 2014",
+    "Created: 28 June 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2004"
+  ],
+  "source_file": "449-raspberry-jam.html"
+}

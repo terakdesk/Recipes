@@ -1,0 +1,27 @@
+{
+  "title": "Sourdough Bread with Allinsons Strong Flour Nov25",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tSourdough Bread with Allinsons Strong Flour Nov25",
+  "ingredients": null,
+  "method": [
+    "Make up the leaven by mixing 20g active starter with 75g flour and 65g warm water. Leave at 25°C for 4 to 8 hours until doubled in size.",
+    "At the same time as making the leaven, mix the flour and water and leave at 25°C as well. Mix with dough hook until 'batter' is smooth.",
+    "When the leaven has risen:",
+    "Add the leaven and the salt to the flour mix and use speed 1 on the mixer with the dough hook for 30 minutes until the dough naturally pulls away from the sides and bottom of the mixer bowl.",
+    "Then leave covered for 30 minutes.,",
+    "Knead again for a full 15 minutes on setting 1.",
+    "Leave the dough, covered, at 25°C for 8 hours in a plastic container, until the dough touches the top of the plastic box.",
+    "Shape the loaf into a well floured banneton and leave in the fridge for 8 hours or more.",
+    "Put the loaf in a hot dutch oven and slash the top of the loaf really deeply.... add a big splash of water to the dutch oven just before putting the lid on.",
+    "Bake in a hot, covered dutch oven at gas mark 8 for 42 minutes then remove the lid and bake for a further 25 minutes OR try: bake covered in a pre-warmed dutch oven for 25 minutes and then remove the lid and bake for another 25 to 35 minutes until the loaf is a dark brown."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 24 November 2025",
+    "Created: 24 November 2025",
+    "Last Updated: 24 November 2025",
+    "Hits: 260"
+  ],
+  "source_file": "730-sourdough-bread-with-allinsons-strong-flour.html"
+}

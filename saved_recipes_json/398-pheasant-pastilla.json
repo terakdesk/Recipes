@@ -1,0 +1,31 @@
+{
+  "title": "Pheasant pastilla - pastry pie",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPheasant pastilla - pastry pie",
+  "ingredients": [
+    "2 plump pheasant, cleaned",
+    "1 kg onions, sliced",
+    "100 g unsalted butter",
+    "20 g bunch of coriander, tied with string",
+    "2 tsp ground cinnamon",
+    "A pinches of saffron strands",
+    "80 g caster sugar",
+    "4 eggs, beaten",
+    "200 g chopped almonds"
+  ],
+  "method": [
+    "Put the pheasants into a saucepan with the onions, butter, herbs, spices, sugar, a little salt and lots of pepper, and 300 ml water. Cover tightly and simmer over a fairly low heat for 1 hour until the flesh is falling off the bone. Lift the pheasant out, draining off any liquid lingering inside. Pull off the skin and discard, then take the meat off the bones and pull into small bite-sized pieces. Discard the bones.",
+    "Meanwhile, leave the pan on the heat and boil hard until the liquid has greatly reduced, leaving just a moist juicy mush of sweet glossy onions. Remove the herb bundles. Stir frequently as the liquid level drops to prevent catching. Gradually beat in the beaten egg. Return the shredded partridge to the pan, and stir for a minute or two more until the mixture is very thick. Take off the heat and stir in the almonds. Taste and adjust seasoning.",
+    "Preheat the oven to 200C/180C fan/gas 6. Take a 25cm centimetre cake tin and grease with a little of the butter for the pastry. Cover the base with a sheet of pastry, taking the excess up the sides. Brush with melted butter, then lay a second sheet over the first, but at right angles to it, making sure that the base is completely covered. If your pastry is very narrow, you may need to use one or even two more sheets. Lay another sheet over these two and brush with butter. You should end up with at least 3 sheets of filo on the base of the pan.",
+    "Spread the filling evenly over the buttered pastry. Flip the overhanging pastry over the top of the filling. Brush with a little beaten egg. Quickly butter another sheet of pastry, fold in half, and lay over the top, covering all of the flaps of pastry evenly. Tuck the ends of pastry down the sides as well as you can. Brush the top with the last of the butter."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Duck and other Fowl Based",
+    "Published: 13 January 2013",
+    "Created: 22 November 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 3032"
+  ],
+  "source_file": "398-pheasant-pastilla.html"
+}

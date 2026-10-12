@@ -1,0 +1,38 @@
+{
+  "title": "Courgette and Apple Cake - Nigel Slater",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tCourgette and Apple Cake - Nigel Slater",
+  "ingredients": [
+    "200g butter",
+    "200g caster sugar",
+    "2 eggs",
+    "150g courgettes (about 2 small ones)",
+    "1 small apple",
+    "200g plain flour",
+    "a large pinch salt",
+    "½ tsp baking powder",
+    "pinch cinnamon",
+    "60g pecans",
+    "80g sultanas (half cup, packed)"
+  ],
+  "method": [
+    "Pre-heat oven at 180C/gas mark 4.",
+    "Butter and line the base of a loaf tin measuring 20cm x 12cm x 9cm deep.",
+    "Cream the butter and sugar until light and fluffy.",
+    "Beat the eggs and mix them in, one at a time, making sure each is fully incorporated before adding the next.",
+    "Coarsely grate the courgettes and the apple. Squeeze them with your hands to remove any excess moisture, then add to the mixture.",
+    "Mix the flour, salt, baking powder and cinnamon, and gently fold into the mixture.",
+    "Stir in the nuts and fruit.",
+    "Transfer to the lined loaf tin and bake for about an hour, or until golden and firm to the touch.",
+    "Allow to cool in the tin before turning out."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Cakes",
+    "Published: 13 September 2014",
+    "Created: 13 September 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2601"
+  ],
+  "source_file": "150-courgette-and-apple-cake-nigel-slater.html"
+}

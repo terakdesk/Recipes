@@ -1,0 +1,26 @@
+{
+  "title": "Scallops and Chorizo",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tScallops and Chorizo",
+  "ingredients": [
+    "110 grams chorizo",
+    "400 grams small scallops (halve them to make 2 thinner discs if they are very fat)",
+    "juice of ½ lemon",
+    "4 tablespoons chopped fresh parsley"
+  ],
+  "method": [
+    "Slice the chorizo into rounds no thicker than 3mm / 1/8 inch.",
+    "Heat a heavy-based pan on the hob and, when hot, dry-fry the chorizo round until crisped on either side (the chorizo will give out plenty of its own oil); this should take no more than 2 minutes.",
+    "Remove the chorizo to a bowl and fry the scallops in the chorizo-oil for about 1 minute a side.",
+    "Return the chorizo to the pan with the scallops, add the lemon juice and let bubble for a few seconds before arranging on a serving plate and sprinkling with lots of parsley."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Salads &amp; Light Mains",
+    "Published: 25 July 2014",
+    "Created: 25 July 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2322"
+  ],
+  "source_file": "494-scallops-and-chorizo.html"
+}

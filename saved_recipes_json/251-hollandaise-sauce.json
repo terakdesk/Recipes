@@ -1,0 +1,30 @@
+{
+  "title": "Hollandaise sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tHollandaise sauce",
+  "ingredients": [
+    "3 tbsp white wine vinegar",
+    "6 peppercorns",
+    "1 dried bay leaf",
+    "2 eggs, yolks only",
+    "125g/4oz butter",
+    "lemon juice, salt and pepper to taste"
+  ],
+  "method": [
+    "Put the vinegar in a small pan with the peppercorns and bay leaf. Reduce the vinegar over a high heat until there is only 1 tbsp left. Strain the peppercorns and the bay leaf from this reduction.",
+    "Put the egg yolks in a food processor with the vinegar reduction.",
+    "Gently melt the butter so that the butter solids fall to the bottom of the saucepan.",
+    "Turn the food processor on and slowly pour the butter on to the egg yolks with the motor still running. The sauce will start to thicken. When only the butter solids are left, stop.",
+    "If the sauce is too thick, add a little hot water.",
+    "Season to taste with salt and pepper and a little lemon juice."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2092"
+  ],
+  "source_file": "251-hollandaise-sauce.html"
+}

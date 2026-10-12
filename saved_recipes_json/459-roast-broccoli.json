@@ -1,0 +1,31 @@
+{
+  "title": "Roast broccoli",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRoast broccoli",
+  "ingredients": [
+    "1-2 pounds broccoli",
+    "1 garlic clove, peeled and thinly sliced (or 1 teaspoon minced garlic)",
+    "1-2 tablespoons olive oil",
+    "1/4 teaspoons salt (Kosher or sea salt, if possible)",
+    "freshly ground black pepper",
+    "1 teaspoon lemon juice",
+    "2 tablespoons parmesan* cheese"
+  ],
+  "method": [
+    "Preheat oven to 425 degrees.",
+    "Cut the broccoli florets from the thick stalks, leaving an inch or two of stalk attached to the florets. Toss the rest of the stalks. Cut the remaining pieces into finger-food size pieces.",
+    "Wash the florets and thoroughly dry them with paper towels. Make sure they’re 100% dry. If there’s moisture, the broccoli will end up steamed and tender, not browned and crisp.",
+    "Put the florets in a bowl and toss them with the garlic, salt and pepper and enough olive oil to coat each piece.",
+    "Arrange the broccoli on a cookie sheet in a single layer. Roast for 20 to 25 minutes, until crisp-tender and the tips of some of the florets are browned. If they start to get too brown midway through cooking, flip the broccoli with a spatula to expose some not-brown parts.",
+    "Remove from the oven and immediately toss with lemon juice and Parmesan"
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Vegey extras, dips and hummus",
+    "Published: 12 January 2014",
+    "Created: 12 January 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2436"
+  ],
+  "source_file": "459-roast-broccoli.html"
+}

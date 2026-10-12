@@ -1,0 +1,32 @@
+{
+  "title": "Roast Lamb Steaks",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRoast Lamb Steaks",
+  "ingredients": [
+    "2 tbsp olive oil",
+    "4 lamb shoulder steaks",
+    "3 potatoes, thickly sliced",
+    "1 red onion, halved & sliced",
+    "sprig fresh rosemary or 1 tsp of dried",
+    "Fresh flat leaf parsley, chopped",
+    "Fresh thyme, chopped",
+    "2 tbsp wholegrain mustard"
+  ],
+  "method": [
+    "Heat oven to 220C/fan 200C/gas 7.",
+    "Thickly slice the potatoes and PART boil for about 7 minutes.",
+    "Heat half the oil in a roasting tray, then brown the steaks on both sides and set aside.",
+    "Brush the steaks with mustard.",
+    "Toss the potato, onion, remaining oil and half the herbs into the roasting tray, then lay the steaks on top.",
+    "Scatter with remaining herbs and roast everything for 40 mins until the potatoes are softened and the lamb cooked."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Lamb Based",
+    "Published: 20 October 2014",
+    "Created: 20 October 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2196"
+  ],
+  "source_file": "464-roast-lamb-steaks.html"
+}

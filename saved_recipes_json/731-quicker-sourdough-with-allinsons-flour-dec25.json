@@ -1,0 +1,34 @@
+{
+  "title": "Quicker Sourdough with Allinsons Flour Dec25",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tQuicker Sourdough with Allinsons Flour Dec25",
+  "ingredients": [
+    "for the autolyse",
+    "500g bread flour",
+    "350g warm water",
+    "10g salt",
+    "for the leaven",
+    "20g Active starter that has been warmed before use",
+    "75g flour",
+    "65g warm water"
+  ],
+  "method": [
+    "Make up the leaven by mixing 20g active starter with 75g flour and 65g warm water. Leave at 25°C for 4 to 8 hours until doubled in size.",
+    "When the leaven is almost ready, mix the flour and water. Mix with dough hook until 'batter' is smooth, about 5 minutes on setting FOUR. Leave to rest 10 minutes and mix again for 5 minutes on setting 4.",
+    "Add the leaven and the salt to the flour mix and use speed 1 on the mixer with the dough hook for 10 minutes; then do 10 minutes on setting 4 until the dough naturally pulls away from the sides and bottom of the mixer bowl.",
+    "The dough should collapse and stick to the side of the bowl then return to a ball - the dough is stretching as it gets pulled from the sides.",
+    "Leave the dough, covered, at 25°C for 4 to 8 hours in a 2 litre plastic container, until the dough touches the top of the plastic box or double in size.",
+    "Shape the loaf into a well floured banneton and leave in the fridge for 8 hours or more.",
+    "Put the loaf in a hot dutch oven and slash the top of the loaf really deeply.... add a big splash of water to the dutch oven just before putting the lid on.",
+    "Bake in a hot, covered dutch oven at gas mark 8 for 42 minutes then remove the lid and bake for a further 25 minutes OR try: bake covered in a pre-warmed dutch oven for 25 minutes and then remove the lid and bake for another 25 to 35 minutes until the loaf is a dark brown."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 01 December 2025",
+    "Created: 01 December 2025",
+    "Last Updated: 01 December 2025",
+    "Hits: 267"
+  ],
+  "source_file": "731-quicker-sourdough-with-allinsons-flour-dec25.html"
+}

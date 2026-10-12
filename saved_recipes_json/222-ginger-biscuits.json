@@ -1,0 +1,31 @@
+{
+  "title": "Ginger Biscuits",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGinger Biscuits",
+  "ingredients": [
+    "340g/12oz plain flour",
+    "1 level teaspoon bicarbonate of soda",
+    "2 level teaspoons ground ginger",
+    "100g/4oz butter",
+    "160g light brown sugar",
+    "4 tablspoons golden syrup",
+    "1 large egg, beaten"
+  ],
+  "method": [
+    "Pre-heat oven to 180°C/350°F/Gas Mark 4.",
+    "Line the baking trays with grease proof paper.",
+    "Put all the dry ingredients into a bowl. Rub in butter with finger tips until it looks like bread crumbs. Stir in the sugar then the syrup and the beaten egg. Bring it all together to form a smooth pastry dough.",
+    "On a lightly floured surface roll out the dough to be about 8mm thick. Using a 2” straight-sided round cutter, cut out biscuits until all the biscuit dough is used up. Place on baking trays ensuring enough room is left for slight expansion of the biscuit.",
+    "Chill on the baking trays for 20 minutes in fridge.",
+    "Cook for 10-15 minutes until golden brown. Remove from tray with palette knife and place on a cooling rack."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Biscuits",
+    "Published: 01 August 2016",
+    "Created: 01 August 2016",
+    "Last Updated: 20 October 2017",
+    "Hits: 1711"
+  ],
+  "source_file": "222-ginger-biscuits.html"
+}

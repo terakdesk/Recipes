@@ -1,0 +1,41 @@
+{
+  "title": "Mince on dripping toast",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tMince on dripping toast",
+  "ingredients": [
+    "1 dash of extra virgin olive oil",
+    "1 onion, peeled and thinly sliced",
+    "1 leek, cleaned, sliced lengthways in half, then sliced across",
+    "1 celery, sliced across",
+    "1 carrot, peeled, sliced lengthways in half, then sliced across",
+    "4 garlic cloves, minced",
+    "1kg beef mince",
+    "2 plum tomatoes",
+    "1 handful of oatmeal",
+    "25ml of Worcestershire sauce",
+    "1/2 bottle of red wine",
+    "4 slices of white bread, top quality, a day old and 1-2cm thick",
+    "beef dripping, for shallow frying",
+    "chicken stock, if needed",
+    "sea salt",
+    "freshly ground black pepper",
+    "horseradish sauce, to serve"
+  ],
+  "method": [
+    "Splash the olive oil into a large, heavy-bottomed pan and sweat the onion, leek, celery, carrot and garlic cloves until softened",
+    "Add the mince, breaking it up as it cooks, then add the tomatoes. These should be crushed in your hand as you add them, a squeeze, again a gentle gesture; to purée the tomatoes would be a different thing entirely. Keep stirring as you sprinkle in your handful of oatmeal, then add the Worcestershire sauce and red wine. Add a little salt and pepper, stir again, and simmer gently for 1 to 2 hours",
+    "As you cook the mince should take on a wobble of thickness, the vegetables expressing themselves while starting to become very much part of the whole. If it is looking too stiff, a ladle of chicken stock should return its lava-like qualities",
+    "chicken stock, if needed",
+    "When the mince is nearly ready, make the dripping toast by shallow-frying the bread in rendered beef dripping. Turn the bread every 30 seconds until golden brown, then place onto plates",
+    "Spoon the hot mince over your dripping toast, with a spoonful of horseradish on the side"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 17 March 2022",
+    "Created: 17 March 2022",
+    "Last Updated: 17 March 2022",
+    "Hits: 1072"
+  ],
+  "source_file": "667-mince-on-dripping-toast.html"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Thai green curry with monkfish",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tThai green curry with monkfish",
+  "ingredients": [
+    "Serves: 4",
+    "2 tbsp sunflower oil",
+    "600 ml (1 pint) fish stock, preferably home-made",
+    "2 tbsp fish sauce",
+    "2 tbsp sugar",
+    "280 g (10 oz) baby new potatoes, scrubbed and halved",
+    "1 red pepper, seeded and cut into strips",
+    "500 g (1 lb 2 oz) monkfish fillets, sliced across into medallions",
+    "115 g (4 oz) small sugarsnap peas",
+    "100 ml (3½ fl oz) coconut milk",
+    "juice of 1 lime",
+    "1 tbsp chopped fresh coriander to garnish"
+  ],
+  "method": [
+    "Prep:25min › Cook:20min › Ready in:45min",
+    "Mix together all the ingredients for the green curry paste and stir in 6 tbsp water. (If you have a food processor, you can save chopping time by using the machine to chop all of the paste ingredients with the water until smooth.)",
+    "Heat the oil in a non-stick pan. Add the curry paste and fry for 5 minutes, stirring frequently, until the water has evaporated and the shallots have softened and are starting to colour.",
+    "Pour the fish stock and fish sauce into the pan and stir in the sugar, potatoes and red pepper. Bring to the boil, then cover and cook for about 10 minutes or until the potatoes are almost tender.",
+    "Add the monkfish, sugarsnap peas and coconut milk, then cover again and cook gently for 5 minutes or until the fish will flake easily. Remove from the heat, stir in the lime juice and scatter over the coriander. Serve hot."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Fish Based Curry",
+    "Published: 23 March 2014",
+    "Created: 23 March 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2472"
+  ],
+  "source_file": "567-thai-green-curry-with-monkfish.html"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Radish Relish Sep2016 - use this one!",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRadish Relish Sep2016 - use this one!",
+  "ingredients": [
+    "400g radishes",
+    "1 large onion",
+    "5 cloves peeled garlic",
+    "1 cup vinegar",
+    "1 cup sugar",
+    "1 teaspoon salt",
+    "1 teaspoon whole coriander",
+    "1 teaspoon cumin seed",
+    "1 teaspoon mustard seed",
+    "1/4 tsp ground black pepper",
+    "2 inch length of fresh ginger, peeled and grated"
+  ],
+  "method": [
+    "Clean and rinse radishes.",
+    "Place radishes, garlic and onion in food processor to finely chop.",
+    "In a large pot, combine vinegar, sugar, salt, coriander, cumin, mustard seed, black pepper and ginger.",
+    "Let come to a boil, stirring to dissolve sugar.",
+    "Add radish mixture and bring to a boil and cook for 10 minutes.",
+    "Let cool and place in container to store in fridge.",
+    "Or if you want to can this, leave 1/4 inch head space and water bath process for 20 minutes."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 22 July 2014",
+    "Created: 22 July 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2278"
+  ],
+  "source_file": "448-radish-relish-2.html"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Pork Leg Kebabs",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork Leg Kebabs",
+  "ingredients": [
+    "800g diced pork leg",
+    "1 x 275g jar lemon and piri-piri marinade",
+    "2 small red onions, cut into chunks",
+    "1 x 200g pack couscous",
+    "a small handful of roughly chopped basil leaves, plus extra to garnish",
+    "lemon wedges",
+    "Greek yogurt"
+  ],
+  "method": [
+    "Preheat the grill. Cut any large pieces of pork into bite-sized pieces, then put all the pork in a large bowl with the piri-piri marinade and stir to coat. Set aside for half an hour if you have time.",
+    "Thread the pork and red onion on to the skewers, allowing roughly 6 pieces of pork and 2 chunks of onion per skewer.",
+    "Grill for 15-20 minutes, turning frequently, until the pork is browned and the juices run clear. Meanwhile, prepare the couscous according to the pack instructions.",
+    "Gently stir the basil and butter through the hot couscous with a fork.",
+    "Serve alongside the pork skewers, sprinkled with the remaining basil, with lemon wedges to squeeze over and some yogurt on the side."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Pork Based",
+    "Published: 20 July 2014",
+    "Created: 20 July 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2588"
+  ],
+  "source_file": "418-pork-leg-kebabs.html"
+}

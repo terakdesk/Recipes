@@ -1,0 +1,21 @@
+{
+  "title": "Scallops, melon, parma ham",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t<script src=\"/food3/media/jui/js/jquery-migr",
+  "ingredients": null,
+  "method": [
+    "Cut one melon into a fine dice; place in glass bowl. Add 1 teaspoon of the sugar and 2/3 of the chives; set aside. Chop the other melon into chunks; place in blender with 1 teaspoon of the sugar and salt. Process until smooth. Cover; refrigerate.",
+    "Combine the scallops, soy sauce and remaining chives in a nonreactive bowl; set aside. Place 1 scallop on 1 prosciutto half-slice; top with a basil leaf. Roll prosciutto slice around scallop; place seam side down on plate or storage container. Repeat with remaining scallops; refrigerate, covered, at least 1 hour.",
+    "Heat oven to 450 º. Heat oil in a skillet over high heat; add scallop/prosciutto rolls, seam side down. Cook, turning, until prosciutto begins to brown, about 2 minutes. Transfer scallop packages to baking sheet; bake 4 minutes. Remove from oven.",
+    "Place 1 tablespoon of the diced melon mixture in the center of 5 small plates; arrange 3 scallop rolls around fruit on each plate. Top scallops with melon puree; garnish with basil sprigs."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Salads &amp; Light Mains",
+    "Published: 09 August 2014",
+    "Created: 09 August 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2189"
+  ],
+  "source_file": "495-scallops-melon-parma-ham.html"
+}

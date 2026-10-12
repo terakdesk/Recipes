@@ -1,0 +1,41 @@
+{
+  "title": "Brown rice and goat's cheese patties",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBrown rice and goat's cheese patties",
+  "ingredients": [
+    "3/4 cup medium-grain brown rice",
+    "1 1/2 cups water",
+    "4 teaspoons olive oil, divided",
+    "knob of butter",
+    "1 medium onion, chopped",
+    "2 medium carrots, shredded using the large holes of a box grater",
+    "1/2 cup toasted pine nuts",
+    "3 ounces goat cheese",
+    "1 large egg white",
+    "1/2 teaspoon fresh thyme",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon freshly ground pepper"
+  ],
+  "method": [
+    "Bring rice and water to a boil in a medium saucepan. Reduce heat to low, cover, and simmer at the lowest bubble until the water is absorbed and the rice is tender, 30 to 50 minutes. Remove from the heat and let stand, covered, for 10 minutes.",
+    "Meanwhile, heat oil and butter in a large skillet over medium heat. Add onion; cook while stirring often, until soft, 2 to 3 minutes.",
+    "Add carrots, reduce the heat to low and cook, stirring often, until softened and the onion lightly browned, about 4 minutes.",
+    "Remove from the heat.",
+    "Preheat oven to Gas Mark 6.",
+    "Transfer the cooked vegetables and rice to a large food processor.",
+    "Add pine nuts, goat cheese, egg white, thyme, salt and pepper. Pulse until well blended but still a little coarse.",
+    "Scrape into a large bowl. With wet hands, form the mixture into six 3-inch patties (about 1/2 cup each).",
+    "Heat the remaining 2 teaspoons oil in a large nonstick skillet over medium heat.",
+    "Add the patties and cook until well browned, 3 to 4 minutes per side.",
+    "Transfer to a baking sheet and bake until an instant-read thermometer inserted into the middle registers at least 160&deg;F, 10 to 15 minutes."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Michel",
+    "Category: Vegey Meals",
+    "Published: 19 November 2012",
+    "Created: 19 November 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2105"
+  ],
+  "source_file": "75-brown-rice-and-goat-s-cheese-patties.html"
+}

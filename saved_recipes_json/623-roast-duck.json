@@ -1,0 +1,40 @@
+{
+  "title": "Roast Duck",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRoast Duck",
+  "ingredients": [
+    "a few sprigs of fresh rosemary",
+    "½ nutmeg , grated",
+    "sea salt",
+    "freshly ground black pepper",
+    "2 oranges or blood oranges , zested and halved",
+    "2 x 2 kg whole ducks , necks and giblets reserved and roughly chopped",
+    "8 cloves garlic , unpeeled",
+    "3 red onions , peeled and quartered",
+    "a few stalks celery , trimmed and chopped into chunks",
+    "3 carrots , scrubbed and chopped into chunks",
+    "½ stick cinnamon",
+    "1 thumb-sized piece fresh ginger , peeled and roughly chopped",
+    "a few bay leaves",
+    "2 kg Maris Piper potatoes , peeled and cut into large chunks",
+    "1 litre water or organic chicken stock",
+    "2 tablespoons plain flour",
+    "200 ml red port"
+  ],
+  "method": [
+    "This festive duck is loaded with tasty herbs and spices, and the delicious fat is used to flavour the potatoes and port gravy.",
+    "Pick the leaves off one of the rosemary sprigs and place on a board with the nutmeg, orange zest, thyme and one tablespoon of sea salt. Chop everything together and rub the mixture all over the ducks, inside and out. Cover and leave in the fridge for a few hours or overnight to let the flavours penetrate.",
+    "Preheat the oven to 180°C/350°F/gas 4 and place the shelves on the middle and bottom levels. Stuff the ducks with the remaining rosemary sprigs and orange halves, and the garlic cloves, then place them breast-side up, straight on to the bars of the middle shelf. Scatter the onion, celery and carrot in the bottom of a large, deep-sided roasting tray with the cinnamon, ginger, bay leaves, and chopped duck neck and giblets. Place on the bottom shelf beneath the ducks so it will catch all the lovely fat that drips out of them.",
+    "Meanwhile, place the potatoes in a pan. Cover with cold, salted water, bring to a simmer and parboil for 5 to 10 minutes, then tip into a colander and chuff them up a little.",
+    "After the duck has roasted for an hour, take the bottom tray out of the oven, replacing it immediately with an empty tray. Spoon the fat from the veggie tray into a bowl. Put all the veg, duck bits and juices into a large saucepan, then add a little boiling water to the tray to get all the sticky brown bits off the bottom – this is what you’re going to make your gravy with. Tip the water and brown bits into the pan with the veg, top up with 1 litre of water or chicken stock and place on a medium heat, skimming off any of the fat that rises to the top."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Adrian",
+    "Category: Uncategorised",
+    "Published: 21 December 2017",
+    "Created: 21 December 2017",
+    "Last Updated: 21 December 2017",
+    "Hits: 3995"
+  ],
+  "source_file": "623-roast-duck.html"
+}

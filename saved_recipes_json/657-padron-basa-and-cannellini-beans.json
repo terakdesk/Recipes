@@ -1,0 +1,44 @@
+{
+  "title": "Padron Basa and Cannellini Beans",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPadron Basa and Cannellini Beans",
+  "ingredients": [
+    "250g cherry tomatoes",
+    "olive oil",
+    "1 onion, sliced",
+    "2 garlic cloves, finely chopped",
+    "2 tsp smoked paprika",
+    "1 tsp fresh thyme leaves",
+    "400g tin of cannellini beans, drained",
+    "1 bay leaf",
+    "200g Padron peppers",
+    "2 pollock fillets",
+    "1 lemon"
+  ],
+  "method": [
+    "Prep time: 10 min",
+    "Cooking time: 30 min",
+    "Step 1",
+    "Preheat your oven to 200°C/Gas 6. Cut the tomatoes in half and arrange them, cut-side up, in a roasting tray. Drizzle with oil and season with salt and pepper. Roast for 20 minutes.",
+    "Step 2",
+    "Heat 2 tablespoons of oil in the saucepan and cook the onion gently for 10 minutes until starting to soften.",
+    "Step 3",
+    "Add the garlic to the onions and cook for a further 2 minutes. Tip in the paprika and the thyme leaves. Cook for 1 more minute, stirring well to make sure the paprika doesn't burn.",
+    "Step 4",
+    "Add the beans and enough water so that the beans are almost covered. Pop in the bay leaf. Bring to a gentle simmer and season with salt and pepper. Cook very gently to warm through for 5 minutes.",
+    "Step 5",
+    "Remove the tomatoes from the oven and stir them into the beans. Leave them to sit and get to know each other while you cook the peppers and fish.",
+    "Step 6",
+    "Turn your oven up to its highest setting. Place the Padron peppers in a roasting tray. Drizzle with oil and sprinkle with salt (flaked sea salt preferably). Throw them in the oven to roast for 6-8 minutes, until soft and lightly blistered.",
+    "Step 7"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 15 December 2020",
+    "Created: 15 December 2020",
+    "Last Updated: 15 December 2020",
+    "Hits: 1223"
+  ],
+  "source_file": "657-padron-basa-and-cannellini-beans.html"
+}

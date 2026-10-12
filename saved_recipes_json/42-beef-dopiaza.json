@@ -1,0 +1,28 @@
+{
+  "title": "Beef Dopiaza",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBeef Dopiaza",
+  "ingredients": [
+    "2 lb (900 g) chuck steak, chopped into 1 inch (2.5 cm) pieces"
+  ],
+  "method": [
+    "First of all you need to roast the whole spices, and to do this place them in a small frying pan or saucepan over a medium heat and stir and toss them around for 1-2 minutes, or until they begin to look toasted and start to jump in the pan. Now transfer them to a pestle and mortar and crush them to a powder.",
+    "Next place 2 tablespoons of the oil and butter in the casserole over a high heat and, when it is really hot, brown the pieces of meat a few at a time.",
+    "Now fry the thinly sliced onions until translucent.",
+    "Remove them to a plate, then add the rest of the oil/butter and, when that's really hot, too, fry the onions till well browned – about 10 minutes – then add the garlic and chilli and cook for a further 2 minutes.",
+    "Next return the meat to the pan, add the crushed spices, fenugreek powder (if you were unable to buy it whole), turmeric, ginger and tomatoes and stir everything around.",
+    "Next add the coconut milk into the casserole, followed by the yoghurt and some seasoning.",
+    "Now bring the mixture up to a slow simmer, put the lid on the casserole and simmer very gently for 2 hours.",
+    "Just before serving, add the lime juice and sprinkle over the chopped fresh coriander.",
+    "Serve with spiced basmati rice and Fresh Coriander Chutney."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Beef Based Curry",
+    "Published: 01 March 2014",
+    "Created: 01 March 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2403"
+  ],
+  "source_file": "42-beef-dopiaza.html"
+}

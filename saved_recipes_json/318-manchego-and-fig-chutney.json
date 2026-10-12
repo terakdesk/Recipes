@@ -1,0 +1,32 @@
+{
+  "title": "Manchego and fig chutney",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tManchego and fig chutney",
+  "ingredients": [
+    "1 red onion , finely chopped",
+    "4.0 tbsp soft brown sugar",
+    "1.0 tsp mustard seeds",
+    "1 cinnamon stick",
+    "1 star anise",
+    "a thumb-sized piece ginger , grated",
+    "4.0 tbsp red wine vinegar",
+    "4 figs , cut into wedges",
+    "12 thin slices French stick , drizzled with olive oil and toasted (crostini)",
+    "100.0g Manchego , shaved",
+    "a handful rocket"
+  ],
+  "method": [
+    "Put the onion, sugar, spices, ginger and vinegar in a pan and cook together slowly until the onion is completely softened.",
+    "Add the fig wedges and cook for another 5-10 minutes until the figs are just starting to break down.",
+    "To serve, top the crostini with a little Manchego, some fig chutney and a couple of rocket sprigs."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Salads &amp; Light Mains",
+    "Published: 03 October 2012",
+    "Created: 03 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2272"
+  ],
+  "source_file": "318-manchego-and-fig-chutney.html"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Rump steak stew",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tRump steak stew",
+  "ingredients": [
+    "2 tbsp vegetable oil",
+    "1lb/480g rump steak, cut into 1'/2.5cm chunks",
+    "3 large shallots, peeled and quartered",
+    "3 large garlic cloves, peeled and halved",
+    "2 medium leeks, trimmed, cleaned and roughly sliced",
+    "½ cup red wine",
+    "1 tbsp all-purpose/plain flour",
+    "1½ pints/ 700ml dark beef stock",
+    "6 baby carrots, peeled and cut into large chunks",
+    "1 bay leaf",
+    "5 oz/150g baby button mushrooms",
+    "Salt and pepper"
+  ],
+  "method": [
+    "Preheat the oven to 300°F/150°C",
+    "Heat the oil in a large frying pan. Pat the beef chunks with paper towel and then put into the frying pan. Stir constantly and remove from the pan once browned all over.",
+    "Remove the beef from the pan and place into an ovenproof casserole dish. Keep the frying pan on the heat and add the shallots, garlic and leeks. Stir and cook for 1 minute. Remove the vegetables and place in the casserole with the beef.",
+    "Keeping the pan on the heat add the wine and reduce by two-thirds. Sprinkle the flour over the hot wine and stir to create a thick paste. Whilst whisking constantly with a hand whisk, slowly add 1 pint of the hot stock. Pour over the beef and vegetables. Finally add the carrot chunks and bay leaf.",
+    "Place the casserole in the oven and cook slowly for at least 2 hours up to 4 hours. Look at the stew from time to time to make sure it hasn't boiled dry, top up with the remaining beef stock as needed.",
+    "30 minutes before serving add the button mushrooms and return the casserole dish to the oven.",
+    "Once ready serve with mashes potatoes and a green vegetable."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Beef Based",
+    "Published: 11 May 2014",
+    "Created: 11 May 2014",
+    "Last Updated: 20 October 2017",
+    "Hits: 2583"
+  ],
+  "source_file": "477-rump-steak-stew.html"
+}

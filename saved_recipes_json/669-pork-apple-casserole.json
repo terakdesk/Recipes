@@ -1,0 +1,37 @@
+{
+  "title": "Pork apple casserole",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork apple casserole",
+  "ingredients": [
+    "2 tbsp rapeseed oil or olive oil",
+    "600g pork shoulder or pork cheeks, fat and sinew trimmed, cut into chunky pieces",
+    "1 large onion, chopped",
+    "2 carrots, cut into chunky pieces",
+    "2 celery sticks, cut into chunky pieces",
+    "200g pack smoked bacon lardons",
+    "250ml dry cider (or use 100ml apple juice mixed with 3 tbsp cider vinegar and 100ml water)",
+    "2 eating apples (we used Braeburn), cored and cut into chunky pieces",
+    "1 bay leaf",
+    "3-4 thyme sprigs, plus extra to serve (optional)",
+    "140g crème fraîche",
+    "1-2 tbsp Dijon mustard, plus extra to serve (optional)",
+    "1-2 tsp cornflour, optional",
+    "mashed potato and greens, to serve"
+  ],
+  "method": [
+    "STEP 1",
+    "Heat half the oil in a large pan and brown the meat in batches. Don’t overcrowd the pan, and only turn the meat when it has a deep brown crust on the underside, as this will add lots of flavour to the stew. When one batch is cooked, tip it into the slow cooker and continue with the next batch, adding more oil as you need it.",
+    "STEP 2",
+    "When all the meat has been transferred to the slow cooker, add the onion, carrots and celery to the pan and cook for 5-10 mins to just soften, scraping any meaty bits up from the bottom of the pan. Tip the veg into the slow cooker. Add the lardons to the pan and fry until crispy. Pour in the cider, bubble for 1 min, again scraping the bottom of the pan, then tip the cider and lardons into the slow cooker too. Add the apples, stock cube and herbs to the slow cooker, pour in 400ml water, season well and turn the heat to Low. Cover with the lid and cook for 6-8 hrs until the meat is very tender. (If you don’t have a slow cooker, tip all the ingredients back into the pan, cover with a lid and cook for 3 hrs over a low heat, stirring every now and then to prevent it from catching on the bottom. You may have to add a splash of water during cooking if the sauce looks dry.)",
+    "STEP 3"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Uncategorised",
+    "Published: 26 June 2022",
+    "Created: 26 June 2022",
+    "Last Updated: 05 July 2022",
+    "Hits: 720"
+  ],
+  "source_file": "669-pork-apple-casserole.html"
+}

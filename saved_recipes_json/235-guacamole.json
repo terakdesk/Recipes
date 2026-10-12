@@ -1,0 +1,37 @@
+{
+  "title": "Guacamole",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tGuacamole",
+  "ingredients": [
+    "2 ripe avocados",
+    "1/2 red onion, minced (about 1/2 cup)",
+    "1-2 serrano chiles, stems and seeds removed, minced",
+    "2 tablespoons cilantro leaves, finely chopped",
+    "1 tablespoon of fresh lime or lemon juice",
+    "1/2 teaspoon coarse salt",
+    "A dash of freshly grated black pepper",
+    "1/2 ripe tomato, seeds and pulp removed, chopped",
+    "Garnish with red radishes or jicama.",
+    "Serve with tortilla chips."
+  ],
+  "method": [
+    "1 Cut avocados in half. Remove seed.",
+    "Scoop out avacado from the peel, put in a mixing bowl.",
+    "2 Using a fork, mash the avocado.",
+    "Add the chopped onion, cilantro, lime or lemon, salt and pepper and mash some more.",
+    "Chili peppers vary individually in their hotness. So, start with a half of one chili pepper and add to the guacamole to your desired degree of hotness.",
+    "Keep the tomatoes separate until ready to serve. Remember that much of this is done to taste because of the variability in the fresh ingredients. Start with this recipe and adjust to your taste.",
+    "Cover with plastic wrap directly on the surface of the guacamole to prevent oxidation from the air reaching it.",
+    "Refrigerate until ready.",
+    "Just before serving, add the chopped tomato to the guacamole and mix."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Salads &amp; Light Mains",
+    "Published: 11 July 2012",
+    "Created: 11 July 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2337"
+  ],
+  "source_file": "235-guacamole.html"
+}

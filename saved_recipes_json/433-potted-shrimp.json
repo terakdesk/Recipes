@@ -1,0 +1,29 @@
+{
+  "title": "Potted shrimp",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPotted shrimp",
+  "ingredients": [
+    "200g unsalted butter",
+    "Juice of ¼ lemon",
+    "¼ tsp ground mace",
+    "¼ tsp white pepper",
+    "½ tsp anchovy paste or Gentleman's Relish",
+    "200g cooked and peeled brown shrimps",
+    "Cayenne pepper, to serve"
+  ],
+  "method": [
+    "Melt the butter in a pan over a gentle heat, and then allow to simmer until you spot the first dark flecks – watch it carefully, or it will burn. Strain through some butter muslin, or two sheets of kitchen roll, into a jug.",
+    "Wipe out the pan, and pour in two-thirds of the butter. Add the lemon juice, mace, pepper, anchovy essence and a pinch of salt and simmer very gently for five minutes, then take off the heat and allow to cool but not set. Divide the shrimps between 4 ramekins, pressing them in tightly.",
+    "When just warm, but still liquid, divide the spiced butter between the ramekins and put in the fridge to set. Once solid, pour over the remainder of the clarified butter and return to the fridge to set.",
+    "Serve with a sprinkle of cayenne pepper and a lot of hot toast.e"
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
+    "Published: 04 July 2013",
+    "Created: 04 July 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2403"
+  ],
+  "source_file": "433-potted-shrimp.html"
+}

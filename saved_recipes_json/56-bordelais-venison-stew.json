@@ -1,0 +1,36 @@
+{
+  "title": "Bordelais Venison Stew",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tBordelais Venison Stew",
+  "ingredients": [
+    "40g butter",
+    "2 red onions",
+    "450g venison steak",
+    "25g plain flour",
+    "salt & pepper",
+    "1 tablespoon sunflower oil",
+    "100g smoked streaky bacon",
+    "200g fresh ceps (porcini mushrooms), or 50g dried porcini mushrooms, soaked in 250ml boiling water for 15 mins",
+    "400ml Bordeaux red wine",
+    "6 sprigs fresh thyme"
+  ],
+  "method": [
+    "Pre-heat oven to Gas Mark 4.",
+    "Melt half the butter in a flameproof casserole dish. Add chopped onions and fry until just browned.",
+    "Remove from heat.",
+    "Cut venison into approx. 2cm cubes. Season flour in a bowl with salt and pepper and toss meat to coat, shaking off any excess flour.",
+    "Heat a large frying pan and add sunflower oil. Fry chopped bacon until starting to brown, then add chopped porcini mushrooms (if using dried mushrooms, drain off soaking water and squeeze off excess - you can reserve the soaking water for use in stocks/sauces). Fry for a couple of minutes to soften and then add bacon and mushrooms to the fried onions in the casserole.",
+    "Add remaining butter to frying pan and brown the venison well on all sides. Transfer to the casserole. Add wine to frying pan, bring to the boil and de-glaze pan, scraping off any remaining scraps of meat into the wine. Pour into casserole, add salt and lots of ground pepper to taste and pop in the sprigs of thyme.",
+    "Cover casserole with a well-fitting lid and cook in oven for 60-90 minutes, stirring occasionally and topping up with a little more wine, or some of the water from soaking the dried mushrooms, if needed.",
+    "Serve with garlic mashed potatoes, green beans and a bottle of Château des Chapelains Prélude rouge."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Venison",
+    "Published: 14 January 2013",
+    "Created: 14 January 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2289"
+  ],
+  "source_file": "56-bordelais-venison-stew.html"
+}

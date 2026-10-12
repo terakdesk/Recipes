@@ -1,0 +1,35 @@
+{
+  "title": "Lancashire Hotpot",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tLancashire Hotpot",
+  "ingredients": [
+    "100g dripping or butter",
+    "900g stewing lamb, cut into large chunks",
+    "3 lamb kidneys, sliced, fat removed",
+    "2 medium onions, chopped",
+    "4 carrots, peeled and sliced",
+    "25g plain flour",
+    "2 tsp Worcestershire sauce",
+    "500ml lamb or chicken stock",
+    "2 bay leaves",
+    "900g potatoes, peeled and sliced"
+  ],
+  "method": [
+    "Heat oven to 160C/fan 140C/gas 3. Heat some dripping or butter in a large shallow casserole dish, brown the lamb in batches, lift to a plate, then repeat with the kidneys.",
+    "Fry the onions and carrots in the pan with a little more dripping until golden.",
+    "Sprinkle the flour over, allow to cook for a couple of mins, add the Worcestershire sauce, pour in the stock, then bring to the boil.",
+    "In an oven-proof bowl layer the meat and bay leaves, then onions/carrots then more meat, etc..",
+    "Arrange the sliced potatoes on top then drizzle with a little more dripping or butter.",
+    "Cover, then place in the oven for about 1½ hrs until the potatoes are cooked.",
+    "Remove the lid, brush the potatoes with a little more dripping or butter, then turn the oven up to brown the potatoes, or finish under the grill for 5-8 mins until brown."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Lamb Based",
+    "Published: 28 August 2013",
+    "Created: 28 August 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 2304"
+  ],
+  "source_file": "293-lancashire-hotpot.html"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Avocado and chorizo warm salad",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tAvocado and chorizo warm salad",
+  "ingredients": [
+    "4 tbsp olive oil",
+    "1 small ciabatta , torn into small bite-pieces",
+    "2 x 80g packs sliced chorizo",
+    "250g pack baby plum or cherry tomatoes , halved",
+    "2 tbsp balsamic vinegar",
+    "pinch sugar",
+    "1 large, ripe avocado , halved, stoned and sliced",
+    "150g bag baby leaf and herb salad"
+  ],
+  "method": [
+    "Heat 2 tbsp of the oil in a large non-stick frying pan. Fry the ciabatta for 8-10 minutes, tossing occasionally, until starting to crisp and brown, then tip into a large salad bowl.",
+    "Lay the chorizo in the pan and dry-fry for 2 minutes until it gives out a red oil. Toss in the tomatoes and cook over a high heat for 1-2 minutes until they start to soften. Drizzle over the vinegar, add the sugar and season well.",
+    "MIX TOGETHER Gently toss the avocado, salad and remaining olive oil with the croutons. Spoon over the chorizo and tomatoes and drizzle with any pan juices. Serve immediately."
+  ],
+  "notes": null,
+  "details": [
+    "Written by Super User",
+    "Category: Salads &amp; Light Mains",
+    "Published: 13 June 2013",
+    "Created: 13 June 2013",
+    "Last Updated: 20 October 2017",
+    "Hits: 1705"
+  ],
+  "source_file": "17-avocado-and-chorizo-warm-salad.html"
+}

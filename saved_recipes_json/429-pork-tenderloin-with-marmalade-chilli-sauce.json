@@ -1,0 +1,47 @@
+{
+  "title": "Pork Tenderloin with Marmalade Chilli Sauce",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork Tenderloin with Marmalade Chilli Sauce",
+  "ingredients": [
+    "1 off Pork Tenderloin",
+    "&frac12; pint strong beef oxo (2 cubes)",
+    "&frac12; pint strong chicken oxo (2 cubes)",
+    "2 tablespoons olive oil",
+    "Large knob of butter",
+    "3 or 4 finely chopped shallots or small onions",
+    "1/2 cup orange marmalade",
+    "1 flat desertspoon spicy chilli sauce",
+    "1 large desertspoon tomato puree",
+    "1 tablespoon water",
+    "2 teaspoons cornstarch"
+  ],
+  "method": [
+    "To prepare pork tenderloins, preheat oven to 425&deg; F Gas Mark 7.",
+    "Season the pork with salt and pepper.",
+    "Heat 1 tablespoon olive oil in a large, heavy ovenproof skillet over high heat.",
+    "Add pork and brown on all sides, about 4 minutes.",
+    "Transfer skillet to oven and bake about 15 minutes.",
+    "Remove from oven and let pork rest 5 minutes.",
+    "When pork goes into oven prepare sauce:",
+    "Combine beef and chicken broths in medium saucepan, heat to a boil.",
+    "In heavy large saucepan, heat 1 tablespoons olive oil and large knob of butter over medium-high heat.",
+    "Add shallots and saute until just softening, about 3 minutes.",
+    "Add the tomato puree and saute for 2 minutes.",
+    "Add stock, marmalade and chilli sauce. Simmer until mixture is reduced to 2 cups, about 5 minutes.",
+    "Meanwhile, mix water and cornstarch in small bowl.",
+    "Whisk cornstarch mixture into sauce and stir until sauce boils and thickens, about 5 minutes.",
+    "Season to taste with salt and pepper.",
+    "Slice tenderloin and spoon sauce over."
+  ],
+  "notes": [
+    "Prev"
+  ],
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2115"
+  ],
+  "source_file": "429-pork-tenderloin-with-marmalade-chilli-sauce.html"
+}

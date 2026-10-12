@@ -1,0 +1,49 @@
+{
+  "title": "Pork Chop Suey",
+  "preamble": "h1, h2, h3, h4, h5, h6, .site-title {\n\t\tfont-family: 'Open Sans', sans-serif;\n\t}\n\tbody.site {\n\t\tborder-top: 3px solid #8822bb;\n\t\tbackground-color: #f4f6f7;\n\t}\n\ta {\n\t\tcolor: #8822bb;\n\t}\n\t.nav-list > .active > a,\n\t.nav-list > .active > a:hover,\n\t.dropdown-menu li > a:hover,\n\t.dropdown-menu .active > a,\n\t.dropdown-menu .active > a:hover,\n\t.nav-pills > .active > a,\n\t.nav-pills > .active > a:hover,\n\t.btn-primary {\n\t\tbackground: #8822bb;\n\t}\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\njQuery(function($){ initTooltips(); $(\"body\").on(\"subform-row-add\", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(\".hasTooltip\").tooltip({\"html\": true,\"container\": \"body\"});} });\njQuery(window).on('load',  function() {\n\t\t\t\tnew JCaption('img.caption');\n\t\t\t});\n\t\n\n\n\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t Search \t\t\n\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\tPork Chop Suey",
+  "ingredients": [
+    "1 pound pork or beef (don't use pork chops as they are too dry)Pork Marinade:",
+    "1 teaspoon soy sauce",
+    "1 - 2 teaspoons oyster sauce",
+    "1 teaspoon salt",
+    "Pepper to taste",
+    "1 piece (under 1 teaspoon) CornstarchSauce:",
+    "4 tablespoons water or chicken broth",
+    "2 teaspoons oyster sauce",
+    "3/4 to 1 teaspoon cornstarch Other:",
+    "2 small bunches bok choy (can substitute broccoli if desired) or finely shredded cabbage ?????",
+    "1/2 cup bamboo shoots, rinsed",
+    "1/2 pound fresh mushrooms, washed and patted dry with a paper towel",
+    "1/2 cup water chestnuts (fresh if possible)",
+    "1 large green pepper",
+    "2 stalks celery",
+    "1 onion",
+    "1/2 pound snow peas (optional)"
+  ],
+  "method": [
+    "Cut the pork into thin strips. Add seasonings to pork, adding the cornstarch last. Marinate the pork for 10 - 15 minutes.",
+    "While pork is marinating, prepare vegetables and sauce.",
+    "For sauce: Whisk together the sauce ingredients and set aside.",
+    "For vegetables:",
+    "Cut bamboo shoots into thin strips.",
+    "Slice the mushrooms and water chestnuts.",
+    "Cut the green pepper in half, remove the seeds and slice diagonally.",
+    "Separate each stalk and leaves of bok choy. Cut the stalk diagonally and cut the leaves across.",
+    "Cut the celery diagonally.",
+    "Cut the onion in half, peel, and slice thinly.",
+    "Place the vegetables on a large tray, being careful to keep each group separate (include the bok choy stalks with its leaves), and set aside.",
+    "Heat wok and add oil.",
+    "When oil is ready, add the pork. Stir-fry pork until redness is gone. Remove and set aside.",
+    "Reheat wok and add more oil. When oil is ready, stir-fry and remove each of the vegetables. The order doesn't matter, but you can stir-fry the onions and celery together, (if desired you can cook these with the pork), and the green pepper and snow peas together. When cooking the bok choy, add the stalk first. Add salt to taste as desired while stir-frying each group of vegetables. Add water and cover wok while cooking bok choy, as it doesn't contain much moisture."
+  ],
+  "notes": null,
+  "details": [
+    "Written by ethel",
+    "Category: Pork Based",
+    "Published: 17 October 2012",
+    "Created: 17 October 2012",
+    "Last Updated: 20 October 2017",
+    "Hits: 2382"
+  ],
+  "source_file": "415-pork-chop-suey.html"
+}
