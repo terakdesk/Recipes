@@ -1,3 +1,4 @@
+
 import requests
 from bs4 import BeautifulSoup
 import random
@@ -78,3 +79,4 @@ try:
         print("No recipes found.")
 except Exception as e:
     print(f"Error occurred: {e}")
+
