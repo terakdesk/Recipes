@@ -1,82 +1,114 @@
 
 import requests
 from bs4 import BeautifulSoup
-import random
-from urllib.parse import urljoin
-import datetime
+from urllib.parse import urljoin, urlparse, urldefrag
+from collections import deque
 import re
+import time
 
-base_url = 'http://www.42wide.com/food3'
+START_URL = "http://www.42wide.com/food3/"
+ALLOWED_HOST = "www.42wide.com"
+ALLOWED_PATH_PREFIX = "/food3"
+REQUEST_TIMEOUT = 10
+CRAWL_DELAY_SECONDS = 0.2  # be polite to server
 
-try:
-    response = requests.get(base_url, timeout=10)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
+# Recipe URL pattern like: 624-lamp-thai-green-curry
+RECIPE_PATTERN = re.compile(r"/\d+-[a-zA-Z0-9\-]+/?$")
 
-    # 1. Collect all category links and recipe links from the main page
-    links = soup.find_all('a', href=True)
-    category_urls = set()
-    recipe_urls = set()
+# Skip links that are usually non-content/noisy
+SKIP_SUBSTRINGS = ("login", "layout=", "task=")
 
-    for link in links:
-        href = link['href']
-        full_url = urljoin(base_url, href)
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (compatible; RecipeCrawler/1.0; +https://github.com/terakdesk/Recipes)"
+})
 
-        # Filter category pages to find more recipes
-        if any(x in href.lower() for x in ['/recipes/', 'recipes', 'category']) and not any(x in href.lower() for x in ['layout=', 'login', 'search', 'task=', 'limit=']):
-            if re.search(r'\d+-[a-zA-Z0-9\-]+', href):
-                recipe_urls.add(full_url)
-            else:
-                category_urls.add(full_url)
+def normalize_url(url: str) -> str:
+    # remove #fragment
+    url, _ = urldefrag(url)
+    # strip trailing slash except root-like path handling can stay consistent
+    if url.endswith("/") and len(url) > len("http://a/"):
+        url = url.rstrip("/")
+    return url
 
-    # 2. Visit a random category page to crawl deeper for individual recipes
-    if category_urls:
-        print(f"Gathering more recipes from categories...")
-        for cat_url in list(category_urls)[:50]:  # Scan up to 50 categories to build a diverse pool
-            try:
-                cat_resp = requests.get(cat_url, timeout=5)
-                if cat_resp.status_code == 200:
-                    cat_soup = BeautifulSoup(cat_resp.text, 'html.parser')
-                    for cat_link in cat_soup.find_all('a', href=True):
-                        c_href = cat_link['href']
-                        # If it has a pattern of a deep recipe article (e.g. 624-lamp-thai-green-curry)
-                        if re.search(r'\d+-[a-zA-Z0-9\-]+', c_href) and not any(x in c_href.lower() for x in ['category', 'layout=', 'limit=']):
-                            recipe_urls.add(urljoin(base_url, c_href))
-            except Exception:
+def is_allowed(url: str) -> bool:
+    try:
+        p = urlparse(url)
+        if p.scheme not in ("http", "https"):
+            return False
+        if p.netloc != ALLOWED_HOST:
+            return False
+        if not p.path.startswith(ALLOWED_PATH_PREFIX):
+            return False
+        lower = url.lower()
+        if any(s in lower for s in SKIP_SUBSTRINGS):
+            return False
+        return True
+    except Exception:
+        return False
+
+def looks_like_recipe(url: str) -> bool:
+    p = urlparse(url)
+    return bool(RECIPE_PATTERN.search(p.path))
+
+def extract_links(page_url: str, html: str):
+    soup = BeautifulSoup(html, "html.parser")
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if not href:
+            continue
+        abs_url = normalize_url(urljoin(page_url, href))
+        yield abs_url
+
+def crawl_all_recipes(start_url: str):
+    start_url = normalize_url(start_url)
+    q = deque([start_url])
+    visited = set()
+    recipes = set()
+
+    while q:
+        url = q.popleft()
+        if url in visited:
+            continue
+        visited.add(url)
+
+        if not is_allowed(url):
+            continue
+
+        try:
+            resp = session.get(url, timeout=REQUEST_TIMEOUT)
+            if resp.status_code != 200 or "text/html" not in resp.headers.get("Content-Type", ""):
                 continue
 
-    recipe_list = list(recipe_urls)
-    print(f"Total unique recipes found: {len(recipe_list)}")
+            # If current page itself is a recipe URL, keep it
+            if looks_like_recipe(url):
+                recipes.add(url)
 
-    # Save the list of all found recipes to a text file
-    with open('found_recipes.txt', 'w', encoding='utf-8') as rf:
-        for recipe_url in sorted(recipe_list):
-            rf.write(recipe_url + '\n')
-    print("Saved all unique recipe URLs to 'found_recipes.txt'")
+            # Discover more links
+            for link in extract_links(url, resp.text):
+                if not is_allowed(link):
+                    continue
 
-    if recipe_list:
-        selected_recipe_url = random.choice(recipe_list)
-        # If it matches index categories, try to pick another
-        attempts = 0
-        while ('recipes/' in selected_recipe_url and not re.search(r'\d+-[a-zA-Z0-9\-]+', selected_recipe_url)) and attempts < 10:
-            selected_recipe_url = random.choice(recipe_list)
-            attempts += 1
+                if looks_like_recipe(link):
+                    recipes.add(link)
+                # Still queue all allowed pages so we can find deep recipes and paginated indexes
+                if link not in visited:
+                    q.append(link)
 
-        print(f"Selected Recipe URL: {selected_recipe_url}")
+            time.sleep(CRAWL_DELAY_SECONDS)
 
-        recipe_response = requests.get(selected_recipe_url, timeout=10)
-        recipe_response.raise_for_status()
+        except requests.RequestException:
+            continue
 
-        # Create a unique filename with today's date
-        today_str = datetime.date.today().strftime('%Y-%m-%d')
-        filename = f"recipe_{today_str}.html"
+    return recipes, visited
 
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(recipe_response.text)
+if __name__ == "__main__":
+    recipes, visited_pages = crawl_all_recipes(START_URL)
 
-        print(f"Successfully saved {filename}!")
-    else:
-        print("No recipes found.")
-except Exception as e:
-    print(f"Error occurred: {e}")
+    with open("found_recipes.txt", "w", encoding="utf-8") as f:
+        for r in sorted(recipes):
+            f.write(r + "\n")
 
+    print(f"Crawled pages: {len(visited_pages)}")
+    print(f"Total unique recipes found: {len(recipes)}")
+    print("Saved to found_recipes.txt")
