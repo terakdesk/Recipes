@@ -2,7 +2,7 @@ name: Daily Recipe Downloader
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Runs every day at 08:00 UTC
+    - cron: '0 2 * * *' # Runs every day at 02:00 local time
   workflow_dispatch: # Allows manual triggering
 
 jobs:
