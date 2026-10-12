@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, urldefrag
@@ -10,26 +9,25 @@ START_URL = "http://www.42wide.com/food3/"
 ALLOWED_HOST = "www.42wide.com"
 ALLOWED_PATH_PREFIX = "/food3"
 REQUEST_TIMEOUT = 10
-CRAWL_DELAY_SECONDS = 0.2  # be polite to server
+CRAWL_DELAY_SECONDS = 0.2
+MAX_PAGES = 5000  # safety cap, not category cap
 
-# Recipe URL pattern like: 624-lamp-thai-green-curry
+# Example recipe URL pattern:
+# /624-lamp-thai-green-curry
 RECIPE_PATTERN = re.compile(r"/\d+-[a-zA-Z0-9\-]+/?$")
 
-# Skip links that are usually non-content/noisy
-SKIP_SUBSTRINGS = ("login", "layout=", "task=")
+# Treat category pages as valid crawl targets
+# We do NOT exclude them here.
+SKIP_SUBSTRINGS = ("login", "layout=", "task=", "search", "limit=")
 
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (compatible; RecipeCrawler/1.0; +https://github.com/terakdesk/Recipes)"
+    "User-Agent": "Mozilla/5.0"
 })
 
 def normalize_url(url: str) -> str:
-    # remove #fragment
     url, _ = urldefrag(url)
-    # strip trailing slash except root-like path handling can stay consistent
-    if url.endswith("/") and len(url) > len("http://a/"):
-        url = url.rstrip("/")
-    return url
+    return url.rstrip("/")
 
 def is_allowed(url: str) -> bool:
     try:
@@ -58,15 +56,16 @@ def extract_links(page_url: str, html: str):
         if not href:
             continue
         abs_url = normalize_url(urljoin(page_url, href))
-        yield abs_url
+        if abs_url:
+            yield abs_url
 
-def crawl_all_recipes(start_url: str):
-    start_url = normalize_url(start_url)
-    q = deque([start_url])
+def crawl_site(start_url):
+    q = deque([normalize_url(start_url)])
     visited = set()
     recipes = set()
+    category_pages = set()
 
-    while q:
+    while q and len(visited) < MAX_PAGES:
         url = q.popleft()
         if url in visited:
             continue
@@ -76,39 +75,49 @@ def crawl_all_recipes(start_url: str):
             continue
 
         try:
-            resp = session.get(url, timeout=REQUEST_TIMEOUT)
-            if resp.status_code != 200 or "text/html" not in resp.headers.get("Content-Type", ""):
+            r = session.get(url, timeout=REQUEST_TIMEOUT)
+            if r.status_code != 200:
                 continue
+            content_type = r.headers.get("Content-Type", "")
+            if "text/html" not in content_type:
+                continue
+        except requests.RequestException:
+            continue
 
-            # If current page itself is a recipe URL, keep it
-            if looks_like_recipe(url):
-                recipes.add(url)
+        page_url = normalize_url(url)
+        if looks_like_recipe(page_url):
+            recipes.add(page_url)
+        else:
+            # If this is not a recipe page, keep it as a category/index page candidate
+            # because it may lead to more recipes
+            category_pages.add(page_url)
 
-            # Discover more links
-            for link in extract_links(url, resp.text):
+        try:
+            for link in extract_links(page_url, r.text):
                 if not is_allowed(link):
                     continue
 
                 if looks_like_recipe(link):
                     recipes.add(link)
-                # Still queue all allowed pages so we can find deep recipes and paginated indexes
-                if link not in visited:
-                    q.append(link)
+                else:
+                    # include category/index pages in the queue
+                    if link not in visited:
+                        q.append(link)
+        except Exception:
+            pass
 
-            time.sleep(CRAWL_DELAY_SECONDS)
+        time.sleep(CRAWL_DELAY_SECONDS)
 
-        except requests.RequestException:
-            continue
-
-    return recipes, visited
+    return recipes, category_pages, visited
 
 if __name__ == "__main__":
-    recipes, visited_pages = crawl_all_recipes(START_URL)
+    recipes, category_pages, visited = crawl_site(START_URL)
 
     with open("found_recipes.txt", "w", encoding="utf-8") as f:
-        for r in sorted(recipes):
-            f.write(r + "\n")
+        for recipe in sorted(recipes):
+            f.write(recipe + "\n")
 
-    print(f"Crawled pages: {len(visited_pages)}")
-    print(f"Total unique recipes found: {len(recipes)}")
+    print(f"Visited pages: {len(visited)}")
+    print(f"Category pages found: {len(category_pages)}")
+    print(f"Recipes found: {len(recipes)}")
     print("Saved to found_recipes.txt")
