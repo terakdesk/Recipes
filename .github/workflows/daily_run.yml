@@ -1,33 +1,32 @@
-name: Run Python Script
+name: Daily Recipe Downloader
 
-# 1. Define what triggers the script
 on:
-  push:
-    branches: [ main ]  # Runs automatically whenever you push code to the main branch
-  workflow_dispatch:   # Allows you to manually click a "Run workflow" button on GitHub
   schedule:
-    - cron: '35 1 * * *' # Optional: Automatically runs every day at 01:35 Uk
+    - cron: '0 8 * * *' # Runs every day at 08:00 UTC
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
-  run-python:
+  scrape-and-save:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Download your repository code onto the runner machine
-      - name: Checkout repository code
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      # Step 2: Install Python environment on the machine
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11' # Change to your preferred Python version
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-      # Step 3: Install dependencies (optional - uncomment if you have a requirements.txt)
-      # - name: Install dependencies
-      #   run: |
-      #     pip install -r requirements.txt
+    - name: Install dependencies
+      run: pip install requests beautifulsoup4
 
-      # Step 4: Execute your script
-      - name: Execute Python script
-        run: python auto_scraper.py  # Replace "your_script.py" with your actual file name
+    - name: Run scraper
+      run: python auto_scraper.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add *.html found_recipes.txt
+        git commit -m "Automated backup: New daily recipe and updated links list added"
+        git push
