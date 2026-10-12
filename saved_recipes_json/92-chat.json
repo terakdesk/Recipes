@@ -1,6 +1,6 @@
 {
   "title": "Chat",
-  "preamble": null,
+  "preamble": "window.open ('http://www.chat.42wide.com/index.php')\n\nwindow.open ('http://www.chat.42wide.com/index.php')",
   "ingredients": null,
   "method": null,
   "notes": null,
