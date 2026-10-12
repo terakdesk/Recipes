@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 filtered_tags.py
@@ -42,7 +43,7 @@ def clean_text_preserving_newlines(value: Optional[str]) -> str:
     text = str(value)
     text = text.replace("\r\n", "\n").replace("\r", "\n")
 
-    # Preserve line breaks from common HTML block separators.
+    # Preserve meaningful line breaks from HTML
     text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
     text = re.sub(
         r"</?(p|div|li|ul|ol|h[1-6]|section|article|tr|td|th|blockquote)[^>]*>",
@@ -51,11 +52,11 @@ def clean_text_preserving_newlines(value: Optional[str]) -> str:
         flags=re.I,
     )
 
-    # Remove remaining HTML tags.
+    # Strip all remaining HTML tags
     text = re.sub(r"<[^>]+>", " ", text)
     text = html_lib.unescape(text)
 
-    # Normalize whitespace without losing paragraph breaks.
+    # Normalize whitespace without destroying paragraphs
     text = re.sub(r"[ \t]+\n", "\n", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     text = re.sub(r"[ \t]{2,}", " ", text)
@@ -82,8 +83,6 @@ def text_of(elem) -> str:
 
 
 def extract_section_by_heading(soup, targets: List[str]) -> Optional[List[str]]:
-    # Find headings that match any target keyword, then collect following
-    # list items or paragraphs until the next heading of same level
     for h in soup.find_all(["h1", "h2", "h3", "h4"]):
         txt = h.get_text(separator=" ").strip().lower()
         if any(t in txt for t in targets):
@@ -109,21 +108,20 @@ def extract_section_by_heading(soup, targets: List[str]) -> Optional[List[str]]:
 
 
 def extract_details_from_dl(soup) -> Optional[List[str]]:
-    # Look for a definition list containing a 'Details' term and collect the following dd entries
-    for dl in soup.find_all('dl'):
+    for dl in soup.find_all("dl"):
         children = list(dl.children)
         found = False
         collected = []
         for ch in children:
-            if getattr(ch, 'name', None) == 'dt':
-                txt = ch.get_text(separator=' ').strip().lower()
-                if 'detail' in txt:
+            if getattr(ch, "name", None) == "dt":
+                txt = ch.get_text(separator=" ").strip().lower()
+                if "detail" in txt:
                     found = True
                     continue
                 if found:
                     break
-            if found and getattr(ch, 'name', None) == 'dd':
-                txt = clean_text_preserving_newlines(ch.get_text(separator=' ', strip=True))
+            if found and getattr(ch, "name", None) == "dd":
+                txt = clean_text_preserving_newlines(ch.get_text(separator=" ", strip=True))
                 if txt:
                     collected.append(txt)
         if found and collected:
@@ -133,57 +131,59 @@ def extract_details_from_dl(soup) -> Optional[List[str]]:
 
 def parse_with_bs4(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
-    # title
+
+    # Prefer article headline over document title
     title = None
     title_elem = None
-    if soup.title and soup.title.string:
+
+    headline = soup.find("h2", itemprop="headline")
+    if headline:
+        title = clean_text_preserving_newlines(headline.get_text(" ", strip=True))
+        title_elem = headline
+    elif soup.title and soup.title.string:
         title = clean_text_preserving_newlines(soup.title.string)
         title_elem = soup.title
-    if not title:
-        h1 = soup.find("h1")
-        if h1:
-            title = clean_text_preserving_newlines(h1.get_text(separator=" ", strip=True))
-            title_elem = h1
 
-    # preamble: text between the title heading and the ingredients heading
+    # Important: start from the actual article body, not the title tag in <head>
+    start_node = (
+        soup.find("div", itemprop="articleBody")
+        or soup.find("article")
+        or soup.find("main")
+        or title_elem
+        or soup.body
+    )
+
     preamble = None
     ing_targets = KEYWORDS["ingredients"]
 
     def is_ingredients_heading(tag):
-        if not tag or not getattr(tag, 'name', None):
+        if not tag or not getattr(tag, "name", None):
             return False
         if tag.name in ["h1", "h2", "h3", "h4"]:
             txt = tag.get_text(separator=" ").strip().lower()
             return any(t in txt for t in ing_targets)
         return False
 
-    # Start from the title element if present, otherwise from article/body
-    start_node = title_elem or soup.find("article") or soup.find("main") or soup.body
     if start_node:
         parts = []
-        sib = start_node.find_next_sibling() if start_node is not None else None
-        if sib is None and start_node is not None and start_node is not soup.body:
-            sib = start_node.find_next()
-        while sib is not None:
-            if is_ingredients_heading(sib):
+
+        # Walk through article body content, collecting text blocks before ingredients
+        for node in start_node.find_all(["p", "div", "ul", "ol"], recursive=True):
+            if is_ingredients_heading(node):
                 break
-            if getattr(sib, 'name', None) in ["nav", "header", "footer", "aside"]:
-                sib = sib.find_next_sibling()
-                continue
-            cls = " ".join(sib.get('class') or []) if hasattr(sib, 'get') else ""
-            idv = sib.get('id', '') if hasattr(sib, 'get') else ''
-            if any(k in cls.lower() for k in ["menu", "nav", "breadcrumb"]) or any(k in idv.lower() for k in ["menu", "nav", "breadcrumb"]):
-                sib = sib.find_next_sibling()
-                continue
-            if sib.name in ['p', 'div', 'ul', 'ol']:
-                text = clean_text_preserving_newlines(sib.get_text(separator="\n", strip=True))
-                if text:
-                    parts.append(text)
-            sib = sib.find_next_sibling()
+
+            if node.name in ["ul", "ol"]:
+                classes = " ".join(node.get("class", [])).lower()
+                if "menu" in classes or "nav" in classes or "breadcrumb" in classes:
+                    continue
+
+            text = clean_text_preserving_newlines(node.get_text(separator="\n", strip=True))
+            if text:
+                parts.append(text)
+
         if parts:
             preamble = "\n\n".join(parts)
 
-    # details -> tags
     details = extract_section_by_heading(soup, KEYWORDS.get("details", []))
     if not details:
         details = extract_details_from_dl(soup)
@@ -203,7 +203,6 @@ def parse_with_bs4(html: str) -> dict:
 
 
 def parse_with_fallback(html: str) -> dict:
-    # Very small fallback parser using regexes and simple splits
     title = None
     m = re.search(r"<title>(.*?)</title>", html, re.I | re.S)
     if m:
@@ -214,7 +213,6 @@ def parse_with_fallback(html: str) -> dict:
             title = clean_text_preserving_newlines(m2.group(1))
 
     def find_section(keyword_list):
-        # look for heading variations
         for kw in keyword_list:
             pat = re.compile(rf"<h[1-4][^>]*>\s*([^<]*{kw}[^<]*)</h[1-4]>", re.I)
             m = pat.search(html)
@@ -226,7 +224,6 @@ def parse_with_fallback(html: str) -> dict:
                 if items:
                     cleaned = [clean_text_preserving_newlines(item) for item in items]
                     return [item for item in cleaned if item]
-                # fallback paragraphs
                 ps = re.findall(r"<p[^>]*>(.*?)</p>", block, re.I | re.S)
                 if ps:
                     cleaned = [clean_text_preserving_newlines(p) for p in ps]
@@ -237,46 +234,44 @@ def parse_with_fallback(html: str) -> dict:
     method = clean_text_list(find_section(KEYWORDS["method"]))
     notes = clean_text_list(find_section(KEYWORDS["notes"]))
     details = clean_text_list(find_section(["details", "detail"]))
+
     if not details:
-        # look for a <dl> with a <dt>Details</dt> and collect following <dd> entries
-        m_dl = re.search(r"<dl[^>]*>([\s\S]*?)</dl>", html, re.I)
+        m_dl = re.search(r"<dl[^>]*>([\\s\\S]*?)</dl>", html, re.I)
         if m_dl:
             dl_block = m_dl.group(1)
-            if re.search(r"<dt[^>]*>\s*[^<]*details[^<]*</dt>", dl_block, re.I):
-                dd_items = re.findall(r"<dd[^>]*>([\s\S]*?)</dd>", dl_block, re.I)
+            if re.search(r"<dt[^>]*>\\s*[^<]*details[^<]*</dt>", dl_block, re.I):
+                dd_items = re.findall(r"<dd[^>]*>([\\s\\S]*?)</dd>", dl_block, re.I)
                 if dd_items:
                     cleaned = [clean_text_preserving_newlines(d) for d in dd_items]
                     details = [item for item in cleaned if item] or None
 
-    # preamble: text between title and ingredients heading, stripped of menu/nav blocks
     preamble = None
-    title_end = None
-    m_title = re.search(r"<h1[^>]*>.*?</h1>", html, re.I | re.S)
-    if m_title:
-        title_end = m_title.end()
-    else:
-        m_title2 = re.search(r"<title[^>]*>.*?</title>", html, re.I | re.S)
-        if m_title2:
-            title_end = m_title2.end()
 
-    ing_start = None
-    for kw in KEYWORDS['ingredients']:
-        m = re.search(rf"<h[1-4][^>]*>[^<]*{kw}[^<]*</h[1-4]>", html, re.I)
-        if m:
-            ing_start = m.start()
-            break
+    # Prefer the real article body in fallback parser too
+    article_block = None
+    article_match = re.search(r"<div[^>]*itemprop=['\\\"]articleBody['\\\"][^>]*>([\\s\\S]*?)</div>", html, re.I)
+    if article_match:
+        article_block = article_match.group(1)
+    elif re.search(r"<article", html, re.I):
+        m_art = re.search(r"<article[^>]*>([\\s\\S]*?)</article>", html, re.I)
+        if m_art:
+            article_block = m_art.group(1)
 
-    if title_end is not None:
-        end_pos = ing_start if ing_start is not None else title_end + 1000
-        block = html[title_end:end_pos]
-        block = re.sub(r"<nav[\s\S]*?</nav>", "", block, flags=re.I)
-        block = re.sub(r"<ul[^>]*class=['\"]?[^>]*menu[^>]*>[\s\S]*?</ul>", "", block, flags=re.I)
-        block = re.sub(r"<br\s*/?>", "\n", block, flags=re.I)
-        block = re.sub(r"</?(p|div|li|ul|ol|h[1-6])[^>]*>", "\n", block, flags=re.I)
-        block = re.sub(r"<[^>]+>", " ", block)
-        preamble = clean_text_preserving_newlines(block) or None
+    if article_block:
+        article_block = re.sub(r"<nav[\\s\\S]*?</nav>", "", article_block, flags=re.I)
+        article_block = re.sub(r"<br\\s*/?>", "\\n", article_block, flags=re.I)
+        article_block = re.sub(r"</?(p|div|li|ul|ol|h[1-6])[^>]*>", "\\n", article_block, flags=re.I)
+        article_block = re.sub(r"<[^>]+>", " ", article_block)
+        preamble = clean_text_preserving_newlines(article_block) or None
 
-    return {"title": title, "preamble": preamble, "ingredients": ingredients, "method": method, "notes": notes, "details": details}
+    return {
+        "title": title,
+        "preamble": preamble,
+        "ingredients": ingredients,
+        "method": method,
+        "notes": notes,
+        "details": details,
+    }
 
 
 def parse_file(path: str) -> dict:
@@ -315,9 +310,7 @@ def main():
     for fname in files:
         inpath = os.path.join(src, fname)
         data = parse_file(inpath)
-        # attach source filename
         data["source_file"] = fname
-        # write json
         base = os.path.splitext(fname)[0]
         outpath = os.path.join(out, base + ".json")
         with open(outpath, "w", encoding="utf-8") as outfd:
