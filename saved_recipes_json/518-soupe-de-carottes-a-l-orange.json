@@ -1,16 +1,16 @@
 {
   "title": "Soupe de Carottes à l’orange",
-  "preamble": null,
+  "preamble": "Pour 4 personnes :\n\n500 g de carottes\n\n1 pomme de terre\n\n1 cuillère à café de sucre\n\n2 cuillères à soupe d'huile",
   "ingredients": [
-    "500   g de carottes",
-    "1   orange",
-    "1   pomme de terre",
-    "1   oignon",
-    "75   cl d'eau",
-    "1   cuillère à café de sucre",
-    "2   cuillères à soupe d'huile",
-    "sel,   poivre",
-    "(en   option une pincée de curcuma)"
+    "500 g de carottes",
+    "1 orange",
+    "1 pomme de terre",
+    "1 oignon",
+    "75 cl d'eau",
+    "1 cuillère à café de sucre",
+    "2 cuillères à soupe d'huile",
+    "sel, poivre",
+    "(en option une pincée de curcuma)"
   ],
   "method": [
     "Pelez l'oignon et la pomme de terre et coupez-les en petits morceaux. Pelez les carottes et coupez-les en rondelles.",
@@ -26,8 +26,8 @@
   ],
   "notes": null,
   "details": [
-    "Written by  ethel",
-    "Category:  Soups",
+    "Written by ethel",
+    "Category: Soups",
     "Published: 28 October 2012",
     "Created: 28 October 2012",
     "Last Updated: 20 October 2017",

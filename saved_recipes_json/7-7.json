@@ -1,8 +1,8 @@
 {
   "title": "1. New Formatting Codes 10th Jan 13",
-  "preamble": null,
+  "preamble": "There are five heading types:\n\nUse image tags as normal but image.css and width = 24vw will be added.\n\nImages can be inserted by using:\n\ns r c = 'http://.....jpg'\n\nNo prefix does this",
   "ingredients": [
-    "Ingredients   - a h2 tag does this - ie ie same as #"
+    "Ingredients - a h2 tag does this - ie ie same as #"
   ],
   "method": [
     "Method - a h2 tag does this - ie ie same as #",
@@ -13,8 +13,8 @@
     "A Plus sign does this."
   ],
   "details": [
-    "Written by  Super User",
-    "Category:  Informative",
+    "Written by Super User",
+    "Category: Informative",
     "Published: 19 July 2012",
     "Created: 19 July 2012",
     "Last Updated: 20 October 2017",

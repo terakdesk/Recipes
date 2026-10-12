@@ -1,15 +1,15 @@
 {
   "title": "Mick Burger",
-  "preamble": null,
+  "preamble": "450g ground beef\n\n1 medium onion\n\n3 cloves garlic\n\n1 tablespoon capers\n\n1 tablespoon fresh parsley, minced",
   "ingredients": [
-    "450g   ground beef",
-    "1   medium onion",
-    "3   cloves garlic",
-    "1   tablespoon capers",
-    "1   tablespoon fresh parsley, minced",
-    "1   tablespoon prepared mustard",
-    "1   medium pickled gherkin, minced",
-    "salt   and pepper to taste"
+    "450g ground beef",
+    "1 medium onion",
+    "3 cloves garlic",
+    "1 tablespoon capers",
+    "1 tablespoon fresh parsley, minced",
+    "1 tablespoon prepared mustard",
+    "1 medium pickled gherkin, minced",
+    "salt and pepper to taste"
   ],
   "method": [
     "Finely slice the onion and fry in oil and butter on a very high heat. If the meat is very lean use a good slab of butter. Let the onions brown at the edges but not in the middle.",
@@ -23,8 +23,8 @@
   ],
   "notes": null,
   "details": [
-    "Written by  Super User",
-    "Category:  Beef Based",
+    "Written by Super User",
+    "Category: Beef Based",
     "Published: 07 November 2013",
     "Created: 07 November 2013",
     "Last Updated: 20 October 2017",

@@ -1,10 +1,10 @@
 {
   "title": "Raspberry Jam",
-  "preamble": null,
+  "preamble": "1kg raspberries\n\njuice of 1 lemon\n\n1kg bag jam sugar (the one with pectin added)",
   "ingredients": [
-    "1kg   raspberries",
-    "juice   of 1 lemon",
-    "1kg   bag jam sugar (the one with pectin added)"
+    "1kg raspberries",
+    "juice of 1 lemon",
+    "1kg bag jam sugar (the one with pectin added)"
   ],
   "method": [
     "Before you start, sterilise your jars (see tip below) and put a plate in the freezer to chill.",
@@ -23,8 +23,8 @@
   ],
   "notes": null,
   "details": [
-    "Written by  Super User",
-    "Category:  Condiments, Jams, Preserves, Pickles and Sauces",
+    "Written by Super User",
+    "Category: Condiments, Jams, Preserves, Pickles and Sauces",
     "Published: 28 June 2014",
     "Created: 28 June 2014",
     "Last Updated: 20 October 2017",

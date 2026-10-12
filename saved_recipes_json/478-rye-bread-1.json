@@ -1,16 +1,16 @@
 {
   "title": "Rye bread",
-  "preamble": null,
+  "preamble": "rye flour 400g\n\nwholemeal spelt flour 400g\n\nstrong white flour 100g\n\neasy-bake dried yeast 10g\n\nfine sea salt 1 tsp",
   "ingredients": [
-    "rye   flour 400g",
-    "wholemeal   spelt flour 400g",
-    "strong   white flour 100g",
-    "easy-bake   dried yeast 10g",
-    "fine   sea salt 1 tsp",
-    "warm   water 600ml",
-    "honey   3 tbsp",
-    "shelled   walnuts 100g",
-    "grated   parmesan 75g"
+    "rye flour 400g",
+    "wholemeal spelt flour 400g",
+    "strong white flour 100g",
+    "easy-bake dried yeast 10g",
+    "fine sea salt 1 tsp",
+    "warm water 600ml",
+    "honey 3 tbsp",
+    "shelled walnuts 100g",
+    "grated parmesan 75g"
   ],
   "method": [
     "Put the flours into a warm, generously sized mixing bowl with the dried yeast and salt, and mix well.",
@@ -25,8 +25,8 @@
   ],
   "notes": null,
   "details": [
-    "Written by  Adrian",
-    "Category:  First course",
+    "Written by Adrian",
+    "Category: First course",
     "Published: 08 December 2012",
     "Created: 08 December 2012",
     "Last Updated: 20 October 2017",

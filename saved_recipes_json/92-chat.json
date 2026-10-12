@@ -1,12 +1,12 @@
 {
   "title": "Chat",
-  "preamble": null,
+  "preamble": "window.open ('http://www.chat.42wide.com/index.php')",
   "ingredients": null,
   "method": null,
   "notes": null,
   "details": [
-    "Written by  Super User",
-    "Category:  Informative",
+    "Written by Super User",
+    "Category: Informative",
     "Published: 25 July 2012",
     "Created: 25 July 2012",
     "Last Updated: 20 October 2017",

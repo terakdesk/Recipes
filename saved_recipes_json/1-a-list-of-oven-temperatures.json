@@ -1,12 +1,12 @@
 {
   "title": "A List of Oven Temperatures",
-  "preamble": null,
+  "preamble": "Fahrenheit  Celsius  Mark  Description 225°     110°    1/4    Cool 250°     130°    1/2    Cool 275°     140°    1     Very slow 300°     150°    2     Very slow 325°     170°    3     Slow 350°     180°    4     Moderate 375°     190°    5     Moderate 400°     200°    6     Moderately hot 425°     220°    7     Fairly hot 450°     230°    8     Hot 475°     240°    9     Very hot 500°     250°    10    Extremely hot ========================================================================",
   "ingredients": null,
   "method": null,
   "notes": null,
   "details": [
-    "Written by  ethel",
-    "Category:  Informative",
+    "Written by ethel",
+    "Category: Informative",
     "Published: 02 July 2012",
     "Created: 02 July 2012",
     "Last Updated: 20 October 2017",
