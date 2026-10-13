@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ r['title'] }}</title>
+    <style>body{font-family:Arial, sans-serif;margin:20px}pre{white-space:pre-wrap}</style>
+  </head>
+  <body>
+    <p><a href="/">← Back</a></p>
+    <h1>{{ r['title'] }}</h1>
+    <p><strong>Source file:</strong> {{ r['filename'] }}</p>
+    {% if r['preamble'] %}
+      <h3>Preamble</h3>
+      <p>{{ r['preamble'] }}</p>
+    {% endif %}
+
+    {% if ingredients %}
+      <h3>Ingredients</h3>
+      <ul>{% for it in ingredients %}<li>{{ it }}</li>{% endfor %}</ul>
+    {% endif %}
+
+    {% if method %}
+      <h3>Method</h3>
+      <ol>{% for s in method %}<li>{{ s }}</li>{% endfor %}</ol>
+    {% endif %}
+
+    {% if notes %}
+      <h3>Notes</h3>
+      <ul>{% for n in notes %}<li>{{ n }}</li>{% endfor %}</ul>
+    {% endif %}
+
+    {% if details %}
+      <h3>Details</h3>
+      <ul>{% for d in details %}<li>{{ d }}</li>{% endfor %}</ul>
+    {% endif %}
+
+    <h3>Raw JSON</h3>
+    <pre>{{ raw|tojson(indent=2) }}</pre>
+  </body>
+</html>

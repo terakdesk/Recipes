@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recipes - search</title>
+    <style>
+      body{font-family: Arial, sans-serif; margin:20px}
+      input[type=text]{width:60%;padding:6px}
+      select{padding:6px}
+      table{width:100%;border-collapse:collapse;margin-top:12px}
+      td,th{border:1px solid #ddd;padding:8px}
+      tr:nth-child(even){background:#f9f9f9}
+    </style>
+  </head>
+  <body>
+    <h1>Recipes</h1>
+    <form method="get" action="/">
+      <input name="q" placeholder="Search title or ingredients" value="{{ q|e }}">
+      <select name="field">
+        <option value="any" {% if field=='any' %}selected{% endif %}>Title + Ingredients</option>
+        <option value="title" {% if field=='title' %}selected{% endif %}>Title only</option>
+        <option value="ingredients" {% if field=='ingredients' %}selected{% endif %}>Ingredients only</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+
+    <table>
+      <thead><tr><th>Title</th><th>File</th></tr></thead>
+      <tbody>
+        {% for r in rows %}
+        <tr>
+          <td><a href="/recipe/{{ r['id'] }}">{{ r['title'] }}</a></td>
+          <td>{{ r['filename'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
