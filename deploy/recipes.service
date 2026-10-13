@@ -1,0 +1,16 @@
+[Unit]
+Description=Recipes Flask app (gunicorn)
+After=network.target
+
+[Service]
+User=me
+Group=www-data
+WorkingDirectory=/home/me/recipes_remote
+Environment=PATH=/home/me/recipes_remote/.venv/bin
+# Create a runtime directory under /run owned by User:Group so nginx can access the socket
+RuntimeDirectory=recipes
+RuntimeDirectoryMode=0750
+ExecStart=/home/me/recipes_remote/.venv/bin/python -m gunicorn --workers 3 --bind unix:/run/recipes/recipes.sock app:app
+
+[Install]
+WantedBy=multi-user.target

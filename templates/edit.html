@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Edit recipe</title>
+</head>
+<body>
+  <h1>Edit recipe</h1>
+  <form method="post">
+    <p>
+      <label>Title:<br>
+      <input type="text" name="title" value="{{ r['title'] or '' }}" size="80"></label>
+    </p>
+    <p>Preamble:<br>
+      <textarea name="preamble" rows="4" cols="100">{{ r['preamble'] or '' }}</textarea>
+    </p>
+    <p>Ingredients (one per line):<br>
+      <textarea name="ingredients" rows="10" cols="100">{% for it in ingredients %}{{ it }}
+{% endfor %}</textarea>
+    </p>
+    <p>Method (one per line):<br>
+      <textarea name="method" rows="10" cols="100">{% for it in method %}{{ it }}
+{% endfor %}</textarea>
+    </p>
+    <p>Notes (one per line):<br>
+      <textarea name="notes" rows="6" cols="100">{% for it in notes %}{{ it }}
+{% endfor %}</textarea>
+    </p>
+    <p>Details (one per line):<br>
+      <textarea name="details" rows="6" cols="100">{% for it in details %}{{ it }}
+{% endfor %}</textarea>
+    </p>
+    <p>
+      <button type="submit">Save changes</button>
+      <a href="/recipe/{{ r['id'] }}">Cancel</a>
+    </p>
+  </form>
+</body>
+</html>

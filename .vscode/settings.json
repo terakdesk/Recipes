@@ -1,0 +1,11 @@
+{
+    "files.watcherExclude": {
+        "**/saved_recipes/**": true
+    },
+    "files.exclude": {
+        "**/saved_recipes/**": true
+    },
+    "search.exclude": {
+        "**/saved_recipes/**": true
+    }
+}

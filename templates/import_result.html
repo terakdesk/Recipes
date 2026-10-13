@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Analyze result</title>
+</head>
+<body>
+  <h1>Analyze result</h1>
+  <form method="post" action="/import/save">
+    <p>
+      <label>Title:<br>
+      <input type="text" name="title" value="{{ r.title or '' }}" size="80"></label>
+    </p>
+    <p>Preamble:<br>
+      <textarea name="preamble" rows="4" cols="100">{{ r.preamble or '' }}</textarea>
+    </p>
+        <p>Ingredients (one per line):<br>
+      <textarea name="ingredients" rows="10" cols="100">{% for it in r.ingredients %}{{ it }}
+    {% endfor %}</textarea>
+    </p>
+    <p>Method (one per line):<br>
+      <textarea name="method" rows="10" cols="100">{% for it in r.method %}{{ it }}
+    {% endfor %}</textarea>
+    </p>
+    <p>Notes (one per line):<br>
+      <textarea name="notes" rows="6" cols="100">{% for it in r.notes %}{{ it }}
+    {% endfor %}</textarea>
+    </p>
+    <p>Details (one per line):<br>
+      <textarea name="details" rows="6" cols="100">{% for it in r.details %}{{ it }}
+    {% endfor %}</textarea>
+    </p>
+
+    <!-- Visible fields are used for save; raw text is not persisted -->
+
+    <p>
+      <button type="submit">Save to database</button>
+      <a href="/import">Analyze different text</a>
+    </p>
+  </form>
+</body>
+</html>

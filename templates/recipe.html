@@ -8,6 +8,7 @@
   <body>
     <p><a href="/">← Back</a></p>
     <h1>{{ r['title'] }}</h1>
+    <p><a href="/recipe/{{ r['id'] }}/edit">Edit this recipe</a></p>
     <p><strong>Source file:</strong> {{ r['filename'] }}</p>
     {% if r['preamble'] %}
       <h3>Preamble</h3>
