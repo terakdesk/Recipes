@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Invalid recipes</title>
+    <style>
+      body{font-family:Arial,sans-serif;margin:20px;background:#f7f7f5;color:#1f1f1f;line-height:1.5}
+      h1,h2,h3,h4{color:#8822bb}
+      a{color:#8822bb;text-decoration:none}
+      a:hover{text-decoration:underline}
+      button{background:#8822bb;color:#fff;border:1px solid #8822bb;border-radius:6px;padding:6px 12px;cursor:pointer}
+      button:hover{background:#732099;border-color:#732099}
+      .page-shell{max-width:800px;margin:8px auto 0}
+      .site-header{text-align:center;margin:0;background:#fff;border:1px solid #ecebe7;border-bottom:0;border-radius:12px 12px 0 0;padding:10px;box-shadow:0 1px 5px rgba(0,0,0,0.03);box-sizing:border-box;width:100%}
+      .site-header img{max-width:100%;width:100%;height:auto;display:inline-block}
+      .page-card{background:#fff;border:1px solid #ecebe7;border-top:0;border-radius:0 0 12px 12px;padding:16px;box-shadow:0 1px 5px rgba(0,0,0,0.03);box-sizing:border-box;width:100%;margin:0}
+      .site-note{margin-top:16px;padding-top:10px;border-top:1px solid #ecebe7;color:#666;font-size:0.88rem;line-height:1.4}
+      table{width:100%;border-collapse:collapse;margin-top:12px}
+      td,th{border:1px solid #ddd;padding:10px}
+      tr:nth-child(even){background:#f9f9f9}
+      .msg{margin:10px 0;padding:10px;border:1px solid #d2e5d2;background:#f3fbf3;color:#2f5f2f;border-radius:6px}
+      .meta-col{font-size:0.85rem;white-space:nowrap}
+    </style>
+  </head>
+  <body>
+    <div class="page-shell">
+    <div class="site-header">
+      <a href="/"><img src="/logo_header_chez_michel.png" alt="Chez Michel"></a>
+    </div>
+    <div class="page-card">
+    <h1 style="margin-top:0">Invalid recipes</h1>
+    <p><a href="/">Back to index</a></p>
+    {% if msg %}
+      <div class="msg">{{ msg }}</div>
+    {% endif %}
+
+    {% if rows %}
+      <table>
+        <thead><tr><th>Title</th><th>File</th><th class="meta-col">Modified</th><th>Action</th></tr></thead>
+        <tbody>
+        {% for r in rows %}
+          <tr>
+            <td><a href="/recipe/{{ r['id'] }}">{{ r['title'] }}</a></td>
+            <td>{{ r['filename'] }}</td>
+            <td class="meta-col">{{ (r['modified'] or '').split(' ')[0] }}</td>
+            <td>
+              <form method="post" action="/recipe/{{ r['id'] }}/restore" style="margin:0">
+                <button type="submit">Make valid again</button>
+              </form>
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <p>No recipes are currently marked as not valid.</p>
+    {% endif %}
+
+    <div class="site-note">C.MiCT2016 - A personal log of food recipes I have used or have saved for future use.</div>
+    </div>
+    </div>
+  </body>
+</html>

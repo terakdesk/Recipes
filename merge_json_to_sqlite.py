@@ -8,6 +8,13 @@ DB = 'recipes.db'
 SRC_GLOB = 'saved_recipes_json/*.json'
 
 
+def add_column_if_missing(conn, column_name, column_type='DATETIME'):
+    existing = conn.execute('PRAGMA table_info(recipes)').fetchall()
+    if any(row[1] == column_name for row in existing):
+        return
+    conn.execute(f'ALTER TABLE recipes ADD COLUMN {column_name} {column_type}')
+
+
 def ensure_schema(conn):
     cur = conn.cursor()
     cur.execute('''
@@ -24,6 +31,8 @@ def ensure_schema(conn):
       raw_json TEXT
     )
     ''')
+    add_column_if_missing(conn, 'created', 'DATETIME')
+    add_column_if_missing(conn, 'modified', 'DATETIME')
     cur.execute('CREATE INDEX IF NOT EXISTS idx_recipes_title ON recipes(title)')
     cur.execute('CREATE INDEX IF NOT EXISTS idx_recipes_ingredients ON recipes(ingredients_text)')
     conn.commit()
@@ -51,8 +60,8 @@ def import_all():
 
         cur.execute('''
           INSERT OR REPLACE INTO recipes
-          (filename,title,preamble,ingredients_json,ingredients_text,method_json,notes_json,details_json,raw_json)
-          VALUES (?,?,?,?,?,?,?,?,?)
+          (filename,title,preamble,ingredients_json,ingredients_text,method_json,notes_json,details_json,raw_json,created,modified)
+          VALUES (?,?,?,?,?,?,?,?,?,?,?)
         ''', (
             os.path.basename(path),
             data.get('title'),
@@ -62,7 +71,9 @@ def import_all():
             json.dumps(data.get('method') or []),
             json.dumps(data.get('notes') or []),
             json.dumps(data.get('details') or []),
-            json.dumps(data)
+            json.dumps(data),
+            None,
+            None,
         ))
         count += 1
 

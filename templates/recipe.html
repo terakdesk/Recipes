@@ -3,26 +3,89 @@
   <head>
     <meta charset="utf-8">
     <title>{{ r['title'] }}</title>
-    <style>body{font-family:Arial, sans-serif;margin:20px}pre{white-space:pre-wrap}</style>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; background:#f7f7f5; color:#1f1f1f; line-height:1.5 }
+      h1,h2,h3,h4 { color:#8822bb }
+      a { color:#8822bb; text-decoration:none }
+      a:hover { text-decoration:underline }
+      button { background:#8822bb; color:#fff; border:1px solid #8822bb; border-radius:6px; padding:6px 12px; cursor:pointer }
+      button:hover { background:#732099; border-color:#732099 }
+      .page-shell { max-width:800px; margin:8px auto 0 }
+      .site-header { text-align:center; margin:0; background:#fff; border:1px solid #ecebe7; border-bottom:0; border-radius:12px 12px 0 0; padding:10px; box-shadow:0 1px 5px rgba(0,0,0,0.03); box-sizing:border-box; width:100% }
+      .site-header img { max-width:100%; width:100%; height:auto; display:inline-block }
+      .page-card { background:#fff; border:1px solid #ecebe7; border-top:0; border-radius:0 0 12px 12px; padding:16px; box-shadow:0 1px 5px rgba(0,0,0,0.03); box-sizing:border-box; width:100%; margin:0 }
+      .action-links { text-align:right; margin:0 0 8px 0 }
+      .action-links a { margin-left:14px }
+      .preamble-text { white-space: pre-wrap; margin: 0 0 1rem 0 }
+      .site-note { margin-top:16px; padding-top:10px; border-top:1px solid #ecebe7; color:#666; font-size:0.88rem; line-height:1.4 }
+      .status-warning { margin:10px 0; padding:10px; border:1px solid #e4c8c8; background:#fff3f3; color:#6f2a2a; border-radius:6px }
+      .inline-form { display:inline; margin-left:10px }
+      pre { white-space: pre-wrap }
+      ul.method-list { list-style: none; padding-left: 1.5em; margin-left: 0 }
+      ul.method-list li { padding-left: 1.5em; text-indent: -1.5em }
+      li.subheading { list-style-type: none; margin-left: 0 }
+      li.subheading h4 { margin: 0.4rem 0 0.2rem 0 }
+      li.indented-item { margin-left: 2em }
+    </style>
   </head>
   <body>
-    <p><a href="/">← Back</a></p>
+    <div class="page-shell">
+    <div class="site-header">
+      <a href="/"><img src="/logo_header_chez_michel.png" alt="Chez Michel"></a>
+    </div>
+    <div class="page-card">
+    <p class="action-links">
+      <a href="/">Back</a>
+      {% if is_authenticated %}
+        <a href="/recipe/{{ r['id'] }}/edit">Edit this recipe</a>
+        {% if recipe_is_valid %}
+          <form class="inline-form" method="post" action="/recipe/{{ r['id'] }}/invalidate" onsubmit="return confirm('Mark this recipe as not valid?');">
+            <button type="submit">Mark not valid</button>
+          </form>
+        {% else %}
+          <form class="inline-form" method="post" action="/recipe/{{ r['id'] }}/restore">
+            <button type="submit">Make valid again</button>
+          </form>
+        {% endif %}
+      {% else %}
+        <a href="/login?next=/recipe/{{ r['id'] }}/edit">Login to edit</a>
+      {% endif %}
+    </p>
+    {% if not recipe_is_valid %}
+      <div class="status-warning">This recipe is marked as not valid and is hidden from normal recipe lists.</div>
+    {% endif %}
     <h1>{{ r['title'] }}</h1>
-    <p><a href="/recipe/{{ r['id'] }}/edit">Edit this recipe</a></p>
     <p><strong>Source file:</strong> {{ r['filename'] }}</p>
+    <p><strong>Created:</strong> {{ created_date or '-' }} | <strong>Modified:</strong> {{ modified_date or '-' }}</p>
     {% if r['preamble'] %}
-      <h3>Preamble</h3>
-      <p>{{ r['preamble'] }}</p>
+      <h3>Description</h3>
+      <div class="preamble-text">{{ r['preamble'] }}</div>
     {% endif %}
 
     {% if ingredients %}
       <h3>Ingredients</h3>
-      <ul>{% for it in ingredients %}<li>{{ it }}</li>{% endfor %}</ul>
+      <ul>
+      {% for it in ingredients %}
+        {% if it.kind == 'heading' %}
+          <li class="subheading"><h4>{{ it.text }}</h4></li>
+        {% else %}
+          <li{% if it.indented %} class="indented-item"{% endif %}>{{ it.text }}</li>
+        {% endif %}
+      {% endfor %}
+      </ul>
     {% endif %}
 
     {% if method %}
       <h3>Method</h3>
-      <ol>{% for s in method %}<li>{{ s }}</li>{% endfor %}</ol>
+      <ul class="method-list">
+      {% for s in method %}
+        {% if s.kind == 'heading' %}
+          <li class="subheading"><h4>{{ s.text }}</h4></li>
+        {% else %}
+          <li{% if s.indented %} class="indented-item"{% endif %}>{{ s.text }}</li>
+        {% endif %}
+      {% endfor %}
+      </ul>
     {% endif %}
 
     {% if notes %}
@@ -37,5 +100,8 @@
 
     <h3>Raw JSON</h3>
     <pre>{{ raw|tojson(indent=2) }}</pre>
+    <div class="site-note">C.MiCT2016 - A personal log of food recipes I have used or have saved for future use.</div>
+    </div>
+    </div>
   </body>
 </html>

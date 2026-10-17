@@ -27,8 +27,8 @@ except Exception:
 
 
 KEYWORDS = {
-    "ingredients": ["ingredient", "ingredients"],
-    "method": ["method", "methods", "instruction", "instructions", "direction", "directions", "preparation"],
+    "ingredients": ["ingredient", "ingredients", "key ingredients"],
+    "method": ["method", "methods", "instruction", "instructions", "direction", "directions", "preparation", "quick cooking steps", "steps"],
     "notes": ["note", "notes", "serving", "tips"],
     "details": ["detail", "details"],
 }

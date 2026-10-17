@@ -3,8 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>Analyze result</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:20px; background:#f7f7f5; color:#1f1f1f; line-height:1.5 }
+    h1,h2,h3,h4 { color:#8822bb }
+    a { color:#8822bb; text-decoration:none }
+    a:hover { text-decoration:underline }
+    button { background:#8822bb; color:#fff; border:1px solid #8822bb; border-radius:6px; padding:6px 12px; cursor:pointer }
+    button:hover { background:#732099; border-color:#732099 }
+    .page-shell { max-width:800px; margin:8px auto 0 }
+    .site-header { text-align:center; margin:0; background:#fff; border:1px solid #ecebe7; border-bottom:0; border-radius:12px 12px 0 0; padding:10px; box-shadow:0 1px 5px rgba(0,0,0,0.03); box-sizing:border-box; width:100% }
+    .site-header img { max-width:100%; width:100%; height:auto; display:inline-block }
+    .page-card { background:#fff; border:1px solid #ecebe7; border-top:0; border-radius:0 0 12px 12px; padding:16px; box-shadow:0 1px 5px rgba(0,0,0,0.03); box-sizing:border-box; width:100%; margin:0 }
+    .site-note { margin-top:16px; padding-top:10px; border-top:1px solid #ecebe7; color:#666; font-size:0.88rem; line-height:1.4 }
+    input[type=text], textarea { width:100%; box-sizing:border-box; padding:8px }
+  </style>
 </head>
 <body>
+  <div class="page-shell">
+  <div class="site-header">
+    <a href="/"><img src="/logo_header_chez_michel.png" alt="Chez Michel"></a>
+  </div>
+  <div class="page-card">
   <h1>Analyze result</h1>
   <form method="post" action="/import/save">
     <p>
@@ -15,28 +34,28 @@
       <textarea name="preamble" rows="4" cols="100">{{ r.preamble or '' }}</textarea>
     </p>
         <p>Ingredients (one per line):<br>
-      <textarea name="ingredients" rows="10" cols="100">{% for it in r.ingredients %}{{ it }}
-    {% endfor %}</textarea>
-    </p>
+          <textarea name="ingredients" rows="10" cols="100">{{ (r.ingredients or []) | join('\n') }}</textarea>
+        </p>
     <p>Method (one per line):<br>
-      <textarea name="method" rows="10" cols="100">{% for it in r.method %}{{ it }}
-    {% endfor %}</textarea>
+      <textarea name="method" rows="10" cols="100">{{ (r.method or []) | join('\n') }}</textarea>
     </p>
     <p>Notes (one per line):<br>
-      <textarea name="notes" rows="6" cols="100">{% for it in r.notes %}{{ it }}
-    {% endfor %}</textarea>
+      <textarea name="notes" rows="6" cols="100">{{ (r.notes or []) | join('\n') }}</textarea>
     </p>
     <p>Details (one per line):<br>
-      <textarea name="details" rows="6" cols="100">{% for it in r.details %}{{ it }}
-    {% endfor %}</textarea>
+      <textarea name="details" rows="6" cols="100">{{ (r.details or []) | join('\n') }}</textarea>
     </p>
 
-    <!-- Visible fields are used for save; raw text is not persisted -->
+    <!-- Preserve raw posted text so the saved recipe can include original -->
+    <textarea name="raw" style="display:none">{{ r.raw or '' }}</textarea>
 
     <p>
       <button type="submit">Save to database</button>
       <a href="/import">Analyze different text</a>
     </p>
   </form>
+  <div class="site-note">C.MiCT2016 - A personal log of food recipes I have used or have saved for future use.</div>
+  </div>
+  </div>
 </body>
 </html>

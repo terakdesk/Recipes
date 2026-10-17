@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Analyze result</title>
+</head>
+<body>
+  <h1>Analyze result</h1>
+  <form method="post" action="/import/save">
+    <p>
+      <label>Title:<br>
+      <input type="text" name="title" value="{{ r.title or '' }}" size="80"></label>
+    </p>
+    <p>Preamble:<br>
+      <textarea name="preamble" rows="4" cols="100">{{ r.preamble or '' }}</textarea>
+    </p>
+        <p>Ingredients (one per line):<br>
+          <textarea name="ingredients" rows="10" cols="100">{{ (r.ingredients or []) | join('\n') }}</textarea>
+        </p>
+    <p>Method (one per line):<br>
+      <textarea name="method" rows="10" cols="100">{{ (r.method or []) | join('\n') }}</textarea>
+    </p>
+    <p>Notes (one per line):<br>
+      <textarea name="notes" rows="6" cols="100">{{ (r.notes or []) | join('\n') }}</textarea>
+    </p>
+    <p>Details (one per line):<br>
+      <textarea name="details" rows="6" cols="100">{{ (r.details or []) | join('\n') }}</textarea>
+    </p>
+
+    <!-- Preserve raw posted text so the saved recipe can include original -->
+    <textarea name="raw" style="display:none">{{ r.raw or '' }}</textarea>
+
+    <p>
+      <button type="submit">Save to database</button>
+      <a href="/import">Analyze different text</a>
+    </p>
+  </form>
+</body>
+</html>
