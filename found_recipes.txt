@@ -193,6 +193,7 @@ https://www.42wide.com/food3/index.php/recipes/10-condiments-pickles-and-sauces?
 https://www.42wide.com/food3/index.php/recipes/10-condiments-pickles-and-sauces?start=60
 https://www.42wide.com/food3/index.php/recipes/11-food-item-manufacture
 https://www.42wide.com/food3/index.php/recipes/11-food-item-manufacture/383-pasta-dough-fresh
+https://www.42wide.com/food3/index.php/recipes/11-food-item-manufacture?start=10
 https://www.42wide.com/food3/index.php/recipes/12-food-item-manufacture/sausages/167-cumberland-sausage
 https://www.42wide.com/food3/index.php/recipes/12-food-item-manufacture/sausages/3-andouille-cajun-sausage
 https://www.42wide.com/food3/index.php/recipes/12-food-item-manufacture/sausages/329-merguez-sausages
@@ -239,7 +240,11 @@ https://www.42wide.com/food3/index.php/recipes/14-desserts/73-brown-bread-ice-cr
 https://www.42wide.com/food3/index.php/recipes/14-desserts/74-brown-bread-ice-cream
 https://www.42wide.com/food3/index.php/recipes/14-desserts/76-brownie-pudding
 https://www.42wide.com/food3/index.php/recipes/14-desserts/8-apple-strudel
+https://www.42wide.com/food3/index.php/recipes/14-desserts?start=10
+https://www.42wide.com/food3/index.php/recipes/14-desserts?start=20
+https://www.42wide.com/food3/index.php/recipes/14-desserts?start=30
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling
+https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=10
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=100
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=110
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=120
@@ -250,10 +255,13 @@ https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=160
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=170
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=180
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=190
+https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=20
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=200
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=210
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=220
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=230
+https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=30
+https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=40
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=50
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=60
 https://www.42wide.com/food3/index.php/recipes/15-main-meal-filling?start=70
@@ -283,6 +291,7 @@ https://www.42wide.com/food3/index.php/recipes/16-main-meal-filling/fish-based/4
 https://www.42wide.com/food3/index.php/recipes/16-main-meal-filling/fish-based/484-salmon-en-croute-with-a-dill-butter-and-pea-watercress-puree
 https://www.42wide.com/food3/index.php/recipes/16-main-meal-filling/fish-based/485-salmon-en-croute-with-spinach-cream-cheese-and-orange
 https://www.42wide.com/food3/index.php/recipes/16-main-meal-filling/fish-based/486-salmon-with-fennel-sauce
+https://www.42wide.com/food3/index.php/recipes/16-main-meal-filling/fish-based/487-salmon-with-sumac
 https://www.42wide.com/food3/index.php/recipes/16-main-meal-filling/fish-based/497-sea-bass
 https://www.42wide.com/food3/index.php/recipes/16-main-meal-filling/fish-based/498-sea-bass-in-mushroom-onion-sauce
 https://www.42wide.com/food3/index.php/recipes/16-main-meal-filling/fish-based/499-sea-bream-cooked-with-cherry-tomatoes
@@ -362,6 +371,9 @@ https://www.42wide.com/food3/index.php/recipes/18-salads-light-mains/580-traditi
 https://www.42wide.com/food3/index.php/recipes/18-salads-light-mains/582-turkey-roll-starter
 https://www.42wide.com/food3/index.php/recipes/18-salads-light-mains/593-warm-radish-salad
 https://www.42wide.com/food3/index.php/recipes/18-salads-light-mains/68-breaded-tenderloin
+https://www.42wide.com/food3/index.php/recipes/18-salads-light-mains?start=10
+https://www.42wide.com/food3/index.php/recipes/18-salads-light-mains?start=20
+https://www.42wide.com/food3/index.php/recipes/18-salads-light-mains?start=30
 https://www.42wide.com/food3/index.php/recipes/19-main-meal-filling/vegey-or-lentil-based/13-aubergine-bake-very-nice
 https://www.42wide.com/food3/index.php/recipes/19-main-meal-filling/vegey-or-lentil-based/153-courgette-fritters
 https://www.42wide.com/food3/index.php/recipes/19-main-meal-filling/vegey-or-lentil-based/155-courgette-pastry
@@ -406,6 +418,12 @@ https://www.42wide.com/food3/index.php/recipes/19-main-meal-filling/vegey-or-len
 https://www.42wide.com/food3/index.php/recipes/19-main-meal-filling/vegey-or-lentil-based/90-cauliflower-au-gratin
 https://www.42wide.com/food3/index.php/recipes/19-main-meal-filling/vegey-or-lentil-based/96-cheese-pie-with-cheese-pastry-crust
 https://www.42wide.com/food3/index.php/recipes/20-curry
+https://www.42wide.com/food3/index.php/recipes/20-curry?start=10
+https://www.42wide.com/food3/index.php/recipes/20-curry?start=20
+https://www.42wide.com/food3/index.php/recipes/20-curry?start=30
+https://www.42wide.com/food3/index.php/recipes/20-curry?start=40
+https://www.42wide.com/food3/index.php/recipes/20-curry?start=50
+https://www.42wide.com/food3/index.php/recipes/20-curry?start=60
 https://www.42wide.com/food3/index.php/recipes/21-curry/vegey-or-lentil-based/112-chickpea-tomato-and-spinach-curry-daal
 https://www.42wide.com/food3/index.php/recipes/21-curry/vegey-or-lentil-based/14-aubergine-with-tamarind-and-coconut-milk-curry
 https://www.42wide.com/food3/index.php/recipes/21-curry/vegey-or-lentil-based/140-coconut-rice
@@ -431,6 +449,8 @@ https://www.42wide.com/food3/index.php/recipes/21-curry/vegey-or-lentil-based/58
 https://www.42wide.com/food3/index.php/recipes/22-christmas
 https://www.42wide.com/food3/index.php/recipes/22-christmas/523-spiced-sweet-potato-and-carrot-veloute
 https://www.42wide.com/food3/index.php/recipes/22-christmas/597-wellington-port-sauce
+https://www.42wide.com/food3/index.php/recipes/22-christmas?start=10
+https://www.42wide.com/food3/index.php/recipes/22-christmas?start=20
 https://www.42wide.com/food3/index.php/recipes/229-grandma-s-piquant-sauce-re-visited
 https://www.42wide.com/food3/index.php/recipes/23-christmas/canape/110-chicken-meatball-canape
 https://www.42wide.com/food3/index.php/recipes/23-christmas/canape/16-avacado-dip
@@ -527,6 +547,9 @@ https://www.42wide.com/food3/index.php/recipes/26-breads/616-sourdough-bread-bas
 https://www.42wide.com/food3/index.php/recipes/26-breads/618-quick-sourdough-bread-with-kneading
 https://www.42wide.com/food3/index.php/recipes/26-breads/67-bread-white-panasonic-2900
 https://www.42wide.com/food3/index.php/recipes/26-breads/69-breadmaker-white-bread-2006
+https://www.42wide.com/food3/index.php/recipes/26-breads?start=10
+https://www.42wide.com/food3/index.php/recipes/26-breads?start=20
+https://www.42wide.com/food3/index.php/recipes/26-breads?start=30
 https://www.42wide.com/food3/index.php/recipes/267-karachi-biscuits
 https://www.42wide.com/food3/index.php/recipes/268-karachi-biscuits-2
 https://www.42wide.com/food3/index.php/recipes/27-main-meal-filling/bean-based/25-baked-beans
@@ -543,6 +566,7 @@ https://www.42wide.com/food3/index.php/recipes/28-curry/chicken-based/336-moorgi
 https://www.42wide.com/food3/index.php/recipes/28-curry/chicken-based/380-pasanda-badam-curry
 https://www.42wide.com/food3/index.php/recipes/28-curry/chicken-based/399-philipino-chicken-adobo-with-coconut-sauce
 https://www.42wide.com/food3/index.php/recipes/29-sweets-as-in-candy-not-desserts
+https://www.42wide.com/food3/index.php/recipes/29-sweets-as-in-candy-not-desserts/128-chocolate-tempering
 https://www.42wide.com/food3/index.php/recipes/29-sweets-as-in-candy-not-desserts/129-chocolate-truffles
 https://www.42wide.com/food3/index.php/recipes/29-sweets-as-in-candy-not-desserts/130-chocolate-truffles-2
 https://www.42wide.com/food3/index.php/recipes/29-sweets-as-in-candy-not-desserts/134-cinder-toffee
@@ -606,6 +630,7 @@ https://www.42wide.com/food3/index.php/recipes/34-soups/83-butternut-ginger-and-
 https://www.42wide.com/food3/index.php/recipes/34-soups/86-carrot-and-coriander-soup
 https://www.42wide.com/food3/index.php/recipes/34-soups/87-carrot-and-orange-soup
 https://www.42wide.com/food3/index.php/recipes/34-soups/91-cavolo-nero-and-cannellini-bean-soup
+https://www.42wide.com/food3/index.php/recipes/34-soups?start=10
 https://www.42wide.com/food3/index.php/recipes/34-soups?start=20
 https://www.42wide.com/food3/index.php/recipes/35-main-meal-filling/rabbit-based/444-rabbit-with-prunes-and-mustard
 https://www.42wide.com/food3/index.php/recipes/35-main-meal-filling/rabbit-based/445-rabbit-prunes-in-bacon-pearl-barley
@@ -628,6 +653,7 @@ https://www.42wide.com/food3/index.php/recipes/36-vegey-accompaniments/469-roast
 https://www.42wide.com/food3/index.php/recipes/36-vegey-accompaniments/481-saffron-rice
 https://www.42wide.com/food3/index.php/recipes/36-vegey-accompaniments/560-tattie-scones
 https://www.42wide.com/food3/index.php/recipes/36-vegey-accompaniments/62-braised-spiced-cabbage
+https://www.42wide.com/food3/index.php/recipes/36-vegey-accompaniments?start=10
 https://www.42wide.com/food3/index.php/recipes/37-main-meal-filling/duck-based/120-chinese-roast-duck-legs
 https://www.42wide.com/food3/index.php/recipes/37-main-meal-filling/duck-based/143-confit-duck-leg-with-flageolet-ragout-and-celeriac-mash
 https://www.42wide.com/food3/index.php/recipes/37-main-meal-filling/duck-based/144-confit-duck-leg-with-white-beans
@@ -693,6 +719,7 @@ https://www.42wide.com/food3/index.php/recipes/40-cakes/609-baked-pear-and-ginge
 https://www.42wide.com/food3/index.php/recipes/40-cakes/610-test3
 https://www.42wide.com/food3/index.php/recipes/40-cakes/652-green-tomato-jam-cake
 https://www.42wide.com/food3/index.php/recipes/40-cakes/99-chestnut-cheesecake
+https://www.42wide.com/food3/index.php/recipes/40-cakes?start=10
 https://www.42wide.com/food3/index.php/recipes/403-piquent-sauce
 https://www.42wide.com/food3/index.php/recipes/41-main-meal-filling/chicken-based/101-chicken-and-ham-pie
 https://www.42wide.com/food3/index.php/recipes/41-main-meal-filling/chicken-based/102-chicken-and-ham-pie-with-sweetcorn-and-peas
@@ -772,9 +799,11 @@ https://www.42wide.com/food3/index.php/recipes/9-unclassified/1-a-list-of-oven-t
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/12-atkins-acceptable-induction-foods
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/18-bacon-explained
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/212-french-spoon-sizes
+https://www.42wide.com/food3/index.php/recipes/9-unclassified/249-herbs-and-their-uses
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/310-lobster-how-to-eat
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/533-spoon-measures
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/561-tempura-batter
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/594-test555
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/7-7
 https://www.42wide.com/food3/index.php/recipes/9-unclassified/92-chat
+https://www.42wide.com/food3/index.php/recipes/9-unclassified?start=10
