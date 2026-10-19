@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Edit recipe</title>
   <style>
     body { font-family: Arial, sans-serif; margin:20px; background:#f7f7f5; color:#1f1f1f; line-height:1.5 }
@@ -17,6 +18,7 @@
     .site-note { margin-top:16px; padding-top:10px; border-top:1px solid #ecebe7; color:#666; font-size:0.88rem; line-height:1.4 }
     input[type=text], textarea { width:100%; box-sizing:border-box; padding:8px }
   </style>
+  <link rel="stylesheet" href="/readability.css">
 </head>
 <body>
   <div class="page-shell">
@@ -26,6 +28,7 @@
   <div class="page-card">
   <h1>Edit recipe</h1>
   <form method="post">
+    <input type="hidden" name="source_recipe_id" value="{{ r['id'] }}">
     <p>
       <label>Title:<br>
       <input type="text" name="title" value="{{ r['title'] or '' }}" size="80"></label>
@@ -49,7 +52,16 @@
       <textarea name="details" rows="6" cols="100">{% for it in details %}{{ it }}
 {% endfor %}</textarea>
     </p>
+    <textarea id="reanalyze_text" name="text" style="display:none"></textarea>
     <p>
+      <button
+        type="submit"
+        formaction="/import"
+        formmethod="post"
+        onclick="prepareReanalyzeTextFromEdit()"
+      >
+        Analyze
+      </button>
       <button type="submit">Save changes</button>
       <a href="/recipe/{{ r['id'] }}">Cancel</a>
     </p>
@@ -57,5 +69,24 @@
   <div class="site-note">C.MiCT2016 - A personal log of food recipes I have used or have saved for future use.</div>
   </div>
   </div>
+  <script>
+    function prepareReanalyzeTextFromEdit() {
+      const title = (document.querySelector('input[name="title"]')?.value || '').trim();
+      const preamble = (document.querySelector('textarea[name="preamble"]')?.value || '').trim();
+      const ingredients = (document.querySelector('textarea[name="ingredients"]')?.value || '').trim();
+      const method = (document.querySelector('textarea[name="method"]')?.value || '').trim();
+      const notes = (document.querySelector('textarea[name="notes"]')?.value || '').trim();
+      const details = (document.querySelector('textarea[name="details"]')?.value || '').trim();
+
+      const parts = [];
+      if (preamble) parts.push(preamble);
+      if (ingredients) parts.push(`Ingredients:\n${ingredients}`);
+      if (method) parts.push(`Method:\n${method}`);
+      if (notes) parts.push(`Notes:\n${notes}`);
+      if (details) parts.push(`Details:\n${details}`);
+
+      document.getElementById('reanalyze_text').value = parts.join('\n\n');
+    }
+  </script>
 </body>
 </html>

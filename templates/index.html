@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Recipes - search</title>
     <style>
       body{font-family:Arial,sans-serif;margin:20px;background:#f7f7f5;color:#1f1f1f;line-height:1.5}
@@ -15,13 +16,30 @@
       .site-header img{max-width:100%;width:100%;height:auto;display:inline-block}
       .page-card{background:#fff;border:1px solid #ecebe7;border-top:0;border-radius:0 0 12px 12px;padding:16px;box-shadow:0 1px 5px rgba(0,0,0,0.03);box-sizing:border-box;width:100%;margin:0}
       .site-note{margin-top:16px;padding-top:10px;border-top:1px solid #ecebe7;color:#666;font-size:0.88rem;line-height:1.4}
-      input[type=text]{width:60%;padding:6px}
-      select{padding:6px}
+      .search-controls{display:flex;gap:8px;align-items:stretch;flex-wrap:wrap}
+      .search-controls input[type=text]{flex:1 1 520px;min-width:320px;max-width:100%;padding:9px 10px}
+      .search-controls select{padding:9px 10px}
+      @media (max-width: 640px){
+        .search-controls{flex-direction:column}
+        .search-controls input[type=text]{min-width:0;flex:1 1 auto;width:100%}
+        .search-controls select{width:100%}
+        .search-controls button{width:100%}
+      }
       table{width:100%;border-collapse:collapse;margin-top:12px}
       td,th{border:1px solid #ddd;padding:10px}
       .meta-col{font-size:0.85rem;white-space:nowrap}
+      .title-col{width:44%}
+      .preview-col{width:44%}
+      .title-link{font-weight:600}
+      .preview-text{color:#4a4a4a}
       tr:nth-child(even){background:#f9f9f9}
+      @media (max-width: 700px){
+        .hide-phone{display:none}
+        .title-col{width:60%}
+        .preview-col{width:40%}
+      }
     </style>
+    <link rel="stylesheet" href="/readability.css">
   </head>
   <body>
     <div class="page-shell">
@@ -55,7 +73,7 @@
         {% endif %}
       </div>
     </nav>
-    <form method="get" action="/">
+    <form method="get" action="/" class="search-controls">
       <input name="q" placeholder="Search words (all words, any order)" value="{{ q|e }}">
       <select name="field">
         <option value="any" {% if field=='any' %}selected{% endif %}>Title + Ingredients</option>
@@ -83,13 +101,13 @@
     </div>
 
     <table>
-      <thead><tr><th>Title</th><th>File</th><th class="meta-col">Created</th><th class="meta-col">Modified</th></tr></thead>
+      <thead><tr><th class="title-col">Recipe</th><th class="preview-col">Preamble</th><th class="meta-col hide-phone">Created</th><th class="meta-col">Modified</th></tr></thead>
       <tbody>
         {% for r in rows %}
         <tr>
-          <td><a href="/recipe/{{ r['id'] }}">{{ r['title'] }}</a></td>
-          <td>{{ r['filename'] }}</td>
-          <td class="meta-col">{{ r['created'] or '' }}</td>
+          <td class="title-col"><a class="title-link" href="/recipe/{{ r['id'] }}">{{ r['title'] }}</a></td>
+          <td class="preview-col"><span class="preview-text">{{ r['preamble_preview'] or '' }}</span></td>
+          <td class="meta-col hide-phone">{{ r['created'] or '' }}</td>
           <td class="meta-col">{{ r['modified'] or '' }}</td>
         </tr>
         {% endfor %}

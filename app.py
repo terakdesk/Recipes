@@ -3,6 +3,7 @@ import sqlite3
 import os
 import re
 import json
+import html
 import time
 import math
 from functools import wraps
@@ -33,6 +34,130 @@ def get_session_timeout_seconds() -> int:
 
 
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(seconds=get_session_timeout_seconds())
+
+IMG_TAG_RE = re.compile(r"<\s*img\b[^>]*>", flags=re.IGNORECASE | re.DOTALL)
+ESCAPED_IMG_TAG_RE = re.compile(r"&lt;\s*img\b.*?&gt;", flags=re.IGNORECASE | re.DOTALL)
+ALT_ATTR_RE = re.compile(r"\s+alt\s*=\s*(?:\"[^\"]*\"|'[^']*'|[^\s>]+)", flags=re.IGNORECASE)
+ESCAPED_ALT_ATTR_RE = re.compile(
+    r"\s+alt\s*=\s*(?:&quot;.*?&quot;|\"[^\"]*\"|'[^']*'|[^\s>]+)",
+    flags=re.IGNORECASE | re.DOTALL,
+)
+SRC_ATTR_RE = re.compile(
+    r"\s+src(?:set)?\s*=\s*(?:\"[^\"]*\"|'[^']*'|[^\s>]+)",
+    flags=re.IGNORECASE,
+)
+ESCAPED_SRC_ATTR_RE = re.compile(
+    r"\s+src(?:set)?\s*=\s*(?:&quot;.*?&quot;|\"[^\"]*\"|'[^']*'|[^\s>]+)",
+    flags=re.IGNORECASE | re.DOTALL,
+)
+LINE_WITH_IMAGE_REF_RE = re.compile(
+    r"(<\s*img\b|&lt;\s*img\b|\balt\s*=|\bsrc(?:set)?\s*=)",
+    flags=re.IGNORECASE,
+)
+GENERIC_HTML_TAG_RE = re.compile(r"</?[A-Za-z][^>]*>")
+BULLET_PREFIX_RE = re.compile(r"^\s*(?:[-*•◦▪▫‣⁃∙●○◆◇■□▶▷►▸]+)\s+")
+LETTER_LIST_PREFIX_RE = re.compile(r"^\s*[A-Za-z][\)\]\.:/-]+\s+")
+NUMBER_LIST_PREFIX_RE = re.compile(r"^\s*\d+[\)\]\.:/-]+\s+")
+PAREN_NUMBER_PREFIX_RE = re.compile(r"^\s*\(\d+\)\s+")
+ROMAN_LIST_PREFIX_RE = re.compile(r"^\s*(?:[ivxlcdm]+)[\)\]\.:/-]+\s+", flags=re.IGNORECASE)
+
+
+def clean_image_alt_src_text(value: str | None) -> str | None:
+    if not value:
+        return value
+    text = html.unescape(str(value))
+    for pattern in (
+        IMG_TAG_RE,
+        ESCAPED_IMG_TAG_RE,
+        ALT_ATTR_RE,
+        ESCAPED_ALT_ATTR_RE,
+        SRC_ATTR_RE,
+        ESCAPED_SRC_ATTR_RE,
+    ):
+        text = pattern.sub(" ", text)
+    text = GENERIC_HTML_TAG_RE.sub(" ", text)
+
+    cleaned_lines = []
+    for line in text.splitlines():
+        if LINE_WITH_IMAGE_REF_RE.search(line):
+            continue
+        cleaned_lines.append(" ".join(line.split()))
+
+    cleaned = "\n".join(cleaned_lines).strip()
+    return cleaned
+
+
+def strip_list_marker_prefix(text: str, preserve_quantity: bool = False) -> str:
+    if not text:
+        return text
+    s = str(text).strip()
+    s = BULLET_PREFIX_RE.sub("", s)
+    s = PAREN_NUMBER_PREFIX_RE.sub("", s)
+    s = ROMAN_LIST_PREFIX_RE.sub("", s)
+    s = LETTER_LIST_PREFIX_RE.sub("", s)
+    if not preserve_quantity:
+        s = NUMBER_LIST_PREFIX_RE.sub("", s)
+    else:
+        m = re.match(r"^\s*(\d+)([\)\]\.:/-]+)\s+(.+)$", s)
+        if m:
+            # Keep numeric quantity forms like "3 onions", but remove list-style
+            # prefixes such as "3) onions" or "3. onions".
+            s = m.group(3).strip()
+    return s.strip()
+
+
+def strip_list_markers_multiline(text: str | None, preserve_quantity: bool = False) -> str | None:
+    if not text:
+        return text
+    out = []
+    for line in str(text).splitlines():
+        cleaned = strip_list_marker_prefix(line, preserve_quantity=preserve_quantity)
+        if cleaned:
+            out.append(cleaned)
+    return "\n".join(out).strip()
+
+
+def clean_image_alt_src_list(items, preserve_quantity: bool = False):
+    if not items:
+        return items
+    out = []
+    for item in items:
+        cleaned = clean_image_alt_src_text(item)
+        cleaned = strip_list_marker_prefix(cleaned or "", preserve_quantity=preserve_quantity)
+        if cleaned:
+            out.append(cleaned)
+    return out
+
+
+def remove_title_from_preamble(title: str | None, preamble: str | None) -> str | None:
+    if not preamble:
+        return preamble
+    title_text = (title or "").strip()
+    if not title_text:
+        return preamble
+
+    lines = [ln for ln in str(preamble).splitlines()]
+    if not lines:
+        return preamble
+
+    def norm(s: str) -> str:
+        s = " ".join((s or "").strip().lower().split())
+        return re.sub(r"[^\w\s]", "", s)
+
+    first_non_empty_idx = None
+    for i, ln in enumerate(lines):
+        if ln.strip():
+            first_non_empty_idx = i
+            break
+
+    if first_non_empty_idx is None:
+        return ""
+
+    if norm(lines[first_non_empty_idx]) == norm(title_text):
+        lines.pop(first_non_empty_idx)
+
+    cleaned = "\n".join(lines).strip()
+    return cleaned
 
 
 def get_auth_config():
@@ -242,6 +367,14 @@ def logo_header():
     )
 
 
+@app.route('/readability.css')
+def readability_css():
+    return send_from_directory(
+        os.path.join(app.root_path, 'static', 'css'),
+        'readability.css'
+    )
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     error = None
@@ -376,6 +509,16 @@ def format_display_lines(lines, strip_method_numbers=False):
                 indent_following = True
             continue
 
+        plus_match = re.match(r'^\s*\+\s*(.*)$', text)
+        if plus_match:
+            # "+" acts as an outdent marker: subsequent items return to
+            # normal indentation level (opposite of "-" heading behavior).
+            indent_following = False
+            plus_text = plus_match.group(1).strip()
+            if not plus_text:
+                continue
+            text = plus_text
+
         if strip_method_numbers:
             # Strip a leading number token when followed by non-letters
             # (e.g. "1.", "2/", "3)" or "4 -") for display only.
@@ -412,7 +555,10 @@ def index():
     db = get_db()
     # Fetch valid rows and apply word-based filtering in Python so search
     # matches all terms regardless of order.
-    cur = db.execute('SELECT id,title,filename,created,modified,ingredients_text FROM recipes WHERE COALESCE(is_valid,1)=1')
+    cur = db.execute(
+        'SELECT id,title,filename,preamble,created,modified,ingredients_text '
+        'FROM recipes WHERE COALESCE(is_valid,1)=1'
+    )
     all_rows = cur.fetchall()
 
     terms = re.findall(r"[A-Za-z0-9']+", q.lower())
@@ -451,10 +597,20 @@ def index():
             return ''
         return text.split(' ', 1)[0]
 
+    def preamble_preview(value, max_len=140):
+        text = str(value or '')
+        text = re.sub(r'\s+', ' ', text).strip()
+        if not text:
+            return ''
+        if len(text) <= max_len:
+            return text
+        return text[: max_len - 1].rstrip() + '…'
+
     for r in filtered_rows:
         d = dict(r)
         t = d.get('title') or ''
         d['title'] = t.title()
+        d['preamble_preview'] = preamble_preview(d.get('preamble'))
         d['created'] = date_only(d.get('created'))
         d['modified'] = date_only(d.get('modified'))
         d.pop('ingredients_text', None)
@@ -583,7 +739,15 @@ def import_text():
 
     # POST: analyze the provided text
     text = request.form.get('text', '').strip()
+    text = clean_image_alt_src_text(text) or ''
     title_override = request.form.get('title', '').strip() or None
+    source_recipe_id_raw = (request.form.get('source_recipe_id') or '').strip()
+    source_recipe_id = None
+    if source_recipe_id_raw:
+        try:
+            source_recipe_id = int(source_recipe_id_raw)
+        except Exception:
+            source_recipe_id = None
     if not text:
         return render_template('import.html', error='Please paste some text to analyze')
 
@@ -765,15 +929,20 @@ def import_text():
     if title_override:
         parsed['title'] = title_override
 
+    sanitized_title = strip_list_marker_prefix(clean_image_alt_src_text(parsed.get('title')) or '')
+    sanitized_preamble = strip_list_markers_multiline(clean_image_alt_src_text(parsed.get('preamble')) or '')
+    sanitized_preamble = remove_title_from_preamble(sanitized_title, sanitized_preamble)
+
     # Prepare JSON blobs for saving and show result for confirmation
     result = {
-        'title': parsed.get('title'),
-        'preamble': parsed.get('preamble'),
-        'ingredients': parsed.get('ingredients') or [],
-        'method': parsed.get('method') or [],
-        'notes': parsed.get('notes') or [],
-        'details': parsed.get('details') or [],
+        'title': sanitized_title,
+        'preamble': sanitized_preamble,
+        'ingredients': clean_image_alt_src_list(parsed.get('ingredients') or [], preserve_quantity=True) or [],
+        'method': clean_image_alt_src_list(parsed.get('method') or []) or [],
+        'notes': clean_image_alt_src_list(parsed.get('notes') or []) or [],
+        'details': clean_image_alt_src_list(parsed.get('details') or []) or [],
         'raw': text,
+        'source_recipe_id': source_recipe_id,
     }
 
     return render_template('import_result.html', r=result)
@@ -783,29 +952,39 @@ def import_text():
 @login_required
 def import_save():
     db = get_db()
-    title = request.form.get('title') or 'Imported recipe'
-    preamble = request.form.get('preamble') or None
+    title = strip_list_marker_prefix(clean_image_alt_src_text(request.form.get('title')) or '') or 'Imported recipe'
+    preamble = strip_list_markers_multiline(clean_image_alt_src_text(request.form.get('preamble')) or '') or None
     # parse lists: accept either JSON array or multiline textarea
-    def parse_list_field(name):
+    def parse_list_field(name, preserve_quantity=False):
         v = request.form.get(name) or ''
         v = v.strip()
         if not v:
             return []
         if v.startswith('['):
             try:
-                return json.loads(v)
+                return clean_image_alt_src_list(json.loads(v), preserve_quantity=preserve_quantity) or []
             except Exception:
                 pass
         # split lines
-        return [line.strip() for line in v.splitlines() if line.strip()]
+        return clean_image_alt_src_list(
+            [line.strip() for line in v.splitlines() if line.strip()],
+            preserve_quantity=preserve_quantity,
+        ) or []
 
-    ingredients = parse_list_field('ingredients')
+    ingredients = parse_list_field('ingredients', preserve_quantity=True)
     method = parse_list_field('method')
     notes = parse_list_field('notes')
     details = parse_list_field('details')
 
     # preserve raw posted text (if present) so recipe page can show original
-    raw_post = request.form.get('raw') or None
+    raw_post = strip_list_markers_multiline(clean_image_alt_src_text(request.form.get('raw')) or '') or None
+    source_recipe_id_raw = (request.form.get('source_recipe_id') or '').strip()
+    source_recipe_id = None
+    if source_recipe_id_raw:
+        try:
+            source_recipe_id = int(source_recipe_id_raw)
+        except Exception:
+            source_recipe_id = None
 
     # build a filename safe-ish identifier
     base = title or 'imported'
@@ -817,24 +996,57 @@ def import_save():
     now_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
     cur = db.cursor()
-    cur.execute('''
-            INSERT INTO recipes (filename,title,preamble,ingredients_json,ingredients_text,method_json,notes_json,details_json,raw_json,created,modified)
-            VALUES (?,?,?,?,?,?,?,?,?,?,?)
-    ''', (
-        fname,
-        title,
-        preamble,
-        json.dumps(ingredients, ensure_ascii=False),
-        ingredients_text,
-        json.dumps(method, ensure_ascii=False),
-        json.dumps(notes, ensure_ascii=False),
-        json.dumps(details, ensure_ascii=False),
-        json.dumps(raw_post, ensure_ascii=False) if raw_post is not None else None,
-        now_str,
-        now_str,
-    ))
+    if source_recipe_id is not None:
+        existing = db.execute('SELECT id FROM recipes WHERE id=?', (source_recipe_id,)).fetchone()
+        if not existing:
+            abort(404)
+        cur.execute(
+            '''
+            UPDATE recipes
+            SET title=?,
+                preamble=?,
+                ingredients_json=?,
+                ingredients_text=?,
+                method_json=?,
+                notes_json=?,
+                details_json=?,
+                raw_json=?,
+                modified=?
+            WHERE id=?
+            ''',
+            (
+                title,
+                preamble,
+                json.dumps(ingredients, ensure_ascii=False),
+                ingredients_text,
+                json.dumps(method, ensure_ascii=False),
+                json.dumps(notes, ensure_ascii=False),
+                json.dumps(details, ensure_ascii=False),
+                json.dumps(raw_post, ensure_ascii=False) if raw_post is not None else None,
+                now_str,
+                source_recipe_id,
+            ),
+        )
+        rid = source_recipe_id
+    else:
+        cur.execute('''
+                INSERT INTO recipes (filename,title,preamble,ingredients_json,ingredients_text,method_json,notes_json,details_json,raw_json,created,modified)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?)
+        ''', (
+            fname,
+            title,
+            preamble,
+            json.dumps(ingredients, ensure_ascii=False),
+            ingredients_text,
+            json.dumps(method, ensure_ascii=False),
+            json.dumps(notes, ensure_ascii=False),
+            json.dumps(details, ensure_ascii=False),
+            json.dumps(raw_post, ensure_ascii=False) if raw_post is not None else None,
+            now_str,
+            now_str,
+        ))
+        rid = cur.lastrowid
     db.commit()
-    rid = cur.lastrowid
     return render_template('import_saved.html', id=rid, title=title)
 
 
@@ -854,14 +1066,17 @@ def edit_recipe(rid):
         return render_template('edit.html', r=row, ingredients=ingredients, method=method, notes=notes, details=details)
 
     # POST: save updates
-    title = request.form.get('title') or None
-    preamble = request.form.get('preamble') or None
+    title = strip_list_marker_prefix(clean_image_alt_src_text(request.form.get('title')) or '') or None
+    preamble = strip_list_markers_multiline(clean_image_alt_src_text(request.form.get('preamble')) or '') or None
 
-    def lines_to_list(name):
+    def lines_to_list(name, preserve_quantity=False):
         v = request.form.get(name) or ''
-        return [line.strip() for line in v.splitlines() if line.strip()]
+        return clean_image_alt_src_list(
+            [line.strip() for line in v.splitlines() if line.strip()],
+            preserve_quantity=preserve_quantity,
+        ) or []
 
-    ingredients = lines_to_list('ingredients')
+    ingredients = lines_to_list('ingredients', preserve_quantity=True)
     method = lines_to_list('method')
     notes = lines_to_list('notes')
     details = lines_to_list('details')
