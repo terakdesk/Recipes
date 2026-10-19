@@ -22,6 +22,8 @@
       .status-warning { margin:10px 0; padding:10px; border:1px solid #e4c8c8; background:#fff3f3; color:#6f2a2a; border-radius:6px }
       .inline-form { display:inline; margin-left:10px }
       pre { white-space: pre-wrap }
+      .recipe-meta { font-size: 0.88rem; color: #555 }
+      .recipe-note { font-size: 1rem }
       ul.method-list { list-style: none; padding-left: 1.5em; margin-left: 0 }
       ul.method-list li { padding-left: 1.5em; text-indent: -1.5em }
       li.subheading { list-style-type: none; margin-left: 0 }
@@ -57,8 +59,6 @@
       <div class="status-warning">This recipe is marked as not valid and is hidden from normal recipe lists.</div>
     {% endif %}
     <h1>{{ r['title'] }}</h1>
-    <p><strong>Source file:</strong> {{ r['filename'] }}</p>
-    <p><strong>Created:</strong> {{ created_date or '-' }} | <strong>Modified:</strong> {{ modified_date or '-' }}</p>
     {% if r['preamble'] %}
       <h3>Description</h3>
       <div class="preamble-text">{{ r['preamble'] }}</div>
@@ -100,9 +100,9 @@
       <ul>{% for d in details %}<li>{{ d }}</li>{% endfor %}</ul>
     {% endif %}
 
-    <h3>Raw JSON</h3>
-    <pre>{{ raw|tojson(indent=2) }}</pre>
-    <div class="site-note">C.MiCT2016 - A personal log of food recipes I have used or have saved for future use.</div>
+    <p class="recipe-meta"><strong>Source file:</strong> {{ r['filename'] }}</p>
+    <p class="recipe-meta"><strong>Created:</strong> {{ created_date or '-' }} | <strong>Modified:</strong> {{ modified_date or '-' }}</p>
+    <div class="site-note recipe-note">C.MiCT2016 - A personal log of food recipes I have used or have saved for future use.</div>
     </div>
     </div>
   </body>

@@ -666,7 +666,6 @@ def recipe(rid):
     method = json.loads(row['method_json'] or '[]')
     notes = json.loads(row['notes_json'] or '[]')
     details = json.loads(row['details_json'] or '[]')
-    raw = json.loads(row['raw_json'] or '{}')
     ingredients_display = format_display_lines(ingredients, strip_method_numbers=False)
     method_display = format_display_lines(method, strip_method_numbers=True)
 
@@ -686,7 +685,6 @@ def recipe(rid):
         method=method_display,
         notes=notes,
         details=details,
-        raw=raw,
         created_date=created_date,
         modified_date=modified_date,
         recipe_is_valid=recipe_is_valid,
