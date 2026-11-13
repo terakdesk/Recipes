@@ -16,6 +16,19 @@ import filtered_tags
 DB_PATH = os.path.join(os.path.dirname(__file__), 'recipes.db')
 
 app = Flask(__name__)
+
+# Middleware to handle X-Script-Name header for reverse proxy
+class ScriptNameMiddleware:
+    def __init__(self, app):
+        self.app = app
+    
+    def __call__(self, environ, start_response):
+        if 'HTTP_X_SCRIPT_NAME' in environ:
+            environ['SCRIPT_NAME'] = environ['HTTP_X_SCRIPT_NAME']
+        return self.app(environ, start_response)
+
+app.wsgi_app = ScriptNameMiddleware(app.wsgi_app)
+
 app.secret_key = os.environ.get('FLASK_SECRET_KEY', 'change-this-secret-key')
 app.config['SESSION_COOKIE_HTTPONLY'] = True
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
