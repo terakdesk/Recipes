@@ -10,7 +10,7 @@ PRODUCTION_APP_DIR="/home/f42widec/recipes_remote"
 TUNNEL_HOST="localhost"
 TUNNEL_PORT="2222"
 LOCAL_USER="ethel"
-LOCAL_APP_DIR="/home/ethel/recipes_remote"
+LOCAL_APP_DIR="/home/ethel/Recipes"
 
 # SSH options for connecting through tunnel
 SSH_TUNNEL_OPTIONS="-p $TUNNEL_PORT -o ConnectTimeout=10 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
