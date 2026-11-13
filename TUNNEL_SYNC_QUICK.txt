@@ -45,8 +45,8 @@ ssh ethel@192.168.2.10 "chmod +x ~/recipes_remote/start_reverse_tunnel.sh"
 ### Step 4: Deploy Sync Script to DreamHost
 
 ```bash
-scp C:\Users\miket\Recipes_remote\sync_via_tunnel.sh f42widec@pdx1-shared-a3-07.dreamhost.com:~/recipes_remote/
 ssh f42widec@pdx1-shared-a3-07.dreamhost.com "chmod +x ~/recipes_remote/sync_via_tunnel.sh"
+scp C:\Users\miket\Recipes_remote\sync_via_tunnel.sh f42widec@pdx1-shared-a3-07.dreamhost.com:~/recipes_remote/
 ```
 
 ### Step 5: Test Tunnel Manually

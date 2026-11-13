@@ -8,7 +8,7 @@
 # Configuration
 DREAMHOST_USER="f42widec"
 DREAMHOST_HOST="pdx1-shared-a3-07.dreamhost.com"
-DREAMHOST_KEY="/home/ethel/.ssh/id_rsa_dreamhost"
+DREAMHOST_KEY="/home/ethel/.ssh/id_rsa"
 
 TUNNEL_PORT="2222"  # Port on DreamHost that connects back to local SSH (22)
 LOCAL_SSH_PORT="22"
