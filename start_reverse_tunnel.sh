@@ -61,7 +61,6 @@ start_tunnel() {
         -o UserKnownHostsFile=/dev/null \
         -o ServerAliveInterval=60 \
         -o ServerAliveCountMax=3 \
-        -o ExitOnForwardFailure=yes \
         -o ConnectTimeout=10 \
         "$DREAMHOST_USER@$DREAMHOST_HOST" 2>/dev/null
     
