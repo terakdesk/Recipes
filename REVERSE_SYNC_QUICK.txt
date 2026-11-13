@@ -1,0 +1,122 @@
+# REVERSE SYNC - QUICK REFERENCE
+
+## What Changed
+✓ Sync now runs FROM DreamHost (production)
+✓ DreamHost pushes to your local server (192.168.2.10)
+✓ No need for local→production SSH authentication
+✓ Runs silently via cron every day at 3:00 AM UTC
+
+## Your Manual Setup Steps
+
+### From Windows: Copy script to DreamHost
+```
+scp C:\Users\miket\Recipes_remote\sync_production_to_local_reverse.sh f42widec@pdx1-shared-a3-07.dreamhost.com:/home/f42widec/recipes_remote/sync_production_to_local.sh
+```
+
+### SSH to DreamHost
+```
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com
+```
+
+### ON DREAMHOST: Generate SSH key
+```
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_local -N "" -C "f42widec@dreamhost-to-local-sync"
+cat ~/.ssh/id_rsa_local.pub
+```
+**Copy the output - you'll need it in the next step**
+
+### SSH to your local server (from Windows)
+```
+ssh ethel@192.168.2.10
+```
+
+### ON LOCAL SERVER: Add DreamHost's public key
+```
+mkdir -p ~/.ssh
+chmod 700 ~/.ssh
+echo "PASTE_THE_PUBLIC_KEY_HERE" >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+```
+
+### ON LOCAL SERVER: Verify the key
+```
+cat ~/.ssh/authorized_keys | grep dreamhost-to-local-sync
+```
+
+### Back ON DREAMHOST: Configure SSH
+```
+cat > ~/.ssh/config << 'EOF'
+Host 192.168.2.10
+    HostName 192.168.2.10
+    User ethel
+    IdentityFile ~/.ssh/id_rsa_local
+    StrictHostKeyChecking no
+EOF
+chmod 600 ~/.ssh/config
+```
+
+### ON DREAMHOST: Test SSH
+```
+ssh -i ~/.ssh/id_rsa_local ethel@192.168.2.10 "echo '✓ SSH works'"
+```
+
+### ON DREAMHOST: Make script executable
+```
+chmod +x ~/recipes_remote/sync_production_to_local.sh
+```
+
+### ON DREAMHOST: Test sync manually
+```
+~/recipes_remote/sync_production_to_local.sh
+```
+
+### ON DREAMHOST: Schedule daily sync via crontab
+```
+crontab -e
+```
+Add this line:
+```
+0 3 * * * /home/f42widec/recipes_remote/sync_production_to_local.sh >> /home/f42widec/recipes_remote/cron.log 2>&1
+```
+Save: `:wq` (in vi editor)
+
+### Verify cron was added
+```
+crontab -l | grep sync_production
+```
+
+## After Setup: Verify It Works
+
+**Tomorrow morning (after 3:00 AM UTC):**
+
+On DreamHost:
+```
+cat ~/recipes_remote/sync.log
+```
+
+On Local Server (from Windows):
+```
+ssh ethel@192.168.2.10 "ls -lh ~/recipes_remote/recipes.db"
+```
+
+## Troubleshooting Quick Checks
+
+SSH test:
+```
+ssh ethel@192.168.2.10 "echo '✓ SSH works'" (from Windows)
+ssh -i ~/.ssh/id_rsa_local ethel@192.168.2.10 "echo '✓ SSH works'" (from DreamHost)
+```
+
+Check sync logs:
+```
+cat ~/recipes_remote/sync.log (on DreamHost)
+cat ~/recipes_remote/cron.log (on DreamHost - after first cron run)
+```
+
+Check if recipes updated:
+```
+ssh ethel@192.168.2.10 "stat ~/recipes_remote/recipes.db" (from Windows)
+```
+
+---
+Full detailed guide: See REVERSE_SYNC_SETUP.md

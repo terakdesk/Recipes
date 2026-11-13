@@ -1,0 +1,295 @@
+REVERSE SYNC SYSTEM - VISUAL ARCHITECTURE
+==========================================
+
+Daily Sync Flow (Every day at 3:00 AM UTC)
+==========================================
+
+                    3:00 AM UTC Daily
+                          ↓
+                    DreamHost Cron
+                          ↓
+        /home/f42widec/recipes_remote/sync_production_to_local.sh
+                          ↓
+        ┌─────────────────────────────────────┐
+        │   STEP 1: Check Conditions          │
+        │   ✓ recipes.db exists               │
+        │   ✓ Can SSH to 192.168.2.10        │
+        └─────────────────────────────────────┘
+                          ↓
+        ┌─────────────────────────────────────┐
+        │   STEP 2-3: Create Backups          │
+        │   ✓ Backup recipes.db locally       │
+        │   ✓ Backup saved_recipes_json/      │
+        └─────────────────────────────────────┘
+                          ↓
+        ┌─────────────────────────────────────┐
+        │   STEP 4-5: Push to Local Server    │
+        │   SCP: recipes.db                   │
+        │   SCP: saved_recipes_json/          │
+        │   Target: 192.168.2.10              │
+        └─────────────────────────────────────┘
+                          ↓
+        ┌─────────────────────────────────────┐
+        │   STEP 6: Restart Flask             │
+        │   pkill -f gunicorn                 │
+        │   ./start.sh (new gunicorn)         │
+        └─────────────────────────────────────┘
+                          ↓
+        ┌─────────────────────────────────────┐
+        │   STEP 7: Log Results               │
+        │   → ~/sync.log                      │
+        │   → ~/cron.log (via crontab)        │
+        └─────────────────────────────────────┘
+
+
+Network Architecture
+====================
+
+Your Windows Machine (C:\Users\miket\Recipes_remote\)
+        ↓ SCP
+        ↓ (Deploy scripts)
+        ↓
+┌─────────────────────────────────────────────────────┐
+│  DreamHost Server (www.42wide.com/food55)          │
+│  f42widec@pdx1-shared-a3-07.dreamhost.com          │
+│                                                     │
+│  /home/f42widec/recipes_remote/                    │
+│  ├── recipes.db (MASTER)                           │
+│  ├── saved_recipes_json/ (MASTER)                  │
+│  ├── sync_production_to_local.sh                   │
+│  ├── .ssh/id_rsa_local (private key)               │
+│  └── .ssh/id_rsa_local.pub (public key)            │
+└─────────────────────────────────────────────────────┘
+        ↓ SSH with Public Key Auth
+        ↓ (Runs daily at 3 AM UTC)
+        ↓
+┌─────────────────────────────────────────────────────┐
+│  Local Server (ethel@192.168.2.10)                  │
+│  Your Linux Server                                  │
+│                                                     │
+│  /home/ethel/recipes_remote/                       │
+│  ├── recipes.db (REPLICA - updated daily)          │
+│  ├── saved_recipes_json/ (REPLICA - updated daily) │
+│  ├── sync_backups/                                 │
+│  │   ├── recipes.db.backup_20241113_030015         │
+│  │   ├── recipes.db.backup_20241114_030017         │
+│  │   ├── saved_recipes_json.backup_*               │
+│  │   └── ...                                       │
+│  ├── .ssh/authorized_keys (contains DreamHost pub) │
+│  └── gunicorn (Flask - restarted after sync)       │
+└─────────────────────────────────────────────────────┘
+
+
+SSH Authentication Flow
+=======================
+
+Setup Phase (One-time):
+  1. Generate key pair on DreamHost: ssh-keygen
+  2. Copy public key to local: authorized_keys
+  3. Create SSH config on DreamHost: ~/.ssh/config
+
+Sync Phase (Daily):
+  DreamHost Script
+        ↓
+  Reads: ~/.ssh/id_rsa_local (private key)
+        ↓
+  Connects to: ethel@192.168.2.10
+        ↓
+  Local server verifies: ~/.ssh/authorized_keys
+        ↓
+  Public key matches private key?
+        ↓
+  YES → SSH connection established ✓
+        ↓
+  SCP files
+  SSH execute commands
+        ↓
+  NO → Connection denied, script fails ✗
+
+
+Files Synced Daily
+==================
+
+From DreamHost Production → To Local Replica
+
+1. recipes.db
+   Location: /home/f42widec/recipes_remote/recipes.db
+   Size: ~2-5 MB (809 recipes)
+   Backup: /home/ethel/recipes_remote/sync_backups/recipes.db.backup_*
+   Frequency: Once daily (3 AM UTC)
+
+2. saved_recipes_json/ directory
+   Location: /home/f42widec/recipes_remote/saved_recipes_json/
+   Contents: Individual JSON files for each recipe
+   Backup: /home/ethel/recipes_remote/sync_backups/saved_recipes_json.backup_*
+   Frequency: Once daily (3 AM UTC)
+
+
+Backup Strategy
+===============
+
+Before each sync, local server backs up:
+  
+  recipes.db                  ← recipes.db.backup_20241113_030015
+  saved_recipes_json/         ← saved_recipes_json.backup_20241113_030015
+
+After each sync, old files replaced:
+  
+  recipes.db (NEW)
+  saved_recipes_json/ (NEW)
+
+Full backup history preserved in sync_backups/
+Easy recovery: cp sync_backups/recipes.db.backup_* recipes.db
+
+
+Logging Strategy
+================
+
+DreamHost Logs:
+  ~/recipes_remote/sync.log    ← Every sync logs here (step by step)
+  ~/recipes_remote/cron.log    ← Cron execution logs (auto from crontab)
+
+Local Server Logs:
+  ~/recipes_remote/gunicorn.log ← Flask app logs (updated after restart)
+
+Checking Logs:
+  Live tail: tail -f ~/recipes_remote/sync.log
+  Last 20 lines: tail -20 ~/recipes_remote/sync.log
+  Check cron: cat ~/recipes_remote/cron.log
+
+
+Key Files Summary
+=================
+
+LOCAL WINDOWS MACHINE (C:\Users\miket\Recipes_remote\):
+  sync_production_to_local_reverse.sh       ← Main script (copy to DreamHost)
+  REVERSE_SYNC_SETUP.md                     ← Detailed setup guide
+  REVERSE_SYNC_QUICK.txt                    ← Quick reference
+  REVERSE_SYNC_SUMMARY.md                   ← This overview
+  REVERSE_SYNC_ARCHITECTURE.txt             ← Architecture diagrams
+
+DREAMHOST PRODUCTION SERVER:
+  ~/.ssh/id_rsa_local                       ← Private key (KEEP SECRET)
+  ~/.ssh/id_rsa_local.pub                   ← Public key
+  ~/.ssh/config                             ← SSH configuration
+  ~/recipes_remote/sync_production_to_local.sh  ← Running script
+  ~/recipes_remote/sync.log                 ← Sync execution logs
+  ~/recipes_remote/cron.log                 ← Cron execution logs
+
+LOCAL REPLICA SERVER (192.168.2.10):
+  ~/.ssh/authorized_keys                    ← Contains DreamHost public key
+  ~/recipes_remote/recipes.db               ← Synced database
+  ~/recipes_remote/saved_recipes_json/      ← Synced recipe files
+  ~/recipes_remote/sync_backups/            ← Backup directory
+
+
+Cron Schedule
+=============
+
+DreamHost Crontab Entry:
+  0 3 * * * /home/f42widec/recipes_remote/sync_production_to_local.sh >> /home/f42widec/recipes_remote/cron.log 2>&1
+
+Breakdown:
+  0      = Minute (0)
+  3      = Hour (3 AM UTC)
+  *      = Day of month (any)
+  *      = Month (any)
+  *      = Day of week (any)
+
+Frequency: Every single day at 3:00 AM UTC
+  UTC 3:00 AM  = EST 10:00 PM (previous day)
+  UTC 3:00 AM  = PST 7:00 PM (previous day)
+  UTC 3:00 AM  = CET 4:00 AM
+  UTC 3:00 AM  = IST 8:30 AM
+
+Output: → /home/f42widec/recipes_remote/cron.log 2>&1 (capture all output)
+
+
+Monitoring Checklist
+====================
+
+Daily (After 3:00 AM UTC):
+  ✓ Check sync.log for "One-way sync completed successfully!"
+  ✓ Verify local recipes.db was updated (stat command)
+  ✓ Confirm Flask is running (ps aux | grep gunicorn)
+
+Weekly:
+  ✓ Scan sync.log for any ERROR lines
+  ✓ Check disk space on local server (df -h)
+  ✓ Review backup directory size (du -sh sync_backups/)
+
+Monthly:
+  ✓ Test recovery from backup
+  ✓ Verify 30 days of sync history (ls -lt sync_backups/)
+  ✓ Check for any pattern of failures
+
+
+Troubleshooting Quick Map
+=========================
+
+Sync not running at 3 AM?
+  → Check crontab exists: crontab -l | grep sync_production
+  → Check server time is correct: date (should be UTC)
+  → Check cron log: tail -20 ~/recipes_remote/cron.log
+
+Sync runs but fails?
+  → Check sync log: tail -50 ~/recipes_remote/sync.log
+  → Look for ERROR lines with specific failure
+  → Run script manually: ~/recipes_remote/sync_production_to_local.sh
+
+SSH connection fails?
+  → Check private key exists: ls -la ~/.ssh/id_rsa_local
+  → Check SSH config: cat ~/.ssh/config
+  → Test SSH directly: ssh -i ~/.ssh/id_rsa_local ethel@192.168.2.10
+
+Database not updating locally?
+  → Check SCP succeeds: scp test.txt ethel@192.168.2.10:
+  → Check disk space: ssh ethel@192.168.2.10 "df -h"
+  → Check file permissions: ssh ethel@192.168.2.10 "ls -la ~/recipes_remote/recipes.db"
+
+Flask not restarting?
+  → Check start.sh exists: ssh ethel@192.168.2.10 "ls -la ~/recipes_remote/start.sh"
+  → Test restart manually: ssh ethel@192.168.2.10 "~/recipes_remote/start.sh"
+  → Check gunicorn status: ssh ethel@192.168.2.10 "ps aux | grep gunicorn"
+
+
+Success Indicators
+==================
+
+Setup Complete When:
+  ✓ SSH public key is in local authorized_keys
+  ✓ SSH config created on DreamHost
+  ✓ Manual SSH test succeeds (no password prompt)
+  ✓ Script runs manually without errors
+  ✓ Crontab entry exists
+
+Sync Working When:
+  ✓ sync.log shows "One-way sync completed successfully!"
+  ✓ recipes.db modification time is recent (after 3 AM UTC)
+  ✓ saved_recipes_json directory updated
+  ✓ Flask is running (ps aux shows gunicorn)
+  ✓ Backups are being created (sync_backups/ not empty)
+
+
+Contact Points
+==============
+
+Production (DreamHost):
+  SSH: ssh f42widec@pdx1-shared-a3-07.dreamhost.com
+  URL: https://www.42wide.com/food55
+  App Dir: /home/f42widec/recipes_remote/
+
+Local Replica:
+  SSH: ssh ethel@192.168.2.10
+  URL: http://192.168.2.10/food55
+  App Dir: /home/ethel/recipes_remote/
+
+Windows Developer:
+  Scripts: C:\Users\miket\Recipes_remote\
+  Edit & Deploy: Windows PowerShell/Git Bash
+
+========================================
+For detailed setup: See REVERSE_SYNC_SETUP.md
+For quick commands: See REVERSE_SYNC_QUICK.txt
+For overview: See REVERSE_SYNC_SUMMARY.md
+========================================

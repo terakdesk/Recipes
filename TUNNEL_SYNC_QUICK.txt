@@ -1,0 +1,285 @@
+# TUNNEL SYNC - QUICK SETUP GUIDE
+
+## 🎯 Quick Overview
+
+Your local server (192.168.2.10) is on a private network. It can't receive inbound SSH from DreamHost. So we reverse it:
+
+**Local server SSH OUT to DreamHost, creating a reverse tunnel. DreamHost uses tunnel to sync.**
+
+```
+Local (private)  →  Tunnel  →  DreamHost (public)
+  Keep alive           SSH        Sync through tunnel
+  every 5 min          reverse    every day 3 AM UTC
+```
+
+---
+
+## 🔑 Quick Setup (11 Steps)
+
+### Step 1: Generate SSH Key on Local Server
+
+```bash
+ssh ethel@192.168.2.10
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_dreamhost -N "" -C "tunnel-to-dreamhost"
+cat ~/.ssh/id_rsa_dreamhost.pub
+```
+
+**Copy the output (entire line starting with ssh-rsa)**
+
+### Step 2: Add Key to DreamHost
+
+```bash
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com
+mkdir -p ~/.ssh
+echo "PASTE_THAT_PUBLIC_KEY_HERE" >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+```
+
+### Step 3: Deploy Tunnel Script to Local Server
+
+```bash
+scp C:\Users\miket\Recipes_remote\start_reverse_tunnel.sh ethel@192.168.2.10:~/recipes_remote/
+ssh ethel@192.168.2.10 "chmod +x ~/recipes_remote/start_reverse_tunnel.sh"
+```
+
+### Step 4: Deploy Sync Script to DreamHost
+
+```bash
+scp C:\Users\miket\Recipes_remote\sync_via_tunnel.sh f42widec@pdx1-shared-a3-07.dreamhost.com:~/recipes_remote/
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com "chmod +x ~/recipes_remote/sync_via_tunnel.sh"
+```
+
+### Step 5: Test Tunnel Manually
+
+```bash
+ssh ethel@192.168.2.10
+~/recipes_remote/start_reverse_tunnel.sh start
+```
+
+Should output: `✓ Tunnel active`
+
+### Step 6: Verify Tunnel From DreamHost
+
+```bash
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com
+ssh -p 2222 ethel@localhost "echo '✓ Tunnel works!'"
+```
+
+Should connect and print success.
+
+### Step 7: Test Sync
+
+```bash
+# On DreamHost
+~/recipes_remote/sync_via_tunnel.sh
+```
+
+Check logs:
+```bash
+tail ~/recipes_remote/sync_tunnel.log
+```
+
+Should end with: `✓ Sync completed successfully!`
+
+### Step 8: Add Tunnel Healthcheck to Local Crontab
+
+```bash
+ssh ethel@192.168.2.10
+crontab -e
+```
+
+Add this line (checks every 5 minutes, keeps tunnel alive):
+```
+*/5 * * * * /home/ethel/recipes_remote/start_reverse_tunnel.sh check >/dev/null 2>&1
+```
+
+Save: `:wq`
+
+Verify:
+```bash
+crontab -l | grep start_reverse_tunnel
+```
+
+### Step 9: Add Sync to DreamHost Crontab
+
+```bash
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com
+crontab -e
+```
+
+Add this line (runs daily at 3 AM UTC):
+```
+0 3 * * * /home/f42widec/recipes_remote/sync_via_tunnel.sh >> /home/f42widec/recipes_remote/sync_cron.log 2>&1
+```
+
+Save: `:wq`
+
+Verify:
+```bash
+crontab -l | grep sync_via_tunnel
+```
+
+### Step 10: Verify Setup
+
+Check local tunnel status:
+```bash
+ssh ethel@192.168.2.10 "~/recipes_remote/start_reverse_tunnel.sh status"
+```
+
+Output should be: `✓ Tunnel is active (PID: xxxxx)`
+
+### Step 11: Verify After 3 AM UTC Tomorrow
+
+Check DreamHost logs:
+```bash
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com "tail ~/recipes_remote/sync_tunnel.log"
+```
+
+Check local server received update:
+```bash
+ssh ethel@192.168.2.10 "ls -lh ~/recipes_remote/recipes.db"
+```
+
+Should show recent timestamp (after 3 AM UTC).
+
+---
+
+## 🔍 Key Commands
+
+### Monitor Tunnel
+
+```bash
+# Check status
+ssh ethel@192.168.2.10 "~/recipes_remote/start_reverse_tunnel.sh status"
+
+# View tunnel logs
+ssh ethel@192.168.2.10 "tail -20 ~/recipes_remote/tunnel.log"
+
+# Restart tunnel
+ssh ethel@192.168.2.10 "~/recipes_remote/start_reverse_tunnel.sh restart"
+```
+
+### Monitor Sync
+
+```bash
+# Check sync logs on DreamHost
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com "tail -50 ~/recipes_remote/sync_tunnel.log"
+
+# Check cron logs on DreamHost
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com "cat ~/recipes_remote/sync_cron.log"
+
+# Test sync manually
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com "~/recipes_remote/sync_via_tunnel.sh"
+```
+
+### Verify Data Transfer
+
+```bash
+# Check if local recipes updated
+ssh ethel@192.168.2.10 "stat ~/recipes_remote/recipes.db"
+
+# Check if Flask is running
+ssh ethel@192.168.2.10 "ps aux | grep gunicorn | grep -v grep"
+
+# Check backups exist
+ssh ethel@192.168.2.10 "ls -la ~/recipes_remote/sync_backups/ | head -10"
+```
+
+---
+
+## ⚠️ Troubleshooting Quick Fixes
+
+### Tunnel not active?
+
+```bash
+ssh ethel@192.168.2.10
+~/recipes_remote/start_reverse_tunnel.sh restart
+~/recipes_remote/start_reverse_tunnel.sh status
+```
+
+### Sync failing?
+
+```bash
+# Test tunnel connection
+ssh f42widec@pdx1-shared-a3-07.dreamhost.com
+ssh -p 2222 ethel@localhost "whoami"
+
+# If tunnel connection fails, restart on local:
+ssh ethel@192.168.2.10 "~/recipes_remote/start_reverse_tunnel.sh restart"
+
+# Then retry sync
+~/recipes_remote/sync_via_tunnel.sh
+```
+
+### Can't SSH to local server through tunnel?
+
+Check tunnel is alive:
+```bash
+ssh ethel@192.168.2.10 "~/recipes_remote/start_reverse_tunnel.sh status"
+```
+
+If not alive, restart:
+```bash
+ssh ethel@192.168.2.10 "~/recipes_remote/start_reverse_tunnel.sh restart"
+```
+
+---
+
+## 📋 System Overview
+
+### What Happens Automatically
+
+**Every 5 minutes (Local Server):**
+- Cron runs: `start_reverse_tunnel.sh check`
+- Verifies tunnel is still connected
+- If dead, restarts it
+- This keeps tunnel alive 24/7
+
+**Every day at 3:00 AM UTC (DreamHost):**
+- Cron runs: `sync_via_tunnel.sh`
+- Connects through tunnel
+- Backs up local recipes
+- Syncs database and files
+- Restarts Flask
+- Logs everything
+
+**Result:**
+- ✓ Local server always has latest recipes
+- ✓ Automatic daily
+- ✓ Silent (no prompts)
+- ✓ Secure (SSH keys, no passwords)
+- ✓ Recoverable (timestamped backups)
+
+---
+
+## ✅ Verification Checklist
+
+- [ ] Step 1: SSH key generated on local
+- [ ] Step 2: Public key added to DreamHost authorized_keys
+- [ ] Step 3: Tunnel script deployed to local
+- [ ] Step 4: Sync script deployed to DreamHost
+- [ ] Step 5: Manual tunnel test successful
+- [ ] Step 6: Tunnel verified from DreamHost
+- [ ] Step 7: Manual sync test successful
+- [ ] Step 8: Tunnel healthcheck added to local crontab
+- [ ] Step 9: Sync added to DreamHost crontab
+- [ ] Step 10: Local tunnel status shows active
+- [ ] Step 11: Sync completed after 3 AM UTC (tomorrow)
+
+---
+
+## 🎉 After Setup
+
+Congratulations! Your system now:
+- Creates persistent SSH tunnel from local to DreamHost
+- Keeps tunnel alive automatically (every 5 min check)
+- Uses tunnel for daily sync at 3 AM UTC
+- Backs up local recipes before each sync
+- Logs everything for audit trail
+- Requires zero manual intervention
+
+**It just works!** ✓
+
+---
+
+**For detailed information:** See TUNNEL_SYNC_COMPLETE_GUIDE.md
